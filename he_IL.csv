@@ -1288,7 +1288,17 @@ Admin,מנהל,module,Magento_Customer
 """%1"" is not a valid email address.","""%1"" היא לא כתובת דואר אלקטרוני חוקית.",module,Magento_Customer
 """%1"" is not a valid hostname.","""%1"" אינה שם מחשב מארח חוקי.",module,Magento_Customer
 """%1"" is not a valid URL.","""%1"" אינה כתובת URL חוקית.",module,Magento_Customer
+"""%1"" is not a valid file.","""%1"" אינו קובץ חוקי.",module,Magento_Customer
+"""%1"" exceeds the allowed file size.","""%1"" חורג מגודל הקובץ המותר.",module,Magento_Customer
+"""%1"" is not a valid image format.","""%1"" הוא לא פורמט תמונה בתוקף.",module,Magento_Customer
+"""%1"" width exceeds allowed value of %2 px.","רוחב ""%1"" עולה על הערך המותר של %2 פיקסל.",module,Magento_Customer
+"""%1"" height exceeds allowed value of %2 px.","הגובה ""%1"" חורג מהערכים המותרים של %2 פיקסל.",module,Magento_Customer
+"""%1"" length must be equal or greater than %2 characters.","אורך ""%1"" חייב להיות שווה או גדול מ- %2 תווים.",module,Magento_Customer
+"""%1"" length must be equal or less than %2 characters.","אורך ""%1"" חייב להיות שווה או פחות %2 תווים.",module,Magento_Customer
 label,תווית,module,Magento_Customer
+"Customer Group","קבוצת לקוחות",module,Magento_Customer
+"Customer Group already exists.","קבוצת הלקוחות כבר קיימת.",module,Magento_Customer
+"PHP SOAP extension is required.","סיומת PHP SOAP נדרשת.",module,Magento_Customer
 Edit,ערוך,module,Magento_Customer
 Visitor,אורח,module,Magento_Customer
 Customer,לקוח,module,Magento_Customer
