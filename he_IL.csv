@@ -1972,8 +1972,32 @@ Admin,מנהל,module,Magento_Customer
 "'%value%' looks like a local network name, which is not an acceptable format.","'%value%' נראה כמו שם הרשת המקומית, אשר אינו בפורמט המקובל.",module,Magento_Customer
 "'%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.","'%value%' שנראה כמו שם מארח DNS, אך לא ניתן לפענח את הסימון punycode הנתון.",module,Magento_Customer
 """%1"" is not a valid URL.","""%1"" אינה כתובת URL חוקית.",module,Magento_Customer
+"""%1"" is not a valid file.","""%1"" אינו קובץ חוקי.",module,Magento_Customer
+"""%1"" exceeds the allowed file size.","""%1"" חורג מגודל הקובץ המותר.",module,Magento_Customer
+"""%1"" is not a valid image format.","""%1"" הוא לא פורמט תמונה בתוקף.",module,Magento_Customer
+"""%1"" width exceeds allowed value of %2 px.","רוחב ""%1"" עולה על הערך המותר של %2 פיקסל.",module,Magento_Customer
+"""%1"" height exceeds allowed value of %2 px.","הגובה ""%1"" חורג מהערכים המותרים של %2 פיקסל.",module,Magento_Customer
+"""%1"" length must be equal or greater than %2 characters.","אורך ""%1"" חייב להיות שווה או גדול מ- %2 תווים.",module,Magento_Customer
+"""%1"" length must be equal or less than %2 characters.","אורך ""%1"" חייב להיות שווה או פחות %2 תווים.",module,Magento_Customer
 label,תווית,module,Magento_Customer
+"Please enter a customer email.","נא הזן דואר אלקטרוני ללקוח.",module,Magento_Customer
+"A customer website ID must be specified when using the website scope.","יש לציין מזהה אתר של הלקוח בעת שימוש בטווח האתר.",module,Magento_Customer
+"Customer Group","קבוצת לקוחות",module,Magento_Customer
+"Customer Group already exists.","קבוצת הלקוחות כבר קיימת.",module,Magento_Customer
+"Cannot delete group.","לא ניתן למחוק את הקבוצה.",module,Magento_Customer
+"PHP SOAP extension is required.","סיומת PHP SOAP נדרשת.",module,Magento_Customer
+"VAT Number is valid.","מספר המע״מ אינו חוקי.",module,Magento_Customer
+"Please enter a valid VAT number.","הזינו מספר מע״מ חוקי.",module,Magento_Customer
+"Your VAT ID was successfully validated.","תעודה מזהה עבור המע״מ אומתה בהצלחה.",module,Magento_Customer
+"You will be charged tax.","אתה תחוייב במס.",module,Magento_Customer
+"You will not be charged tax.","אתה לא תחויב במס.",module,Magento_Customer
+"The VAT ID entered (%1) is not a valid VAT ID.","מזהה מע״מ נכנס (%1) אינו מזהה מע״מ חוקי.",module,Magento_Customer
+"Your Tax ID cannot be validated.","אין אפשרות לאמת את תעודת הזהות של המס שלך.",module,Magento_Customer
+Male,זכר,module,Magento_Customer
+Female,נקבה,module,Magento_Customer
+"Not Specified","לא מוגדר",module,Magento_Customer
 "Thank you for registering with","תודה על הרשמתך עם",module,Magento_Customer
+"enter your billing address for proper VAT calculation","הזן את כתובת החיוב שלך עבור חישוב מע״מ נכון",module,Magento_Customer
 Exception,חריגה,module,Magento_Customer
 "Exception message","הודעת חריגה",module,Magento_Customer
 "Localized Exception","חריגת שפה",module,Magento_Customer
