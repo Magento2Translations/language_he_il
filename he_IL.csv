@@ -2090,10 +2090,10 @@ Country,ארץ,module,Magento_Customer
 "Save Address","שמור כתובת",module,Magento_Customer
 "Go back",חזור,module,Magento_Customer
 "Please enter your email below and we will send you the confirmation link.","אנא הזן את הדואר האלקטרוני שלך, ואנו נשלח לך קישור לאימות.",module,Magento_Customer
-Email,"דוא""ל",module,Magento_Customer
+Email,"דואר אלקטרוני",module,Magento_Customer
 "Send confirmation link","שלח קישור לאימות",module,Magento_Customer
 "Back to Sign In","חזרה להתחברות",module,Magento_Customer
-"Change Email","שנה כתובת דוא""ל",module,Magento_Customer
+"Change Email","שנה כתובת המייל שלך",module,Magento_Customer
 "Change Email and Password","שינוי דואר אלקטרוני וסיסמה",module,Magento_Customer
 "Current Password","סיסמא נוכחית",module,Magento_Customer
 "New Password","סיסמה חדשה",module,Magento_Customer
@@ -4291,8 +4291,10 @@ Next,הבא,module,Magento_Checkout
 "Email: %email","דואר אלקטרוני: %email",module,Magento_Contact
 "Phone Number: %telephone","מספר טלפון: %telephone",module,Magento_Contact
 "Comment: %comment","הערה: %comment",module,Magento_Contact
+Email:,"דואר אלקטרוני:",module,Magento_Customer
 Password:,סיסמה:,module,Magento_Customer
 "When you sign in to your account, you will be able to:","באמצעות התחברות לחשבונך, יתאפשר לך:",module,Magento_Customer
+"You must confirm your %customer_email email before you can sign in (link is only valid once):","עליך לאשר את המייל שלך %customer_email לפני שתוכל להתחבר למערכת (קישור זה תקף לאיפוס חד-פעמי):",module,Magento_Customer
 "Checkout out as a new customer","לקוחות חדשים",module,Magento_Customer
 "Creating an account has many benefits:","ביצירת חשבון יש יתרונות רבים:",module,Magento_Customer
 "See order and shipping status","ראה מצב הזמנה ומשלוח",module,Magento_Customer
