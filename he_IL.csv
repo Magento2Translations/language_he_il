@@ -1346,7 +1346,7 @@ Country,ארץ,module,Magento_Customer
 "Use as my default shipping address","קבע ככתובת ברירת המחדל למשלוח",module,Magento_Customer
 "Save Address","שמור כתובת",module,Magento_Customer
 "Go back",חזור,module,Magento_Customer
-Email,"דוא""ל",module,Magento_Customer
+Email,"דואר אלקטרוני",module,Magento_Customer
 "Send confirmation link","שלח קישור לאימות",module,Magento_Customer
 "Current Password","סיסמא נוכחית",module,Magento_Customer
 "New Password","סיסמה חדשה",module,Magento_Customer
