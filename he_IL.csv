@@ -1250,6 +1250,7 @@ Download,הורדה,module,Magento_Customer
 "Invalid login or password.","משתמש או סיסמה שגויים.",module,Magento_Customer
 "New Password and Confirm New Password values didn't match.","הערך של סיסמא חדשה ואימות סיסמא חדשה אינם תואמים.",module,Magento_Customer
 "No customer ID defined.","לא הוגדר מזהה לקוח.",module,Magento_Customer
+"Please correct the quote items and try again.","נא תקן את פריטי הצעת המחיר ונסה שוב.",module,Magento_Customer
 "The customer group no longer exists.","קבוצת לקוחות זו אינה קיימת יותר.",module,Magento_Customer
 Customers,לקוחות,module,Magento_Customer
 "New Group","קבוצה חדשה",module,Magento_Customer
@@ -1594,6 +1595,9 @@ City,עיר,module,Magento_Email
 "Duplicate Of Template Name","שכפול של שם תבנית",module,Magento_Email
 "Invalid transactional email code: %1","דוא""ל עסקה לא חוקי קוד: %1",module,Magento_Email
 "Requested invalid store ""%1""","בקשת חנות לא תקינה ""%1""",module,Magento_Email
+"Invalid sender data","נתוני השולח לא חוקיים",module,Magento_Email
+"Load default template","טען תבנית דיפולטיבית",module,Magento_Email
+Template,תבנית,module,Magento_Email
 "Change Encryption Key","שנה מפתח הצפנה",module,Magento_EncryptionKey
 "Encryption Key","מפתח ההצפנה",module,Magento_EncryptionKey
 "New Encryption Key","מפתח ההצפנה החדש",module,Magento_EncryptionKey
@@ -3255,6 +3259,11 @@ Service,שירות,module,Magento_Directory
 "Guest checkout will only work with shareable.","רכישת אורח תופעל רק עם מוצרים משותפים.",module,Magento_Downloadable
 "EAV types and attributes","סוגי EAV ותכונות",module,Magento_Eav
 "Entity types declaration cache.","הגדרת סוגי יישות עבור מטמון.",module,Magento_Eav
+"No Templates Found","אין תבניות שנמצאו",module,Magento_Email
+Added,הוסף,module,Magento_Email
+Updated,עודכן,module,Magento_Email
+Subject,נושא,module,Magento_Email
+"Template Type","סוג התבנית",module,Magento_Email
 Action,פעולה,module,Magento_Email
 "Sort Order","סדר מיון",module,Magento_Fedex
 Enable,אפשר,module,Magento_GoogleAdwords
