@@ -1924,6 +1924,7 @@ Download,הורדה,module,Magento_Customer
 "You saved the address.","שמרת את הכתובת.",module,Magento_Customer
 "We can't save the address.","איננו יכולים לשמור את הכתובת.",module,Magento_Customer
 "No customer ID defined.","לא הוגדר מזהה לקוח.",module,Magento_Customer
+"Please correct the quote items and try again.","נא תקן את פריטי הצעת המחיר ונסה שוב.",module,Magento_Customer
 "You have revoked the customer's tokens.","אתה ביטלת את הטוקנים של הלקוחות.",module,Magento_Customer
 "We can't find a customer to revoke.","איננו מסוגלים למצוא ללקוח לפעולת הביטול.",module,Magento_Customer
 "You deleted the customer group.","קבוצת לקוחות נמחקה.",module,Magento_Customer
@@ -1950,13 +1951,19 @@ Customers,לקוחות,module,Magento_Customer
 "Customer has been unlocked successfully.","נעילת הלקוח שוחררה בהצלחה.",module,Magento_Customer
 "Online Customers","לקוחות מחוברים",module,Magento_Customer
 "Customers Now Online","לקוחות באתר",module,Magento_Customer
+"Please define Wish List item ID.","בבקשה להגדיר מזהה עבור פריט ה-Wishlist.",module,Magento_Customer
 "Please load Wish List item.","אנא טען פריט מרשימת המשאלות.",module,Magento_Customer
 "Login successful.","נכנסת בהצלחה.",module,Magento_Customer
+"""%1"" section source is not supported","""%1"" סעיף מקור אינו נתמך",module,Magento_Customer
 "%1 doesn't extend \Magento\Customer\CustomerData\SectionSourceInterface","%1. לא מורחב \Magento\Customer\CustomerData\SectionSourceInterface",module,Magento_Customer
 "No confirmation needed.","לא נדרש אישור.",module,Magento_Customer
 "Account already active","חשבון זה כבר פעיל",module,Magento_Customer
+"Invalid confirmation token","אישור לא חוקי עבור טוקן",module,Magento_Customer
 "The account is locked.","חשבון זה נעול.",module,Magento_Customer
 "This account is not confirmed.","חשבון זה אינו מאושר.",module,Magento_Customer
+"Invalid value of ""%value"" provided for the %fieldName field.","ערך לא חוקי של ""%value"" שסופק עבור השדה %fieldName.",module,Magento_Customer
+"Please enter a password with at most %1 characters.","אנא הזן סיסמה המוגבלת לכל היותר ב- %1 תווים.",module,Magento_Customer
+"Please enter a password with at least %1 characters.","אנא הזן סיסמה המוגבלת לכל הפחות ב- %1 תווים.",module,Magento_Customer
 "The password can't begin or end with a space.","הסיסמה אינה יכוהל להתחיל או להסתיים ברווח.",module,Magento_Customer
 "This customer already exists in this store.","לקוח זה כבר קיים בחנות זו.",module,Magento_Customer
 "A customer with the same email already exists in an associated website.","לקוח עם דואר אלקטרוני זהה כבר קיים באתר האינטרנט המשויך.",module,Magento_Customer
@@ -2024,6 +2031,8 @@ Female,נקבה,module,Magento_Customer
 "Not Specified","לא מוגדר",module,Magento_Customer
 "Thank you for registering with","תודה על הרשמתך עם",module,Magento_Customer
 "enter your billing address for proper VAT calculation","הזן את כתובת החיוב שלך עבור חישוב מע״מ נכון",module,Magento_Customer
+"Please enter new password.","אנא הזן סיסמא חדשה.",module,Magento_Customer
+message,הודעה,module,Magento_Customer
 Exception,חריגה,module,Magento_Customer
 "This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","חשבון זה אינו מאושר. "" ""<a href=""%1""> לחץ כאן</a> כדי לשלוח דוא״ל אישור מחדש.",module,Magento_Customer
 "Exception message","הודעת חריגה",module,Magento_Customer
@@ -2469,8 +2478,17 @@ City,עיר,module,Magento_Email
 """file"" parameter must be specified","יש לציין פרמטר ""קובץ""",module,Magento_Email
 "Contents of %s could not be loaded or is empty","לא ניתן לטעון את התוכן של %s או שהוא ריק",module,Magento_Email
 """file"" parameter must be specified and must not be empty","יש לציין פרמטר ""קובץ"" והוא אינו יכול להיות ריק",module,Magento_Email
+"Design params must be set before calling this method","עיצוב הפרמטרים חייב להיות מוגדר לפני קריאה לפעולת השיטה",module,Magento_Email
+"CSS inlining error:","שגיאה בשורת ה-CSS:",module,Magento_Email
 "Error filtering template: %s","שגיאה בסינון תבנית: %s",module,Magento_Email
 "We're sorry, an error has occurred while generating this email.","אנו מצטערים, אירעה שגיאה בעת יצירת מייל זה.",module,Magento_Email
+"Invalid sender data","נתוני השולח לא חוקיים",module,Magento_Email
+Title,כותרת,module,Magento_Email
+"Load default template","טען תבנית דיפולטיבית",module,Magento_Email
+Template,תבנית,module,Magento_Email
+"Are you sure you want to strip tags?","האם אתה בטוח שברצונך להסיר תגים?",module,Magento_Email
+"Are you sure you want to delete this template?","האם אתה בטוח כי ברצונך למחוק את תבנית זו?",module,Magento_Email
+"The template did not load. Please review the log for details.","התבנית לא נטענה. נא עיין בלוג לפרטים.",module,Magento_Email
 "Change Encryption Key","שנה מפתח הצפנה",module,Magento_EncryptionKey
 "Encryption Key","מפתח ההצפנה",module,Magento_EncryptionKey
 "New Encryption Key","מפתח ההצפנה החדש",module,Magento_EncryptionKey
@@ -2733,6 +2751,7 @@ Action,פעולה,module,Magento_Newsletter
 Newsletter,ניוזלטר,module,Magento_Newsletter
 "We can't delete this template right now.","איננו יכולים למחוק את התבנית הזו ברגע זה.",module,Magento_Newsletter
 "Newsletter Subscription","ניוזלטר - רישום",module,Magento_Newsletter
+"We removed the subscription.","הרשמתך לקבלת עדכונים הוסרה בהצלחה.",module,Magento_Newsletter
 "Enter your email address","הזן את כתובת הדוא""ל שלך",module,Magento_Newsletter
 Subscribe,הרשמה,module,Magento_Newsletter
 "Make Check payable to:","כתוב את השיק לפקודת:",module,Magento_OfflinePayments
@@ -3288,7 +3307,9 @@ Guest,אורח,module,Magento_Sales
 Pending,ממתין,module,Magento_Sales
 Order,הזמנה,module,Magento_Sales
 "You can't do this without a transaction object.","אינך יכול לעשות זאת ללא אובייקט טרנזקציה.",module,Magento_Sales
+"Ship to:","נשלח אל:",module,Magento_Sales
 "Shipping Method:","שיטות המשלוח:",module,Magento_Sales
+"Total Shipping Charges","חיוב סך הכל למשלוח",module,Magento_Sales
 "We don't recognize the draw line data. Please define the ""lines"" array.","אנחנו לא מזהים את הנתונים בנתוני הסכמה הקווית. אנא הגדר את המערך ""שורות"".",module,Magento_Sales
 Products,מוצרים,module,Magento_Sales
 Qty,כמות,module,Magento_Sales
@@ -3336,6 +3357,7 @@ Items,פריטים,module,Magento_Sales
 "Shipped By","נשלח על ידי",module,Magento_Sales
 "Tracking Number","מספר מעקב",module,Magento_Sales
 "Product Name","שם מוצר",module,Magento_Sales
+"Ship To","נשלח אל",module,Magento_Sales
 Actions,פעולות,module,Magento_Sales
 "View Order","הצג הזמנה",module,Magento_Sales
 "Print Order","הדפס הזמנה",module,Magento_Sales
@@ -3343,6 +3365,7 @@ Actions,פעולות,module,Magento_Sales
 Close,סגור,module,Magento_Sales
 "Qty Shipped","כמות שנשלחה",module,Magento_Sales
 "Recent Orders","הזמנות האחרונות",module,Magento_Sales
+"Recently Ordered","הזמנות אחרונות",module,Magento_Sales
 "Add to Cart","הוסף לסל",module,Magento_Sales
 Search,חפש,module,Magento_Sales
 "Search Term","תנאי חיפוש",module,Magento_Search
@@ -4295,6 +4318,7 @@ Email:,"דואר אלקטרוני:",module,Magento_Customer
 Password:,סיסמה:,module,Magento_Customer
 "When you sign in to your account, you will be able to:","באמצעות התחברות לחשבונך, יתאפשר לך:",module,Magento_Customer
 "You must confirm your %customer_email email before you can sign in (link is only valid once):","עליך לאשר את המייל שלך %customer_email לפני שתוכל להתחבר למערכת (קישור זה תקף לאיפוס חד-פעמי):",module,Magento_Customer
+"Hello,","שלום,",module,Magento_Customer
 "Checkout out as a new customer","לקוחות חדשים",module,Magento_Customer
 "Creating an account has many benefits:","ביצירת חשבון יש יתרונות רבים:",module,Magento_Customer
 "See order and shipping status","ראה מצב הזמנה ומשלוח",module,Magento_Customer
@@ -4303,6 +4327,9 @@ Password:,סיסמה:,module,Magento_Customer
 "Checkout out using your account","לקוחות רשומים",module,Magento_Customer
 "Email Address","כתובת דוא""ל",module,Magento_Customer
 "Currency Update Warnings","אזהרות עדכון מטבע",module,Magento_Directory
+Footer,"תחתית הדף",module,Magento_Email
+"Thank you, %store_name",". תודה לך, %store_name",module,Magento_Email
+Header,"חלק עליון של הדף",module,Magento_Email
 To:,ל:,module,Magento_GiftMessage
 From:,מ:,module,Magento_GiftMessage
 Message:,הודעה:,module,Magento_GiftMessage
@@ -5200,7 +5227,23 @@ Downloads,הורדות,module,Magento_Downloadable
 "Guest checkout will only work with shareable.","רכישת אורח תופעל רק עם מוצרים משותפים.",module,Magento_Downloadable
 "EAV types and attributes","סוגי EAV ותכונות",module,Magento_Eav
 "Entity types declaration cache","הגדרת סוגי יישות עבור מטמון",module,Magento_Eav
+Communications,תקשורת,module,Magento_Email
+"No Templates Found","אין תבניות שנמצאו",module,Magento_Email
+Added,הוסף,module,Magento_Email
+Updated,עודכן,module,Magento_Email
+Subject,נושא,module,Magento_Email
+"Template Type","סוג התבנית",module,Magento_Email
 Action,פעולה,module,Magento_Email
+"Logo Image","תמונת לוגו",module,Magento_Email
+"Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in the width/height fields below.","סוגי סיומות קבצים מותרים: jpg, jpeg, gif, png. כדי למטב את לוגו בתצוגות ברזולוציה גבוהה, בצע העלאה של תמונה בגודל רגיל כפול 3 ולאחר מכן ציין ממדים בגודל המקורי בשדות רוחב/גובה, להלן.",module,Magento_Email
+"Logo Image Alt","Alt תמונת לוגו",module,Magento_Email
+"Logo Width","רוחב לוגו",module,Magento_Email
+"Necessary only if an image has been uploaded above. Enter number of pixels, without appending ""px"".","נחוץ רק אם תמונה שהועלתה לעיל. הזן מספר פיקסלים, ללא צירוף ""px"".",module,Magento_Email
+"Logo Height","גובה לוגו",module,Magento_Email
+"Necessary only if an image has been uploaded above. Enter image height size in pixels without appending ""px"".","נחוץ רק אם תמונה שהועלתה לעיל. הזן גודל גובה התמונה בפיקסלים ללא צירוף ""px"".",module,Magento_Email
+"Header Template","כותרת התבנית",module,Magento_Email
+"Email template chosen based on theme fallback, when the ""Default"" option is selected.","תבנית הדואר האלקטרוני שנבחרה בהתבסס על ירושת התבנית כשבוחרים באפשרות ""ברירת מחדל"".",module,Magento_Email
+"Footer Template","תבנית הכותרת התחתונה",module,Magento_Email
 "Manage Encryption Key","נהל את מפתח ההצפנה",module,Magento_EncryptionKey
 "Sort Order","סדר מיון",module,Magento_Fedex
 Enable,אפשר,module,Magento_GoogleAdwords
@@ -5304,6 +5347,7 @@ Shipment,משלוח,module,Magento_Sales
 Name,שם,module,Magento_Sales
 Phone,טלפון,module,Magento_Sales
 Website,אתר,module,Magento_Sales
+"Ship-to Name","שם הנמען",module,Magento_Sales
 "All Store Views","כל תצוגות החנויות",module,Magento_Sales
 "Print All","הדפס הכול",module,Magento_Sales
 "Purchase Date","תאריך רכישה",module,Magento_Sales
