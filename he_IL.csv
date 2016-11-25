@@ -1771,6 +1771,7 @@ Action,פעולה,module,Magento_Newsletter
 "Newsletter Subscribers","ניוזלטר - מנויים",module,Magento_Newsletter
 Newsletter,ניוזלטר,module,Magento_Newsletter
 "Newsletter Subscription","ניוזלטר - רישום",module,Magento_Newsletter
+"We removed the subscription.","הרשמתך לקבלת עדכונים הוסרה בהצלחה.",module,Magento_Newsletter
 "Enter your email address","הזן את כתובת הדוא""ל שלך",module,Magento_Newsletter
 Subscribe,הרשמה,module,Magento_Newsletter
 "Make Check payable to:","כתוב את השיק לפקודת:",module,Magento_OfflinePayments
@@ -2199,7 +2200,9 @@ Home,"דף בית",module,Magento_Sales
 Guest,אורח,module,Magento_Sales
 Pending,ממתין,module,Magento_Sales
 Order,הזמנה,module,Magento_Sales
+"Ship to:","נשלח אל:",module,Magento_Sales
 "Shipping Method:","שיטות המשלוח:",module,Magento_Sales
+"Total Shipping Charges","חיוב סך הכל למשלוח",module,Magento_Sales
 Products,מוצרים,module,Magento_Sales
 Qty,כמות,module,Magento_Sales
 "Excl. Tax","למעט מס",module,Magento_Sales
@@ -2234,6 +2237,7 @@ Status,סטטוס,module,Magento_Sales
 "Shipped By","נשלח על ידי",module,Magento_Sales
 "Tracking Number","מספר מעקב",module,Magento_Sales
 "Product Name","שם מוצר",module,Magento_Sales
+"Ship To","נשלח אל",module,Magento_Sales
 "View Order","הצג הזמנה",module,Magento_Sales
 "Print Order","הדפס הזמנה",module,Magento_Sales
 "Qty Invoiced","כמות שחויבה",module,Magento_Sales
@@ -3339,6 +3343,7 @@ Enabled,פעיל,module,Magento_Sales
 Shipment,משלוח,module,Magento_Sales
 Name,שם,module,Magento_Sales
 Phone,טלפון,module,Magento_Sales
+"Ship-to Name","שם הנמען",module,Magento_Sales
 "Print All","הדפס הכול",module,Magento_Sales
 "Purchase Date","תאריך רכישה",module,Magento_Sales
 "Search Engine","מנוע חיפוש",module,Magento_Search
