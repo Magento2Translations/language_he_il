@@ -1848,6 +1848,7 @@ Cancel,ביטול,module,Magento_Paypal
 Order,הזמנה,module,Magento_Paypal
 Configure,הגדר,module,Magento_Paypal
 Close,סגור,module,Magento_Paypal
+"You will be redirected to the PayPal website.","בסיום ההזמנה תנותב לדף המאובטח של פייפאל לביצוע התשלום.",module,Magento_Paypal
 "Incl. Tax","כולל מס",module,Magento_Paypal
 "PayPal response hasn't required fields.","תגובת PayPal אינם שדות חובה.",module,Magento_Paypal
 Active,פעיל,module,Magento_Paypal
@@ -1863,6 +1864,7 @@ Edit,ערוך,module,Magento_Paypal
 Price,מחיר,module,Magento_Paypal
 Qty,כמות,module,Magento_Paypal
 Subtotal,"סכום ביניים",module,Magento_Paypal
+"What is PayPal?","מה זה פייפאל?",module,Magento_Paypal
 "Your shopping cart has been updated with new prices.","עגלת הקניות שלך התעדכנה במחירים החדשים.",module,Magento_Persistent
 "Welcome, %1!","ברוכים הבאים, %1!",module,Magento_Persistent
 "We cannot load the configuration from file %1.","אין לנו אפשרות לטעון את הקונפיגורציה של קובץ %1.",module,Magento_Persistent
