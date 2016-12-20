@@ -2843,6 +2843,7 @@ Cancel,ביטול,module,Magento_Paypal
 Order,הזמנה,module,Magento_Paypal
 Configure,הגדר,module,Magento_Paypal
 Close,סגור,module,Magento_Paypal
+"You will be redirected to the PayPal website.","בסיום ההזמנה תנותב לדף המאובטח של פייפאל לביצוע התשלום.",module,Magento_Paypal
 "Incl. Tax","כולל מס",module,Magento_Paypal
 "We can't cancel the billing agreement.","לא ניתן לבטל את החיוב.",module,Magento_Paypal
 "We can't delete the billing agreement.","לא ניתן למחוק את החיוב.",module,Magento_Paypal
@@ -2882,6 +2883,7 @@ Price,מחיר,module,Magento_Paypal
 Qty,כמות,module,Magento_Paypal
 Subtotal,"סכום ביניים",module,Magento_Paypal
 or,או,module,Magento_Paypal
+"What is PayPal?","מה זה פייפאל?",module,Magento_Paypal
 "Not you?","לא אתה?",module,Magento_Persistent
 "Your shopping cart has been updated with new prices.","עגלת הקניות שלך התעדכנה במחירים החדשים.",module,Magento_Persistent
 "Welcome, %1!","ברוכים הבאים, %1!",module,Magento_Persistent
@@ -3039,7 +3041,7 @@ Reviews,"חוות דעת",module,Magento_Review
 "You deleted the rating.","מחקת את הדירוג.",module,Magento_Review
 Ratings,דירוג,module,Magento_Review
 "My Product Reviews","ביקורות שלי",module,Magento_Review
-"You submitted your review for moderation.","הביקורת ממתינה לאישור.",module,Magento_Review
+"You submitted your review for moderation.","תודה על חוות הדעת.  חוות הדעת תפורסם לאחר אישורה.",module,Magento_Review
 "We can't post your review right now.","איננו יכולים לפרסם את הביקורת נכון לעכשיו.",module,Magento_Review
 Approved,אושרה,module,Magento_Review
 Pending,ממתינה,module,Magento_Review
