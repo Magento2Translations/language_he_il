@@ -1772,6 +1772,10 @@ Action,פעולה,module,Magento_Newsletter
 Newsletter,ניוזלטר,module,Magento_Newsletter
 "Newsletter Subscription","ניוזלטר - רישום",module,Magento_Newsletter
 "We removed the subscription.","הרשמתך לקבלת עדכונים הוסרה בהצלחה.",module,Magento_Newsletter
+"This email address is already assigned to another user.","כתובת המייל כבר תפוסה.",module,Magento_Newsletter
+"Thank you for your subscription.","תודה על ההרשמה.",module,Magento_Newsletter
+"There was a problem with the subscription: %1","היתה בעיה בהרשמה: %1",module,Magento_Newsletter
+"Something went wrong with the subscription.","היתה בעיה בהרשמה.",module,Magento_Newsletter
 "Enter your email address","הזן את כתובת הדוא""ל שלך",module,Magento_Newsletter
 Subscribe,הרשמה,module,Magento_Newsletter
 "Make Check payable to:","כתוב את השיק לפקודת:",module,Magento_OfflinePayments
