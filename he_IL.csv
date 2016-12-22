@@ -2102,7 +2102,7 @@ Country,ארץ,module,Magento_Customer
 Email,"דואר אלקטרוני",module,Magento_Customer
 "Send confirmation link","שלח קישור לאימות",module,Magento_Customer
 "Back to Sign In","חזרה להתחברות",module,Magento_Customer
-"Change Email","שנה כתובת המייל שלך",module,Magento_Customer
+"Change Email","שנה כתובת דואר אלקטרוני",module,Magento_Customer
 "Change Email and Password","שינוי דואר אלקטרוני וסיסמה",module,Magento_Customer
 "Current Password","סיסמא נוכחית",module,Magento_Customer
 "New Password","סיסמה חדשה",module,Magento_Customer
@@ -2752,6 +2752,10 @@ Newsletter,ניוזלטר,module,Magento_Newsletter
 "We can't delete this template right now.","איננו יכולים למחוק את התבנית הזו ברגע זה.",module,Magento_Newsletter
 "Newsletter Subscription","ניוזלטר - רישום",module,Magento_Newsletter
 "We removed the subscription.","הרשמתך לקבלת עדכונים הוסרה בהצלחה.",module,Magento_Newsletter
+"This email address is already assigned to another user.","כתובת המייל כבר תפוסה.",module,Magento_Newsletter
+"Thank you for your subscription.","תודה על ההרשמה.",module,Magento_Newsletter
+"There was a problem with the subscription: %1","היתה בעיה בהרשמה: %1",module,Magento_Newsletter
+"Something went wrong with the subscription.","היתה בעיה בהרשמה.",module,Magento_Newsletter
 "Enter your email address","הזן את כתובת הדוא""ל שלך",module,Magento_Newsletter
 Subscribe,הרשמה,module,Magento_Newsletter
 "Make Check payable to:","כתוב את השיק לפקודת:",module,Magento_OfflinePayments
@@ -3070,6 +3074,7 @@ Back,חזור,module,Magento_Review
 "Your Rating","הדירוג שלך",module,Magento_Review
 Summary,תקציר,module,Magento_Review
 "Submit Review","שלח חוות דעת מוצר",module,Magento_Review
+"Only registered users can write reviews. Please <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>","רק לקוחות רשומים יכולים לרשום חוות דעת. בבקשה <a href=""""%1"""">התחבר</a> או <a href=""""%2"""">צור חשבון</a>",module,Magento_Review
 "Add Your Review","הוסף את חוות הדעת שלך",module,Magento_Review
 "Review by","חוות דעת של",module,Magento_Review
 "Posted on","פורסם ע""י",module,Magento_Review
@@ -4337,6 +4342,7 @@ From:,מ:,module,Magento_GiftMessage
 Message:,הודעה:,module,Magento_GiftMessage
 Edit,ערוך,module,Magento_GiftMessage
 Delete,מחק,module,Magento_GiftMessage
+"You have been successfully subscribed to our newsletter.","נרשמת בהצלחה לניוזלטר.",module,Magento_Newsletter
 "Place Order","בצע הזמנה",module,Magento_OfflinePayments
 "Place Order","בצע הזמנה",module,Magento_Payment
 "Forgot an Item?","שכחת פריט?",module,Magento_Payment
@@ -4534,7 +4540,7 @@ Keyword,"מילת מפתח",module,Magento_Ui
 "Letters or punctuation only please","אותיות או פיסוק בלבד",module,Magento_Ui
 "Letters, numbers, spaces or underscores only please","אותיות, מספרים, רווחים או מקפים תחתונים בלבד",module,Magento_Ui
 "Letters only please","אותיות בלבד",module,Magento_Ui
-"Please enter a valid email address (Ex: johndoe@domain.com).","הקלד כתובת אימייל תקינה (לדוגמא: johndoe@domain.com).",module,Magento_Ui
+"Please enter a valid email address (Ex: johndoe@domain.com).","בבקשה הכנס כתובת מייל תקינה (לדוגמא: johndoe@domain.com).",module,Magento_Ui
 "This is a required field.","שדה זה הוא חובה.",module,Magento_Ui
 "We don't recognize or support this file extension type.","איננו מזהים או תומכים בסוג זה של סיומת קובץ.",module,Magento_Ui
 "File you are trying to upload exceeds maximum file size limit.","הקובץ שאתה מנסה לטעון חורג ממגבלת גודל הקובץ המרבי.",module,Magento_Ui
