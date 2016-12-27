@@ -1407,7 +1407,7 @@ Error!,שגיאה!,module,Magento_Checkout
 "Wrong minimum amount.","סכום מינימלי שגוי.",module,Magento_Checkout
 Message,הודעה,module,Magento_Checkout
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">הדפס קבלה</a>",module,Magento_Checkout
-"Apply Discount Code","להשתמש בקוד הנחה",module,Magento_Checkout
+"Apply Discount Code","השתמש בקוד הנחה",module,Magento_Checkout
 "Enter discount code","הזן קוד הנחה",module,Magento_Checkout
 "Apply Discount",ממש,module,Magento_Checkout
 "Cancel Coupon","בטל קופון",module,Magento_Checkout
@@ -4349,7 +4349,7 @@ Delete,מחק,module,Magento_GiftMessage
 "Edit Your Cart","ערוך את עגלת הקניות שלך",module,Magento_Payment
 "Continue to PayPal","המשך לפייפאל",module,Magento_Paypal
 "Check 'Remember Me' to access your shopping cart on this computer even if you are not signed in.","סמן את 'זכור אותי' כדי לגשת עגלת הקניות שלך במחשב זה, גם אם אתה לא מחובר.",module,Magento_Persistent
-"Apply Discount Code","להשתמש בקוד הנחה",module,Magento_SalesRule
+"Apply Discount Code","השתמש בקוד הנחה",module,Magento_SalesRule
 "Apply Discount",ממש,module,Magento_SalesRule
 "Thank you for your order from %store_name.","תודה על הזמנתך מ- %store_name.",module,Magento_Sales
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","באפשרותך לבדוק את מצב ההזמנה שלך באמצעות <a href=""%account_url""> התחברות לחשבון שלך</a>.",module,Magento_Sales
