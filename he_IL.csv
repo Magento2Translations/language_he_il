@@ -1389,7 +1389,7 @@ Error!,שגיאה!,module,Magento_Checkout
 "Wrong minimum amount.","סכום מינימלי שגוי.",module,Magento_Checkout
 Message,הודעה,module,Magento_Checkout
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">הדפס קבלה</a>",module,Magento_Checkout
-"Apply Discount Code","להשתמש בקוד הנחה",module,Magento_Checkout
+"Apply Discount Code","השתמש בקוד הנחה",module,Magento_Checkout
 "Enter discount code","הזן קוד הנחה",module,Magento_Checkout
 "Apply Discount",ממש,module,Magento_Checkout
 "Cancel Coupon","בטל קופון",module,Magento_Checkout
