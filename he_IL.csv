@@ -1793,6 +1793,7 @@ Region/State,אזור/מדינה,module,Magento_OfflineShipping
 "Store Pickup","חנות פיק אפ",module,Magento_OfflineShipping
 "Weight vs. Destination","משקל לעומת יעד",module,Magento_OfflineShipping
 "Price vs. Destination","מחיר לעומת יעד",module,Magento_OfflineShipping
+"# of Items vs. Destination","# מהפריטים לעומת היעד",module,Magento_OfflineShipping
 "Weight (and above)","משקל (ומעלה)",module,Magento_OfflineShipping
 "Order Subtotal (and above)","סכום כולל משני של הזמנה (ומעלה)",module,Magento_OfflineShipping
 "# of Items (and above)","# של פריטים (ומעלה)",module,Magento_OfflineShipping
@@ -1864,6 +1865,10 @@ Custom,מותאם,module,Magento_Paypal
 "--Please Select--","--אנא בחר",module,Magento_Paypal
 Customer,לקוח,module,Magento_Paypal
 "View Order","הצג הזמנה",module,Magento_Paypal
+"There are no billing agreements yet.","לא קיימים אמצעי תשלום שמורים.",module,Magento_Paypal
+"New Billing Agreement","הסכם חיוב חדש",module,Magento_Paypal
+"You will be redirected to the payment system website.","תנותב למערכת התשלום של האתר.",module,Magento_Paypal
+Create...,יצירה...,module,Magento_Paypal
 Edit,ערוך,module,Magento_Paypal
 Price,מחיר,module,Magento_Paypal
 Qty,כמות,module,Magento_Paypal
@@ -1890,6 +1895,7 @@ Url,"כתובת Url",module,Magento_ProductVideo
 "The requested Payment Method is not available.","שיטת התשלום המבוקשת אינה זמינה.",module,Magento_Quote
 "This is the wrong quote item id to update configuration.","מזהה של הצעת מחיר של פריט לא נכון כדי לעדכן את הקונפיגורציה.",module,Magento_Quote
 "The address model is not defined.","כתובת המודל אינה מוגדרת.",module,Magento_Quote
+"Grand Total","הסכום הכולל",module,Magento_Quote
 Shipping,משלוח,module,Magento_Quote
 Subtotal,"סכום ביניים",module,Magento_Quote
 Discount,הנחה,module,Magento_Quote
@@ -2060,6 +2066,7 @@ No,לא,module,Magento_SalesRule
 Conditions,תנאים,module,Magento_SalesRule
 "Manage Coupon Codes","ניהול קודי קופון",module,Magento_SalesRule
 "Coupons Information","מידע על קופונים",module,Magento_SalesRule
+"Coupon Qty","כמות קופון",module,Magento_SalesRule
 Delete,מחק,module,Magento_SalesRule
 "Default Label","תוית ברירת מחדל",module,Magento_SalesRule
 "General Information","מידע כללי",module,Magento_SalesRule
@@ -2256,6 +2263,7 @@ Close,סגור,module,Magento_Sales
 "Some emails were not sent.","כמה מיילים לא נשלחו.",module,Magento_SendFriend
 "Invalid Sender Email","דואר אלקטרוני של השולח לא חוקי",module,Magento_SendFriend
 "Please enter a correct recipient email address.","אנא הכנס כתובת הדואר האלקטרוני של הנמען הנכון.",module,Magento_SendFriend
+"Invalid Sender Information","פרטי שולח לא חוקיים",module,Magento_SendFriend
 Name,שם,module,Magento_SendFriend
 "* Required Fields","* שדות חובה",module,Magento_SendFriend
 Back,חזור,module,Magento_SendFriend
@@ -2506,6 +2514,7 @@ Theme,תבנית,module,Magento_Theme
 "Storage Root","שורש אחסון",module,Magento_Theme
 label,תווית,module,Magento_Theme
 Remove,הסר,module,Magento_Theme
+"%1 Item(s)","%1 פריט/ים",module,Magento_Theme
 Page,עמוד,module,Magento_Theme
 Previous,הקודם,module,Magento_Theme
 Next,הבא,module,Magento_Theme
@@ -3280,6 +3289,7 @@ Enable,אפשר,module,Magento_GoogleAdwords
 "Conversion ID","מזהה המרה",module,Magento_GoogleAdwords
 "Conversion Language","המרת שפה",module,Magento_GoogleAdwords
 "Conversion Format","המרת פורמט",module,Magento_GoogleAdwords
+"Conversion Color","צבע המרה",module,Magento_GoogleAdwords
 "Conversion Label","תווית המרה",module,Magento_GoogleAdwords
 "Conversion Value","ערך המרה",module,Magento_GoogleAdwords
 "Google API","ממשק לגוגל",module,Magento_GoogleAnalytics
@@ -3299,6 +3309,7 @@ Guest,אורח,module,Magento_Newsletter
 Customer,לקוח,module,Magento_Newsletter
 "Web Site",אתר,module,Magento_Newsletter
 "Store View","תצוגת חנות",module,Magento_Newsletter
+"Check / Money Order","המחאה / מזומן",module,Magento_OfflinePayments
 Enabled,פעיל,module,Magento_OfflinePayments
 "New Order Status","סטטוס הזמנה חדשה",module,Magento_OfflinePayments
 "Sort Order","סדר מיון",module,Magento_OfflinePayments
