@@ -125,7 +125,7 @@ Shipping,משלוח,module,Magento_Backend
 "Last Name","שם משפחה",module,Magento_Backend
 Email,דואר,module,Magento_Backend
 "User Email","דוא״ל של משתמש",module,Magento_Backend
-"New Password","סיסמא חדשה",module,Magento_Backend
+"New Password","סיסמה חדשה",module,Magento_Backend
 "Password Confirmation","אמת סיסמה",module,Magento_Backend
 "Interface Locale","ממשק אזורי",module,Magento_Backend
 "Current User Identity Verification","אימות זהות המשתמש הנוכחי",module,Magento_Backend
@@ -388,7 +388,7 @@ failed,נכשל,module,Magento_Backup
 successful,"עבר בהצלחה",module,Magento_Backup
 "You deleted the selected backup(s).","הגיבוי(ים) שנבחרו נמחקו בהצלחה.",module,Magento_Backup
 "Can't load snapshot archive","איננו יכולים לטעון את הארכיון",module,Magento_Backup
-"Please correct the password.","אנא תקן את הסיסמא.",module,Magento_Backup
+"Please correct the password.","נא לתקן את הסיסמה.",module,Magento_Backup
 "To complete the rollback, please deselect ""Put store into maintenance mode"" or update your permissions.","כדי להשלים את החזרה למצב קודם, אנא בטלו את הסימון ""לשים את החנות למצב ' תחזוקה '"" או לעדכן את ההרשאות שלך.",module,Magento_Backup
 "We can't find the backup file.","לא נמצאו קבצי גיבוי.",module,Magento_Backup
 "We can't connect to the FTP right now.","לא ניתן להתחבר עם FTP כרגע.",module,Magento_Backup
@@ -560,7 +560,7 @@ To,ל-,module,Magento_Bundle
 Availability,זמינות,module,Magento_Bundle
 "In stock",במלאי,module,Magento_Bundle
 "Out of stock","אזל מהמלאי",module,Magento_Bundle
-Summary,סיכום,module,Magento_Bundle
+Summary,נושא,module,Magento_Bundle
 Availability:,זמינות:,module,Magento_Bundle
 Quantity,כמות,module,Magento_Bundle
 "Customize %1","התאמה אישית של %1",module,Magento_Bundle
@@ -637,7 +637,7 @@ Always,תמיד,module,Magento_Captcha
 "The fewest you may purchase is %1.","המספר הנמוך ביותר שניתן לרכוש הוא %1.",module,Magento_CatalogInventory
 "Please correct the quantity for some products.","נא תקן את הכמות עבור מוצרים מסוימים.",module,Magento_CatalogInventory
 "The most you may purchase is %1.","הכמות המרבית שניתן לרכוש הוא %1.",module,Magento_CatalogInventory
-"We don't have as many ""%1"" as you requested.","אין לנו כמה שיותר \"%1\" כפי שביקשת.",module,Magento_CatalogInventory
+"We don't have as many ""%1"" as you requested.","הכמות המבוקשת של ""%1"" לא זמינה במלאי כעת.",module,Magento_CatalogInventory
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.",". אין לנו כמה ""%1"" כפי שביקשת, אבל להמוצר יחזור להיות זמין %2.",module,Magento_CatalogInventory
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","אין לנו ""%1"" ב- הכמות המבוקשת, אז המלאי יתחדש ב %2.",module,Magento_CatalogInventory
 "You can buy %1 only in quantities of %2 at a time.","אתה יכול לקנות %1 רק בכמויות של %2 בכל פעם.",module,Magento_CatalogInventory
@@ -714,7 +714,7 @@ Grid,"גריד תצוגה",module,Magento_CatalogSearch
 List,רשימה,module,Magento_CatalogSearch
 "Search Weight","חיפוש משקל",module,Magento_CatalogSearch
 Relevance,רלוונטיות,module,Magento_CatalogSearch
-"Search results for: '%1'","תוצאות עבור חיפוש: '%1'",module,Magento_CatalogSearch
+"Search results for: '%1'","תוצאות חיפוש עבור: '%1'",module,Magento_CatalogSearch
 "Minimum Search query length is %1","אורך מינימלי של שאילתת חיפוש הינו %1",module,Magento_CatalogSearch
 "Please specify at least one search term.","נא ציין לפחות מונח חיפוש אחד.",module,Magento_CatalogSearch
 "%1 and greater","%1 ויותר",module,Magento_CatalogSearch
@@ -1375,7 +1375,7 @@ State/Province,מדינה/מחוז,module,Magento_Checkout
 "We can't update the shopping cart.","לא ניתן לעדכן את סל הקניות.",module,Magento_Checkout
 "One-page checkout is turned off.","קופה בעמוד אחד כבויה.",module,Magento_Checkout
 "Guest checkout is disabled.","תשלום כאורח אינו זמין.",module,Magento_Checkout
-Checkout,לקופה,module,Magento_Checkout
+Checkout,קופה,module,Magento_Checkout
 "Page not found.","העמוד שביקשת לא נמצא.",module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","בבקשה הסכם לכלל תנאי השימוש לפני ביצוע ההזמנה.",module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","משהו השתבש בעת עיבוד הזמנתך. אנא נסה שוב מאוחר יותר.",module,Magento_Checkout
@@ -1625,7 +1625,7 @@ Configurations,הגדרות,module,Magento_ConfigurableProduct
 "Bulk Images &amp; Price","תמונות בתפזורת &amp; מחיר",module,Magento_ConfigurableProduct
 "Create New Attribute","יצירת תכונה חדשה",module,Magento_ConfigurableProduct
 "Select Attributes","בחר תכונות",module,Magento_ConfigurableProduct
-Summary,סיכום,module,Magento_ConfigurableProduct
+Summary,נושא,module,Magento_ConfigurableProduct
 "Choose an Option...","בחרו אפשרות...",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products.","תכונה זו משמשת במוצרים מורכבים.",module,Magento_ConfigurableProduct
 "Product has been already attached","המוצר חובר כבר",module,Magento_ConfigurableProduct
@@ -1915,7 +1915,7 @@ Download,הורדה,module,Magento_Customer
 "Invalid login or password.","משתמש או סיסמה שגויים.",module,Magento_Customer
 "An unspecified error occurred. Please contact us for assistance.","אירעה שגיאה לא מוגדרת. אנא צרו קשר לקבלת סיוע.",module,Magento_Customer
 "A login and a password are required.","הזן שם משתמש וסיסמה.",module,Magento_Customer
-"New Password and Confirm New Password values didn't match.","הערך של סיסמא חדשה ואימות סיסמא חדשה אינם תואמים.",module,Magento_Customer
+"New Password and Confirm New Password values didn't match.","הערך של סיסמה חדשה ואימות סיסמא חדשה אינם תואמים.",module,Magento_Customer
 "Please enter a new password.","אנא הזן סיסמא חדשה.",module,Magento_Customer
 "You updated your password.","עדכנת את סיסמתך.",module,Magento_Customer
 "Something went wrong while saving the new password.","משהו השתבש בעת שמירת הסיסמה החדשה.",module,Magento_Customer
@@ -2031,7 +2031,7 @@ Female,נקבה,module,Magento_Customer
 "Not Specified","לא מוגדר",module,Magento_Customer
 "Thank you for registering with","תודה על הרשמתך עם",module,Magento_Customer
 "enter your billing address for proper VAT calculation","הזן את כתובת החיוב שלך עבור חישוב מע״מ נכון",module,Magento_Customer
-"Please enter new password.","אנא הזן סיסמא חדשה.",module,Magento_Customer
+"Please enter new password.","אנא הזן סיסמה חדשה.",module,Magento_Customer
 message,הודעה,module,Magento_Customer
 Exception,חריגה,module,Magento_Customer
 "This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","חשבון זה אינו מאושר. "" ""<a href=""%1""> לחץ כאן</a> כדי לשלוח דוא״ל אישור מחדש.",module,Magento_Customer
@@ -2108,7 +2108,7 @@ Email,"דואר אלקטרוני",module,Magento_Customer
 "New Password","סיסמה חדשה",module,Magento_Customer
 "Password Strength","חוזק סיסמה",module,Magento_Customer
 "No Password","אין סיסמה",module,Magento_Customer
-"Confirm New Password","אימות סיסמא חדשה",module,Magento_Customer
+"Confirm New Password","אימות סיסמה חדשה",module,Magento_Customer
 Save,שמור,module,Magento_Customer
 "Please enter your email address below to receive a password reset link.","נא להזין את כתובת המייל שלך כדי לקבל קישור לאיפוס סיסמא.",module,Magento_Customer
 "Reset My Password","אפס את הסיסמא שלי",module,Magento_Customer
@@ -2525,7 +2525,9 @@ Ground,בסיס,module,Magento_Fedex
 "Not Required","לא נדרש",module,Magento_Fedex
 Adult,מבוגר,module,Magento_Fedex
 Direct,ישיר,module,Magento_Fedex
+Kilograms,קילוגרמים,module,Magento_Fedex
 "For some reason we can't retrieve tracking info right now.","מסיבה כלשהי אנחנו אין אפשרות לשחזר את מספר החבילה עכשיו.",module,Magento_Fedex
+status,מצב,module,Magento_Fedex
 None,ללא,module,Magento_Fedex
 "Gift Messages are not applicable for empty cart","הודעות המתנה אינן ישימות עבור עגלה ריקה",module,Magento_GiftMessage
 "Gift Messages are not applicable for virtual products","הודעות המתנה אינן ישימות עבור מוצרים וירטואליים",module,Magento_GiftMessage
@@ -2747,6 +2749,7 @@ Total,"סה""כ",module,Magento_Multishipping
 Product,מוצר,module,Magento_Multishipping
 Qty,כמות,module,Magento_Multishipping
 Actions,פעולות,module,Magento_Multishipping
+"Remove Item","הסר פריט",module,Magento_Multishipping
 "Remove item","הסר פריט",module,Magento_Multishipping
 "Billing Address","כתובת חיוב",module,Magento_Multishipping
 "Edit Items","עריכת פריטים",module,Magento_Multishipping
@@ -2791,6 +2794,8 @@ Preview,"תצוגה מקדימה",module,Magento_Newsletter
 "Template Name","שם תבנית",module,Magento_Newsletter
 "Template Subject","נושא תבנית",module,Magento_Newsletter
 "Template Content","תוכן התבנית",module,Magento_Newsletter
+Added,נוסף,module,Magento_Newsletter
+Sender,שולח,module,Magento_Newsletter
 Action,פעולה,module,Magento_Newsletter
 "Queue Newsletter","תור ניוזלטר",module,Magento_Newsletter
 "Newsletter Queue","ניוזלטר - תור",module,Magento_Newsletter
@@ -2904,6 +2909,7 @@ Close,סגור,module,Magento_Paypal
 "Learn More","מידע נוסף",module,Magento_Paypal
 "You will be redirected to the PayPal website.","בסיום ההזמנה תנותב לדף המאובטח של פייפאל לביצוע התשלום.",module,Magento_Paypal
 "Incl. Tax","כולל מס",module,Magento_Paypal
+"Shipping Information","פרטי משלוח",module,Magento_Paypal
 "We can't cancel the billing agreement.","לא ניתן לבטל את החיוב.",module,Magento_Paypal
 "We can't delete the billing agreement.","לא ניתן למחוק את החיוב.",module,Magento_Paypal
 "We couldn't finish the billing agreement wizard.","איננו יכולים לסיים את אשף החיוב.",module,Magento_Paypal
@@ -3038,6 +3044,8 @@ Price,מחיר,module,Magento_Reports
 Views,צפיות,module,Magento_Reports
 "Refresh Statistics","סטטיסטיקת רענון",module,Magento_Reports
 Customer,לקוח,module,Magento_Reports
+Title,כותרת,module,Magento_Reports
+"Products Reviews","סקירות מוצר",module,Magento_Reports
 Subtotal,"סכום ביניים",module,Magento_Reports
 Discount,הנחה,module,Magento_Reports
 Orders,הזמנות,module,Magento_Reports
@@ -3223,6 +3231,8 @@ Labels,תויות,module,Magento_SalesRule
 Rule,כלל,module,Magento_SalesRule
 Start,התחלה,module,Magento_SalesRule
 Status,סטטוס,module,Magento_SalesRule
+Coupons/Discounts,קופונים/הנחות,module,Magento_SalesRule
+Promotions,מבצעים,module,Magento_SalesRule
 "We can't delete the rule right now. Please review the log and try again.","אנו לא יכולים למחוק את הכלל. יש לבדוק את הלוג ולנסות שוב.",module,Magento_SalesRule
 "We can't find a rule to delete.","אנו לא יכולים למצוא כלל לשם מחיקתו.",module,Magento_SalesRule
 Catalog,קטלוג,module,Magento_SalesRule
@@ -4060,7 +4070,7 @@ Users,משתמשים,module,Magento_User
 "Account Information","פרטי חשבון",module,Magento_User
 "User Email","דוא״ל של משתמש",module,Magento_User
 Password,סיסמה,module,Magento_User
-"New Password","סיסמא חדשה",module,Magento_User
+"New Password","סיסמה חדשה",module,Magento_User
 "Password Confirmation","אמת סיסמה",module,Magento_User
 "Interface Locale","ממשק אזורי",module,Magento_User
 "This account is","חשבון זה",module,Magento_User
@@ -4452,6 +4462,7 @@ Header,"חלק עליון של הדף",module,Magento_Email
 To:,ל:,module,Magento_GiftMessage
 From:,מ:,module,Magento_GiftMessage
 Message:,הודעה:,module,Magento_GiftMessage
+Update,עדכן,module,Magento_GiftMessage
 Edit,ערוך,module,Magento_GiftMessage
 Delete,מחק,module,Magento_GiftMessage
 "You have been successfully subscribed to our newsletter.","נרשמת בהצלחה לניוזלטר.",module,Magento_Newsletter
@@ -4461,7 +4472,7 @@ Delete,מחק,module,Magento_GiftMessage
 "Edit Your Cart","ערוך את עגלת הקניות שלך",module,Magento_Payment
 "Continue to PayPal","המשך לפייפאל",module,Magento_Paypal
 "Check 'Remember Me' to access your shopping cart on this computer even if you are not signed in.","סמן את 'זכור אותי' כדי לגשת עגלת הקניות שלך במחשב זה, גם אם אתה לא מחובר.",module,Magento_Persistent
-"Apply Discount Code","השתמש בקוד הנחה",module,Magento_SalesRule
+"Apply Discount Code","שימוש בקוד הנחה",module,Magento_SalesRule
 "Apply Discount",ממש,module,Magento_SalesRule
 "Thank you for your order from %store_name.","תודה על הזמנתך מ- %store_name.",module,Magento_Sales
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","באפשרותך לבדוק את מצב ההזמנה שלך באמצעות <a href=""%account_url""> התחברות לחשבון שלך</a>.",module,Magento_Sales
@@ -5157,7 +5168,7 @@ Details,פרטים,module,Magento_Catalog
 "Send Payment Failed Email Copy To","שליחת תשלום נכשל העתק ל",module,Magento_Checkout
 "Separate by "","".","נפרדים על-ידי "","".",module,Magento_Checkout
 "Send Payment Failed Email Copy Method","שליחת תשלום נכשל שיטת העתקה",module,Magento_Checkout
-Summary,סיכום,module,Magento_Checkout
+Summary,נושא,module,Magento_Checkout
 "Order Total","סיכום הזמנה",module,Magento_Checkout
 "We'll send your order confirmation here.","אנו נשלח את אישור ההזמנה שלך כאן.",module,Magento_Checkout
 Payment,תשלום,module,Magento_Checkout
@@ -5431,6 +5442,7 @@ Title,כותרת,module,Magento_OfflinePayments
 Instructions,הוראות,module,Magento_OfflinePayments
 Enabled,פעיל,module,Magento_OfflineShipping
 Price,מחיר,module,Magento_OfflineShipping
+"Handling Fee","דמי טיפול",module,Magento_OfflineShipping
 "Sort Order","סדר מיון",module,Magento_OfflineShipping
 Type,סוג,module,Magento_OfflineShipping
 Export,ייצוא,module,Magento_OfflineShipping
@@ -5462,6 +5474,7 @@ Frequency,תדירות,module,Magento_ProductAlert
 "Error Email Template","שגיאת תבנית דואר אלקטרוני",module,Magento_ProductAlert
 "Notify me when the price drops","הודע לי כאשר המחיר יורד",module,Magento_ProductAlert
 "YouTube API Key","מזהה YouTube API",module,Magento_ProductVideo
+"Images And Videos","וידיאו ותמונות",module,Magento_ProductVideo
 Dashboard,"לוח בקרה",module,Magento_Reports
 Average,ממוצע,module,Magento_Reports
 Guest,אורח,module,Magento_Reports
@@ -5512,6 +5525,7 @@ Synonyms,"ביטויים נרדפים",module,Magento_Search
 Website,אתר,module,Magento_Search
 "Delete items","מחיקת פריטים",module,Magento_Search
 "Are you sure you want to delete the selected synonym groups?","האם ברצונך למחוק את קבוצת הביטויים הנרדפים שנבחרה?",module,Magento_Search
+"Email Templates","תבניות אימייל",module,Magento_SendFriend
 Enabled,פעיל,module,Magento_SendFriend
 "Shipping Settings Section","סעיף ההגדרות משלוח",module,Magento_Shipping
 "Shipping Policy Parameters Section","סעיף פרמטרים של מדיניות משלוח",module,Magento_Shipping
