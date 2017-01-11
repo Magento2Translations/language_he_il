@@ -1857,14 +1857,14 @@ Download,הורדה,module,Magento_Customer
 "There was an error detecting Customer Group.","אירעה שגיאה בהגדרת קבוצת הלקוחות.",module,Magento_Customer
 "Validate VAT Number","אימות מספר מע״מ",module,Magento_Customer
 "Customer Login","כניסת לקוחות",module,Magento_Customer
-"Create New Customer Account","צור חשבון לקוח חדש",module,Magento_Customer
+"Create New Customer Account","יצירת חשבון חדש",module,Magento_Customer
 "Date of Birth","תאריך לידה",module,Magento_Customer
 "Bad request.","בקשה שגויה.",module,Magento_Customer
 "This confirmation key is invalid or has expired.","מספר אישור זה אינו חוקי או שפג תוקפו.",module,Magento_Customer
 "There was an error confirming the account","אירעה שגיאה באימות החשבון",module,Magento_Customer
 "If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your shipping address for proper VAT calculation.","אם אתה לקוח מע״מ רשום, אנא לחץ <a href=""%1""> כאן</a> כדי להזין אותך לכתובת המשלוח עבור חישוב מע״מ נכונה.",module,Magento_Customer
 "If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your billing address for proper VAT calculation.","אם אתה לקוח מע״מ רשום, אנא לחץ <a href=""%1""> כאן</a> כדי להזין כתובת החיוב עבור חישוב מע״מ נכון.",module,Magento_Customer
-"Thank you for registering with %1.","תודה לך על שנרשמת עם %1.",module,Magento_Customer
+"Thank you for registering with %1.","תודה על הרשמתך אל %1.",module,Magento_Customer
 "Please check your email for confirmation key.","בבקשה, בדוק את הדואר האלקטרוני שלך עבור מספר אישור.",module,Magento_Customer
 "This email does not require confirmation.","האימייל הזה אינו מחייב אישור.",module,Magento_Customer
 "Wrong email.","הדוא""ל שגוי.",module,Magento_Customer
@@ -1889,7 +1889,7 @@ Download,הורדה,module,Magento_Customer
 "This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","חשבון זה אינו מאושר. "" ""<a href=""%1""> לחץ כאן</a> כדי לשלוח דוא״ל אישור מחדש.",module,Magento_Customer
 "Invalid login or password.","משתמש או סיסמה שגויים.",module,Magento_Customer
 "A login and a password are required.","הזן שם משתמש וסיסמה.",module,Magento_Customer
-"Please enter a new password.","אנא הזן סיסמא חדשה.",module,Magento_Customer
+"Please enter a new password.","אנא הזן סיסמה חדשה.",module,Magento_Customer
 "You updated your password.","עדכנת את סיסמתך.",module,Magento_Customer
 "Something went wrong while saving the new password.","משהו השתבש בעת שמירת הסיסמה החדשה.",module,Magento_Customer
 "You deleted the address.","מחקת את הכתובת.",module,Magento_Customer
@@ -1923,7 +1923,7 @@ Customers,לקוחות,module,Magento_Customer
 "Page not found.","העמוד לא נמצא.",module,Magento_Customer
 "Online Customers","לקוחות מחוברים",module,Magento_Customer
 "Customers Now Online","לקוחות באתר",module,Magento_Customer
-"Please define Wish List item ID.","בבקשה להגדיר מזהה עבור פריט ה-Wishlist.",module,Magento_Customer
+"Please define Wish List item ID.","נא לטעון פריט מהמועדפים.",module,Magento_Customer
 "Please load Wish List item.","אנא טען פריט מרשימת המשאלות.",module,Magento_Customer
 "Login successful.","נכנסת בהצלחה.",module,Magento_Customer
 """%1"" section source is not supported","""%1"" סעיף מקור אינו נתמך",module,Magento_Customer
@@ -2072,7 +2072,7 @@ Email,"דואר אלקטרוני",module,Magento_Customer
 "New Password","סיסמה חדשה",module,Magento_Customer
 "Confirm New Password","אימות סיסמה חדשה",module,Magento_Customer
 Save,שמור,module,Magento_Customer
-"Please enter your email address below to receive a password reset link.","נא להזין את כתובת המייל שלך כדי לקבל קישור לאיפוס סיסמא.",module,Magento_Customer
+"Please enter your email address below to receive a password reset link.","נא להזין את כתובת המייל שלך כדי לקבל קישור לאיפוס סיסמה.",module,Magento_Customer
 Submit,שלח,module,Magento_Customer
 "Registered Customers","לקוחות רשומים",module,Magento_Customer
 "If you have an account, sign in with your email address.","אם אתה לקוח רשום, היכנס באמצעות כתובת הדוא""ל שלך.",module,Magento_Customer
@@ -2084,7 +2084,7 @@ Login,כניסה,module,Magento_Customer
 "Sign Up for Newsletter","הרשמה לניוזלטר",module,Magento_Customer
 "Address Information","מידע אודות כתובת",module,Magento_Customer
 "Sign-in Information","פרטי התחברות",module,Magento_Customer
-"Confirm Password","אימות סיסמא",module,Magento_Customer
+"Confirm Password","אימות סיסמה",module,Magento_Customer
 "Create an Account","צור חשבון",module,Magento_Customer
 "Set a New Password","הגדר סיסמה חדשה",module,Magento_Customer
 "You have signed out and will go to our homepage in 5 seconds.","תהליך התנתקות. אתה תועבר לדף הבית בעוד 5 שניות.",module,Magento_Customer
@@ -2290,7 +2290,7 @@ Dropdown,"רשימה נפתחת",module,Magento_Eav
 "Please enter a valid date less than or equal to %1 at %2.","נא להקליד תאריך פחות או שווה ל %1-%2.",module,Magento_Eav
 """%1"" is not a valid file extension.","""%1"" הוא לא סיומת קובץ חוקי.",module,Magento_Eav
 """%1"" is not a valid file.","""%1"" אינו קובץ חוקי.",module,Magento_Eav
-"""%1"" exceeds the allowed file size.","""%1"" חורג מגודל הקובץ המותרים.",module,Magento_Eav
+"""%1"" exceeds the allowed file size.","""%1"" חורג מגודל הקובץ המותר.",module,Magento_Eav
 """%1"" is not a valid image format","""%1"" הוא לא פורמט תמונה בתוקף",module,Magento_Eav
 """%1"" width exceeds allowed value of %2 px.","רוחב ""%1"" עולה על הערך המותר של %2 פיקסל.",module,Magento_Eav
 """%1"" height exceeds allowed value of %2 px.","""%1"" הגובה חורג מהערכים המותרים של %2 פיקסל.",module,Magento_Eav
@@ -2477,9 +2477,11 @@ Ground,בסיס,module,Magento_Fedex
 "Not Required","לא נדרש",module,Magento_Fedex
 Adult,מבוגר,module,Magento_Fedex
 Direct,ישיר,module,Magento_Fedex
+Pounds,פאונד,module,Magento_Fedex
 Kilograms,קילוגרמים,module,Magento_Fedex
 "For some reason we can't retrieve tracking info right now.","מסיבה כלשהי אנחנו אין אפשרות לשחזר את מספר החבילה עכשיו.",module,Magento_Fedex
 status,מצב,module,Magento_Fedex
+"Empty response","תגובה ריקה",module,Magento_Fedex
 None,ללא,module,Magento_Fedex
 "Gift Messages is not applicable for empty cart","הודעות המתנה אינה ישימה עבור עגלה ריקה",module,Magento_GiftMessage
 "Gift Messages is not applicable for virtual products","הודעות המתנה אינה ישימה עבור מוצרים וירטואליים",module,Magento_GiftMessage
@@ -2594,7 +2596,7 @@ Save,שמור,module,Magento_Integration
 "Integration Info","מידע עבור האינטגרציה",module,Magento_Integration
 General,כללי,module,Magento_Integration
 Name,שם,module,Magento_Integration
-Email,דואר,module,Magento_Integration
+Email,"דואר אלקטרוני",module,Magento_Integration
 "Basic Settings","הגדרות בסיסיות",module,Magento_Integration
 Remove,הסר,module,Magento_Integration
 View,הצגה,module,Magento_Integration
@@ -2652,6 +2654,7 @@ Database,"בסיס נתונים",module,Magento_MediaStorage
 "Parent directory does not exist: %1","תיקיית אב אינה קיימת: %1",module,Magento_MediaStorage
 "File system","מערכת קבצים",module,Magento_MediaStorage
 "Unable to save file ""%1"" at ""%2""","אין אפשרות לשמור את הקובץ ""%1"" ב- ""%2""",module,Magento_MediaStorage
+"Path ""%value%"" is protected and cannot be used.","נתיב ""%value%"" מוגן ולא ניתן לשימוש.",module,Magento_MediaStorage
 "Path \"%value%\" may not include parent directory traversal (\"../\", \"..\\\").","הנתיב \"%value%\" עשוי שלא לכלול את תיקיית האב מדריך (\ "". /\", \".. \\\").",module,Magento_MediaStorage
 "Unable to create directory: %1","לא ניתן ליצור תיקיה: %1",module,Magento_MediaStorage
 "To see product price, add this item to your cart. You can always remove it later.","כדי לראות את מחיר המוצר, הוסף פריט זה לסל שלך. תוכל להסיר את הפריט מאוחר יותר.",module,Magento_Msrp
@@ -2681,11 +2684,12 @@ Total,"סה""כ",module,Magento_Multishipping
 "Please check billing address information.","יש לבדוק את פרטי כתובת החיוב.",module,Magento_Multishipping
 "Select Addresses","בחר כתובות",module,Magento_Multishipping
 "Billing Information","מידע אודות החיוב",module,Magento_Multishipping
-"Place Order","בצע הזמנה",module,Magento_Multishipping
+"Place Order","ביצוע הזמנה",module,Magento_Multishipping
 "Select Address","בחר כתובת",module,Magento_Multishipping
 "Add New Address","הוספת כתובת חדשה",module,Magento_Multishipping
 Product,מוצר,module,Magento_Multishipping
 Qty,כמות,module,Magento_Multishipping
+"Send To","שלח אל",module,Magento_Multishipping
 Actions,פעולות,module,Magento_Multishipping
 "Remove Item","הסר פריט",module,Magento_Multishipping
 "Remove item","הסר פריט",module,Magento_Multishipping
@@ -2719,12 +2723,14 @@ Subject,נושא,module,Magento_Newsletter
 "Sender Name","שם השולח",module,Magento_Newsletter
 "Sender Email","דואר אלקטרוני של השולח",module,Magento_Newsletter
 Message,הודעה,module,Magento_Newsletter
+Start,התחלה,module,Magento_Newsletter
 Pause,השהה,module,Magento_Newsletter
 Cancel,ביטול,module,Magento_Newsletter
 Resume,המשך,module,Magento_Newsletter
 Preview,"תצוגה מקדימה",module,Magento_Newsletter
 "Add New Template","להוסיף תבנית חדשה",module,Magento_Newsletter
 "Newsletter Templates","תבניות לניוזלטר",module,Magento_Newsletter
+"Convert to Plain Text","המר לטקסט רגיל",module,Magento_Newsletter
 "Return HTML Version","החזר את גרסת Html",module,Magento_Newsletter
 "Delete Template","מחיקת תבנית",module,Magento_Newsletter
 "Save As","שמור בשם",module,Magento_Newsletter
@@ -2732,11 +2738,17 @@ Preview,"תצוגה מקדימה",module,Magento_Newsletter
 "Template Name","שם תבנית",module,Magento_Newsletter
 "Template Subject","נושא תבנית",module,Magento_Newsletter
 "Template Content","תוכן התבנית",module,Magento_Newsletter
+"Template Styles","סגנון תבניות",module,Magento_Newsletter
+"No Templates Found","אין תבניות שנמצאו",module,Magento_Newsletter
+Template,תבנית,module,Magento_Newsletter
 Added,נוסף,module,Magento_Newsletter
+Updated,עודכן,module,Magento_Newsletter
 Sender,שולח,module,Magento_Newsletter
+"Template Type","סוג התבנית",module,Magento_Newsletter
 Action,פעולה,module,Magento_Newsletter
 "Queue Newsletter","תור ניוזלטר",module,Magento_Newsletter
 "Newsletter Queue","ניוזלטר - תור",module,Magento_Newsletter
+"Edit Queue","עריכת תור",module,Magento_Newsletter
 "Newsletter Subscribers","ניוזלטר - מנויים",module,Magento_Newsletter
 Newsletter,ניוזלטר,module,Magento_Newsletter
 "We can't delete this template right now.","איננו יכולים למחוק את התבנית הזו ברגע זה.",module,Magento_Newsletter
@@ -2746,7 +2758,18 @@ Newsletter,ניוזלטר,module,Magento_Newsletter
 "Thank you for your subscription.","תודה על ההרשמה.",module,Magento_Newsletter
 "There was a problem with the subscription: %1","היתה בעיה בהרשמה: %1",module,Magento_Newsletter
 "Something went wrong with the subscription.","היתה בעיה בהרשמה.",module,Magento_Newsletter
-"Enter your email address","הזן את כתובת הדוא""ל שלך",module,Magento_Newsletter
+Sent,נשלח,module,Magento_Newsletter
+Cancelled,בוטל,module,Magento_Newsletter
+"Not Sent","לא נשלח",module,Magento_Newsletter
+Sending,שולח,module,Magento_Newsletter
+Paused,נעצר,module,Magento_Newsletter
+"There are no subscribers selected.","לא נבחרו מנויים.",module,Magento_Newsletter
+"You selected an invalid queue.","בחרת תור לא חוקי.",module,Magento_Newsletter
+"We cannot mark as received subscriber.","לא ניתן לסמן כמנוי שהתקבל.",module,Magento_Newsletter
+"Duplicate template code","שכפול קוד תבנית",module,Magento_Newsletter
+"Follow this link to unsubscribe <!-- This tag is for unsubscribe link  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>","לחצו כאן להסרה מרשימת התפוצה<!-- This tag is for unsubscribe link  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>",module,Magento_Newsletter
+"Add to Queue","הוספה לתור",module,Magento_Newsletter
+"Enter your email address","הזן את כתובת הדואר האלקטרוני שלך",module,Magento_Newsletter
 Subscribe,הרשמה,module,Magento_Newsletter
 "Make Check payable to:","כתוב את השיק לפקודת:",module,Magento_OfflinePayments
 "Send Check to:","שלח כדי לבדוק ל-:",module,Magento_OfflinePayments
@@ -2838,18 +2861,22 @@ Cancel,ביטול,module,Magento_Paypal
 "General Information","מידע כללי",module,Magento_Paypal
 Order,הזמנה,module,Magento_Paypal
 "Bill-to Name","שלח חיוב לשם",module,Magento_Paypal
+"Ship-to Name","שם הנמען",module,Magento_Paypal
 "Order Total","סה""כ להזמנה",module,Magento_Paypal
 Configure,הגדר,module,Magento_Paypal
 Close,סגור,module,Magento_Paypal
 "Learn More","מידע נוסף",module,Magento_Paypal
+"See terms","צפייה בתנאים",module,Magento_Paypal
 "You will be redirected to the PayPal website.","בסיום ההזמנה תנותב לדף המאובטח של פייפאל לביצוע התשלום.",module,Magento_Paypal
 "Incl. Tax","כולל מס",module,Magento_Paypal
+"Billing Information","פרטי חיוב",module,Magento_Paypal
 "Shipping Information","פרטי משלוח",module,Magento_Paypal
 "We can't cancel the billing agreement.","לא ניתן לבטל את החיוב.",module,Magento_Paypal
 "We can't delete the billing agreement.","לא ניתן למחוק את החיוב.",module,Magento_Paypal
 "We couldn't finish the billing agreement wizard.","איננו יכולים לסיים את אשף החיוב.",module,Magento_Paypal
 "We can't start the billing agreement wizard.","אין לנו אפשרות להפעיל את אשף החיוב.",module,Magento_Paypal
 "We can't initialize Express Checkout.","אין לנו אפשרות לאתחל את חיוב אקספרס.",module,Magento_Paypal
+"Express Checkout has been canceled.","תשלום באמצעות PayPal בוטל.",module,Magento_Paypal
 "We can't place the order.","איננו יכולים לאשר את ההזמנה.",module,Magento_Paypal
 "We can't process Express Checkout approval.","איננו יכולים לעבד אישור לחיוב אקספרס.",module,Magento_Paypal
 "We can't initialize Express Checkout review.","אין לנו אפשרות לאתחל ביקורת לחיוב אקספרס.",module,Magento_Paypal
@@ -2877,7 +2904,9 @@ Custom,מותאם,module,Magento_Paypal
 "We can't create a billing agreement for this order.","איננו יכולים ליצור הסכם חיוב עבור הזמנה זו.",module,Magento_Paypal
 Error,שגיאה,module,Magento_Paypal
 Customer,לקוח,module,Magento_Paypal
+"Ship To",נמען,module,Magento_Paypal
 "View Order","הצג הזמנה",module,Magento_Paypal
+"Back to Billing Agreements","חזרה להוראות קבע",module,Magento_Paypal
 "There are no billing agreements yet.","לא קיימים אמצעי תשלום שמורים.",module,Magento_Paypal
 "New Billing Agreement","הסכם חיוב חדש",module,Magento_Paypal
 "You will be redirected to the payment system website.","תנותב למערכת התשלום של האתר.",module,Magento_Paypal
@@ -2984,6 +3013,8 @@ Views,צפיות,module,Magento_Reports
 "Refresh Statistics","סטטיסטיקת רענון",module,Magento_Reports
 Customer,לקוח,module,Magento_Reports
 Title,כותרת,module,Magento_Reports
+Detail,"מידע מפורט",module,Magento_Reports
+Created,נוצר,module,Magento_Reports
 "Products Reviews","סקירות מוצר",module,Magento_Reports
 Subtotal,"סכום ביניים",module,Magento_Reports
 Discount,הנחה,module,Magento_Reports
@@ -3078,7 +3109,7 @@ Ratings,דירוג,module,Magento_Review
 Approved,אושרה,module,Magento_Review
 Pending,ממתינה,module,Magento_Review
 "Not Approved","לא אושרה",module,Magento_Review
-"Please enter a review summary.","הזינו בבקשה את תקציר חוות דעת.",module,Magento_Review
+"Please enter a review summary.","הזינו בבקשה את תקציר חוות הדעת.",module,Magento_Review
 "Please enter a nickname.","נא הזן כינוי.",module,Magento_Review
 "Please enter a review.","נא הזן חוות דעת.",module,Magento_Review
 "Please specify a rating title for a store, or we'll just use the default value.","אנא הזן את הכותרת עבור החנות אחרת נשתמש בערך ברירת המחדל.",module,Magento_Review
@@ -3179,8 +3210,10 @@ From,מ-,module,Magento_SalesRule
 To,ל-,module,Magento_SalesRule
 Rule,כלל,module,Magento_SalesRule
 Start,התחלה,module,Magento_SalesRule
+End,סיום,module,Magento_SalesRule
 Coupons/Discounts,קופונים/הנחות,module,Magento_SalesRule
 Promotions,מבצעים,module,Magento_SalesRule
+"You deleted the rule.","מחקת את החוק.",module,Magento_SalesRule
 "We can't delete the rule right now. Please review the log and try again.","אנו לא יכולים למחוק את הכלל. יש לבדוק את הלוג ולנסות שוב.",module,Magento_SalesRule
 "We can't find a rule to delete.","אנו לא יכולים למצוא כלל לשם מחיקתו.",module,Magento_SalesRule
 Catalog,קטלוג,module,Magento_SalesRule
@@ -3383,11 +3416,13 @@ State/Province,מדינה/מחוז,module,Magento_Sales
 "Cannot save track:
 %1","אין אפשרות לשמור את המסלול:
 %1",module,Magento_Sales
+Complete,הושלמה,module,Magento_Sales
 Customer,לקוח,module,Magento_Sales
 "Apply Coupon Code","אשר את קוד הקופון",module,Magento_Sales
 Apply,החל,module,Magento_Sales
 "Remove Coupon Code","הסר קוד קופון",module,Magento_Sales
 Remove,הסר,module,Magento_Sales
+"Save in address book","שמירה בספר הכתובות",module,Magento_Sales
 "You don't need to select a shipping address.","אתה לא צריך לבחור כתובת משלוח.",module,Magento_Sales
 "Leave this box blank if you don't want to leave a gift message for the entire order.","תשאיר תיבה זו ריקה, אם אתה לא רוצה להשאיר הודעת מתנה עבור ההזמנה כולה.",module,Magento_Sales
 Action,פעולה,module,Magento_Sales
@@ -3396,7 +3431,7 @@ Action,פעולה,module,Magento_Sales
 "Total %1 product(s)","כל %1 מוצרים",module,Magento_Sales
 Subtotal:,"סך ביניים:",module,Magento_Sales
 "Please select","אנא בחר",module,Magento_Sales
-"Move to Wish List","העבר ל Wish List",module,Magento_Sales
+"Move to Wish List","העברה למועדפים",module,Magento_Sales
 "Subscribe to Newsletter","הירשם לעדכונים",module,Magento_Sales
 "You don't need to select a shipping method.","אתה לא צריך לבחור שיטת משלוח.",module,Magento_Sales
 "Customer's Activities","הפעילויות של הלקוח",module,Magento_Sales
@@ -3760,6 +3795,7 @@ Name,שם,module,Magento_Tax
 "Tax Rate","שיעור מס",module,Magento_Tax
 Priority,עדיפות,module,Magento_Tax
 "Sort Order","סדר מיון",module,Magento_Tax
+Sales,מכירות,module,Magento_Tax
 Tax,מס,module,Magento_Tax
 "We can't delete this tax rate right now.","לא ניתן למחוק את שיעור המס הזה עכשיו.",module,Magento_Tax
 "We can't save this rate right now.","איננו יכולים לשמור את הציונים נכון לעכשיו.",module,Magento_Tax
@@ -4003,7 +4039,7 @@ Permissions,הרשאות,module,Magento_User
 "This role no longer exists.","התפקיד לא קיים יותר.",module,Magento_User
 "You saved the role.","שמרת את התפקיד.",module,Magento_User
 "An error occurred while saving this role.","אירעה שגיאה בעת שמירת תפקיד זה.",module,Magento_User
-"You have entered an invalid password for current user.","הזנת סיסמא לא חוקית עבור המשתמש הנוכחי.",module,Magento_User
+"You have entered an invalid password for current user.","הזנת סיסמה לא חוקית עבור המשתמש הנוכחי.",module,Magento_User
 "You saved the user.","שמרת את המשתמש.",module,Magento_User
 "A user with the same user name or email already exists.","משתמש עם אותו שם משתמש או דואר אלקטרוני כבר קיים.",module,Magento_User
 Recommended,מומלץ,module,Magento_User
@@ -4026,7 +4062,7 @@ Forced,מוכרח,module,Magento_User
 "Email address","כתובת דואר אלקטרוני",module,Magento_User
 "Retrieve Password","אחזר סיסמה",module,Magento_User
 "Back to Sign in","חזרה לכניסה",module,Magento_User
-"Forgot your password?","שכחת סיסמא?",module,Magento_User
+"Forgot your password?","שכחת סיסמה?",module,Magento_User
 "Reset a Password","איפוס סיסמה",module,Magento_User
 "Confirm New Password","אשר סיסמה חדשה",module,Magento_User
 "Reset Password","איפוס סיסמה",module,Magento_User
@@ -4157,11 +4193,11 @@ Apply,החל,module,Magento_Widget
 Page,דף,module,Magento_Widget
 "Wish List",Wishlist,module,Magento_Wishlist
 "Wish List Sharing","שיתוף wishlist",module,Magento_Wishlist
-"My Wish List","ה-Wishlist שלי",module,Magento_Wishlist
+"My Wish List","המועדפים שלי",module,Magento_Wishlist
 "Page not found.","העמוד לא נמצא.",module,Magento_Wishlist
 "We can't specify a product.","המוצר אינו זמין כעת.",module,Magento_Wishlist
 "We can't add the item to Wish List right now: %1.","לא ניתן להוסיף את הפריט ל-wishlist כעת: %1.",module,Magento_Wishlist
-"We can't add the item to Wish List right now.","לא ניתן להוסיף את המוצר ל-wishlist כעת.",module,Magento_Wishlist
+"We can't add the item to Wish List right now.","לא ניתן להוסיף את המוצר למועדפים כעת.",module,Magento_Wishlist
 "You added %1 to your shopping cart.","%1 נוסף לעגלת הקניות.",module,Magento_Wishlist
 "This product(s) is out of stock.","המוצר(ים) לא במלאי.",module,Magento_Wishlist
 "We can't add the item to the cart right now.","לא ניתן להוסיף את הפריט לעגלה כעת.",module,Magento_Wishlist
@@ -4170,8 +4206,8 @@ Page,דף,module,Magento_Widget
 "The requested cart item doesn't exist.","הפריט המבוקש אינו קיים.",module,Magento_Wishlist
 "%1 has been moved to your wish list.","%1 הועבר ל-wishlist שלך.",module,Magento_Wishlist
 "We can't move the item to the wish list.","לא ניתן להעביר את הפריט ל-wishlist.",module,Magento_Wishlist
-"We can't delete the item from Wish List right now because of an error: %1.","לא ניתן למחוק את הפריט מה-wishlist בשל שגיאה: %1.",module,Magento_Wishlist
-"We can't delete the item from the Wish List right now.","לא ניתן למחוק את הפריט מה-wishlist כעת.",module,Magento_Wishlist
+"We can't delete the item from Wish List right now because of an error: %1.","לא ניתן למחוק את הפריט מהמועדפים בשל שגיאה: %1.",module,Magento_Wishlist
+"We can't delete the item from the Wish List right now.","לא ניתן למחוק את הפריט מהמועדפים כעת.",module,Magento_Wishlist
 "Message length must not exceed %1 symbols","אורך ההודעה מוגבל ל-%1 תווים",module,Magento_Wishlist
 "Please enter an email address.","נא להזין כתובת אימייל.",module,Magento_Wishlist
 "This wish list can be shared %1 more times.","ניתן לשתף ב-wishlist עוד %1 פעמים.",module,Magento_Wishlist
@@ -4182,27 +4218,27 @@ Page,דף,module,Magento_Widget
 "Can't update wish list","לא ניתן לעדכן את ה-wishlist",module,Magento_Wishlist
 "%1 has been updated in your Wish List.","%1 עודכן ב-wishlist.",module,Magento_Wishlist
 "We can't update your Wish List right now.","לא ניתן לעדכן את ה-wishlist כעת.",module,Magento_Wishlist
-"The requested Wish List doesn't exist.","ה-wishlist המבוקש אינו קיים.",module,Magento_Wishlist
-"We can't create the Wish List right now.","לא ניתן ליצור את ה-wishlist כעת.",module,Magento_Wishlist
+"The requested Wish List doesn't exist.","רשימת המועדפים המבוקשת איננה קיימת.",module,Magento_Wishlist
+"We can't create the Wish List right now.","לא ניתן ליצור את רשימת המועדפים כעת.",module,Magento_Wishlist
 "%1 items","%1 פריטים",module,Magento_Wishlist
 "1 item","פריט אחד",module,Magento_Wishlist
 Comment,הערה,module,Magento_Wishlist
 "Display number of items in wish list","הצגת מספר הפריטים ב-wishlist",module,Magento_Wishlist
 "Display item quantities","הצגת כמויות פריטים",module,Magento_Wishlist
 "An item option with code %1 already exists.","אופציית הפריט עם קוד %1 כבר קיימת.",module,Magento_Wishlist
-"We can't specify a wish list.","ה-wishlist אינו זמין כעת.",module,Magento_Wishlist
+"We can't specify a wish list.","לא ניתן לציין רשימת מועדפים.",module,Magento_Wishlist
 "Cannot specify product.","אין אפשרות לציין מוצר.",module,Magento_Wishlist
 "Product is not salable.","המוצר אינו למכירה.",module,Magento_Wishlist
 "Invalid item option format.","הפורמט של הפריט אינו חוקי.",module,Magento_Wishlist
-"%1 for ""%2"".","%1 על ""%2"".",module,Magento_Wishlist
+"%1 for ""%2"".","%1 עבור ""%2"".",module,Magento_Wishlist
 "We can't add this item to your shopping cart right now.","לא ניתן להוסיף פריט זה לסל הקניות שלך כרגע.",module,Magento_Wishlist
 "We couldn't add the following product(s) to the shopping cart: %1.","הוספת המוצר(ים) לעגלת הקניות נכשלה: %1.",module,Magento_Wishlist
-"We can't update the Wish List right now.","לא ניתן לעדכן את ה-wishlist כעת.",module,Magento_Wishlist
+"We can't update the Wish List right now.","לא ניתן לעדכן את רשימת המועדפים כעת.",module,Magento_Wishlist
 "%1 product(s) have been added to shopping cart: %2.","%1 מוצרים נוספו לסל הקניות: %2.",module,Magento_Wishlist
 Comment:,הערה:,module,Magento_Wishlist
-"We cannot retrieve the Wish List.","אין לנו אפשרות לשחזר את ה-Wishlist.",module,Magento_Wishlist
-"%1's Wishlist","ה-wishlist של %1",module,Magento_Wishlist
-"We can't specify a wish list item.","הפריט אינו זמין כרגע ב-wishlist.",module,Magento_Wishlist
+"We cannot retrieve the Wish List.","לא ניתן לשחזר את רשימת המועדפים.",module,Magento_Wishlist
+"%1's Wishlist","המועדפים של %1",module,Magento_Wishlist
+"We can't specify a wish list item.","לא ניתן לציין פריט מרשימת המועדפים.",module,Magento_Wishlist
 "The product does not exist.","המוצר אינו קיים.",module,Magento_Wishlist
 "Test Phrase","בחן ביטוי",module,Magento_Wishlist
 message,הודעה,module,Magento_Wishlist
@@ -4211,10 +4247,10 @@ error-message,"הודעת שגיאה",module,Magento_Wishlist
 "Product Exception.","מוצר חורג.",module,Magento_Wishlist
 "Localized Exception.","חריגת שפה.",module,Magento_Wishlist
 "Are you sure you want to remove this item?","האם אתה בטוח שברצונך להסיר פריט זה?",module,Magento_Wishlist
-"Share Wish List","שתף Wishlist",module,Magento_Wishlist
+"Share Wish List","שיתוף מועדפים",module,Magento_Wishlist
 "Add All to Cart","הוסף הכל לעגלה",module,Magento_Wishlist
 "Update Wish List","עדכון Wish List",module,Magento_Wishlist
-"Move to Wishlist","העבר ל Wish List",module,Magento_Wishlist
+"Move to Wishlist","העברה למועדפים",module,Magento_Wishlist
 "View Product","הצג מוצר",module,Magento_Wishlist
 Qty,כמות,module,Magento_Wishlist
 "Add to Cart","הוסף לעגלה",module,Magento_Wishlist
@@ -4225,23 +4261,23 @@ Edit,ערוך,module,Magento_Wishlist
 "Remove Item","הסר פריט",module,Magento_Wishlist
 "Remove item","הסר פריט",module,Magento_Wishlist
 "Add to Compare","הוסף להשוואה",module,Magento_Wishlist
-"This Wish List has no Items","ב-Wishlist הזה אין פריטים",module,Magento_Wishlist
+"This Wish List has no Items","ברשימת המועדפים הזו אין פריטים",module,Magento_Wishlist
 "See Details","ראה פרטים",module,Magento_Wishlist
 "Options Details","אפשרויות פרטים",module,Magento_Wishlist
 "RSS Feed","עדכוני RSS",module,Magento_Wishlist
 Product,מוצר,module,Magento_Wishlist
 "Add to Wish List","הוסף ל Wish List",module,Magento_Wishlist
 Back,חזור,module,Magento_Wishlist
-"Wish List is empty now.","ה-Wishlist ריק עכשיו.",module,Magento_Wishlist
+"Wish List is empty now.","רשימת המועדפים ריקה כעת.",module,Magento_Wishlist
 "* Required Fields","* שדות חובה",module,Magento_Wishlist
 "Sharing Information","שיתוף מידע",module,Magento_Wishlist
 "Email addresses, separated by commas","כתובות דוא""ל, מופרדים באמצעות פסיקים",module,Magento_Wishlist
-"Check here to link an RSS feed to your Wish List.","בדוק כאן את הקישור להזנת לעדכוני RSS ל-Wishlist.",module,Magento_Wishlist
+"Check here to link an RSS feed to your Wish List.","בדוק כאן את הקישור להזנת לעדכוני RSS למועדפים.",module,Magento_Wishlist
 "Last Added Items","פריטים אחרונים שנוספו",module,Magento_Wishlist
 "Remove This Item","הסרת פריט זה",module,Magento_Wishlist
-"Go to Wish List","עבור ל-Wishlist",module,Magento_Wishlist
+"Go to Wish List","מעבר למועדפים",module,Magento_Wishlist
 "You have no items in your wish list.","אין לך פריטים ב Wish List.",module,Magento_Wishlist
-"Are you sure you want to remove this product from your Wish List?","האם את/ה בטוח/ה שברצונך להסיר מוצר זה מה-wishlist?",module,Magento_Wishlist
+"Are you sure you want to remove this product from your Wish List?","האם את/ה בטוח/ה שברצונך להסיר מוצר זה מהמועדפים?",module,Magento_Wishlist
 "Now Shopping by","מסנן לפי",theme,frontend/Magento/luma
 Previous,הקודם,theme,frontend/Magento/luma
 Remove,הסר,theme,frontend/Magento/luma
@@ -4294,9 +4330,9 @@ Password:,סיסמה:,module,Magento_Customer
 "There was recently a request to change the password for your account.","לאחרונה הייתה בקשה לשנות את סיסמת החשבון שלך.",module,Magento_User
 "If you requested this change, reset your password here:","אם ביקשת שינוי זה, אפס את הסיסמה שלך כאן:",module,Magento_User
 "If you did not make this request, you can ignore this email and your password will remain the same.","אם לא הגשה את הבקשה הזו, באפשרותך להתעלם מדוא""ל זה, והסיסמה שלך תישאר זהה.",module,Magento_User
-"%customer_name wants to share this Wish List from %store_name with you:","%customer_name רוצה לשתף אתכם ב-Wishlist של %store_name:",module,Magento_Wishlist
+"%customer_name wants to share this Wish List from %store_name with you:","%customer_name רוצה לשתף אתכם במועדפים של %store_name:",module,Magento_Wishlist
 "Message from %customer_name:","הודעה מ-%customer_name:",module,Magento_Wishlist
-"View all Wish List items","הצגת את כל פרטי ה-Wishlist",module,Magento_Wishlist
+"View all Wish List items","הצגת את כל פרטי המועדפים",module,Magento_Wishlist
 "Welcome to %store_name.","ברוכים הבאים ל%store_name.",theme,frontend/Magento/luma
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","כדי להיכנס לאתר שלנו, השתמש בפרטי חיבור אלה במהלך הצ'ק אאוט או בדף <a href=""%customer_url""> החשבון שלי</a>:",theme,frontend/Magento/luma
 Email:,"דואר אלקטרוני:",theme,frontend/Magento/luma
@@ -4378,6 +4414,7 @@ Done,בוצע,module,Magento_ConfigurableProduct
 Save,שמור,module,Magento_ProductVideo
 Cancel,ביטול,module,Magento_ProductVideo
 Delete,מחק,module,Magento_ProductVideo
+"Edit Video","עריכת וידאו",module,Magento_ProductVideo
 "Images and Videos","וידיאו ותמונות",module,Magento_ProductVideo
 "This won't take long . . .","זה לא ייקח הרבה זמן.",module,Magento_Rule
 "Add Products","הוסף מוצרים",module,Magento_Sales
@@ -4391,7 +4428,7 @@ Delete,מחק,module,Magento_ProductVideo
 "Letters or punctuation only please","אותיות או פיסוק בלבד",module,Magento_Ui
 "Letters, numbers, spaces or underscores only please","אותיות, מספרים, רווחים או מקפים תחתונים בלבד",module,Magento_Ui
 "Letters only please","אותיות בלבד",module,Magento_Ui
-"Please enter a valid email address (Ex: johndoe@domain.com).","בבקשה הכנס כתובת מייל תקינה (לדוגמא: johndoe@domain.com).",module,Magento_Ui
+"Please enter a valid email address (Ex: johndoe@domain.com).","הקלד כתובת אימייל תקינה (לדוגמא: johndoe@domain.com).",module,Magento_Ui
 "Please enter 6 or more characters. Leading or trailing spaces will be ignored.","אנא הכנס 6 תווים או יותר. רווחים וסימני פיסוק לא יילקחו בחשבון.",module,Magento_Ui
 "This is a required field.","שדה זה הוא חובה.",module,Magento_Ui
 Attention,"תשומת לב",module,Magento_Ui
@@ -4899,7 +4936,7 @@ Contacts,"אנשי קשר",module,Magento_Contact
 "Password Options","אפשרויות סיסמה",module,Magento_Customer
 "Forgot Email Template","תבנית ""שכחתי דוא""ל""",module,Magento_Customer
 "Remind Email Template","תבנית תזכורת דוא""ל",module,Magento_Customer
-"Reset Password Template","תבנית לאיפוס סיסמא",module,Magento_Customer
+"Reset Password Template","תבנית לאיפוס סיסמה",module,Magento_Customer
 "Recovery Link Expiration Period (days)","תוקף תפוגת הקישור(בימים)",module,Magento_Customer
 "Please enter a number 1 or greater in this field.","אנא הזן מספר 1 או גדול יותר בשדה זה.",module,Magento_Customer
 "Name and Address Options","שם ואפשרויות כתובת",module,Magento_Customer
@@ -4907,6 +4944,8 @@ Contacts,"אנשי קשר",module,Magento_Contact
 "Leave empty for default (2). Valid range: 1-4","השאר ריק עבור ברירת המחדל (2). טווח חוקי: 1-4",module,Magento_Customer
 "Show Prefix","הצג קידומת",module,Magento_Customer
 "The title that goes before name (Mr., Mrs., etc.)","התואר שמגיע לפני השם (מר., גברת., וכו')",module,Magento_Customer
+"Login Options","אפשרויות כניסה",module,Magento_Customer
+"Enable Autocomplete on login/forgot password forms","אפשר השלמה אוטומטית עבור טפסי סיסמה שנשכחה/התחברות",module,Magento_Customer
 Phone,טלפון,module,Magento_Customer
 "Last Logged In","האחרון שביצע התחברות",module,Magento_Customer
 "First Name","שם פרטי",module,Magento_Customer
@@ -5027,6 +5066,7 @@ Enabled,פעיל,module,Magento_OfflineShipping
 Price,מחיר,module,Magento_OfflineShipping
 "Handling Fee","דמי טיפול",module,Magento_OfflineShipping
 "Sort Order","סדר מיון",module,Magento_OfflineShipping
+Title,כותרת,module,Magento_OfflineShipping
 Type,סוג,module,Magento_OfflineShipping
 Export,ייצוא,module,Magento_OfflineShipping
 "Caching Application","יישום Cache",module,Magento_PageCache
@@ -5160,7 +5200,7 @@ Action,פעולה,module,Magento_Ui
 "Live account","חשבון פעיל",module,Magento_Ups
 Action,פעולה,module,Magento_UrlRewrite
 Edit,ערוך,module,Magento_UrlRewrite
-"Reset Password Template","תבנית לאיפוס סיסמא",module,Magento_User
+"Reset Password Template","תבנית לאיפוס סיסמה",module,Magento_User
 "Email template chosen based on theme fallback when ""Default"" option is selected.","תבנית הדוא""ל הנבחרה בהתבסס על ירושת התבנית כשבוחרים באפשרות ""ברירת מחדל"".",module,Magento_User
 "Maximum Login Failures to Lockout Account","מספר ניסיונות כניסה כושלים מרבי עד לנעילת החשבון",module,Magento_User
 "We will disable this feature if the value is empty.","אנו נשבית אפשרות זו אם הערך ריק.",module,Magento_User
@@ -5211,7 +5251,7 @@ Conditions,תנאים,module,Magento_Widget
 "General Options","אפשרויות כלליות",module,Magento_Wishlist
 Enabled,פעיל,module,Magento_Wishlist
 "My Wish List Link","קישור ל Wish List שלי",module,Magento_Wishlist
-"Display Wish List Summary","תצוגת סיכום ל-Wishlist",module,Magento_Wishlist
+"Display Wish List Summary","תצוגת סיכום למועדפים",module,Magento_Wishlist
 "Enable RSS","אפשר RSS",module,Magento_Wishlist
 "No Items Found","אין פריטים שנמצאו",module,Magento_Wishlist
 "Product Name","שם מוצר",module,Magento_Wishlist
@@ -5219,7 +5259,7 @@ Enabled,פעיל,module,Magento_Wishlist
 Quantity,כמות,module,Magento_Wishlist
 "Add Locale","הוסף אזור",module,Magento_Wishlist
 "Add Date","הוספת תאריך",module,Magento_Wishlist
-"Days in Wish List","ימים ב-Wishlist",module,Magento_Wishlist
+"Days in Wish List","ימים במועדפים",module,Magento_Wishlist
 Action,פעולה,module,Magento_Wishlist
 Configure,הגדר,module,Magento_Wishlist
 Delete,מחק,module,Magento_Wishlist
