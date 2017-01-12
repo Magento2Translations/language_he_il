@@ -1380,6 +1380,7 @@ Width,רוחב,module,Magento_Dhl
 Regular,רגיל,module,Magento_Dhl
 Specific,ספציפי,module,Magento_Dhl
 "Easy shop","חנות קלה",module,Magento_Dhl
+"Express worldwide","אקספרס ברחבי העולם",module,Magento_Dhl
 "Express 9:00","אקספרס 9:00",module,Magento_Dhl
 "Express 10:30","אקספרס 10:30",module,Magento_Dhl
 Others,אחרים,module,Magento_Dhl
@@ -1628,7 +1629,9 @@ Ground,בסיס,module,Magento_Fedex
 "International Economy","כלכלה בינלאומית",module,Magento_Fedex
 "International Priority","עדיפות בינלאומית",module,Magento_Fedex
 "Priority Overnight","עדיפות בין לילה",module,Magento_Fedex
+"Smart Post","דואר חכם",module,Magento_Fedex
 "Regular Pickup","איסוף רגיל",module,Magento_Fedex
+"Business Service Center","מרכז שירות עסקי",module,Magento_Fedex
 "Not Required","לא נדרש",module,Magento_Fedex
 Adult,מבוגר,module,Magento_Fedex
 Direct,ישיר,module,Magento_Fedex
@@ -1687,7 +1690,9 @@ Import,ייבא,module,Magento_ImportExport
 "Import Settings","הגדרות ייבוא",module,Magento_ImportExport
 "Import Behavior","התנהגות ייבוא",module,Magento_ImportExport
 "Field separator","מפריד השדות",module,Magento_ImportExport
+"Multiple value separator","מפריד ערכים מרובים",module,Magento_ImportExport
 "File to Import","קובץ לייבוא",module,Magento_ImportExport
+"Select File to Import","בחירת קובץ לייבוא",module,Magento_ImportExport
 Import/Export,ייבוא/ייצוא,module,Magento_ImportExport
 Status,סטטוס,module,Magento_ImportExport
 "in rows:",בשורות:,module,Magento_ImportExport
@@ -1712,7 +1717,10 @@ Save,שמור,module,Magento_Integration
 General,כללי,module,Magento_Integration
 Name,שם,module,Magento_Integration
 Email,"דואר אלקטרוני",module,Magento_Integration
+"Integration Details","פרטי הטמעה",module,Magento_Integration
 "Basic Settings","הגדרות בסיסיות",module,Magento_Integration
+"Consumer Key","מפתח הצרכן",module,Magento_Integration
+"Uninstall the extension to remove this integration","הסר את ההרחבה על מנת להסיר את האינטגרציה",module,Magento_Integration
 Remove,הסר,module,Magento_Integration
 View,הצגה,module,Magento_Integration
 Edit,ערוך,module,Magento_Integration
@@ -1762,8 +1770,13 @@ Total,"סה""כ",module,Magento_Multishipping
 "Edit Shipping Address","עריכת כתובת משלוח",module,Magento_Multishipping
 "Create Billing Address","ליצור כתובת חיוב",module,Magento_Multishipping
 "Create Shipping Address","ליצור כתובת למשלוח",module,Magento_Multishipping
+"Please check shipping address information.","יש לבדוק את פרטי כתובת המשלוח.",module,Magento_Multishipping
 "Please check billing address information.","יש לבדוק את פרטי כתובת החיוב.",module,Magento_Multishipping
+"Please select shipping methods for all addresses.","נא לבחור שיטת משלוח עבור כל הכתובות.",module,Magento_Multishipping
+"Please specify a payment method.","נא לציין שיטת תשלום.",module,Magento_Multishipping
+"Please check shipping addresses information.","יש לבדוק את פרטי כתובות המשלוח.",module,Magento_Multishipping
 "Select Addresses","בחר כתובות",module,Magento_Multishipping
+"Shipping Information","פרטי משלוח",module,Magento_Multishipping
 "Billing Information","מידע אודות החיוב",module,Magento_Multishipping
 "Place Order","ביצוע הזמנה",module,Magento_Multishipping
 "Select Address","בחר כתובת",module,Magento_Multishipping
@@ -1798,6 +1811,7 @@ Subject,נושא,module,Magento_Newsletter
 Message,הודעה,module,Magento_Newsletter
 Start,התחלה,module,Magento_Newsletter
 Pause,השהה,module,Magento_Newsletter
+"Do you really want to cancel the queue?","האם ברצונך לבטל את התור?",module,Magento_Newsletter
 Cancel,ביטול,module,Magento_Newsletter
 Resume,המשך,module,Magento_Newsletter
 Preview,"תצוגה מקדימה",module,Magento_Newsletter
@@ -1861,6 +1875,10 @@ Region/State,אזור/מדינה,module,Magento_OfflineShipping
 "Order Subtotal (and above)","סכום כולל משני של הזמנה (ומעלה)",module,Magento_OfflineShipping
 "# of Items (and above)","# של פריטים (ומעלה)",module,Magento_OfflineShipping
 None,ללא,module,Magento_OfflineShipping
+"Per Item","לכל פריט",module,Magento_OfflineShipping
+"Please correct Country ""%1"" in the Row #%2.","נא לתקן את המדינה ""%1"" בשורה #%2.",module,Magento_OfflineShipping
+"Please correct Region/State ""%1"" in the Row #%2.","נא לתקן את האיזור/מדינה ""%1"" בשורה #%2.",module,Magento_OfflineShipping
+"Please correct Shipping Price ""%1"" in the Row #%2.","נא לתקן את מחיר המשלוח ""%1"" בשורה #%2.",module,Magento_OfflineShipping
 "Duplicate Row #%1 (Country ""%2"", Region/State ""%3"", Zip ""%4"" and Value ""%5"")","ערך כפול #%1 (מדינה ""%2"", אזור/מדינה ""%3"", מיקוד ""%4"", ערך ""%5"")",module,Magento_OfflineShipping
 No,לא,module,Magento_OfflineShipping
 "Ttl value ""%1"" is not valid. Please use only numbers equal or greater than zero.","ערך של Ttl ״%1״ אינו חוקי. אנא השתמש רק במספרים שווים או גדולים מ- 0.",module,Magento_PageCache
@@ -1916,6 +1934,8 @@ Cancel,ביטול,module,Magento_Paypal
 "General Information","מידע כללי",module,Magento_Paypal
 Order,הזמנה,module,Magento_Paypal
 "Order Total","סה""כ להזמנה",module,Magento_Paypal
+"View Transaction Details","צפיה בפרטי הזמנה",module,Magento_Paypal
+"PayPal Fee Information","פרטי עמלות PayPal",module,Magento_Paypal
 Configure,הגדר,module,Magento_Paypal
 Close,סגור,module,Magento_Paypal
 "Learn More","מידע נוסף",module,Magento_Paypal
@@ -1961,6 +1981,7 @@ Subtotal,"סכום ביניים",module,Magento_Paypal
 "You will no longer receive stock alerts.","כבר לא תקבל התראות עבור המלאי.",module,Magento_ProductAlert
 "Invalid block type: %1","סוג בלוק לא חוקי: %1",module,Magento_ProductAlert
 Price:,מחיר:,module,Magento_ProductAlert
+"Unsubscribe from all stock alerts","הסרה מכל התראות המלאי",module,Magento_ProductAlert
 Url,"כתובת Url",module,Magento_ProductVideo
 "Preview Image","תמונה מקדימה",module,Magento_ProductVideo
 "Get Video Information","לקבל מידע עבור וידאו",module,Magento_ProductVideo
@@ -1973,6 +1994,9 @@ Url,"כתובת Url",module,Magento_ProductVideo
 "Shipping & Handling (%1)","משלוח וטיפול (%1)",module,Magento_Quote
 Shipping,משלוח,module,Magento_Quote
 Subtotal,"סכום ביניים",module,Magento_Quote
+"An item option with code %1 already exists.","אופציית הפריט עם קוד %1 כבר קיימת.",module,Magento_Quote
+"Item qty declaration error","שגיאה בהצהרת כמות מוצר",module,Magento_Quote
+"Some of the selected options are not currently available.","חלק מהאפשרויות שבחרת לא זמינים כעת.",module,Magento_Quote
 Discount,הנחה,module,Magento_Quote
 Tax,מס,module,Magento_Quote
 "New Accounts","חשבונות חדשים",module,Magento_Reports
@@ -1991,7 +2015,9 @@ No,לא,module,Magento_Reports
 "Empty Rows","שורות ריקות",module,Magento_Reports
 "Invalid date specified","תאריך לא חוקי צוין",module,Magento_Reports
 Refresh,רענן,module,Magento_Reports
+"Show Reviews","הצגת ביקורות",module,Magento_Reports
 "Products Report","דו""ח מוצרים",module,Magento_Reports
+Downloads,הורדות,module,Magento_Reports
 Product,מוצר,module,Magento_Reports
 Link,קישור,module,Magento_Reports
 SKU,מק''ט,module,Magento_Reports
@@ -2155,9 +2181,13 @@ Conditions,תנאים,module,Magento_SalesRule
 "Coupons Information","מידע על קופונים",module,Magento_SalesRule
 "Coupon Qty","כמות קופון",module,Magento_SalesRule
 "Code Length","אורך קוד",module,Magento_SalesRule
+"Code Format","פורמט קוד",module,Magento_SalesRule
+"Code Prefix","קידומת קוד",module,Magento_SalesRule
 "Code Suffix","סיומת קוד",module,Magento_SalesRule
+"If empty no separation.","במידה וריק ללא הפרדה.",module,Magento_SalesRule
 Created,נוצר,module,Magento_SalesRule
 Uses,שימושים,module,Magento_SalesRule
+"Times Used","מספר שימושים",module,Magento_SalesRule
 Delete,מחק,module,Magento_SalesRule
 "Are you sure you want to delete the selected coupon(s)?","האם אתה בטוח שברצונך למחוק את הקופונים שנבחרו?",module,Magento_SalesRule
 Labels,תויות,module,Magento_SalesRule
@@ -2553,10 +2583,13 @@ Country,ארץ,module,Magento_Tax
 Back,חזור,module,Magento_Tax
 Reset,אתחל,module,Magento_Tax
 "Are you sure you want to do this?","אתה בטוח שאתה רוצה לעשות את זה?",module,Magento_Tax
+"Save Rate","שמירת שער",module,Magento_Tax
+"Manage Tax Rules","ניהול כללי המס",module,Magento_Tax
 "Add New Tax Rule","הוספת חוק מס חדש",module,Magento_Tax
 "Save Rule","שמירת חוק",module,Magento_Tax
 "Delete Rule","מחיקת חוק",module,Magento_Tax
 "Save and Continue Edit","שמור והמשך בעריכה",module,Magento_Tax
+"Tax Rule Information","פרטי כללהמס",module,Magento_Tax
 Name,שם,module,Magento_Tax
 "Tax Rate","שיעור מס",module,Magento_Tax
 Priority,עדיפות,module,Magento_Tax
@@ -2790,6 +2823,7 @@ Resources,משאבים,module,Magento_User
 "Retail Ground","קמונעאי בסיס",module,Magento_Usps
 "Library Mail","ספריית דואר",module,Magento_Usps
 "First-Class Mail Large Postcards","גלויות דואר מדרגה ראשונה גדולים",module,Magento_Usps
+"Priority Mail Hold For Pickup","עדיפות דואר בהמתנה לאיסוף",module,Magento_Usps
 Yes,כן,module,Magento_Usps
 No,לא,module,Magento_Usps
 None,ללא,module,Magento_Usps
@@ -3405,6 +3439,7 @@ Enable,אפשר,module,Magento_GoogleAnalytics
 "Account Number","מספר חשבון",module,Magento_GoogleAnalytics
 "Enable Content Experiments","הפעלת תוכן ניסויים",module,Magento_GoogleOptimizer
 "Grouped Product Image","תמונת מוצר מקובץ",module,Magento_GroupedProduct
+Indexer,מאנדקס,module,Magento_Indexer
 Description,תיאור,module,Magento_Indexer
 Mode,מצב,module,Magento_Indexer
 Status,סטטוס,module,Magento_Indexer
@@ -3413,6 +3448,8 @@ Updated,עודכן,module,Magento_Indexer
 "No Integrations Found","אין איטגרציות נמצאו",module,Magento_Integration
 Status,סטטוס,module,Magento_Integration
 "Display Product Count","הצגת מונה מוצרים",module,Magento_LayeredNavigation
+"Maximum number of price intervals is 100","המספר המרבי של מרווחי המחיר הוא 100",module,Magento_LayeredNavigation
+"This setting will be applied when all prices in the specific price interval are equal.","הגדרה זו תחול כאשר כל המחירים במרווח המחירים הספציפי שווים.",module,Magento_LayeredNavigation
 Status,סטטוס,module,Magento_Newsletter
 Delete,מחק,module,Magento_Newsletter
 Email,דואר,module,Magento_Newsletter
@@ -3428,7 +3465,10 @@ Enabled,פעיל,module,Magento_OfflinePayments
 Title,כותרת,module,Magento_OfflinePayments
 "Payment from Applicable Countries","תשלום ממדינות מאושרות",module,Magento_OfflinePayments
 "Minimum Order Total","סך הזמנה מינימלי",module,Magento_OfflinePayments
+"Maximum Order Total","סך ההזמנה המרבי",module,Magento_OfflinePayments
+"Bank Transfer Payment","העברה בנקאית",module,Magento_OfflinePayments
 Instructions,הוראות,module,Magento_OfflinePayments
+"Automatically Invoice All Items","צור חשבונית אוטומטית לכל המוצרים",module,Magento_OfflinePayments
 Enabled,פעיל,module,Magento_OfflineShipping
 Price,מחיר,module,Magento_OfflineShipping
 "Handling Fee","דמי טיפול",module,Magento_OfflineShipping
@@ -3456,7 +3496,10 @@ Login,כניסה,module,Magento_Paypal
 "General Options","אפשרויות כלליות",module,Magento_Persistent
 "Enable Persistence","לאפשר שימור נתונים",module,Magento_Persistent
 "Enable ""Remember Me""","אפשר ""זכור אותי""",module,Magento_Persistent
+"Persist Shopping Cart","עגלת קניות תמידית",module,Magento_Persistent
 "Product Alerts","התראות מוצר",module,Magento_ProductAlert
+"Allow Alert When Product Price Changes","אפשר התראה כאשר מחיר המוצר משתנה",module,Magento_ProductAlert
+"Price Alert Email Template","תבנית דואר אלקטרוני להתראות מחיר",module,Magento_ProductAlert
 Frequency,תדירות,module,Magento_ProductAlert
 "Start Time","שעת התחלה",module,Magento_ProductAlert
 "Error Email Template","שגיאת תבנית דואר אלקטרוני",module,Magento_ProductAlert
