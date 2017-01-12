@@ -1365,7 +1365,7 @@ State/Province,מדינה/מחוז,module,Magento_Checkout
 "Out of stock","אזל מהמלאי",module,Magento_Checkout
 "We can't find the quote item.","אי אפשר למצוא את הפריט.",module,Magento_Checkout
 "We cannot configure the product.","אנחנו לא יכולים להגדיר את המוצר.",module,Magento_Checkout
-"You used coupon code ""%1"".","השתמש בקוד הקופון ""%1"".",module,Magento_Checkout
+"You used coupon code ""%1"".","השתמשת בקוד הקופון ""%1"".",module,Magento_Checkout
 "The coupon code ""%1"" is not valid.","קוד הקופון ""%1"" אינו תקין.",module,Magento_Checkout
 "You canceled the coupon code.","ביטלת את קוד הקופון.",module,Magento_Checkout
 "We cannot apply the coupon code.","לא ניתן להחיל את קוד הקופון.",module,Magento_Checkout
@@ -2146,6 +2146,7 @@ Width,רוחב,module,Magento_Dhl
 Regular,רגיל,module,Magento_Dhl
 Specific,ספציפי,module,Magento_Dhl
 "Easy shop","חנות קלה",module,Magento_Dhl
+"Express worldwide","אקספרס ברחבי העולם",module,Magento_Dhl
 "Express 9:00","אקספרס 9:00",module,Magento_Dhl
 "Express 10:30","אקספרס 10:30",module,Magento_Dhl
 Others,אחרים,module,Magento_Dhl
@@ -2521,7 +2522,9 @@ Ground,בסיס,module,Magento_Fedex
 "International Economy","כלכלה בינלאומית",module,Magento_Fedex
 "International Priority","עדיפות בינלאומית",module,Magento_Fedex
 "Priority Overnight","עדיפות בין לילה",module,Magento_Fedex
+"Smart Post","דואר חכם",module,Magento_Fedex
 "Regular Pickup","איסוף רגיל",module,Magento_Fedex
+"Business Service Center","מרכז שירות עסקי",module,Magento_Fedex
 "Not Required","לא נדרש",module,Magento_Fedex
 Adult,מבוגר,module,Magento_Fedex
 Direct,ישיר,module,Magento_Fedex
@@ -2618,7 +2621,10 @@ Import,ייבא,module,Magento_ImportExport
 "Import Settings","הגדרות ייבוא",module,Magento_ImportExport
 "Import Behavior","התנהגות ייבוא",module,Magento_ImportExport
 "Field separator","מפריד השדות",module,Magento_ImportExport
+"Multiple value separator","מפריד ערכים מרובים",module,Magento_ImportExport
 "File to Import","קובץ לייבוא",module,Magento_ImportExport
+"Select File to Import","בחירת קובץ לייבוא",module,Magento_ImportExport
+"Download Sample File","הורדת קובץ לדוגמה",module,Magento_ImportExport
 Import/Export,ייבוא/ייצוא,module,Magento_ImportExport
 History,היסטוריה,module,Magento_ImportExport
 "Import History","היסטורית ייבוא",module,Magento_ImportExport
@@ -2657,7 +2663,10 @@ Name,שם,module,Magento_Integration
 Email,"דואר אלקטרוני",module,Magento_Integration
 "Current User Identity Verification","אימות זהות המשתמש הנוכחי",module,Magento_Integration
 "Your Password","הסיסמה שלך",module,Magento_Integration
+"Integration Details","פרטי הטמעה",module,Magento_Integration
 "Basic Settings","הגדרות בסיסיות",module,Magento_Integration
+"Consumer Key","מפתח הצרכן",module,Magento_Integration
+"Uninstall the extension to remove this integration","הסר את ההרחבה על מנת להסיר את האינטגרציה",module,Magento_Integration
 Remove,הסר,module,Magento_Integration
 View,הצגה,module,Magento_Integration
 Edit,ערוך,module,Magento_Integration
@@ -2717,6 +2726,7 @@ Database,"בסיס נתונים",module,Magento_MediaStorage
 "File system","מערכת קבצים",module,Magento_MediaStorage
 "Unable to save file ""%1"" at ""%2""","אין אפשרות לשמור את הקובץ ""%1"" ב- ""%2""",module,Magento_MediaStorage
 "Path ""%value%"" is protected and cannot be used.","נתיב ""%value%"" מוגן ולא ניתן לשימוש.",module,Magento_MediaStorage
+"File with an extension ""%value%"" is protected and cannot be uploaded","קובץ עם הסיומת ""%value%"" מוגן ולא ניתן להעלאה",module,Magento_MediaStorage
 "Unable to create directory: %1","לא ניתן ליצור תיקיה: %1",module,Magento_MediaStorage
 "To see product price, add this item to your cart. You can always remove it later.","כדי לראות את מחיר המוצר, הוסף פריט זה לסל שלך. תוכל להסיר את הפריט מאוחר יותר.",module,Magento_Msrp
 "See price before order confirmation.","ראה מחיר לפני אישור ההזמנה.",module,Magento_Msrp
@@ -2743,8 +2753,14 @@ Total,"סה""כ",module,Magento_Multishipping
 "Edit Shipping Address","עריכת כתובת משלוח",module,Magento_Multishipping
 "Create Billing Address","ליצור כתובת חיוב",module,Magento_Multishipping
 "Create Shipping Address","ליצור כתובת למשלוח",module,Magento_Multishipping
+"Please check shipping address information.","יש לבדוק את פרטי כתובת המשלוח.",module,Magento_Multishipping
 "Please check billing address information.","יש לבדוק את פרטי כתובת החיוב.",module,Magento_Multishipping
+"Please select shipping methods for all addresses.","נא לבחור שיטת משלוח עבור כל הכתובות.",module,Magento_Multishipping
+"A payment method is not defined.","שיטת תשלום אינה מוגדרת.",module,Magento_Multishipping
+"Please specify a payment method.","נא לציין שיטת תשלום.",module,Magento_Multishipping
+"Please check shipping addresses information.","יש לבדוק את פרטי כתובות המשלוח.",module,Magento_Multishipping
 "Select Addresses","בחר כתובות",module,Magento_Multishipping
+"Shipping Information","פרטי משלוח",module,Magento_Multishipping
 "Billing Information","מידע אודות החיוב",module,Magento_Multishipping
 "Place Order","ביצוע הזמנה",module,Magento_Multishipping
 "Select Address","בחר כתובת",module,Magento_Multishipping
@@ -2787,6 +2803,7 @@ Subject,נושא,module,Magento_Newsletter
 Message,הודעה,module,Magento_Newsletter
 Start,התחלה,module,Magento_Newsletter
 Pause,השהה,module,Magento_Newsletter
+"Do you really want to cancel the queue?","האם ברצונך לבטל את התור?",module,Magento_Newsletter
 Cancel,ביטול,module,Magento_Newsletter
 Resume,המשך,module,Magento_Newsletter
 Preview,"תצוגה מקדימה",module,Magento_Newsletter
@@ -2853,9 +2870,14 @@ Region/State,אזור/מדינה,module,Magento_OfflineShipping
 "Order Subtotal (and above)","סכום כולל משני של הזמנה (ומעלה)",module,Magento_OfflineShipping
 "# of Items (and above)","# של פריטים (ומעלה)",module,Magento_OfflineShipping
 None,ללא,module,Magento_OfflineShipping
+"Per Item","לכל פריט",module,Magento_OfflineShipping
 "Unable to import data","לא ניתן לייבא נתונים",module,Magento_OfflineShipping
 "We couldn't import this file because of these errors: %1","איננו יכולים לייבא קובץ זה בגלל שגיאות אלה: %1",module,Magento_OfflineShipping
+"Requested column ""%1"" cannot be resolved","לא ניתן לפענח את העמודה המבוקשת %1",module,Magento_OfflineShipping
 "Column ""%1"" not found","עמודה ""%1"" לא נמצאה",module,Magento_OfflineShipping
+"Please correct Country ""%1"" in the Row #%2.","נא לתקן את המדינה ""%1"" בשורה #%2.",module,Magento_OfflineShipping
+"Please correct Region/State ""%1"" in the Row #%2.","נא לתקן את האיזור/מדינה ""%1"" בשורה #%2.",module,Magento_OfflineShipping
+"Please correct Shipping Price ""%1"" in the Row #%2.","נא לתקן את מחיר המשלוח ""%1"" בשורה #%2.",module,Magento_OfflineShipping
 No,לא,module,Magento_OfflineShipping
 "Export VCL for Varnish %1","ייצוא VSL עבור Varnish %1",module,Magento_PageCache
 "Ttl value ""%1"" is not valid. Please use only numbers equal or greater than zero.","ערך של Ttl ״%1״ אינו חוקי. אנא השתמש רק במספרים שווים או גדולים מ- 0.",module,Magento_PageCache
@@ -2925,9 +2947,12 @@ Cancel,ביטול,module,Magento_Paypal
 "Billing Agreement #%1","הוראת קבע #%1",module,Magento_Paypal
 "General Information","מידע כללי",module,Magento_Paypal
 Order,הזמנה,module,Magento_Paypal
+Purchased,נרכש,module,Magento_Paypal
 "Bill-to Name","שלח חיוב לשם",module,Magento_Paypal
 "Ship-to Name","שם הנמען",module,Magento_Paypal
 "Order Total","סה""כ להזמנה",module,Magento_Paypal
+"View Transaction Details","צפיה בפרטי הזמנה",module,Magento_Paypal
+"PayPal Fee Information","פרטי עמלות PayPal",module,Magento_Paypal
 Configure,הגדר,module,Magento_Paypal
 Close,סגור,module,Magento_Paypal
 "Learn More","מידע נוסף",module,Magento_Paypal
@@ -3007,6 +3032,7 @@ or,או,module,Magento_Paypal
 Price:,מחיר:,module,Magento_ProductAlert
 "Click here to stop alerts for this product.","לחץ כאן כדי להפסיק לקבל התראות עבור מוצר זה.",module,Magento_ProductAlert
 "In stock alert! We wanted you to know that these products are now available:","התראת מלאי! רצינו לעדכן אותך כי המוצרים הללו זמינים:",module,Magento_ProductAlert
+"Unsubscribe from all stock alerts","הסרה מכל התראות המלאי",module,Magento_ProductAlert
 Url,"כתובת Url",module,Magento_ProductVideo
 Title,כותרת,module,Magento_ProductVideo
 Description,תיאור,module,Magento_ProductVideo
@@ -3023,6 +3049,7 @@ Role,תפקיד,module,Magento_ProductVideo
 Hidden,מוסתר,module,Magento_ProductVideo
 "Image Size","גודל תמונה",module,Magento_ProductVideo
 "Image Resolution","רזולוציית תמונה",module,Magento_ProductVideo
+"{width}^{height} px","{width} ^{height} פיקסלים",module,Magento_ProductVideo
 Title:,כותרת:,module,Magento_ProductVideo
 Duration:,משך:,module,Magento_ProductVideo
 "Unable to save address. Please check input data.","לא ניתן לשמור את הכתובת שהוכנסה. אנא בדוק את הפרטים שהוכנסו.",module,Magento_Quote
@@ -3039,6 +3066,9 @@ Duration:,משך:,module,Magento_ProductVideo
 "Shipping & Handling (%1)","משלוח וטיפול (%1)",module,Magento_Quote
 Shipping,משלוח,module,Magento_Quote
 Subtotal,"סכום ביניים",module,Magento_Quote
+"An item option with code %1 already exists.","אופציית הפריט עם קוד %1 כבר קיימת.",module,Magento_Quote
+"Item qty declaration error","שגיאה בהצהרת כמות מוצר",module,Magento_Quote
+"Some of the selected options are not currently available.","חלק מהאפשרויות שבחרת לא זמינים כעת.",module,Magento_Quote
 "Cart %1 doesn't contain item  %2","עגלה %1 אינו מכילה פריט %2",module,Magento_Quote
 Discount,הנחה,module,Magento_Quote
 Tax,מס,module,Magento_Quote
@@ -3059,7 +3089,9 @@ No,לא,module,Magento_Reports
 "Invalid date specified","תאריך לא חוקי צוין",module,Magento_Reports
 Refresh,רענן,module,Magento_Reports
 "We can't find records for this period.","איננו יכולים למצוא דוחות עבור תקופה זו.",module,Magento_Reports
+"Show Reviews","הצגת ביקורות",module,Magento_Reports
 "Products Report","דו""ח מוצרים",module,Magento_Reports
+Downloads,הורדות,module,Magento_Reports
 Product,מוצר,module,Magento_Reports
 Link,קישור,module,Magento_Reports
 SKU,מק''ט,module,Magento_Reports
@@ -3252,11 +3284,15 @@ Conditions,תנאים,module,Magento_SalesRule
 "Manage Coupon Codes","ניהול קודי קופון",module,Magento_SalesRule
 "Coupon Qty","כמות קופון",module,Magento_SalesRule
 "Code Length","אורך קוד",module,Magento_SalesRule
+"Code Format","פורמט קוד",module,Magento_SalesRule
+"Code Prefix","קידומת קוד",module,Magento_SalesRule
 "Code Suffix","סיומת קוד",module,Magento_SalesRule
+"If empty no separation.","במידה וריק ללא הפרדה.",module,Magento_SalesRule
 Created,נוצר,module,Magento_SalesRule
 Uses,שימושים,module,Magento_SalesRule
 No,לא,module,Magento_SalesRule
 Yes,כן,module,Magento_SalesRule
+"Times Used","מספר שימושים",module,Magento_SalesRule
 "Are you sure you want to delete the selected coupon(s)?","האם אתה בטוח שברצונך למחוק את הקופונים שנבחרו?",module,Magento_SalesRule
 Labels,תויות,module,Magento_SalesRule
 Rule,כלל,module,Magento_SalesRule
@@ -3588,6 +3624,9 @@ View/Edit,הצגה/עריכה,module,Magento_Search
 None,ללא,module,Magento_Security
 "some error",תקלה,module,Magento_Security
 "IP Address","‏כתובת IP",module,Magento_Security
+"Time of session start","שעת התחלת סשן",module,Magento_Security
+"Log out all other sessions","ניתוק כל הפעולות האחרות",module,Magento_Security
+"This computer is using IP address %1.","מחשב זה משתמש בכתובת IP %1.",module,Magento_Security
 "Page not found.","העמוד לא נמצא.",module,Magento_SendFriend
 "You can't send messages more than %1 times an hour.","לא ניתן לשלוח יותר מ-%1 הודעות בשעה.",module,Magento_SendFriend
 "The link to a friend was sent.","הקישור לחבר נשלח.",module,Magento_SendFriend
@@ -3602,7 +3641,11 @@ None,ללא,module,Magento_Security
 "Invalid Sender Information","פרטי שולח לא חוקיים",module,Magento_SendFriend
 "IP Address","‏כתובת IP",module,Magento_SendFriend
 "Cookie (unsafe)","Cookie(לא מאובטח)",module,Magento_SendFriend
+"No Product Exception.","אין חריגת מוצר.",module,Magento_SendFriend
+"Some error",תקלה,module,Magento_SendFriend
+"Localized Exception.","חריגת שפה.",module,Magento_SendFriend
 Exception.,חריגה.,module,Magento_SendFriend
+"Remove Recipent","הסרת נמען",module,Magento_SendFriend
 Remove,הסר,module,Magento_SendFriend
 Name,שם,module,Magento_SendFriend
 Email,דואר,module,Magento_SendFriend
@@ -3637,6 +3680,7 @@ Print,הדפס,module,Magento_Shipping
 "Please specify a carrier.","נא לציין מוביל.",module,Magento_Shipping
 "Please enter a tracking number.","נא הזן מספר מעקב.",module,Magento_Shipping
 Shipments,משלוחים,module,Magento_Shipping
+"We can't initialize shipment for adding tracking number.","אין אפשרות לאתחל משלוח עבור הוספת מספר המעקב.",module,Magento_Shipping
 "Cannot add tracking number.","אין אפשרות להוסיף מספר המעקב.",module,Magento_Shipping
 "You created the shipping label.","יצירת את תווית המשלוח.",module,Magento_Shipping
 "An error occurred while creating shipping label.","אירעה שגיאה בעת יצירת תווית המשלוח.",module,Magento_Shipping
@@ -3881,10 +3925,13 @@ Country,ארץ,module,Magento_Tax
 Back,חזור,module,Magento_Tax
 Reset,אתחל,module,Magento_Tax
 "Are you sure you want to do this?","אתה בטוח שאתה רוצה לעשות את זה?",module,Magento_Tax
+"Save Rate","שמירת שער",module,Magento_Tax
+"Manage Tax Rules","ניהול כללי המס",module,Magento_Tax
 "Add New Tax Rule","הוספת חוק מס חדש",module,Magento_Tax
 "Save Rule","שמירת חוק",module,Magento_Tax
 "Delete Rule","מחיקת חוק",module,Magento_Tax
 "Save and Continue Edit","שמור והמשך בעריכה",module,Magento_Tax
+"Tax Rule Information","פרטי כללהמס",module,Magento_Tax
 Name,שם,module,Magento_Tax
 "Tax Rate","שיעור מס",module,Magento_Tax
 Priority,עדיפות,module,Magento_Tax
@@ -4193,6 +4240,7 @@ Resources,משאבים,module,Magento_User
 "Retail Ground","קמונעאי בסיס",module,Magento_Usps
 "Library Mail","ספריית דואר",module,Magento_Usps
 "First-Class Mail Large Postcards","גלויות דואר מדרגה ראשונה גדולים",module,Magento_Usps
+"Priority Mail Hold For Pickup","עדיפות דואר בהמתנה לאיסוף",module,Magento_Usps
 Yes,כן,module,Magento_Usps
 No,לא,module,Magento_Usps
 "For some reason we can't retrieve tracking info right now.","מסיבה כלשהי אנחנו אין אפשרות לשחזר את מספר החבילה עכשיו.",module,Magento_Usps
@@ -4508,6 +4556,9 @@ Delete,מחק,module,Magento_GiftMessage
 "Edit Your Cart","ערוך את עגלת הקניות שלך",module,Magento_Payment
 "Continue to PayPal","המשך אל PayPal",module,Magento_Paypal
 "Check 'Remember Me' to access your shopping cart on this computer even if you are not signed in.","סמן את 'זכור אותי' כדי לגשת עגלת הקניות שלך במחשב זה, גם אם אתה לא מחובר.",module,Magento_Persistent
+"Product alerts cron warnings","אזהרות cron של התראות מוצר",module,Magento_ProductAlert
+"Products price changed alert","התראת שינוי מחיר מוצר",module,Magento_ProductAlert
+"Products back in stock alert","התראת חזרת מוצר למלאי",module,Magento_ProductAlert
 "Apply Discount Code","שימוש בקוד הנחה",module,Magento_SalesRule
 "Apply Discount",ממש,module,Magento_SalesRule
 "Thank you for your order from %store_name.","תודה על הזמנתך מ- %store_name.",module,Magento_Sales
@@ -4662,6 +4713,8 @@ Strong,חזק,module,Magento_Customer
 "Please choose a payment method.","אנא בחר שיטת תשלום.",module,Magento_Multishipping
 "Video Error","שגיאת וידאו",module,Magento_ProductVideo
 "Unknown video type","סוג וידאו לא ידוע",module,Magento_ProductVideo
+"Invalid video url","קישור וידאו לא תקין",module,Magento_ProductVideo
+"Youtube API key is invalid","מפתח API של YouTube אינו חוקי",module,Magento_ProductVideo
 "New Video","וידאו חדש",module,Magento_ProductVideo
 Save,שמור,module,Magento_ProductVideo
 Cancel,ביטול,module,Magento_ProductVideo
@@ -5438,6 +5491,8 @@ Type,סוג,module,Magento_GroupedProduct
 Quantity,כמות,module,Magento_GroupedProduct
 AttributeSetText,"טקסט סט תכונות",module,Magento_GroupedProduct
 StatusText,"טקסט סטטוס",module,Magento_GroupedProduct
+"Change indexer mode","שינוי מצב בונה האינדקסים",module,Magento_Indexer
+Indexer,מאנדקס,module,Magento_Indexer
 Description,תיאור,module,Magento_Indexer
 Mode,מצב,module,Magento_Indexer
 Status,סטטוס,module,Magento_Indexer
@@ -5445,7 +5500,11 @@ Updated,עודכן,module,Magento_Indexer
 "We couldn't find any records.","לא הצלחנו למצוא רשומות.",module,Magento_Integration
 Status,סטטוס,module,Magento_Integration
 "Display Product Count","הצגת מונה מוצרים",module,Magento_LayeredNavigation
+"Maximum number of price intervals is 100","המספר המרבי של מרווחי המחיר הוא 100",module,Magento_LayeredNavigation
+"This setting will be applied when all prices in the specific price interval are equal.","הגדרה זו תחול כאשר כל המחירים במרווח המחירים הספציפי שווים.",module,Magento_LayeredNavigation
 "Storage Configuration for Media","הגדרת אחסון עבור מדיה",module,Magento_MediaStorage
+"After selecting a new media storage location, press the Synchronize button to transfer all media to that location. Media will not be available in the new location until the synchronization process is complete.","לאחר בחירת מיקום אחסון מדיה חדשה, לחץ על לחצן סנכרן כדי להעביר את כל המדיה למיקום זה. המדיה לא תהיה זמינה במיקום החדש עד להשלמת תהליך הסינכרון.",module,Magento_MediaStorage
+"Environment Update Time","זמן עדכון סביבה",module,Magento_MediaStorage
 "Minimum Advertised Price","מינימום עבור מחיר מפורסם",module,Magento_Msrp
 "Enable MAP","אפשר MAP",module,Magento_Msrp
 "Display Actual Price","הצג מחיר עכשווי",module,Magento_Msrp
@@ -5478,7 +5537,10 @@ Enabled,פעיל,module,Magento_OfflinePayments
 Title,כותרת,module,Magento_OfflinePayments
 "Payment from Applicable Countries","תשלום ממדינות מאושרות",module,Magento_OfflinePayments
 "Minimum Order Total","סך הזמנה מינימלי",module,Magento_OfflinePayments
+"Maximum Order Total","סך ההזמנה המרבי",module,Magento_OfflinePayments
+"Bank Transfer Payment","העברה בנקאית",module,Magento_OfflinePayments
 Instructions,הוראות,module,Magento_OfflinePayments
+"Automatically Invoice All Items","צור חשבונית אוטומטית לכל המוצרים",module,Magento_OfflinePayments
 Enabled,פעיל,module,Magento_OfflineShipping
 Price,מחיר,module,Magento_OfflineShipping
 "Handling Fee","דמי טיפול",module,Magento_OfflineShipping
@@ -5509,7 +5571,11 @@ Login,כניסה,module,Magento_Paypal
 "General Options","אפשרויות כלליות",module,Magento_Persistent
 "Enable Persistence","לאפשר שימור נתונים",module,Magento_Persistent
 "Enable ""Remember Me""","אפשר ""זכור אותי""",module,Magento_Persistent
+"Clear Persistence on Sign Out","התמדה ברורה על כניסה למערכת",module,Magento_Persistent
+"Persist Shopping Cart","עגלת קניות תמידית",module,Magento_Persistent
 "Product Alerts","התראות מוצר",module,Magento_ProductAlert
+"Allow Alert When Product Price Changes","אפשר התראה כאשר מחיר המוצר משתנה",module,Magento_ProductAlert
+"Price Alert Email Template","תבנית דואר אלקטרוני להתראות מחיר",module,Magento_ProductAlert
 Frequency,תדירות,module,Magento_ProductAlert
 "Start Time","שעת התחלה",module,Magento_ProductAlert
 "Error Email Template","שגיאת תבנית דואר אלקטרוני",module,Magento_ProductAlert
@@ -5566,6 +5632,8 @@ Synonyms,"ביטויים נרדפים",module,Magento_Search
 Website,אתר,module,Magento_Search
 "Delete items","מחיקת פריטים",module,Magento_Search
 "Are you sure you want to delete the selected synonym groups?","האם ברצונך למחוק את קבוצת הביטויים הנרדפים שנבחרה?",module,Magento_Search
+"Password Reset Protection Type","סוג הגנת איפוס סיסמה",module,Magento_Security
+"Min Time Between Password Reset Requests","זמן מינימלי בין בקשות איפוס סיסמה",module,Magento_Security
 "Email Templates","תבניות אימייל",module,Magento_SendFriend
 Enabled,פעיל,module,Magento_SendFriend
 "Shipping Settings Section","סעיף ההגדרות משלוח",module,Magento_Shipping
