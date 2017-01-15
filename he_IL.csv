@@ -1380,6 +1380,7 @@ Width,רוחב,module,Magento_Dhl
 Regular,רגיל,module,Magento_Dhl
 Specific,ספציפי,module,Magento_Dhl
 "Easy shop","חנות קלה",module,Magento_Dhl
+"Express easy","אקספרס פשוט",module,Magento_Dhl
 "Express worldwide","אקספרס ברחבי העולם",module,Magento_Dhl
 "Express 9:00","אקספרס 9:00",module,Magento_Dhl
 "Express 10:30","אקספרס 10:30",module,Magento_Dhl
@@ -1387,7 +1388,20 @@ Others,אחרים,module,Magento_Dhl
 "Same day","באותו היום",module,Magento_Dhl
 "Express 12:00","אקספרס 12:00",module,Magento_Dhl
 "Customer services","שירותי לקוחות",module,Magento_Dhl
+"Error #%1 : %2","שגיאה #%1: %2",module,Magento_Dhl
+"Zero shipping charge for '%1'","אפס עלות המשלוח עבור '%1'",module,Magento_Dhl
+"Cannot identify measure unit for %1","אין אפשרות לזהות את יחידת המידה עבור %1",module,Magento_Dhl
+"Cannot identify weight unit for %1","אין אפשרות לזהות יחידת משקל %1",module,Magento_Dhl
+"There is no items in this order","אין פריטים לפי הזמנה",module,Magento_Dhl
 "Please, specify origin country","אנא ציין ארץ מוצא",module,Magento_Dhl
+Documents,מסמכים,module,Magento_Dhl
+"Non Documents","אינם מסמכים",module,Magento_Dhl
+"Height, width and length should be equal or greater than %1","גובה, רוחב, אורך צריך להיות שווה או גדול מ- %1",module,Magento_Dhl
+"Wrong Region","אזור שגוי",module,Magento_Dhl
+"Unable to retrieve tracking","אין אפשרות לשחזר מספר מעקב",module,Magento_Dhl
+"Response is in the wrong format","התגובה היא בפורמט שגוי",module,Magento_Dhl
+"No packages for request","אין חבילות עבור הבקשה",module,Magento_Dhl
+"Non documents","אינם מסמכים",module,Magento_Dhl
 None,ללא,module,Magento_Dhl
 State/Province,מדינה/מחוז,module,Magento_Directory
 "--Please Select--","-- נא לבחור --",module,Magento_Directory
@@ -1939,17 +1953,25 @@ Order,הזמנה,module,Magento_Paypal
 Configure,הגדר,module,Magento_Paypal
 Close,סגור,module,Magento_Paypal
 "Learn More","מידע נוסף",module,Magento_Paypal
+"View Demo","צפה בהדגמה",module,Magento_Paypal
 "See terms","צפייה בתנאים",module,Magento_Paypal
 "You will be redirected to the PayPal website.","בסיום ההזמנה תנותב לדף המאובטח של פייפאל לביצוע התשלום.",module,Magento_Paypal
 "Incl. Tax","כולל מס",module,Magento_Paypal
 "Billing Information","פרטי חיוב",module,Magento_Paypal
 "Shipping Information","פרטי משלוח",module,Magento_Paypal
+Sales,מכירות,module,Magento_Paypal
+"View Transaction","צפייה בעסקה",module,Magento_Paypal
 "Express Checkout has been canceled.","תשלום באמצעות PayPal בוטל.",module,Magento_Paypal
 "PayPal response hasn't required fields.","תגובת PayPal אינם שדות חובה.",module,Magento_Paypal
 Active,פעיל,module,Magento_Paypal
 Dynamic,דינמי,module,Magento_Paypal
+Sale,מכירה,module,Magento_Paypal
 Yes,כן,module,Magento_Paypal
 No,לא,module,Magento_Paypal
+Auto,אוטומטי,module,Magento_Paypal
+"Ask Customer","שאל את הלקוח",module,Magento_Paypal
+Complaint,תלונה,module,Magento_Paypal
+Dispute,מחלוקת,module,Magento_Paypal
 "Start Date","תאריך התחלה",module,Magento_Paypal
 Custom,מותאם,module,Magento_Paypal
 "--Please Select--","--אנא בחר",module,Magento_Paypal
@@ -1961,7 +1983,11 @@ Customer,לקוח,module,Magento_Paypal
 "New Billing Agreement","הסכם חיוב חדש",module,Magento_Paypal
 "You will be redirected to the payment system website.","תנותב למערכת התשלום של האתר.",module,Magento_Paypal
 Create...,יצירה...,module,Magento_Paypal
+"Please select a shipping method...","אנא בחר שיטת המשלוח...",module,Magento_Paypal
 Edit,ערוך,module,Magento_Paypal
+"Edit Payment Information","עריכת פרטי התשלום",module,Magento_Paypal
+"Items in Your Shopping Cart","פריטים בעגלת הקניות שלך",module,Magento_Paypal
+"Edit Shopping Cart","עריכת עגלת קניות",module,Magento_Paypal
 Price,מחיר,module,Magento_Paypal
 Qty,כמות,module,Magento_Paypal
 Subtotal,"סכום ביניים",module,Magento_Paypal
@@ -3392,6 +3418,22 @@ Type,סוג,module,Magento_Customer
 "Developer Client Restrictions","הגבלותת מפתח צד-לקוח",module,Magento_Developer
 "Allowed IPs (comma separated)","כתובות IP מותרות (מופרדות בפסיק)",module,Magento_Developer
 "Leave empty for access from any location.","השאר ריק לגישה מכל מקום.",module,Magento_Developer
+"Enabled for Checkout","מופעל במשך לקופה",module,Magento_Dhl
+"Gateway URL","כתובת gateway",module,Magento_Dhl
+Title,כותרת,module,Magento_Dhl
+"Access ID","מזהה גישה",module,Magento_Dhl
+Password,סיסמה,module,Magento_Dhl
+"Account Number","מספר חשבון",module,Magento_Dhl
+"Content Type","סוגי תוכן",module,Magento_Dhl
+"Calculate Handling Fee","חישוב דמי טיפול",module,Magento_Dhl
+"Handling Applied","הטיפול מיושם",module,Magento_Dhl
+"""Per Order"" allows a single handling fee for the entire order. ""Per Package"" allows an individual handling fee for each package.","""לפי הזמנה"" מאפשר תשלום טיפול יחיד עבור ההזמנה כולה. ""עבור חבילה"" מאפשר תשלום טיפול אישי עבור כל חבילה.",module,Magento_Dhl
+"Handling Fee","דמי טיפול",module,Magento_Dhl
+"Divide Order Weight","המשקל החלקי של ההזמנה",module,Magento_Dhl
+"Weight Unit","יחידת משקל",module,Magento_Dhl
+Size,גודל,module,Magento_Dhl
+"Allowed Methods","שיטות מותרות",module,Magento_Dhl
+"Displayed Error Message","הצגת הודעת שגיאה",module,Magento_Dhl
 "Sort Order","סדר מיון",module,Magento_Dhl
 "Currency Setup","הגדרת מטבע",module,Magento_Directory
 "Currency Options","אפשרויות מטבע",module,Magento_Directory
