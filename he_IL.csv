@@ -1710,6 +1710,7 @@ Import,ייבא,module,Magento_ImportExport
 Import/Export,ייבוא/ייצוא,module,Magento_ImportExport
 Status,סטטוס,module,Magento_ImportExport
 "in rows:",בשורות:,module,Magento_ImportExport
+"Begin export of %1","התחל ייצוא של %1",module,Magento_ImportExport
 "in rows",בשורות,module,Magento_ImportExport
 label,תווית,module,Magento_ImportExport
 "Indexer Management","ניהול אינדקסים",module,Magento_Indexer
@@ -1801,8 +1802,13 @@ Qty,כמות,module,Magento_Multishipping
 "Remove Item","הסר פריט",module,Magento_Multishipping
 "Remove item","הסר פריט",module,Magento_Multishipping
 "Billing Address","כתובת חיוב",module,Magento_Multishipping
+Change,שינוי,module,Magento_Multishipping
+"Payment Method","שיטת התשלום",module,Magento_Multishipping
+"Back to Shipping Information","חזרה למידע עבור השילוח",module,Magento_Multishipping
+"Other items in your order","פריטים אחרים בהזמנה שלך",module,Magento_Multishipping
 "Edit Items","עריכת פריטים",module,Magento_Multishipping
 "Product Name","שם מוצר",module,Magento_Multishipping
+"Shipping To","משלוח עבור",module,Magento_Multishipping
 "Incl. Tax","כולל מס",module,Magento_Multishipping
 Price,מחיר,module,Magento_Multishipping
 Subtotal,"סכום ביניים",module,Magento_Multishipping
@@ -1894,6 +1900,7 @@ None,ללא,module,Magento_OfflineShipping
 "Please correct Region/State ""%1"" in the Row #%2.","נא לתקן את האיזור/מדינה ""%1"" בשורה #%2.",module,Magento_OfflineShipping
 "Please correct Shipping Price ""%1"" in the Row #%2.","נא לתקן את מחיר המשלוח ""%1"" בשורה #%2.",module,Magento_OfflineShipping
 "Duplicate Row #%1 (Country ""%2"", Region/State ""%3"", Zip ""%4"" and Value ""%5"")","ערך כפול #%1 (מדינה ""%2"", אזור/מדינה ""%3"", מיקוד ""%4"", ערך ""%5"")",module,Magento_OfflineShipping
+"Free Shipping","משלוח חינם",module,Magento_OfflineShipping
 No,לא,module,Magento_OfflineShipping
 "Ttl value ""%1"" is not valid. Please use only numbers equal or greater than zero.","ערך של Ttl ״%1״ אינו חוקי. אנא השתמש רק במספרים שווים או גדולים מ- 0.",module,Magento_PageCache
 "Built-in Application (Not Recommended for Production Use)","אפליקציות מובנות(לא מומלץ לשימוש בפרודקשן)",module,Magento_PageCache
@@ -1959,8 +1966,10 @@ Close,סגור,module,Magento_Paypal
 "Incl. Tax","כולל מס",module,Magento_Paypal
 "Billing Information","פרטי חיוב",module,Magento_Paypal
 "Shipping Information","פרטי משלוח",module,Magento_Paypal
+Reports,"דו""חות",module,Magento_Paypal
 Sales,מכירות,module,Magento_Paypal
 "View Transaction","צפייה בעסקה",module,Magento_Paypal
+"The billing agreement ""%1"" has been canceled.","בוטל ההסכם החיוב ""%1"".",module,Magento_Paypal
 "Express Checkout has been canceled.","תשלום באמצעות PayPal בוטל.",module,Magento_Paypal
 "PayPal response hasn't required fields.","תגובת PayPal אינם שדות חובה.",module,Magento_Paypal
 Active,פעיל,module,Magento_Paypal
@@ -2062,8 +2071,12 @@ Detail,"מידע מפורט",module,Magento_Reports
 Created,נוצר,module,Magento_Reports
 "Products Reviews","סקירות מוצר",module,Magento_Reports
 Subtotal,"סכום ביניים",module,Magento_Reports
+"Price Rule","כלל מחיר",module,Magento_Reports
+Uses,שימושים,module,Magento_Reports
+"Sales Total","סה""כ מכירות",module,Magento_Reports
 Discount,הנחה,module,Magento_Reports
 Orders,הזמנות,module,Magento_Reports
+"Paid Invoices","חשבוניות ששולמו",module,Magento_Reports
 Items,פריטים,module,Magento_Reports
 Revenue,הכנסה,module,Magento_Reports
 Tax,מס,module,Magento_Reports
@@ -2124,6 +2137,7 @@ Websites,אתרים,module,Magento_Review
 "Add New Rating","הוסף דירוג חדש",module,Magento_Review
 "Save Rating","שמור דירוג",module,Magento_Review
 "Delete Rating","מחק דירוג",module,Magento_Review
+"Edit Rating #%1","עריכת דירוג #%1",module,Magento_Review
 "New Rating","דירוג חדש",module,Magento_Review
 "Rating Title","כותרת דירוג",module,Magento_Review
 "Default Value","ערך ברירת מחדל",module,Magento_Review
@@ -2226,7 +2240,10 @@ Inactive,"לא פעיל",module,Magento_SalesRule
 "Usage limit enforced for logged in customers only.","הגבלת השימוש נאכפת עבור לקוחות שהתחברו בלבד.",module,Magento_SalesRule
 Rule,כלל,module,Magento_SalesRule
 Promotions,מבצעים,module,Magento_SalesRule
+"Rule is not defined","כלל לא מוגדר",module,Magento_SalesRule
 Catalog,קטלוג,module,Magento_SalesRule
+Alphanumeric,אלפאנומרי,module,Magento_SalesRule
+Numeric,ממוספר,module,Magento_SalesRule
 Discount,הנחה,module,Magento_SalesRule
 Subtotal,"סכום ביניים",module,Magento_SalesRule
 "Credit Memos","חשבוניות זיכוי",module,Magento_Sales
@@ -2622,6 +2639,8 @@ Priority,עדיפות,module,Magento_Tax
 "Sort Order","סדר מיון",module,Magento_Tax
 Sales,מכירות,module,Magento_Tax
 Tax,מס,module,Magento_Tax
+"Edit Tax Rate","לערוך שיעורי מס",module,Magento_Tax
+"New Tax Rule","חוק מס חדש",module,Magento_Tax
 "Billing Address","כתובת חיוב",module,Magento_Tax
 Code,קוד,module,Magento_Tax
 Subtotal,"סכום ביניים",module,Magento_Tax
@@ -2705,6 +2724,7 @@ Minute,דקה,module,Magento_Theme
 "UPS Worldwide Express PlusSM","UPS אקספרס פלוס SM ברחבי העולם",module,Magento_Ups
 "Next Day Air Early AM","UPS אווירי עד הבוקר שלמחרת",module,Magento_Ups
 Ground,בסיס,module,Magento_Ups
+Commercial,מסחרי,module,Magento_Ups
 None,ללא,module,Magento_Ups
 label,תווית,module,Magento_Ups
 "Edit URL Rewrite for a Category","ערוך כתובת לשכתוב עבור קטגוריה",module,Magento_UrlRewrite
@@ -3468,6 +3488,8 @@ Updated,עודכן,module,Magento_Email
 Subject,נושא,module,Magento_Email
 "Template Type","סוג התבנית",module,Magento_Email
 Action,פעולה,module,Magento_Email
+Password,סיסמה,module,Magento_Fedex
+"Sandbox Mode","מודול Sandbox",module,Magento_Fedex
 "Sort Order","סדר מיון",module,Magento_Fedex
 Enable,אפשר,module,Magento_GoogleAdwords
 "Conversion ID","מזהה המרה",module,Magento_GoogleAdwords
@@ -3517,7 +3539,9 @@ Price,מחיר,module,Magento_OfflineShipping
 "Sort Order","סדר מיון",module,Magento_OfflineShipping
 Title,כותרת,module,Magento_OfflineShipping
 Type,סוג,module,Magento_OfflineShipping
+Condition,תנאי,module,Magento_OfflineShipping
 Export,ייצוא,module,Magento_OfflineShipping
+"Minimum Order Amount","כמות מינימלית להזמנה",module,Magento_OfflineShipping
 "Caching Application","יישום Cache",module,Magento_PageCache
 "Varnish Configuration","קופיגורציה של Varnish",module,Magento_PageCache
 "Access list","רשימת גישה",module,Magento_PageCache
@@ -3582,7 +3606,11 @@ City,עיר,module,Magento_Shipping
 "Shipping Policy Parameters","פרמטרי מדיניות משלוחים",module,Magento_Shipping
 "Apply custom Shipping Policy","החל מדיניות משלוחים מותאמת אישית",module,Magento_Shipping
 "Shipping Methods","שיטות המשלוח",module,Magento_Shipping
+"CMS Pages Options","אפשרויות דפי CMS",module,Magento_Sitemap
 Enabled,פעיל,module,Magento_Sitemap
+"Error Email Sender","שגיאת שולח דואר אלקטרוני",module,Magento_Sitemap
+"Start Time","שעת התחלה",module,Magento_Sitemap
+"Maximum File Size","גודל קובץ מקסימלי",module,Magento_Sitemap
 Action,פעולה,module,Magento_Sitemap
 Layouts,סידורים,module,Magento_Store
 "Layout building instructions.","הוראות בנייה של סדר פריסת התצוגה.",module,Magento_Store
