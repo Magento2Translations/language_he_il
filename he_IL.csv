@@ -2591,6 +2591,7 @@ Status,סטטוס,module,Magento_ImportExport
 "in rows:",בשורות:,module,Magento_ImportExport
 "Make sure your file isn't more than %1M.","ודא כי הקובץ שלך לא שוקל יותר מאשר %1M.",module,Magento_ImportExport
 "We can't provide the upload settings right now.","אין באפשרותנו לספק את הגדרות ההעלאה עכשיו.",module,Magento_ImportExport
+"Begin export of %1","התחל ייצוא של %1",module,Magento_ImportExport
 "We can't determine the attribute filter type.","אין לנו אפשרות לקבוע את המסנן של סוג התכונה.",module,Magento_ImportExport
 "We can't identify this file format.","איננו יכולים לזהות פורמט לקובץ זה.",module,Magento_ImportExport
 "Data validation is failed. Please fix errors and re-upload the file.","אימות הנתונים נכשל. בבקשה לתקן את השגיאות והעלה מחדש את הקובץ.",module,Magento_ImportExport
@@ -2725,8 +2726,14 @@ Actions,פעולות,module,Magento_Multishipping
 "Remove Item","הסר פריט",module,Magento_Multishipping
 "Remove item","הסר פריט",module,Magento_Multishipping
 "Billing Address","כתובת חיוב",module,Magento_Multishipping
+Change,שינוי,module,Magento_Multishipping
+"Payment Method","שיטת התשלום",module,Magento_Multishipping
+"Back to Shipping Information","חזרה למידע עבור השילוח",module,Magento_Multishipping
+"Other items in your order","פריטים אחרים בהזמנה שלך",module,Magento_Multishipping
 "Edit Items","עריכת פריטים",module,Magento_Multishipping
+"Shipping is not applicable.","משלוח אינו ישים.",module,Magento_Multishipping
 "Product Name","שם מוצר",module,Magento_Multishipping
+"Shipping To","משלוח עבור",module,Magento_Multishipping
 "Incl. Tax","כולל מס",module,Magento_Multishipping
 "Excl. Tax","למעט מס",module,Magento_Multishipping
 Item,פריט,module,Magento_Multishipping
@@ -2781,8 +2788,10 @@ Action,פעולה,module,Magento_Newsletter
 "Queue Newsletter","תור ניוזלטר",module,Magento_Newsletter
 "Newsletter Queue","ניוזלטר - תור",module,Magento_Newsletter
 "Edit Queue","עריכת תור",module,Magento_Newsletter
+"You saved the newsletter queue.","תור הניוזלטר נשמר.",module,Magento_Newsletter
 "Newsletter Subscribers","ניוזלטר - מנויים",module,Magento_Newsletter
 Newsletter,ניוזלטר,module,Magento_Newsletter
+"Total of %1 record(s) were deleted.","%1 רשומות נמחקו.",module,Magento_Newsletter
 "We can't delete this template right now.","איננו יכולים למחוק את התבנית הזו ברגע זה.",module,Magento_Newsletter
 "Newsletter Subscription","ניוזלטר - רישום",module,Magento_Newsletter
 "We removed the subscription.","הרשמתך לקבלת עדכונים הוסרה בהצלחה.",module,Magento_Newsletter
@@ -2829,6 +2838,7 @@ None,ללא,module,Magento_OfflineShipping
 "Please correct Region/State ""%1"" in the Row #%2.","נא לתקן את האיזור/מדינה ""%1"" בשורה #%2.",module,Magento_OfflineShipping
 "Please correct Shipping Price ""%1"" in the Row #%2.","נא לתקן את מחיר המשלוח ""%1"" בשורה #%2.",module,Magento_OfflineShipping
 "Duplicate Row #%1 (Country ""%2"", Region/State ""%3"", Zip ""%4"" and Value ""%5"")","ערך כפול #%1 (מדינה ""%2"", אזור/מדינה ""%3"", מיקוד ""%4"", ערך ""%5"")",module,Magento_OfflineShipping
+"Free Shipping","משלוח חינם",module,Magento_OfflineShipping
 No,לא,module,Magento_OfflineShipping
 "Ttl value ""%1"" is not valid. Please use only numbers equal or greater than zero.","ערך של Ttl ״%1״ אינו חוקי. אנא השתמש רק במספרים שווים או גדולים מ- 0.",module,Magento_PageCache
 "Built-in Application (Not Recommended for Production Use)","אפליקציות מובנות(לא מומלץ לשימוש בפרודקשן)",module,Magento_PageCache
@@ -2914,8 +2924,10 @@ Close,סגור,module,Magento_Paypal
 "Invalid block type","סוג בלוק לא חוקי",module,Magento_Paypal
 "We can't cancel the billing agreement.","לא ניתן לבטל את החיוב.",module,Magento_Paypal
 "We can't delete the billing agreement.","לא ניתן למחוק את החיוב.",module,Magento_Paypal
+Reports,"דו""חות",module,Magento_Paypal
 Sales,מכירות,module,Magento_Paypal
 "View Transaction","צפייה בעסקה",module,Magento_Paypal
+"The billing agreement ""%1"" has been canceled.","בוטל ההסכם החיוב ""%1"".",module,Magento_Paypal
 "We couldn't finish the billing agreement wizard.","איננו יכולים לסיים את אשף החיוב.",module,Magento_Paypal
 "We can't start the billing agreement wizard.","אין לנו אפשרות להפעיל את אשף החיוב.",module,Magento_Paypal
 "We can't initialize Express Checkout.","אין לנו אפשרות לאתחל את חיוב אקספרס.",module,Magento_Paypal
@@ -3037,7 +3049,11 @@ Subtotal,"סכום ביניים",module,Magento_Quote
 "Cannot place order.","לא ניתן להזמין.",module,Magento_Quote
 Discount,הנחה,module,Magento_Quote
 Tax,מס,module,Magento_Quote
+"Cart contains virtual product(s) only. Shipping address is not applicable.","עגלת הקניות מכילה מוצר(ים) לא מוחשי(ים) בלבד. לא ניתן ליישם כתובת למשלוח.",module,Magento_Quote
+"Shipping method is not applicable for empty cart","שיטת משלוח אינה ישימה עבור עגלה ריקה",module,Magento_Quote
 "Carrier with such method not found: %1, %2","מוביל עם שיטה כזו לא נמצא: %1, %2",module,Magento_Quote
+error123,שגיאה123,module,Magento_Quote
+error345,שגיאה345,module,Magento_Quote
 "New Accounts","חשבונות חדשים",module,Magento_Reports
 "Customers by number of orders","לקוחות לפי מספר ההזמנות",module,Magento_Reports
 "Customers by Orders Total","לקוחות לפי סך ההזמנות",module,Magento_Reports
@@ -3076,8 +3092,12 @@ Detail,"מידע מפורט",module,Magento_Reports
 Created,נוצר,module,Magento_Reports
 "Products Reviews","סקירות מוצר",module,Magento_Reports
 Subtotal,"סכום ביניים",module,Magento_Reports
+"Price Rule","כלל מחיר",module,Magento_Reports
+Uses,שימושים,module,Magento_Reports
+"Sales Total","סה""כ מכירות",module,Magento_Reports
 Discount,הנחה,module,Magento_Reports
 Orders,הזמנות,module,Magento_Reports
+"Paid Invoices","חשבוניות ששולמו",module,Magento_Reports
 Items,פריטים,module,Magento_Reports
 Revenue,הכנסה,module,Magento_Reports
 Tax,מס,module,Magento_Reports
@@ -3144,6 +3164,7 @@ Websites,אתרים,module,Magento_Review
 "Add New Rating","הוסף דירוג חדש",module,Magento_Review
 "Save Rating","שמור דירוג",module,Magento_Review
 "Delete Rating","מחק דירוג",module,Magento_Review
+"Edit Rating #%1","עריכת דירוג #%1",module,Magento_Review
 "New Rating","דירוג חדש",module,Magento_Review
 "Rating Title","כותרת דירוג",module,Magento_Review
 "Default Value","ערך ברירת מחדל",module,Magento_Review
@@ -3279,7 +3300,11 @@ Promotions,מבצעים,module,Magento_SalesRule
 "You deleted the rule.","מחקת את החוק.",module,Magento_SalesRule
 "We can't delete the rule right now. Please review the log and try again.","אנו לא יכולים למחוק את הכלל. יש לבדוק את הלוג ולנסות שוב.",module,Magento_SalesRule
 "We can't find a rule to delete.","אנו לא יכולים למצוא כלל לשם מחיקתו.",module,Magento_SalesRule
+"Rule is not defined","כלל לא מוגדר",module,Magento_SalesRule
 Catalog,קטלוג,module,Magento_SalesRule
+"Something went wrong while saving the rule data. Please review the error log.","משהו השתבש תוך שמירת נתוני הכלל. נא סקור את לוג רישום השגיאות.",module,Magento_SalesRule
+Alphanumeric,אלפאנומרי,module,Magento_SalesRule
+Numeric,ממוספר,module,Magento_SalesRule
 Discount,הנחה,module,Magento_SalesRule
 "Can't acquire coupon.","אין גישה לקופון.",module,Magento_SalesRule
 Subtotal,"סכום ביניים",module,Magento_SalesRule
@@ -3871,6 +3896,8 @@ Tax,מס,module,Magento_Tax
 "We can't delete this tax rate right now.","לא ניתן למחוק את שיעור המס הזה עכשיו.",module,Magento_Tax
 "We can't save this rate right now.","איננו יכולים לשמור את הציונים נכון לעכשיו.",module,Magento_Tax
 "We can't delete this rate because of an incorrect rate ID.","אנחנו לא יכולים למחוק ציון זה עקב מזהה ID שגוי.",module,Magento_Tax
+"Edit Tax Rate","לערוך שיעורי מס",module,Magento_Tax
+"New Tax Rule","חוק מס חדש",module,Magento_Tax
 "We can't save this tax rule right now.","אנחנו לא יכולים לשמור את כלל מס זה עכשיו.",module,Magento_Tax
 "We can't delete this tax class right now.","לא ניתן למחוק את מחלקת המס הזה עכשיו.",module,Magento_Tax
 "We can't save this tax class right now.","אנחנו לא יכולים לשמור את מחלקת המס ברגע זה.",module,Magento_Tax
@@ -3931,6 +3958,7 @@ Theme,תבנית,module,Magento_Theme
 "We can't upload the CSS file right now.","לא ניתן להעלות את קובץ ה-CSS כעת.",module,Magento_Theme
 "We can't upload the JS file right now.","לא ניתן להעלות את קובץ ה-JS כעת.",module,Magento_Theme
 "Sorry, something went wrong. That's all we know.","מצטערים, משהו השתמש. אין מידע נוסף כרגע.",module,Magento_Theme
+"Exception does not contain field '%1'","יוצא מן הכלל אינו מכיל שדה '%1'",module,Magento_Theme
 label,תווית,module,Magento_Theme
 "The start date can't follow the end date.","תאריך ההתחלה אינו יכול להיות אחרי תאריך הסיום.",module,Magento_Theme
 "We can't upload the file right now.","איננו יכולים להעלות את הקובץ נכון לעכשיו.",module,Magento_Theme
@@ -3980,6 +4008,7 @@ Cancel,ביטול,module,Magento_Ui
 "UPS Worldwide Express PlusSM","UPS אקספרס פלוס SM ברחבי העולם",module,Magento_Ups
 "Next Day Air Early AM","UPS אווירי עד הבוקר שלמחרת",module,Magento_Ups
 Ground,בסיס,module,Magento_Ups
+Commercial,מסחרי,module,Magento_Ups
 "Sorry, something went wrong. Please try again or contact us and we'll try to help.","ארעה תקלה. אנא נסו שנית או צרו עמנו קשר וננסה לעזור.",module,Magento_Ups
 None,ללא,module,Magento_Ups
 label,תווית,module,Magento_Ups
@@ -4503,6 +4532,7 @@ Delete,מחק,module,Magento_ProductVideo
 "Letters or punctuation only please","אותיות או פיסוק בלבד",module,Magento_Ui
 "Letters, numbers, spaces or underscores only please","אותיות, מספרים, רווחים או מקפים תחתונים בלבד",module,Magento_Ui
 "Letters only please","אותיות בלבד",module,Magento_Ui
+"Your ZIP-code must be in the range 902xx-xxxx to 905-xx-xxxx","המיקוד שלך חייב להימצא בטווח 902xx-xxxx עד 905-xx-xxxx",module,Magento_Ui
 "Please enter a valid email address (Ex: johndoe@domain.com).","הקלד כתובת אימייל תקינה (לדוגמא: johndoe@domain.com).",module,Magento_Ui
 "Please enter 6 or more characters. Leading or trailing spaces will be ignored.","אנא הכנס 6 תווים או יותר. רווחים וסימני פיסוק לא יילקחו בחשבון.",module,Magento_Ui
 "This is a required field.","שדה זה הוא חובה.",module,Magento_Ui
@@ -5100,6 +5130,9 @@ Updated,עודכן,module,Magento_Email
 Subject,נושא,module,Magento_Email
 "Template Type","סוג התבנית",module,Magento_Email
 Action,פעולה,module,Magento_Email
+Password,סיסמה,module,Magento_Fedex
+"Sandbox Mode","מודול Sandbox",module,Magento_Fedex
+"Weight Unit","יחידת משקל",module,Magento_Fedex
 "Sort Order","סדר מיון",module,Magento_Fedex
 Enable,אפשר,module,Magento_GoogleAdwords
 "Conversion ID","מזהה המרה",module,Magento_GoogleAdwords
@@ -5168,7 +5201,9 @@ Price,מחיר,module,Magento_OfflineShipping
 "Sort Order","סדר מיון",module,Magento_OfflineShipping
 Title,כותרת,module,Magento_OfflineShipping
 Type,סוג,module,Magento_OfflineShipping
+Condition,תנאי,module,Magento_OfflineShipping
 Export,ייצוא,module,Magento_OfflineShipping
+"Minimum Order Amount","כמות מינימלית להזמנה",module,Magento_OfflineShipping
 "Caching Application","יישום Cache",module,Magento_PageCache
 "Varnish Configuration","קופיגורציה של Varnish",module,Magento_PageCache
 "Access list","רשימת גישה",module,Magento_PageCache
@@ -5252,7 +5287,11 @@ City,עיר,module,Magento_Shipping
 "Apply custom Shipping Policy","החל מדיניות משלוחים מותאמת אישית",module,Magento_Shipping
 "Shipping Policy","מדיניות משלוחים",module,Magento_Shipping
 "Shipping Methods","שיטות המשלוח",module,Magento_Shipping
+"CMS Pages Options","אפשרויות דפי CMS",module,Magento_Sitemap
 Enabled,פעיל,module,Magento_Sitemap
+"Error Email Sender","שגיאת שולח דואר אלקטרוני",module,Magento_Sitemap
+"Start Time","שעת התחלה",module,Magento_Sitemap
+"Maximum File Size","גודל קובץ מקסימלי",module,Magento_Sitemap
 Action,פעולה,module,Magento_Sitemap
 Configuration,"הגדרות תצורה",module,Magento_Store
 "Various XML configurations that were collected across modules and merged.","מוזגו קונפיגורציות XML שונות שאספנו בין מודולים.",module,Magento_Store
