@@ -3402,6 +3402,7 @@ Contacts,"אנשי קשר",module,Magento_Contact
 "Success History Lifetime","היסטוריה עם הצלחה תמידית",module,Magento_Cron
 "Failure History Lifetime","כשל היסטוריה תמידיים",module,Magento_Cron
 "Use Separate Process","השתמש בתהליך נפרד",module,Magento_Cron
+"Share Customer Accounts","שיתוף חשבונות לקוח",module,Magento_Customer
 "Validate on Each Transaction","אמת בכל עסקה",module,Magento_Customer
 "Show VAT Number on Storefront","הצג את מספר מע""מ בקדמת החנות",module,Magento_Customer
 "To show VAT number on Storefront, set Show VAT Number on Storefront option to Yes.","בכדי להציג מספר מע""מ בקדמת החנות, יש לשנות את 'הצג מספר מע""מ בקדמת החנות' לכן.",module,Magento_Customer
@@ -3426,9 +3427,15 @@ Contacts,"אנשי קשר",module,Magento_Contact
 "The title that goes before name (Mr., Mrs., etc.)","התואר שמגיע לפני השם (מר., גברת., וכו')",module,Magento_Customer
 "Login Options","אפשרויות כניסה",module,Magento_Customer
 Phone,טלפון,module,Magento_Customer
+ZIP,"קובץ זיפ",module,Magento_Customer
+"Customer Since","לקוח מאז",module,Magento_Customer
+"Confirmed email","אימייל מאושר",module,Magento_Customer
+"Account Created in","החשבון נוצר ב",module,Magento_Customer
 "First Name","שם פרטי",module,Magento_Customer
 "Last Name","שם משפחה",module,Magento_Customer
+"Last Activity","פעיל לאחרונה",module,Magento_Customer
 Type,סוג,module,Magento_Customer
+"Customer Information","פרטים על הלקוח",module,Magento_Customer
 "Edit Account Information","עריכת פרטי החשבון",module,Magento_Customer
 "Password forgotten","שכחתי סיסמה",module,Magento_Customer
 "My Dashboard","החשבון שלי",module,Magento_Customer
