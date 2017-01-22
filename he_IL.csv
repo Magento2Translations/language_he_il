@@ -5442,6 +5442,7 @@ Contacts,"אנשי קשר",module,Magento_Contact
 Currency,מטבע,module,Magento_CurrencySymbol
 "All Customers","כל הלקוחות",module,Magento_Customer
 "Now Online","לקוחות באתר",module,Magento_Customer
+"Share Customer Accounts","שיתוף חשבונות לקוח",module,Magento_Customer
 "Validate on Each Transaction","אמת בכל עסקה",module,Magento_Customer
 "Show VAT Number on Storefront","הצג את מספר מע""מ בקדמת החנות",module,Magento_Customer
 "To show VAT number on Storefront, set Show VAT Number on Storefront option to Yes.","בכדי להציג מספר מע""מ בקדמת החנות, יש לשנות את 'הצג מספר מע""מ בקדמת החנות' לכן.",module,Magento_Customer
@@ -5472,9 +5473,19 @@ Currency,מטבע,module,Magento_CurrencySymbol
 "Login Options","אפשרויות כניסה",module,Magento_Customer
 "Enable Autocomplete on login/forgot password forms","אפשר השלמה אוטומטית עבור טפסי סיסמה שנשכחה/התחברות",module,Magento_Customer
 Phone,טלפון,module,Magento_Customer
+ZIP,"קובץ זיפ",module,Magento_Customer
+"Customer Since","לקוח מאז",module,Magento_Customer
+"Confirmed email","אימייל מאושר",module,Magento_Customer
+"Account Created in","החשבון נוצר ב",module,Magento_Customer
+"Billing Firstname","שם פרטי לחיוב",module,Magento_Customer
+"Billing Lastname","שם משפחה לחיוב",module,Magento_Customer
+"Account Lock","נעילת חשבון",module,Magento_Customer
 "First Name","שם פרטי",module,Magento_Customer
 "Last Name","שם משפחה",module,Magento_Customer
+"Last Activity","פעיל לאחרונה",module,Magento_Customer
 Type,סוג,module,Magento_Customer
+"Customer Information","פרטים על הלקוח",module,Magento_Customer
+"If your Magento site has multiple views, you can set the scope to apply to a specific view.","אם לאתר שלך יש מספר תצוגות, באפשרותך להציג תצוגה מסוימת.",module,Magento_Customer
 "Account Dashboard","לוח ניהול",module,Magento_Customer
 "Edit Account Information","עריכת פרטי החשבון",module,Magento_Customer
 "Password forgotten","שכחתי סיסמה",module,Magento_Customer
