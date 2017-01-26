@@ -1641,6 +1641,9 @@ Ground,בסיס,module,Magento_Fedex
 "First Overnight","הראשון בין לילה",module,Magento_Fedex
 "Home Delivery","משלוח הביתה",module,Magento_Fedex
 "International Economy","כלכלה בינלאומית",module,Magento_Fedex
+"Intl Economy Freight","חברת שילוח בינלאומית",module,Magento_Fedex
+"International First","בינלאומי קודם",module,Magento_Fedex
+"International Ground","בינלאומי קרקעי",module,Magento_Fedex
 "International Priority","עדיפות בינלאומית",module,Magento_Fedex
 "Priority Overnight","עדיפות בין לילה",module,Magento_Fedex
 "Smart Post","דואר חכם",module,Magento_Fedex
@@ -1652,6 +1655,7 @@ Direct,ישיר,module,Magento_Fedex
 status,מצב,module,Magento_Fedex
 "Empty response","תגובה ריקה",module,Magento_Fedex
 None,ללא,module,Magento_Fedex
+"Unknown entity type","טיפוס לא ידוע",module,Magento_GiftMessage
 From,מ-,module,Magento_GiftMessage
 To,ל-,module,Magento_GiftMessage
 Message,הודעה,module,Magento_GiftMessage
@@ -1772,6 +1776,7 @@ Previous,הקודם,module,Magento_LayeredNavigation
 "Parent directory does not exist: %1","תיקיית אב אינה קיימת: %1",module,Magento_MediaStorage
 "File system","מערכת קבצים",module,Magento_MediaStorage
 "Unable to save file ""%1"" at ""%2""","אין אפשרות לשמור את הקובץ ""%1"" ב- ""%2""",module,Magento_MediaStorage
+"Wrong file info format","פורמט קובץ שגוי",module,Magento_MediaStorage
 "Unable to create directory: %1","לא ניתן ליצור תיקיה: %1",module,Magento_MediaStorage
 "Change Billing Address","שנה כתובת לחיוב",module,Magento_Multishipping
 "Ship to Multiple Addresses","משלוח למספר כתובות",module,Magento_Multishipping
@@ -1785,6 +1790,8 @@ Total,"סה""כ",module,Magento_Multishipping
 "Edit Shipping Address","עריכת כתובת משלוח",module,Magento_Multishipping
 "Create Billing Address","ליצור כתובת חיוב",module,Magento_Multishipping
 "Create Shipping Address","ליצור כתובת למשלוח",module,Magento_Multishipping
+"Data saving problem","שגיאה בשמירת המידע",module,Magento_Multishipping
+"We cannot open the overview page.","לא ניתן לפתוח עמוד סקירה.",module,Magento_Multishipping
 "Please check shipping address information.","יש לבדוק את פרטי כתובת המשלוח.",module,Magento_Multishipping
 "Please check billing address information.","יש לבדוק את פרטי כתובת החיוב.",module,Magento_Multishipping
 "Please select shipping methods for all addresses.","נא לבחור שיטת משלוח עבור כל הכתובות.",module,Magento_Multishipping
@@ -2867,6 +2874,7 @@ Resources,משאבים,module,Magento_User
 "Priority Mail Express Hold For Pickup","עדיפות דואר אקספרס בהמתנה לאיסוף",module,Magento_Usps
 "Priority Mail Express","דואר אקספרס מועדף",module,Magento_Usps
 "Retail Ground","קמונעאי בסיס",module,Magento_Usps
+"Media Mail","דואר אלקטרוני למדיה",module,Magento_Usps
 "Library Mail","ספריית דואר",module,Magento_Usps
 "First-Class Mail Large Postcards","גלויות דואר מדרגה ראשונה גדולים",module,Magento_Usps
 "Priority Mail Hold For Pickup","עדיפות דואר בהמתנה לאיסוף",module,Magento_Usps
@@ -3504,6 +3512,7 @@ Enable,אפשר,module,Magento_GoogleAdwords
 "Conversion Format","המרת פורמט",module,Magento_GoogleAdwords
 "Conversion Color","צבע המרה",module,Magento_GoogleAdwords
 "Conversion Label","תווית המרה",module,Magento_GoogleAdwords
+"Conversion Value Type","סוג ערך ההמרה",module,Magento_GoogleAdwords
 "Conversion Value","ערך המרה",module,Magento_GoogleAdwords
 "Google API","ממשק לגוגל",module,Magento_GoogleAnalytics
 Enable,אפשר,module,Magento_GoogleAnalytics
