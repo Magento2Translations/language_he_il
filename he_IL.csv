@@ -2487,6 +2487,9 @@ Ground,בסיס,module,Magento_Fedex
 "First Overnight","הראשון בין לילה",module,Magento_Fedex
 "Home Delivery","משלוח הביתה",module,Magento_Fedex
 "International Economy","כלכלה בינלאומית",module,Magento_Fedex
+"Intl Economy Freight","חברת שילוח בינלאומית",module,Magento_Fedex
+"International First","בינלאומי קודם",module,Magento_Fedex
+"International Ground","בינלאומי קרקעי",module,Magento_Fedex
 "International Priority","עדיפות בינלאומית",module,Magento_Fedex
 "Priority Overnight","עדיפות בין לילה",module,Magento_Fedex
 "Smart Post","דואר חכם",module,Magento_Fedex
@@ -2513,6 +2516,7 @@ None,ללא,module,Magento_Fedex
 "There is no order with provided id or gift message isn't allowed","אן שום הזמנה שסופקה עם מזהה או הודעת מתנה שאינה מורשת",module,Magento_GiftMessage
 "There is no order with provided id","אין הזמנה עם מזהה שסופקה",module,Magento_GiftMessage
 "Gift Messages is not applicable for empty order","הודעות המתנה אינה ישימה עבור הזמנה ריקה",module,Magento_GiftMessage
+"Unknown entity type","טיפוס לא ידוע",module,Magento_GiftMessage
 From,מ-,module,Magento_GiftMessage
 To,ל-,module,Magento_GiftMessage
 Message,הודעה,module,Magento_GiftMessage
@@ -2679,6 +2683,7 @@ Database,"בסיס נתונים",module,Magento_MediaStorage
 "Parent directory does not exist: %1","תיקיית אב אינה קיימת: %1",module,Magento_MediaStorage
 "File system","מערכת קבצים",module,Magento_MediaStorage
 "Unable to save file ""%1"" at ""%2""","אין אפשרות לשמור את הקובץ ""%1"" ב- ""%2""",module,Magento_MediaStorage
+"Wrong file info format","פורמט קובץ שגוי",module,Magento_MediaStorage
 "Path ""%value%"" is protected and cannot be used.","נתיב ""%value%"" מוגן ולא ניתן לשימוש.",module,Magento_MediaStorage
 "Path \"%value%\" may not include parent directory traversal (\"../\", \"..\\\").","הנתיב \"%value%\" עשוי שלא לכלול את תיקיית האב מדריך (\ "". /\", \".. \\\").",module,Magento_MediaStorage
 "File with an extension ""%value%"" is protected and cannot be uploaded","קובץ עם הסיומת ""%value%"" מוגן ולא ניתן להעלאה",module,Magento_MediaStorage
@@ -2707,6 +2712,8 @@ Total,"סה""כ",module,Magento_Multishipping
 "Edit Shipping Address","עריכת כתובת משלוח",module,Magento_Multishipping
 "Create Billing Address","ליצור כתובת חיוב",module,Magento_Multishipping
 "Create Shipping Address","ליצור כתובת למשלוח",module,Magento_Multishipping
+"Data saving problem","שגיאה בשמירת המידע",module,Magento_Multishipping
+"We cannot open the overview page.","לא ניתן לפתוח עמוד סקירה.",module,Magento_Multishipping
 "Please check shipping address information.","יש לבדוק את פרטי כתובת המשלוח.",module,Magento_Multishipping
 "Please check billing address information.","יש לבדוק את פרטי כתובת החיוב.",module,Magento_Multishipping
 "Please select shipping methods for all addresses.","נא לבחור שיטת משלוח עבור כל הכתובות.",module,Magento_Multishipping
@@ -3017,6 +3024,7 @@ Description,תיאור,module,Magento_ProductVideo
 "Hide from Product Page","הסתר מעמוד מוצר",module,Magento_ProductVideo
 Role,תפקיד,module,Magento_ProductVideo
 "YouTube and Vimeo supported.","YouTube ו- Vimeo נתמכים.",module,Magento_ProductVideo
+"Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","וימאו נתמך.<br> על מנת להוסיף סרטון יוטיוב, ראשית <a href='%1'>נא להוסיף מפתח מפתחים עבור יוטיוב</a>.",module,Magento_ProductVideo
 "Could not get preview image information. Please check your connection and try again.","לא היתה אפשרות לקבל תצוגה מקדימה של נתוני תמונה. נא בדוק את החיבור שלך ונסה שוב.",module,Magento_ProductVideo
 "Click here to add videos.","לחץ כאן כדי להוסיף וידאו.",module,Magento_ProductVideo
 "New Video","וידאו חדש",module,Magento_ProductVideo
@@ -3597,6 +3605,7 @@ Reports,"דוחו""ת",module,Magento_Search
 "Please enter a message.","נא בחר הודעה.",module,Magento_SendFriend
 "Please specify at least one recipient.","נא ציין לפחות נמען אחד.",module,Magento_SendFriend
 "Please enter a correct recipient email address.","אנא הכנס כתובת הדואר האלקטרוני של הנמען הנכון.",module,Magento_SendFriend
+"Please define a correct product instance.","נא להגדיר סוג מוצר נכון.",module,Magento_SendFriend
 "Invalid Sender Information","פרטי שולח לא חוקיים",module,Magento_SendFriend
 "IP Address","‏כתובת IP",module,Magento_SendFriend
 "Cookie (unsafe)","Cookie(לא מאובטח)",module,Magento_SendFriend
@@ -4181,6 +4190,7 @@ Resources,משאבים,module,Magento_User
 "Priority Mail Express Hold For Pickup","עדיפות דואר אקספרס בהמתנה לאיסוף",module,Magento_Usps
 "Priority Mail Express","דואר אקספרס מועדף",module,Magento_Usps
 "Retail Ground","קמונעאי בסיס",module,Magento_Usps
+"Media Mail","דואר אלקטרוני למדיה",module,Magento_Usps
 "Library Mail","ספריית דואר",module,Magento_Usps
 "First-Class Mail Large Postcards","גלויות דואר מדרגה ראשונה גדולים",module,Magento_Usps
 "Priority Mail Hold For Pickup","עדיפות דואר בהמתנה לאיסוף",module,Magento_Usps
@@ -4210,6 +4220,8 @@ Yes,כן,module,Magento_Variable
 "Operation allowed only in HTTPS","הפעולה מותרת רק ב HTTPS",module,Magento_Webapi
 "Cannot perform GET operation with store code 'all'","לא ניתן לבצע את פקודת GET עם קוד החנות 'הכל'",module,Magento_Webapi
 "Request does not match any route.","הבקשה אינה תואמת לכל ניתוב.",module,Magento_Webapi
+"Authentication header format is invalid.","פורמט כותרת האימות שגויה.",module,Magento_Webapi
+"Authentication header is absent.","כותרת האימות חסרה.",module,Magento_Webapi
 "Not allowed parameters: %1. Please use only %2 and %3.","פרמטרים אסורים: %1. נא להשתמש רק %2 ולא %3.",module,Magento_Webapi
 "Requested service is not available: ""%1""","השירות המבוקש אינו זמין: ""%1""",module,Magento_Webapi
 "Operation ""%1"" not found.","פעולה ""%1"" לא נמצא.",module,Magento_Webapi
@@ -5150,6 +5162,7 @@ Enable,אפשר,module,Magento_GoogleAdwords
 "Conversion Format","המרת פורמט",module,Magento_GoogleAdwords
 "Conversion Color","צבע המרה",module,Magento_GoogleAdwords
 "Conversion Label","תווית המרה",module,Magento_GoogleAdwords
+"Conversion Value Type","סוג ערך ההמרה",module,Magento_GoogleAdwords
 "Conversion Value","ערך המרה",module,Magento_GoogleAdwords
 "Google API","ממשק לגוגל",module,Magento_GoogleAnalytics
 Enable,אפשר,module,Magento_GoogleAnalytics
