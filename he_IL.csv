@@ -3380,6 +3380,8 @@ Conditions,תנאים,module,Magento_SalesRule
 "Code Prefix","קידומת קוד",module,Magento_SalesRule
 "Code Suffix","סיומת קוד",module,Magento_SalesRule
 "If empty no separation.","במידה וריק ללא הפרדה.",module,Magento_SalesRule
+Generate,יצירה,module,Magento_SalesRule
+"Coupon Code","קוד קופון",module,Magento_SalesRule
 Created,נוצר,module,Magento_SalesRule
 Uses,שימושים,module,Magento_SalesRule
 No,לא,module,Magento_SalesRule
@@ -3391,15 +3393,21 @@ Rule,כלל,module,Magento_SalesRule
 Start,התחלה,module,Magento_SalesRule
 End,סיום,module,Magento_SalesRule
 Status,סטטוס,module,Magento_SalesRule
+"%1 - Discounts and Coupons","%1 - הנחות וקופונים",module,Magento_SalesRule
 Coupons/Discounts,קופונים/הנחות,module,Magento_SalesRule
 Promotions,מבצעים,module,Magento_SalesRule
 "You deleted the rule.","מחקת את החוק.",module,Magento_SalesRule
 "We can't delete the rule right now. Please review the log and try again.","אנו לא יכולים למחוק את הכלל. יש לבדוק את הלוג ולנסות שוב.",module,Magento_SalesRule
 "We can't find a rule to delete.","אנו לא יכולים למצוא כלל לשם מחיקתו.",module,Magento_SalesRule
+"This rule no longer exists.","הכלל לא קיים יותר.",module,Magento_SalesRule
+"Edit Rule","ערוך כלל",module,Magento_SalesRule
+"New Rule","כלל חדש",module,Magento_SalesRule
 "Rule is not defined","כלל לא מוגדר",module,Magento_SalesRule
 Catalog,קטלוג,module,Magento_SalesRule
+"You saved the rule.","שמרת את הכלל.",module,Magento_SalesRule
 "Something went wrong while saving the rule data. Please review the error log.","משהו השתבש תוך שמירת נתוני הכלל. נא סקור את לוג רישום השגיאות.",module,Magento_SalesRule
 Alphanumeric,אלפאנומרי,module,Magento_SalesRule
+Alphabetical,אלפאביתי,module,Magento_SalesRule
 Numeric,ממוספר,module,Magento_SalesRule
 "Error occurred when saving coupon: %1","אירעה שגיאה בעת שמירת קופון: %1",module,Magento_SalesRule
 "Discount (%1)","הנחה (%1)",module,Magento_SalesRule
@@ -3416,6 +3424,15 @@ Auto,אוטומטי,module,Magento_SalesRule
 Subtotal,"סכום ביניים",module,Magento_SalesRule
 "Total Weight","המשקל הכולל",module,Magento_SalesRule
 "Shipping Method","שיטת משלוח",module,Magento_SalesRule
+FOUND,נמצא,module,Magento_SalesRule
+"NOT FOUND","לא נמצא",module,Magento_SalesRule
+"total quantity","כמות כוללת",module,Magento_SalesRule
+"total amount","סך הכל",module,Magento_SalesRule
+is,הוא,module,Magento_SalesRule
+"is not",איננו,module,Magento_SalesRule
+"equals or greater than","שווה או גדול מ-",module,Magento_SalesRule
+"equals or less than","שווה או פחות מ-",module,Magento_SalesRule
+"greater than","גדול מ-",module,Magento_SalesRule
 Active,פעיל,module,Magento_SalesRule
 Inactive,"לא פעיל",module,Magento_SalesRule
 "Entity Sequence profile not added to meta active profile","סדר הפעולות של יישות הפרופיל לא תיווסף לפרופיל ה-meta האקטיבי",module,Magento_SalesSequence
@@ -5790,7 +5807,19 @@ Inactive,"לא פעיל",module,Magento_Review
 "RSS Feeds","פידים RSS",module,Magento_Rss
 "Rss Config","תצורת RSS",module,Magento_Rss
 "Enable RSS","הפעלת RSS",module,Magento_Rss
+Promotion,מבצעים,module,Magento_SalesRule
 "Web Site",אתר,module,Magento_SalesRule
+Priority,עדיפות,module,Magento_SalesRule
+"Cart Price Rule","כלל סל קניות",module,Magento_SalesRule
+Back,חזור,module,Magento_SalesRule
+"Rule Information","מידע על הכלל",module,Magento_SalesRule
+"Rule Name","שם כלל",module,Magento_SalesRule
+Description,תיאור,module,Magento_SalesRule
+Websites,אתרים,module,Magento_SalesRule
+"Customer Groups","קבוצות לקוחות",module,Magento_SalesRule
+Coupon,קופון,module,Magento_SalesRule
+"Uses per Coupon","שימוש עבור קופון",module,Magento_SalesRule
+"Uses per Customer","שימשו עבור לקוח",module,Magento_SalesRule
 From,מ-,module,Magento_SalesRule
 To,ל-,module,Magento_SalesRule
 Apply,החל,module,Magento_SalesRule
