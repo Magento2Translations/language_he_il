@@ -2236,6 +2236,8 @@ Category,קטגוריה,module,Magento_Rule
 "Add New Rule","הוסף כלל חדש",module,Magento_SalesRule
 "Save and Continue Edit","שמור והמשך בעריכה",module,Magento_SalesRule
 "Edit Rule '%1'","עריכת כלל '%1'",module,Magento_SalesRule
+"New Rule","כלל חדש",module,Magento_SalesRule
+"Rule Information","מידע על הכלל",module,Magento_SalesRule
 Actions,פעולות,module,Magento_SalesRule
 Apply,החל,module,Magento_SalesRule
 "Discount Amount","סכום הנחה",module,Magento_SalesRule
@@ -2251,6 +2253,8 @@ Conditions,תנאים,module,Magento_SalesRule
 "Code Prefix","קידומת קוד",module,Magento_SalesRule
 "Code Suffix","סיומת קוד",module,Magento_SalesRule
 "If empty no separation.","במידה וריק ללא הפרדה.",module,Magento_SalesRule
+Generate,יצירה,module,Magento_SalesRule
+"Coupon Code","קוד קופון",module,Magento_SalesRule
 Created,נוצר,module,Magento_SalesRule
 Uses,שימושים,module,Magento_SalesRule
 "Times Used","מספר שימושים",module,Magento_SalesRule
@@ -2259,16 +2263,27 @@ Delete,מחק,module,Magento_SalesRule
 Labels,תויות,module,Magento_SalesRule
 "Default Label","תוית ברירת מחדל",module,Magento_SalesRule
 "General Information","מידע כללי",module,Magento_SalesRule
+"Rule Name","שם כלל",module,Magento_SalesRule
+Description,תיאור,module,Magento_SalesRule
 Status,סטטוס,module,Magento_SalesRule
 Active,פעיל,module,Magento_SalesRule
 Inactive,"לא פעיל",module,Magento_SalesRule
+Websites,אתרים,module,Magento_SalesRule
+"Customer Groups","קבוצות לקוחות",module,Magento_SalesRule
+Coupon,קופון,module,Magento_SalesRule
 "If you select and save the rule you will be able to generate multiple coupon codes.","בחירה ושמירת הכלל תאפשר יצירת קודים לקופון.",module,Magento_SalesRule
+"Uses per Coupon","שימוש עבור קופון",module,Magento_SalesRule
+"Uses per Customer","שימשו עבור לקוח",module,Magento_SalesRule
 "Usage limit enforced for logged in customers only.","הגבלת השימוש נאכפת עבור לקוחות שהתחברו בלבד.",module,Magento_SalesRule
+Priority,עדיפות,module,Magento_SalesRule
 Rule,כלל,module,Magento_SalesRule
 Promotions,מבצעים,module,Magento_SalesRule
+"This rule no longer exists.","הכלל לא קיים יותר.",module,Magento_SalesRule
+"Edit Rule","ערוך כלל",module,Magento_SalesRule
 "Rule is not defined","כלל לא מוגדר",module,Magento_SalesRule
 Catalog,קטלוג,module,Magento_SalesRule
 Alphanumeric,אלפאנומרי,module,Magento_SalesRule
+Alphabetical,אלפאביתי,module,Magento_SalesRule
 Numeric,ממוספר,module,Magento_SalesRule
 "Error occurred when saving coupon: %1","אירעה שגיאה בעת שמירת קופון: %1",module,Magento_SalesRule
 "Discount (%1)","הנחה (%1)",module,Magento_SalesRule
@@ -2284,6 +2299,15 @@ Auto,אוטומטי,module,Magento_SalesRule
 Subtotal,"סכום ביניים",module,Magento_SalesRule
 "Total Weight","המשקל הכולל",module,Magento_SalesRule
 "Shipping Method","שיטת משלוח",module,Magento_SalesRule
+FOUND,נמצא,module,Magento_SalesRule
+"NOT FOUND","לא נמצא",module,Magento_SalesRule
+"total quantity","כמות כוללת",module,Magento_SalesRule
+"total amount","סך הכל",module,Magento_SalesRule
+is,הוא,module,Magento_SalesRule
+"is not",איננו,module,Magento_SalesRule
+"equals or greater than","שווה או גדול מ-",module,Magento_SalesRule
+"equals or less than","שווה או פחות מ-",module,Magento_SalesRule
+"greater than","גדול מ-",module,Magento_SalesRule
 "Credit Memos","חשבוניות זיכוי",module,Magento_Sales
 Orders,הזמנות,module,Magento_Sales
 Invoices,חשבוניות,module,Magento_Sales
