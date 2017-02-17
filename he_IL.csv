@@ -445,28 +445,6 @@ Authorize,אישור,module,Magento_Braintree
 "Authorize and Capture","אושר ונקלט",module,Magento_Braintree
 "--Please Select--","--אנא בחר",module,Magento_Braintree
 "Please agree to all the terms and conditions before placing the order.","בבקשה הסכם לכלל תנאי השימוש לפני ביצוע ההזמנה.",module,Magento_Braintree
-"Paypal account","חשבון PayPal",module,Magento_Braintree
-"Coinbase account","חשבון Coinbase",module,Magento_Braintree
-"Europe bank account","חשבון בנק אירופאי",module,Magento_Braintree
-"Credit card","כרטיס אשראי",module,Magento_Braintree
-"Apple pay card","כרטיס Apple pay",module,Magento_Braintree
-"Android pay card","כרטיס Android Pay",module,Magento_Braintree
-"Authorization expired","אישור פג תוקף",module,Magento_Braintree
-Authorizing,מאשר,module,Magento_Braintree
-Authorized,מאושר,module,Magento_Braintree
-"Gateway rejected","שער נדחה",module,Magento_Braintree
-Failed,נכשל,module,Magento_Braintree
-"Processor declined","עיבוד נכשל",module,Magento_Braintree
-Settled,הוסדר,module,Magento_Braintree
-Settling,הוסדר,module,Magento_Braintree
-"Submitted for settlement","נאספו לייחוס",module,Magento_Braintree
-Voided,בוטל,module,Magento_Braintree
-Unrecognized,"לא מזוהה",module,Magento_Braintree
-"Settlement declined","ההסדרים נדחו",module,Magento_Braintree
-"Settlement pending","ההסדרים בהמתנה",module,Magento_Braintree
-"Settlement confirmed","ההסדר אישר",module,Magento_Braintree
-Sale,מכירה,module,Magento_Braintree
-Credit,אשראי,module,Magento_Braintree
 "Credit Card Type","סוג כרטיס אשראי",module,Magento_Braintree
 "Credit Card Number","מספר כרטיס אשראי",module,Magento_Braintree
 "Please, enter valid Credit Card Number","נא הזן מספר כרטיס אשראי בתוקף",module,Magento_Braintree
@@ -1647,7 +1625,6 @@ Summary,נושא,module,Magento_ConfigurableProduct
 "You need to choose options for your item.","עליך לבחור את האפשרויות עבור הפריט שלך.",module,Magento_ConfigurableProduct
 "Some product variations fields are not valid.","חלק מהוריאציות של שדות המוצר אינם חוקיים.",module,Magento_ConfigurableProduct
 "Configuration must have specified attributes","יש לציין קונפיגורציה של תכונות",module,Magento_ConfigurableProduct
-"Configurable product ""%1"" does not have sub-products","המוצר ההמורכב ""%1"" ללא תת מוצרים",module,Magento_ConfigurableProduct
 "Type %1 is not an instance of %2","סוג %1 הוא לא מופע של %2",module,Magento_ConfigurableProduct
 "Choose Affected Attribute Set","בחר את קבוצת התכונות המושפעות",module,Magento_ConfigurableProduct
 "Add configurable attributes to the current Attribute Set","להוסיף תכונות מורכבות להגדרת התכונה הנוכחית",module,Magento_ConfigurableProduct
@@ -3927,22 +3904,16 @@ Error:,שגיאה:,module,Magento_Shipping
 "contact us","צור עימנו קשר",module,Magento_Shipping
 Info:,מידע:,module,Magento_Shipping
 Track:,מעקב:,module,Magento_Shipping
-Status:,מצב:,module,Magento_Shipping
 "Delivered on:","נמסר ב:",module,Magento_Shipping
-"Signed by:","נחתם על ידי:",module,Magento_Shipping
-"Delivered to:","נמסר ל:",module,Magento_Shipping
-"Shipped or billed on:","נשלח או חויב ב:",module,Magento_Shipping
-"Service Type:","סוג שירות:",module,Magento_Shipping
-Weight:,משקל:,module,Magento_Shipping
 N/A,"לא זמין",module,Magento_Shipping
+"There is no tracking available for this shipment.","אין מעקב זמין עבור משלוח זה.",module,Magento_Shipping
+"There is no tracking available.","אין מעקב זמין.",module,Magento_Shipping
+"Close Window","סגירת חלון",module,Magento_Shipping
 "Track history","היסטוריית מעקב",module,Magento_Shipping
 Location,מיקום,module,Magento_Shipping
 Date,תאריך,module,Magento_Shipping
 "Local Time","זמן מקומי",module,Magento_Shipping
 Description,תיאור,module,Magento_Shipping
-"There is no tracking available for this shipment.","אין מעקב זמין עבור משלוח זה.",module,Magento_Shipping
-"There is no tracking available.","אין מעקב זמין.",module,Magento_Shipping
-"Close Window","סגירת חלון",module,Magento_Shipping
 "Save & Generate","שמור וצור",module,Magento_Sitemap
 "Edit Sitemap","עריכת מפת האתר",module,Magento_Sitemap
 "New Sitemap","מפת האתר החדשה",module,Magento_Sitemap
@@ -3982,7 +3953,6 @@ All,הכל,module,Magento_Sitemap
 "Requested store is inactive","החנות המבוקשת לא פעילה",module,Magento_Store
 "Requested store is not found","החנות המבוקשת לא נמצאה",module,Magento_Store
 "Environment emulation nesting is not allowed.","סביבת אמולציה מקוננת לא מאופשרת.",module,Magento_Store
-"Only default scope allowed","מותר רק טווח ברירת מחדל",module,Magento_Store
 "Invalid scope object","אובייקט טווח לא תקין",module,Magento_Store
 "Store with the same code","חנות עם אותו קוד",module,Magento_Store
 "Website with the same code","אתר עם אותו קוד",module,Magento_Store
@@ -3994,8 +3964,8 @@ All,הכל,module,Magento_Sitemap
 "All Store Views","כל תצוגות החנויות",module,Magento_Store
 "-- Please Select --","-- אנא בחר --",module,Magento_Store
 Admin,"ממשק ניהול",module,Magento_Store
-"More than one default website is defined","יותר מאתר ברירת מחדל אחד מוגדר",module,Magento_Store
 "Default website is not defined","אתר ברירת מחדש לא מוגדר",module,Magento_Store
+"More than one default website is defined","יותר מאתר ברירת מחדל אחד מוגדר",module,Magento_Store
 "no such entity exception","לא קיימת חריגות ליישות זו",module,Magento_Store
 "Your Language:","השפה שלך:",module,Magento_Store
 "Your Language","השפה שלך",module,Magento_Store
@@ -4425,12 +4395,9 @@ Yes,כן,module,Magento_Variable
 "No token found.","טוקן לא נמצא.",module,Magento_Vault
 "Wrong request.","בקשה שגוייה.",module,Magento_Vault
 "Deletion failure. Please try again.","מחיקה נכשלה. אנא נסה שוב.",module,Magento_Vault
-"Credit Card was successfully removed","כרטיס האשראי הוסר בהצלחה",module,Magento_Vault
-"My Credit Cards","כרטיסי האשראי שלי",module,Magento_Vault
 "Card Number","מספר כרטיס",module,Magento_Vault
 "Expiration Date","תאריך תפוגה",module,Magento_Vault
 Type,סוג,module,Magento_Vault
-"You have no credit cards.","אין לך כרטיסי אשראי.",module,Magento_Vault
 ending,סיום,module,Magento_Vault
 Actions,פעולות,module,Magento_Vault
 Delete,מחיקה,module,Magento_Vault
@@ -4658,7 +4625,6 @@ items,פריטים,module,Magento_Checkout
 "Options Details","פרטי אפשרויות",module,Magento_Checkout
 Remove,הסר,module,Magento_Checkout
 "Cart Subtotal","סה""כ",module,Magento_Checkout
-"No Payment Methods","אין שיטות תשלום",module,Magento_Checkout
 "Payment Information","פרטי תשלום",module,Magento_Checkout
 "No Payment method available.","אין שיטת תשלום זמינה.",module,Magento_Checkout
 "You can track your order status by creating an account.","באפשרותך לעקוב אחר מצב ההזמנה שלך על ידי יצירת חשבון.",module,Magento_Checkout
@@ -5146,7 +5112,6 @@ Download,הורדה,module,Magento_Backup
 Action,פעולה,module,Magento_Backup
 "Enable this Solution","לאפשר פתרון זה",module,Magento_Braintree
 "Enable PayPal through Braintree","לאפשר PayPal דרך Braintree",module,Magento_Braintree
-"Vault enabled","הכספת מופעלת",module,Magento_Braintree
 "Basic Braintree Settings","הגדרות בסיסיות Braintree",module,Magento_Braintree
 Title,כותרת,module,Magento_Braintree
 Environment,סביבה,module,Magento_Braintree
@@ -5181,12 +5146,12 @@ Debug,דיבאג,module,Magento_Braintree
 Select...,בחירה...,module,Magento_Braintree
 Status,סטטוס,module,Magento_Braintree
 "Transaction Type","סוג טרנזקציה",module,Magento_Braintree
+"Payment Type","סוג התשלום",module,Magento_Braintree
 "PayPal Payment ID","מזהה תשלום PayPal",module,Magento_Braintree
+"Created At","נוצר ב-",module,Magento_Braintree
 "Transaction ID","מספר העברה",module,Magento_Braintree
 "Order ID","מספר הזמנה",module,Magento_Braintree
-"Payment Type","סוג התשלום",module,Magento_Braintree
 Type,סוג,module,Magento_Braintree
-"Created At","נוצר ב-",module,Magento_Braintree
 Amount,סכום,module,Magento_Braintree
 "Settlement Code","קוד הסדר",module,Magento_Braintree
 "Settlement Response Text","טקסט תגובת ההסדר",module,Magento_Braintree
