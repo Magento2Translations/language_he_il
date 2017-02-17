@@ -3604,9 +3604,16 @@ Updated,עודכן,module,Magento_Indexer
 "Integration configuration file.","קובץ הקונפיגורציה של אינטגרציה.",module,Magento_Integration
 "No Integrations Found","אין איטגרציות נמצאו",module,Magento_Integration
 Status,סטטוס,module,Magento_Integration
+"Layered Navigation","פילטור הניווט",module,Magento_LayeredNavigation
 "Display Product Count","הצגת מונה מוצרים",module,Magento_LayeredNavigation
+"Price Navigation Step Calculation","שלב חישוב המחיר בתפריט הניווט",module,Magento_LayeredNavigation
+"Default Price Navigation Step","שלב ברירת המחדל בתפריט המחיר",module,Magento_LayeredNavigation
+"Maximum Number of Price Intervals","המספר המרבי עבור מרווחי המחיר",module,Magento_LayeredNavigation
 "Maximum number of price intervals is 100","המספר המרבי של מרווחי המחיר הוא 100",module,Magento_LayeredNavigation
+"Display Price Interval as One Price","הצג טווחי מחיר בתור מחיר אחד",module,Magento_LayeredNavigation
 "This setting will be applied when all prices in the specific price interval are equal.","הגדרה זו תחול כאשר כל המחירים במרווח המחירים הספציפי שווים.",module,Magento_LayeredNavigation
+"Interval Division Limit","הגבלת חלוקת המרווחים",module,Magento_LayeredNavigation
+"Please specify the number of products, that will not be divided into subintervals.","נא ציין את מספר מוצרים, אשר אינם ניתנים לחילוק בטווחים.",module,Magento_LayeredNavigation
 Options,אפשרויות,module,Magento_Multishipping
 "Allow Shipping to Multiple Addresses","אפשר משלוח למספר כתובות",module,Magento_Multishipping
 Status,סטטוס,module,Magento_Newsletter
