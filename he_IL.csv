@@ -1718,6 +1718,7 @@ Status,סטטוס,module,Magento_ImportExport
 "Destination file is not writable","קובץ היעד אינו ניתן לכתיבה",module,Magento_ImportExport
 "in rows",בשורות,module,Magento_ImportExport
 label,תווית,module,Magento_ImportExport
+Add/Update,הוספה/עדכון,module,Magento_ImportExport
 "Indexer Management","ניהול אינדקסים",module,Magento_Indexer
 "Update by Schedule","עדכון על פי לוח הזמנים",module,Magento_Indexer
 "Update on Save","עדכון בעת שמירה",module,Magento_Indexer
@@ -1749,6 +1750,7 @@ Reauthorize,"אימות חוזר",module,Magento_Integration
 Inactive,"לא פעיל",module,Magento_Integration
 Active,פעיל,module,Magento_Integration
 "Are you sure ?","האם אתה בטוח ?",module,Magento_Integration
+"Are you sure you want to delete this integration? You can't undo this action.","האם אתה בטוח שברצונך למחוק שילוב זה? לא ניתן לבטל פעולה זו.",module,Magento_Integration
 "Filterable (with results)","ניתן לסינון (עם תוצאות)",module,Magento_LayeredNavigation
 "Filterable (no results)","ניתן לסינון (ללא תוצאות)",module,Magento_LayeredNavigation
 No,לא,module,Magento_LayeredNavigation
@@ -1887,6 +1889,7 @@ Paused,נעצר,module,Magento_Newsletter
 "You selected an invalid queue.","בחרת תור לא חוקי.",module,Magento_Newsletter
 "We cannot mark as received subscriber.","לא ניתן לסמן כמנוי שהתקבל.",module,Magento_Newsletter
 "Duplicate template code","שכפול קוד תבנית",module,Magento_Newsletter
+"Choose Store View:","בחירת תצוגת חנות:",module,Magento_Newsletter
 "Add to Queue","הוספה לתור",module,Magento_Newsletter
 "Enter your email address","הזן את כתובת הדואר האלקטרוני שלך",module,Magento_Newsletter
 Subscribe,הרשמה,module,Magento_Newsletter
@@ -1989,6 +1992,10 @@ Sales,מכירות,module,Magento_Paypal
 "Your payment has been declined. Please try again.","התשלום נדחה. יש לנסות שנית.",module,Magento_Paypal
 "PayPal response hasn't required fields.","תגובת PayPal אינם שדות חובה.",module,Magento_Paypal
 Active,פעיל,module,Magento_Paypal
+"We prefer PayPal (150 X 60)","אנחנו מעדיפים PayPal (150 X 60)",module,Magento_Paypal
+"We prefer PayPal (150 X 40)","אנחנו מעדיפים PayPal (150 X 40)",module,Magento_Paypal
+"Payments by PayPal (150 X 60)","תשלומים באמצעות PayPal (150 X 60)",module,Magento_Paypal
+"Payments by PayPal (150 X 40)","תשלומים באמצעות PayPal (150 X 40)",module,Magento_Paypal
 Dynamic,דינמי,module,Magento_Paypal
 Sale,מכירה,module,Magento_Paypal
 Yes,כן,module,Magento_Paypal
@@ -2111,7 +2118,9 @@ Quantity,כמות,module,Magento_Reports
 Customers,לקוחות,module,Magento_Reports
 "First Name","שם פרטי",module,Magento_Reports
 "Last Name","שם משפחה",module,Magento_Reports
+Carts,עגלות,module,Magento_Reports
 Name,שם,module,Magento_Reports
+"Wish Lists","רשימות מועדפים",module,Magento_Reports
 "Best Sellers Report","דו המוצרים הנמכרים ביותר",module,Magento_Reports
 "Shopping Cart","עגלת קניות",module,Magento_Reports
 Bestsellers,"הנמכרים ביותר",module,Magento_Reports
@@ -2299,6 +2308,7 @@ Auto,אוטומטי,module,Magento_SalesRule
 Subtotal,"סכום ביניים",module,Magento_SalesRule
 "Total Weight","המשקל הכולל",module,Magento_SalesRule
 "Shipping Method","שיטת משלוח",module,Magento_SalesRule
+"Conditions Combination","שילוב תנאים",module,Magento_SalesRule
 FOUND,נמצא,module,Magento_SalesRule
 "NOT FOUND","לא נמצא",module,Magento_SalesRule
 "total quantity","כמות כוללת",module,Magento_SalesRule
@@ -2308,6 +2318,7 @@ is,הוא,module,Magento_SalesRule
 "equals or greater than","שווה או גדול מ-",module,Magento_SalesRule
 "equals or less than","שווה או פחות מ-",module,Magento_SalesRule
 "greater than","גדול מ-",module,Magento_SalesRule
+"is not one of","אינו אחד מ-",module,Magento_SalesRule
 "Credit Memos","חשבוניות זיכוי",module,Magento_Sales
 Orders,הזמנות,module,Magento_Sales
 Invoices,חשבוניות,module,Magento_Sales
@@ -2384,6 +2395,8 @@ Refund,"החזר כספי",module,Magento_Sales
 Void,ריק,module,Magento_Sales
 Print,הדפסה,module,Magento_Sales
 "Credit Memo","חשבונית זיכוי",module,Magento_Sales
+Capture,לכידה,module,Magento_Sales
+"Edit Order Status","ערוך סטטוס הזמנה",module,Magento_Sales
 Edit,ערוך,module,Magento_Sales
 Unhold,"בטל השהייה",module,Magento_Sales
 unhold,"בטל השהייה",module,Magento_Sales
@@ -2711,8 +2724,12 @@ Tax,מס,module,Magento_Tax
 "Shipping Address","כתובת למשלוח",module,Magento_Tax
 "Billing Address","כתובת חיוב",module,Magento_Tax
 Code,קוד,module,Magento_Tax
+"Subtotal (Excl. Tax)","סכום ביניים (למעט מס)",module,Magento_Tax
+"Subtotal (Incl. Tax)","סכום ביניים (כולל מס)",module,Magento_Tax
 Subtotal,"סכום ביניים",module,Magento_Tax
+"Row Total","סה״כ השורה",module,Magento_Tax
 Total,"סה""כ",module,Magento_Tax
+"After Discount","לאחר הנחה",module,Magento_Tax
 None,ללא,module,Magento_Tax
 "Incl. Tax","כולל מס",module,Magento_Tax
 "Excl. Tax","למעט מס",module,Magento_Tax
@@ -2764,6 +2781,7 @@ Theme,תבנית,module,Magento_Theme
 label,תווית,module,Magento_Theme
 "-- Please Select --","-- אנא בחר --",module,Magento_Theme
 Copy,העתקה,module,Magento_Theme
+"Browse Files","סרוק קבצים",module,Magento_Theme
 Remove,הסר,module,Magento_Theme
 "%1 Item(s)","%1 פריט/ים",module,Magento_Theme
 Page,עמוד,module,Magento_Theme
@@ -2954,6 +2972,9 @@ Regular,רגיל,module,Magento_Usps
 Large,גדול,module,Magento_Usps
 Yes,כן,module,Magento_Usps
 No,לא,module,Magento_Usps
+Sample,דוגמה,module,Magento_Usps
+Gift,מתנה,module,Magento_Usps
+Other,שונות,module,Magento_Usps
 None,ללא,module,Magento_Usps
 "Custom Variables","משתנים מותאמים אישית",module,Magento_Variable
 "Variable Code must be unique.","קוד משתנה חייב להיות ייחודי.",module,Magento_Variable
@@ -3753,6 +3774,8 @@ Translations,תרגומים,module,Magento_Translation
 "Log JS Errors to Session Storage Key","קובץ לוג שגיאות JS כדי מפתח הפעלה אחסון",module,Magento_Ui
 "Allowed Methods","שיטות מותרות",module,Magento_Ups
 Container,מיכל,module,Magento_Ups
+Password,סיסמה,module,Magento_Ups
+"Pickup Method","שיטת איסוף",module,Magento_Ups
 "Sort Order","סדר מיון",module,Magento_Ups
 "Live account","חשבון פעיל",module,Magento_Ups
 Action,פעולה,module,Magento_UrlRewrite
@@ -3774,6 +3797,7 @@ Unlocked,"שוחרר מנעילה",module,Magento_User
 "Default Response Charset","ברירת-המחדל של תגובת קידוד",module,Magento_Webapi
 "If empty, UTF-8 will be used.","אם ריק, UTF-8 יהיה בשימוש.",module,Magento_Webapi
 "Web Services Configuration","הגדרות שירותי אינטרנט",module,Magento_Webapi
+"REST and SOAP configurations, generated WSDL file.","הגדרות של REST ו-SOAP ייצרו קובץ WSDL.",module,Magento_Webapi
 "Fixed Product Taxes","מיסים של מוצר קבוע",module,Magento_Weee
 "Enable FPT","אפשר FPT",module,Magento_Weee
 "Display Prices In Product Lists","הצגת מחירים ברשימות המוצר",module,Magento_Weee
