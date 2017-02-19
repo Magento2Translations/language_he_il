@@ -764,7 +764,7 @@ SKU,מק''ט,module,Magento_CatalogWidget
 "Add to Cart","הוסף לעגלה",module,Magento_CatalogWidget
 "In stock",במלאי,module,Magento_CatalogWidget
 "Out of stock","אזל מהמלאי",module,Magento_CatalogWidget
-"Add to Wish List","הוסף ל Wish List",module,Magento_CatalogWidget
+"Add to Wish List","הוספה למועדפים",module,Magento_CatalogWidget
 "Add to Compare","הוסף להשוואה",module,Magento_CatalogWidget
 Root,שורש,module,Magento_Catalog
 "Save Category","שמור בקטגוריה",module,Magento_Catalog
@@ -1269,7 +1269,7 @@ Actions,פעולות,module,Magento_Catalog
 "Add to Cart","הוסף לסל",module,Magento_Catalog
 "In stock",במלאי,module,Magento_Catalog
 "Out of stock","אזל מהמלאי",module,Magento_Catalog
-"Add to Wish List","הוסף ל Wish List",module,Magento_Catalog
+"Add to Wish List","הוספה למועדפים",module,Magento_Catalog
 "You have no items to compare.","אין לך פריטים להשוואה.",module,Magento_Catalog
 "Remove This Item","הסר פריט זה",module,Magento_Catalog
 Compare,השוואה,module,Magento_Catalog
@@ -2607,6 +2607,8 @@ Status,סטטוס,module,Magento_ImportExport
 "The source is not set.","המקור אינו מוגדר.",module,Magento_ImportExport
 "'%1' file extension is not supported","סיומת הקובץ '%1' אינו חוקי",module,Magento_ImportExport
 label,תווית,module,Magento_ImportExport
+Add/Update,הוספה/עדכון,module,Magento_ImportExport
+Replace,החלפה,module,Magento_ImportExport
 Delete,מחק,module,Magento_ImportExport
 "Indexer Management","ניהול אינדקסים",module,Magento_Indexer
 "Update by Schedule","עדכון על פי לוח הזמנים",module,Magento_Indexer
@@ -2644,6 +2646,7 @@ Active,פעיל,module,Magento_Integration
 "Integration with ID '%1' does not exist.","אינטגרציה עם מזהה '%1' אינו קיים.",module,Magento_Integration
 "Consumer with ID '%1' does not exist.","הלקוח עם מזהה '%1' אינו קיים.",module,Magento_Integration
 "Are you sure ?","האם אתה בטוח ?",module,Magento_Integration
+"Available APIs","APIs זמינים",module,Magento_Integration
 Custom,מותאם,module,Magento_Integration
 All,הכל,module,Magento_Integration
 "Filterable (with results)","ניתן לסינון (עם תוצאות)",module,Magento_LayeredNavigation
@@ -2829,7 +2832,9 @@ Paused,נעצר,module,Magento_Newsletter
 "We cannot mark as received subscriber.","לא ניתן לסמן כמנוי שהתקבל.",module,Magento_Newsletter
 "Duplicate template code","שכפול קוד תבנית",module,Magento_Newsletter
 "Follow this link to unsubscribe <!-- This tag is for unsubscribe link  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>","לחצו כאן להסרה מרשימת התפוצה<!-- This tag is for unsubscribe link  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>",module,Magento_Newsletter
+"Choose Store View:","בחירת תצוגת חנות:",module,Magento_Newsletter
 "Add to Queue","הוספה לתור",module,Magento_Newsletter
+"Please enter a new template name.","נא הזינו שם תבנית חדשה.",module,Magento_Newsletter
 "Enter your email address","הזן את כתובת הדואר האלקטרוני שלך",module,Magento_Newsletter
 Subscribe,הרשמה,module,Magento_Newsletter
 "Make Check payable to:","כתוב את השיק לפקודת:",module,Magento_OfflinePayments
@@ -2963,6 +2968,10 @@ Sales,מכירות,module,Magento_Paypal
 "I'm sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.","אני מצטער - אך לא הייתה אפשרות לעבד את התשלום שלך. נסה אמצעי תשלום אחר או צור איתנו קשר כדי שנוכל לסייע לך.",module,Magento_Paypal
 "I'm sorry - but we are not able to complete your transaction. Please contact us so we can assist you.","אני מצטער - אבל אנחנו לא יכולים להשלים את העסקה. אנא פנה אלינו כדי שנוכל לסייע לך.",module,Magento_Paypal
 Active,פעיל,module,Magento_Paypal
+"We prefer PayPal (150 X 60)","אנחנו מעדיפים PayPal (150 X 60)",module,Magento_Paypal
+"We prefer PayPal (150 X 40)","אנחנו מעדיפים PayPal (150 X 40)",module,Magento_Paypal
+"Payments by PayPal (150 X 60)","תשלומים באמצעות PayPal (150 X 60)",module,Magento_Paypal
+"Payments by PayPal (150 X 40)","תשלומים באמצעות PayPal (150 X 40)",module,Magento_Paypal
 Dynamic,דינמי,module,Magento_Paypal
 Sale,מכירה,module,Magento_Paypal
 Yes,כן,module,Magento_Paypal
@@ -3140,7 +3149,9 @@ Quantity,כמות,module,Magento_Reports
 Customers,לקוחות,module,Magento_Reports
 "First Name","שם פרטי",module,Magento_Reports
 "Last Name","שם משפחה",module,Magento_Reports
+Carts,עגלות,module,Magento_Reports
 Name,שם,module,Magento_Reports
+"Wish Lists","רשימות מועדפים",module,Magento_Reports
 "Best Sellers Report","דו המוצרים הנמכרים ביותר",module,Magento_Reports
 "Shopping Cart","עגלת קניות",module,Magento_Reports
 "We can't refresh lifetime statistics.","איננו יכולים לרענן את הסטטיסטיקות.",module,Magento_Reports
@@ -3149,7 +3160,7 @@ Bestsellers,"הנמכרים ביותר",module,Magento_Reports
 Error,שגיאה,module,Magento_Reports
 "Add to Cart","הוסף לסל",module,Magento_Reports
 "In stock",במלאי,module,Magento_Reports
-"Add to Wish List","הוסף ל Wish List",module,Magento_Reports
+"Add to Wish List","הוספה למועדפים",module,Magento_Reports
 "Save Review","שמור חוות דעת",module,Magento_Review
 "New Review","חוות דעת חדשה",module,Magento_Review
 "Review Details","פרטי חוות דעת מוצר",module,Magento_Review
@@ -3372,6 +3383,7 @@ Auto,אוטומטי,module,Magento_SalesRule
 Subtotal,"סכום ביניים",module,Magento_SalesRule
 "Total Weight","המשקל הכולל",module,Magento_SalesRule
 "Shipping Method","שיטת משלוח",module,Magento_SalesRule
+"Conditions Combination","שילוב תנאים",module,Magento_SalesRule
 FOUND,נמצא,module,Magento_SalesRule
 "NOT FOUND","לא נמצא",module,Magento_SalesRule
 "total quantity","כמות כוללת",module,Magento_SalesRule
@@ -3381,6 +3393,7 @@ is,הוא,module,Magento_SalesRule
 "equals or greater than","שווה או גדול מ-",module,Magento_SalesRule
 "equals or less than","שווה או פחות מ-",module,Magento_SalesRule
 "greater than","גדול מ-",module,Magento_SalesRule
+"is not one of","אינו אחד מ-",module,Magento_SalesRule
 "Entity Sequence profile not added to meta active profile","סדר הפעולות של יישות הפרופיל לא תיווסף לפרופיל ה-meta האקטיבי",module,Magento_SalesSequence
 "Not enough arguments","אין מספיק ארגומנטים",module,Magento_SalesSequence
 "Credit Memos","חשבוניות זיכוי",module,Magento_Sales
@@ -3466,7 +3479,9 @@ Print,הדפסה,module,Magento_Sales
 "The credit memo email was sent.","הדואר האלקטרוני נשלח בנוגע לתזכיר אשראי.",module,Magento_Sales
 "The credit memo email wasn't sent.","הדואר האלקטרוני בנוגע לזיכוי לא נשלח.",module,Magento_Sales
 "Credit Memo","חשבונית זיכוי",module,Magento_Sales
+Capture,לכידה,module,Magento_Sales
 "The invoice email wasn't sent.","הדואר האלקטרוני בנוגע לחשבונית לא נשלח.",module,Magento_Sales
+"Edit Order Status","ערוך סטטוס הזמנה",module,Magento_Sales
 Edit,ערוך,module,Magento_Sales
 Unhold,"בטל השהייה",module,Magento_Sales
 unhold,"בטל השהייה",module,Magento_Sales
@@ -3987,8 +4002,12 @@ Tax,מס,module,Magento_Tax
 "Shipping Address","כתובת למשלוח",module,Magento_Tax
 "Billing Address","כתובת חיוב",module,Magento_Tax
 Code,קוד,module,Magento_Tax
+"Subtotal (Excl. Tax)","סכום ביניים (למעט מס)",module,Magento_Tax
+"Subtotal (Incl. Tax)","סכום ביניים (כולל מס)",module,Magento_Tax
 Subtotal,"סכום ביניים",module,Magento_Tax
+"Row Total","סה״כ השורה",module,Magento_Tax
 Total,"סה""כ",module,Magento_Tax
+"After Discount","לאחר הנחה",module,Magento_Tax
 None,ללא,module,Magento_Tax
 "Incl. Tax","כולל מס",module,Magento_Tax
 "Excl. Tax","למעט מס",module,Magento_Tax
@@ -4050,8 +4069,11 @@ label,תווית,module,Magento_Theme
 Copy,העתקה,module,Magento_Theme
 "We can't upload the file right now.","איננו יכולים להעלות את הקובץ נכון לעכשיו.",module,Magento_Theme
 "We can't delete root directory %1 right now.","איננו לא ניתן למחוק את תיקיית האב %1 עכשיו.",module,Magento_Theme
+"Theme isn't deletable.","ערכת הנושא אינה ניתנת למחיקה.",module,Magento_Theme
 Message,הודעה,module,Magento_Theme
+Phrase,ביטוי,module,Magento_Theme
 exception,חריגה,module,Magento_Theme
+"Browse Files","סרוק קבצים",module,Magento_Theme
 Remove,הסר,module,Magento_Theme
 "%1 Item(s)","%1 פריט/ים",module,Magento_Theme
 Page,עמוד,module,Magento_Theme
@@ -4287,6 +4309,9 @@ Yes,כן,module,Magento_Usps
 No,לא,module,Magento_Usps
 "For some reason we can't retrieve tracking info right now.","מסיבה כלשהי אנחנו אין אפשרות לשחזר את מספר החבילה עכשיו.",module,Magento_Usps
 "Sorry, something went wrong. Please try again or contact us and we'll try to help.","ארעה תקלה. אנא נסו שנית או צרו עמנו קשר וננסה לעזור.",module,Magento_Usps
+Sample,דוגמה,module,Magento_Usps
+Gift,מתנה,module,Magento_Usps
+Other,שונות,module,Magento_Usps
 None,ללא,module,Magento_Usps
 "Custom Variables","משתנים מותאמים אישית",module,Magento_Variable
 "Add New Variable","הוסף משתנה חדש",module,Magento_Variable
@@ -4468,7 +4493,7 @@ Edit,ערוך,module,Magento_Wishlist
 "Options Details","אפשרויות פרטים",module,Magento_Wishlist
 "RSS Feed","עדכוני RSS",module,Magento_Wishlist
 Product,מוצר,module,Magento_Wishlist
-"Add to Wish List","הוסף ל Wish List",module,Magento_Wishlist
+"Add to Wish List","הוספה למועדפים",module,Magento_Wishlist
 Back,חזור,module,Magento_Wishlist
 "Wish List is empty now.","רשימת המועדפים ריקה כעת.",module,Magento_Wishlist
 "* Required Fields","* שדות חובה",module,Magento_Wishlist
@@ -4647,6 +4672,9 @@ Delete,מחק,module,Magento_ProductVideo
 "Please enter 6 or more characters. Leading or trailing spaces will be ignored.","אנא הכנס 6 תווים או יותר. רווחים וסימני פיסוק לא יילקחו בחשבון.",module,Magento_Ui
 "Please enter 7 or more characters, using both numeric and alphabetic.","נא להזין 7 תווים או יותר, יש לכלול אותיות ומספרים.",module,Magento_Ui
 "Please enter a valid URL. Protocol is required (http://, https:// or ftp://).","אנא הזן כתובת URL חוקית. פרוטוקול נדרש (http://, https:// או ftp: / /).",module,Magento_Ui
+"Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.","נא להשתמש רק באותיות (a-z או A-Z) או מספרים (0-9) בשדה זה. ללא רווחים או תווים אחרים מותרים.",module,Magento_Ui
+"Please enter a valid date.","הזינו בבקשה תאריך חוקי.",module,Magento_Ui
+"Please select State/Province.","נא בחר מדינה/מחוז.",module,Magento_Ui
 "This is a required field.","שדה זה הוא חובה.",module,Magento_Ui
 Attention,"תשומת לב",module,Magento_Ui
 OK,אישור,module,Magento_Ui
@@ -5478,6 +5506,8 @@ ui/grid/filters/elements/select,ui/גריד/פילטרים/אלמנטים/בחר
 Action,פעולה,module,Magento_Ui
 "Allowed Methods","שיטות מותרות",module,Magento_Ups
 Container,מיכל,module,Magento_Ups
+Password,סיסמה,module,Magento_Ups
+"Pickup Method","שיטת איסוף",module,Magento_Ups
 "Sort Order","סדר מיון",module,Magento_Ups
 "Live account","חשבון פעיל",module,Magento_Ups
 Action,פעולה,module,Magento_UrlRewrite
@@ -5502,6 +5532,7 @@ Name,שם,module,Magento_Variable
 "Default Response Charset","ברירת-המחדל של תגובת קידוד",module,Magento_Webapi
 "If empty, UTF-8 will be used.","אם ריק, UTF-8 יהיה בשימוש.",module,Magento_Webapi
 "Web Services Configuration","הגדרות שירותי אינטרנט",module,Magento_Webapi
+"REST and SOAP configurations, generated WSDL file.","הגדרות של REST ו-SOAP ייצרו קובץ WSDL.",module,Magento_Webapi
 "Fixed Product Taxes","מיסים של מוצר קבוע",module,Magento_Weee
 "Enable FPT","אפשר FPT",module,Magento_Weee
 "Display Prices In Product Lists","הצגת מחירים ברשימות המוצר",module,Magento_Weee
