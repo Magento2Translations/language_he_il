@@ -3027,6 +3027,8 @@ Yes,כן,module,Magento_Paypal
 No,לא,module,Magento_Paypal
 Auto,אוטומטי,module,Magento_Paypal
 "Ask Customer","שאל את הלקוח",module,Magento_Paypal
+Never,"לעולם לא",module,Magento_Paypal
+"IPN (Instant Payment Notification) Only","IPN (הודעת תשלום מיידי) בלבד",module,Magento_Paypal
 "We'll authorize the amount of %1 as soon as the payment gateway approves it.","אנו נאשר את כמות %1 ברגע שספק התשלום יאשר זאת.",module,Magento_Paypal
 "PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.","PayPal יכול לעבד הזמנות עם יתרת חוב של אפס. כדי לסיים את הרכישה, נא לעבור תהליך סליקה רגיל.",module,Magento_Paypal
 "This customer didn't include a confirmed address.","לקוח זה לא אימת את הכתובת.",module,Magento_Paypal
@@ -3200,6 +3202,8 @@ Customers,לקוחות,module,Magento_Reports
 Carts,עגלות,module,Magento_Reports
 Name,שם,module,Magento_Reports
 "Wish Lists","רשימות מועדפים",module,Magento_Reports
+"Low Stock","מלאי נמוך",module,Magento_Reports
+"Low Stock Report","דו""ח מלאי נמוך",module,Magento_Reports
 "Shopping Cart","עגלת קניות",module,Magento_Reports
 "We can't refresh lifetime statistics.","איננו יכולים לרענן את הסטטיסטיקות.",module,Magento_Reports
 "We can't refresh recent statistics.","איננו יכולים להתעדכן בסטטיסטיקות האחרונות.",module,Magento_Reports
@@ -3514,6 +3518,9 @@ Print,הדפסה,module,Magento_Sales
 Capture,לכידה,module,Magento_Sales
 "The invoice email wasn't sent.","הדואר האלקטרוני בנוגע לחשבונית לא נשלח.",module,Magento_Sales
 "Edit Order Status","ערוך סטטוס הזמנה",module,Magento_Sales
+"Status Code","קוד סטטוס",module,Magento_Sales
+"Total Paid","סה""כ שולם",module,Magento_Sales
+"Total Refunded","סה""כ הוחזר",module,Magento_Sales
 Edit,ערוך,module,Magento_Sales
 Unhold,"בטל השהייה",module,Magento_Sales
 unhold,"בטל השהייה",module,Magento_Sales
@@ -4080,6 +4087,9 @@ Subtotal,"סכום ביניים",module,Magento_Tax
 Total,"סה""כ",module,Magento_Tax
 "After Discount","לאחר הנחה",module,Magento_Tax
 None,ללא,module,Magento_Tax
+"customer group","קבוצת לקוחות",module,Magento_Tax
+product,מוצר,module,Magento_Tax
+"Excl. tax:","למעט מס:",module,Magento_Tax
 "Incl. Tax","כולל מס",module,Magento_Tax
 "Excl. Tax","למעט מס",module,Magento_Tax
 Save,שמור,module,Magento_Tax
@@ -5697,6 +5707,7 @@ Description,תיאור,module,Magento_Indexer
 Mode,מצב,module,Magento_Indexer
 Status,סטטוס,module,Magento_Indexer
 Updated,עודכן,module,Magento_Indexer
+"Integration configuration file","קובץ הקונפיגורציה של אינטגרציה",module,Magento_Integration
 "We couldn't find any records.","לא הצלחנו למצוא רשומות.",module,Magento_Integration
 Status,סטטוס,module,Magento_Integration
 "Layered Navigation","פילטור הניווט",module,Magento_LayeredNavigation
@@ -5730,6 +5741,8 @@ General,כללי,module,Magento_NewRelicReporting
 "New Relic Application ID","מזהה יישום חדש של שריד",module,Magento_NewRelicReporting
 "Enable Cron","אפשר Cron",module,Magento_NewRelicReporting
 "Newsletter Template","תבנית לניוזלטר",module,Magento_Newsletter
+"Subscription Options","אפשרויות מינוי",module,Magento_Newsletter
+"Allow Guest Subscription","לאפשר מינוי של אורחים",module,Magento_Newsletter
 Status,סטטוס,module,Magento_Newsletter
 Delete,מחק,module,Magento_Newsletter
 Email,דואר,module,Magento_Newsletter
@@ -5952,6 +5965,7 @@ Container,מיכל,module,Magento_Ups
 Password,סיסמה,module,Magento_Ups
 "Pickup Method","שיטת איסוף",module,Magento_Ups
 "Sort Order","סדר מיון",module,Magento_Ups
+Debug,"איתור באגים",module,Magento_Ups
 Action,פעולה,module,Magento_UrlRewrite
 Edit,ערוך,module,Magento_UrlRewrite
 "All Users","כל המשתמשים",module,Magento_User
@@ -5968,6 +5982,10 @@ Username,"שם משתמש",module,Magento_User
 "Last login","כניסה אחרונה",module,Magento_User
 Failures,כשלים,module,Magento_User
 Unlocked,"שוחרר מנעילה",module,Magento_User
+Size,גודל,module,Magento_Usps
+Width,רוחב,module,Magento_Usps
+Height,גובה,module,Magento_Usps
+Girth,היקף,module,Magento_Usps
 "Sort Order","סדר מיון",module,Magento_Usps
 "Variable ID","מספר מזהה של משתנה",module,Magento_Variable
 Name,שם,module,Magento_Variable
