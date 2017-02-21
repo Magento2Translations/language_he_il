@@ -2002,6 +2002,8 @@ Yes,כן,module,Magento_Paypal
 No,לא,module,Magento_Paypal
 Auto,אוטומטי,module,Magento_Paypal
 "Ask Customer","שאל את הלקוח",module,Magento_Paypal
+Never,"לעולם לא",module,Magento_Paypal
+"IPN (Instant Payment Notification) Only","IPN (הודעת תשלום מיידי) בלבד",module,Magento_Paypal
 Complaint,תלונה,module,Magento_Paypal
 Dispute,מחלוקת,module,Magento_Paypal
 "Start Date","תאריך התחלה",module,Magento_Paypal
@@ -2121,6 +2123,8 @@ Customers,לקוחות,module,Magento_Reports
 Carts,עגלות,module,Magento_Reports
 Name,שם,module,Magento_Reports
 "Wish Lists","רשימות מועדפים",module,Magento_Reports
+"Low Stock","מלאי נמוך",module,Magento_Reports
+"Low Stock Report","דו""ח מלאי נמוך",module,Magento_Reports
 "Best Sellers Report","דו המוצרים הנמכרים ביותר",module,Magento_Reports
 "Shopping Cart","עגלת קניות",module,Magento_Reports
 Bestsellers,"הנמכרים ביותר",module,Magento_Reports
@@ -2397,6 +2401,9 @@ Print,הדפסה,module,Magento_Sales
 "Credit Memo","חשבונית זיכוי",module,Magento_Sales
 Capture,לכידה,module,Magento_Sales
 "Edit Order Status","ערוך סטטוס הזמנה",module,Magento_Sales
+"Status Code","קוד סטטוס",module,Magento_Sales
+"Total Paid","סה""כ שולם",module,Magento_Sales
+"Total Refunded","סה""כ הוחזר",module,Magento_Sales
 Edit,ערוך,module,Magento_Sales
 Unhold,"בטל השהייה",module,Magento_Sales
 unhold,"בטל השהייה",module,Magento_Sales
@@ -2731,6 +2738,8 @@ Subtotal,"סכום ביניים",module,Magento_Tax
 Total,"סה""כ",module,Magento_Tax
 "After Discount","לאחר הנחה",module,Magento_Tax
 None,ללא,module,Magento_Tax
+"customer group","קבוצת לקוחות",module,Magento_Tax
+product,מוצר,module,Magento_Tax
 "Incl. Tax","כולל מס",module,Magento_Tax
 "Excl. Tax","למעט מס",module,Magento_Tax
 Save,שמור,module,Magento_Tax
@@ -3637,6 +3646,8 @@ Status,סטטוס,module,Magento_Integration
 "Please specify the number of products, that will not be divided into subintervals.","נא ציין את מספר מוצרים, אשר אינם ניתנים לחילוק בטווחים.",module,Magento_LayeredNavigation
 Options,אפשרויות,module,Magento_Multishipping
 "Allow Shipping to Multiple Addresses","אפשר משלוח למספר כתובות",module,Magento_Multishipping
+"Subscription Options","אפשרויות מינוי",module,Magento_Newsletter
+"Allow Guest Subscription","לאפשר מינוי של אורחים",module,Magento_Newsletter
 Status,סטטוס,module,Magento_Newsletter
 Delete,מחק,module,Magento_Newsletter
 Email,דואר,module,Magento_Newsletter
@@ -3778,6 +3789,7 @@ Password,סיסמה,module,Magento_Ups
 "Pickup Method","שיטת איסוף",module,Magento_Ups
 "Sort Order","סדר מיון",module,Magento_Ups
 "Live account","חשבון פעיל",module,Magento_Ups
+Debug,"איתור באגים",module,Magento_Ups
 Action,פעולה,module,Magento_UrlRewrite
 Edit,ערוך,module,Magento_UrlRewrite
 "Reset Password Template","תבנית לאיפוס סיסמה",module,Magento_User
@@ -3791,6 +3803,10 @@ Username,"שם משתמש",module,Magento_User
 "Last login","כניסה אחרונה",module,Magento_User
 Failures,כשלים,module,Magento_User
 Unlocked,"שוחרר מנעילה",module,Magento_User
+Size,גודל,module,Magento_Usps
+Width,רוחב,module,Magento_Usps
+Height,גובה,module,Magento_Usps
+Girth,היקף,module,Magento_Usps
 "Sort Order","סדר מיון",module,Magento_Usps
 "Magento Web API","מג'נטו Web API",module,Magento_Webapi
 "SOAP Settings","הגדרות SOAP",module,Magento_Webapi
