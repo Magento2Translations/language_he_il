@@ -335,7 +335,6 @@ Minute,דקה,module,Magento_Backend
 "JavaScript may be disabled in your browser.","ייתכן וה-JavaScript ינוטרל בדפדפן שלך.",module,Magento_Backend
 "To use this website you must first enable JavaScript in your browser.","כדי להשתמש באתר זה עליך לאפשר JavaScript בדפדפן שלך.",module,Magento_Backend
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","זוהי חנות הדגמה בלבד. ניתן לעיין ולבצע הזמנות, אבל לא תחוייב.",module,Magento_Backend
-"Report Bugs","דיווח באגים",module,Magento_Backend
 "Store View:","תצוגת חנות:",module,Magento_Backend
 "Stores Configuration","הגדרות חנויות",module,Magento_Backend
 "Please confirm scope switching. All data that hasn't been saved will be lost.","אנא אשרו את החלפת המקבץ. כל הנתונים אשר לא נשמר יאבדו.",module,Magento_Backend
@@ -454,6 +453,8 @@ Authorize,אישור,module,Magento_Braintree
 "Please, enter valid Card Verification Number","נא הזן מספר חוקי לאימות כרטיס",module,Magento_Braintree
 ending,סיום,module,Magento_Braintree
 expires,פג,module,Magento_Braintree
+Actions,פעולות,module,Magento_Braintree
+Delete,מחק,module,Magento_Braintree
 "Percent Discount","אחוז הנחה",module,Magento_Bundle
 "-- Select --","-- בחר --",module,Magento_Bundle
 Dynamic,דינמי,module,Magento_Bundle
@@ -566,7 +567,6 @@ Always,תמיד,module,Magento_Captcha
 "Entity type model '%1' is not found","סוג דגם '%1' לא נמצא",module,Magento_CatalogImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","סוג מודל חייב להיות מופע של \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "There are no product types available for export.","אין סוגי המוצרים זמינים עבור ייצוא.",module,Magento_CatalogImportExport
-"Entity type model must be an instance of Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType","סוג מודל חייב להיות מופע של \Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "Category ""%1"" has not been created.","קטגוריה ""%1"" לא נוצרה.",module,Magento_CatalogImportExport
 "File directory '%1' is not readable.","קבצי התיקייה '%1' אינם ניתנים לעריכה.",module,Magento_CatalogImportExport
 "File directory '%1' is not writable.","קבצי התיקייה '%1' אינם ניתנים לצפייה.",module,Magento_CatalogImportExport
@@ -902,7 +902,6 @@ Categories,קטגוריות,module,Magento_Catalog
 "Category is not available for requested store.","קטגוריה זו אינה זמינה עבור החנות המבוקשת.",module,Magento_Catalog
 "There was a category move error. %1","אירעה שגיאת העברה קטגוריה. %1",module,Magento_Catalog
 "There was a category move error.","אירעה שגיאת העברה קטגוריה.",module,Magento_Catalog
-"You moved the category","העברת את הקטגוריה",module,Magento_Catalog
 "Attribute ""%1"" is required.","התכונה ""%1"" נדרשת.",module,Magento_Catalog
 "You saved the category.","שמרת את הקטגוריה.",module,Magento_Catalog
 "Something went wrong while saving the category.","משהו השתבש בעת שמירת הקטגוריה.",module,Magento_Catalog
@@ -1050,7 +1049,6 @@ Disabled,"לא פעיל",module,Magento_Catalog
 "The image does not exist.","התמונה אינה קיימת.",module,Magento_Catalog
 "Please correct the image file type.","נא תקן את סוג הקובץ של התמונה.",module,Magento_Catalog
 "We couldn't move this file: %1.","לא היינו יכולים להעביר את הקובץ הנוכחי: %1.",module,Magento_Catalog
-"We can't find the image file.","איננו מסוגלים למצוא את קובץ התמונה.",module,Magento_Catalog
 "The option type to get group instance is incorrect.","סוג האפשרות לקבלת מופיע הקבוצה לא נכון.",module,Magento_Catalog
 "Select type options required values rows.","בחירת סוג אפשרויות דורש ערכי שורות.",module,Magento_Catalog
 "ProductSku should be specified","יש לציין מק""ט מוצר",module,Magento_Catalog
@@ -1127,7 +1125,6 @@ fl,פל,module,Magento_Catalog
 Images,תמונות,module,Magento_Catalog
 Select...,בחירה...,module,Magento_Catalog
 "Advanced Pricing","תמחור מתקדם",module,Magento_Catalog
-"Tier Price","מחיר כמותי",module,Magento_Catalog
 "Customer Group","קבוצת לקוחות",module,Magento_Catalog
 "Special Price From","מחיר מיוחד מ-",module,Magento_Catalog
 To,ל-,module,Magento_Catalog
@@ -1168,7 +1165,6 @@ Thumbnail,"תמונה ממוזערת",module,Magento_Catalog
 Actions,פעולות,module,Magento_Catalog
 "Schedule Update From","עדכון לוח הזמנים מ-",module,Magento_Catalog
 "Product in Websites","מוצר באתרים",module,Magento_Catalog
-"If your Magento site has multiple views, you can set the scope to apply to a specific view.","אם האתר שלך מג'נטו יש תצוגות מרובות, באפשרותך להגדיר את טווח כדי להחיל על תצוגה מסוימת.",module,Magento_Catalog
 name,שם,module,Magento_Catalog
 "Copy Data from","להעתיק נתונים מ-",module,Magento_Catalog
 "If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products &gt; Categories</a>.","אם אין קטגוריות מותאמות אישית בקטוגריות האב, אנא השתמש בקטגוריה האב כברירת המחדל. ' 'באפשרותך להקצות מחדש את הקטגוריה בכל עת ב-' ' <a href=""%1"" target=""_blank""> מוצרים > קטגוריות</a>.",module,Magento_Catalog
@@ -1187,7 +1183,6 @@ Groups,קבוצות,module,Magento_Catalog
 "A name is required.","שם נדרש.",module,Magento_Catalog
 "This group contains system attributes. Please move system attributes to another group and try again.","קבוצה זו מכילה תכונות המערכת. נא להעביר תכונות מערכת לקבוצה אחרת ונסה שוב.",module,Magento_Catalog
 "Please enter a new group name.","אנא הזן שם קבוצה חדשה.",module,Magento_Catalog
-"An attribute group named ""/name/"" already exists"".","קבוצת התכונה בשם \"/שם/\"כבר קיימת\".",module,Magento_Catalog
 "Sorry, we're unable to complete this request.",". מצטערים, אנחנו לא ניתן להשלים את הבקשה.",module,Magento_Catalog
 "You can't remove attributes from this attribute set.","לא ניתן להסיר תכונות מערכת תכונות זו.",module,Magento_Catalog
 "Custom Options","אפשרויות מותאמות אישית",module,Magento_Catalog
@@ -1358,6 +1353,7 @@ Checkout,קופה,module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","בבקשה הסכם לכלל תנאי השימוש לפני ביצוע ההזמנה.",module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","משהו השתבש בעת עיבוד הזמנתך. אנא נסה שוב מאוחר יותר.",module,Magento_Checkout
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1. אינו יורש מ-\Magento\Checkout\CustomerData\ItemInterface",module,Magento_Checkout
+"Payment Method","שיטת תשלום",module,Magento_Checkout
 "We can't find the product.","לא ניתן למצוא את המוצר.",module,Magento_Checkout
 "The product does not exist.","המוצר אינו קיים.",module,Magento_Checkout
 "We don't have some of the products you want.","אין לנו חלק מהמוצרים שרצית.",module,Magento_Checkout
@@ -1382,7 +1378,6 @@ Checkout,קופה,module,Magento_Checkout
 "Error message!","הודעת שגיאה!",module,Magento_Checkout
 Error!,שגיאה!,module,Magento_Checkout
 "DB exception","חריגת מסד נתונים",module,Magento_Checkout
-"Wrong minimum amount.","סכום מינימלי שגוי.",module,Magento_Checkout
 Message,הודעה,module,Magento_Checkout
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">הדפס קבלה</a>",module,Magento_Checkout
 "Apply Discount Code","שימוש בקוד הנחה",module,Magento_Checkout
@@ -1504,10 +1499,6 @@ Exception,"יוצא מן הכלל",module,Magento_Cms
 "All Store Views","כל תצוגות החנויות",module,Magento_Cms
 Edit,ערוך,module,Magento_Cms
 Delete,מחק,module,Magento_Cms
-"Delete ${ $.$data.title }","מחק ${ $.$data.title }",module,Magento_Cms
-"Are you sure you wan't to delete a ${ $.$data.title } record?","האם אתה בטוח שאתה רוצה כדי למחוק רשומה{ $.$data.title } $?",module,Magento_Cms
-"Delete ""${ $.$data.title }""","מחק ""${ $.$data.title }""",module,Magento_Cms
-"Are you sure you wan't to delete a ""${ $.$data.title }"" record?","האם אתה בטוח שאתה רוצה למחוק רשומה{ $.$data.title } $?",module,Magento_Cms
 View,הצג,module,Magento_Cms
 px.,פיקסלים.,module,Magento_Cms
 "No files found","לא נמצאו קבצים",module,Magento_Cms
@@ -1653,7 +1644,6 @@ Actions,פעולות,module,Magento_ConfigurableProduct
 "This attribute is used in configurable products. You cannot remove it from the attribute set.","תכונה זו משמשת במוצרים מורכבים. לא ניתן להסירו מסט התכונה.",module,Magento_ConfigurableProduct
 "Associated Products","מוצרים משויכים",module,Magento_ConfigurableProduct
 "Step 2: Attribute Values","שלב 2: ערכי התכונה",module,Magento_ConfigurableProduct
-"Select values from each attribute to include in this product. Each unique combination of values creates a unigue product SKU.","בחר ערכים עבור כל תכונה למוצר זה. כל שילוב ייחודי של ערכים יוצר מוצר מק״ט unigue.",module,Magento_ConfigurableProduct
 "Sort Variations","מיון וריאציות",module,Magento_ConfigurableProduct
 Options,אפשרויות,module,Magento_ConfigurableProduct
 "Select All","בחר הכל",module,Magento_ConfigurableProduct
@@ -1880,7 +1870,6 @@ Download,הורדה,module,Magento_Customer
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","אם אתה לקוח מע״מ רשום, אנא לחץ <a href=""%1""> כאן</a> כדי להזין אותך לכתובת חיוב עבור חישוב מע״מ נכונה.",module,Magento_Customer
 "Account Information","פרטי חשבון",module,Magento_Customer
 "You saved the account information.","שמרת את פרטי החשבון.",module,Magento_Customer
-"The account is locked. Please wait and try again or contact %1.","החשבון ננעל. בבקשה חכה, נסה שוב או פנה %1.",module,Magento_Customer
 "Password confirmation doesn't match entered password.","הסיסמה אינה תואמת הסיסמה שהוזנה.",module,Magento_Customer
 "The password doesn't match this account.","הסיסמה אינה תואמת את החשבון שהזנת.",module,Magento_Customer
 "Please correct the email address.","נא תקן את כתובת הדוא״ל.",module,Magento_Customer
@@ -1945,13 +1934,6 @@ Customers,לקוחות,module,Magento_Customer
 "This customer already exists in this store.","לקוח זה כבר קיים בחנות זו.",module,Magento_Customer
 "A customer with the same email already exists in an associated website.","לקוח עם דואר אלקטרוני זהה כבר קיים באתר האינטרנט המשויך.",module,Magento_Customer
 "%fieldName is a required field.","%fieldName הוא שדה נדרש.",module,Magento_Customer
-"Please enter the first name.","אנא הזן את השם הפרטי.",module,Magento_Customer
-"Please enter the last name.","אנא הזן את שם המשפחה.",module,Magento_Customer
-"Please enter the street.","אנא הזינו רחוב.",module,Magento_Customer
-"Please enter the city.","אנא הזינו עיר.",module,Magento_Customer
-"Please enter the phone number.","אנא הזינו את מספר הטלפון.",module,Magento_Customer
-"Please enter the zip/postal code.","אנא הזינו מיקוד.",module,Magento_Customer
-"Please enter the country.","אנא הזינו מדינה.",module,Magento_Customer
 "Please enter the state/province.","אנא הזינו מדינה/מחוז.",module,Magento_Customer
 """%1"" is a required value.","""%1"" הוא ערך הנדרש.",module,Magento_Customer
 Global,גלובלי,module,Magento_Customer
@@ -3135,7 +3117,6 @@ Discount,הנחה,module,Magento_Quote
 Tax,מס,module,Magento_Quote
 "Cart contains virtual product(s) only. Shipping address is not applicable.","עגלת הקניות מכילה מוצר(ים) לא מוחשי(ים) בלבד. לא ניתן ליישם כתובת למשלוח.",module,Magento_Quote
 "Shipping method is not applicable for empty cart","שיטת משלוח אינה ישימה עבור עגלה ריקה",module,Magento_Quote
-error123,שגיאה123,module,Magento_Quote
 error345,שגיאה345,module,Magento_Quote
 "New Accounts","חשבונות חדשים",module,Magento_Reports
 "Customers by number of orders","לקוחות לפי מספר ההזמנות",module,Magento_Reports
@@ -4254,10 +4235,7 @@ Store,חנות,module,Magento_UrlRewrite
 "URL Rewrite Management","ניהול כתובת לשכתוב",module,Magento_UrlRewrite
 "Add URL Rewrite","הוסף כתובת לשכתוב",module,Magento_UrlRewrite
 Custom,מותאם,module,Magento_UrlRewrite
-"For category","עבור קטגוריה",module,Magento_UrlRewrite
-"For product","עבור מוצר",module,Magento_UrlRewrite
 "For CMS page","עובר עמוד CMS",module,Magento_UrlRewrite
-"Create URL Rewrite:","צור כתובת לשכתוב:",module,Magento_UrlRewrite
 "You deleted the URL rewrite.","מחקת את הכתובת לשכתוב.",module,Magento_UrlRewrite
 "We can't delete URL Rewrite right now.","איננו יכולים למחוק את הURL המשוכתב ברגע זה.",module,Magento_UrlRewrite
 "URL Rewrites","שכתוב URL",module,Magento_UrlRewrite
@@ -4652,12 +4630,8 @@ Cancel,ביטול,module,Magento_Checkout
 "You can create an account after checkout.","ניתן ליצור חשבון לקוח בסיום הרכישה.",module,Magento_Checkout
 "You already have an account with us. Sign in or continue as guest.","יש לך כבר חשבון אצלנו. היכנס או המשך כאורח.",module,Magento_Checkout
 Login,כניסה,module,Magento_Checkout
-Close,סגור,module,Magento_Checkout
 item,פריט,module,Magento_Checkout
 items,פריטים,module,Magento_Checkout
-"Go to Checkout","מעבר לתשלום",module,Magento_Checkout
-"Recently added item(s)","פריטים שנוספו לאחרונה",module,Magento_Checkout
-"View and edit cart","לצפייה ועריכה של סל קניות",module,Magento_Checkout
 "See Details","ראה פרטים",module,Magento_Checkout
 "Options Details","פרטי אפשרויות",module,Magento_Checkout
 Remove,הסר,module,Magento_Checkout
@@ -4680,8 +4654,6 @@ edit,עריכה,module,Magento_Checkout
 Next,הבא,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","מצטערים, אין הצעות מחיר זמינות עבור הזמנה זו בזמן הזה",module,Magento_Checkout
 "Order Summary","סיכום הזמנה",module,Magento_Checkout
-"Item in Cart","פריט בסל",module,Magento_Checkout
-"Items in Cart","פריטים בסל",module,Magento_Checkout
 "View Details","הצגת פרטים",module,Magento_Checkout
 "Contact Form","טופס יצירת קשר",module,Magento_Contact
 "Name: %name","שם: %name",module,Magento_Contact
@@ -5372,9 +5344,7 @@ Content,תוכן,module,Magento_Catalog
 "Add CMS Block","הוספת בלוק CMS",module,Magento_Catalog
 "Display Settings","הגדרות תצוגה",module,Magento_Catalog
 Anchor,עוגן,module,Magento_Catalog
-"Sort Products By","מיון מוצרים לפי",module,Magento_Catalog
 "Use All","להשתמש בכל",module,Magento_Catalog
-"Default Product Sorting","ברירת מחדל למיון המוצר",module,Magento_Catalog
 "Layered Navigation Price Step","שלב מחיר של תפריט פילטור",module,Magento_Catalog
 "URL Key","מזהה כתובת",module,Magento_Catalog
 "Meta Title","כותרת כללית",module,Magento_Catalog
@@ -5382,7 +5352,6 @@ Anchor,עוגן,module,Magento_Catalog
 "Meta Description","תאור נתוני מטא",module,Magento_Catalog
 "Products in Category","מוצרים בקטגוריה",module,Magento_Catalog
 Design,עיצוב,module,Magento_Catalog
-"Use Parent Category Settings","השתמש בהגדרות קטגוריה האב",module,Magento_Catalog
 Theme,תבנית,module,Magento_Catalog
 Layout,"אפשרויות פריסה",module,Magento_Catalog
 "Layout Update XML","עדכון פריסת XML",module,Magento_Catalog
@@ -5424,7 +5393,6 @@ Details,פרטים,module,Magento_Catalog
 "Display Cart Summary","הצג סיכום עגלה",module,Magento_Checkout
 "Shopping Cart Sidebar","סרגל צידי של עגלת הקניות",module,Magento_Checkout
 "Display Shopping Cart Sidebar","הצג סרגל צידי בעגלת הקניות",module,Magento_Checkout
-"Maximum Display Recently Added Item(s)","כמות מרבית של פריטים אחרונים שהתווספו לתצוגה",module,Magento_Checkout
 "Payment Failed Emails","דואר אלקטרוני עבור תשלום שנכשל",module,Magento_Checkout
 "Payment Failed Email Sender","התשלום נכשל של שולח הדואר האלקטרוני",module,Magento_Checkout
 "Payment Failed Email Receiver","התשלום נכשל של מקבל הדואר האלקטרוני",module,Magento_Checkout
@@ -5596,7 +5564,6 @@ ZIP,"קובץ זיפ",module,Magento_Customer
 "Last Activity","פעיל לאחרונה",module,Magento_Customer
 Type,סוג,module,Magento_Customer
 "Customer Information","פרטים על הלקוח",module,Magento_Customer
-"If your Magento site has multiple views, you can set the scope to apply to a specific view.","אם לאתר שלך יש מספר תצוגות, באפשרותך להציג תצוגה מסוימת.",module,Magento_Customer
 "Account Dashboard","לוח ניהול",module,Magento_Customer
 "Edit Account Information","עריכת פרטי החשבון",module,Magento_Customer
 "Password forgotten","שכחתי סיסמה",module,Magento_Customer
@@ -5923,11 +5890,9 @@ Image,תמונה,module,Magento_Swatches
 Admin,"ממשק ניהול",module,Magento_Swatches
 "1 column","עמודה 1",module,Magento_Theme
 Configuration,"הגדרות תצורה",module,Magento_Theme
-"Search Engine Robots","רובוטי מנועי חיפוש",module,Magento_Theme
 "Default Robots","רובוטים ברירת מחדל",module,Magento_Theme
 "This will be included before head closing tag in page HTML.","זה ייכלל לפני סגירת תגית Head בעמוד ה-HTML.",module,Magento_Theme
 "Edit custom instruction of robots.txt File","ערוך הוראות מותאמות אישית עבור קובץ robots.txt",module,Magento_Theme
-"Reset to Defaults","אפס לברירת המחדל",module,Magento_Theme
 "This action will delete your custom instructions and reset robots.txt file to system's default settings.","פעולה זו תמחוק את הוראות המותאמות אישית שלך ואיפוס קובץ robots.txt להגדרות ברירת המחדל של המערכת.",module,Magento_Theme
 "Default Description","תיאור ברירת מחדל",module,Magento_Theme
 "Default welcome msg!","הודעת ברוכים הבאים ברירת מחדל!",module,Magento_Theme
@@ -5946,8 +5911,6 @@ Configuration,"הגדרות תצורה",module,Magento_Theme
 Header,"חלק עליון של הדף",module,Magento_Theme
 "Logo Image","תמונת לוגו",module,Magento_Theme
 "Allowed file types: png, gif, jpg, jpeg, svg.","סוגי קבצים מותרים: png, gif, jpg, jpeg, svg.",module,Magento_Theme
-"Logo Image Width","רוחב תמונת לוגו",module,Magento_Theme
-"Logo Image Height","גובה תמונת לוגו",module,Magento_Theme
 "Welcome Text","טקסט ברוכים הבאים",module,Magento_Theme
 "Logo Image Alt","Alt תמונת לוגו",module,Magento_Theme
 Footer,"תחתית הדף",module,Magento_Theme
