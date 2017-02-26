@@ -3043,6 +3043,7 @@ Dispute,מחלוקת,module,Magento_Paypal
 "Matched (CVV2)","מתאימים (CVV2)",module,Magento_Paypal
 "Note: %1","הערה: %1",module,Magento_Paypal
 "We cannot cancel this order.","לא ניתן לבטל הזמנה זו.",module,Magento_Paypal
+"Invalid method %1::%2","שיטה לא חוקית %1::%2",module,Magento_Paypal
 "Transaction has been declined","העסקה נדחתה",module,Magento_Paypal
 "Error processing payment. Please try again later.","אירעה שגיאה בעת עיבוד התשלום. נא לנסות מאוחר יותר.",module,Magento_Paypal
 "Payment error. %value was not found.","שגיאת תשלום. הערך % לא נמצא.",module,Magento_Paypal
@@ -5848,6 +5849,8 @@ Dashboard,"לוח בקרה",module,Magento_Reports
 Average,ממוצע,module,Magento_Reports
 Guest,אורח,module,Magento_Reports
 Action,פעולה,module,Magento_Reports
+"Order Created","הזמנה נוצרה",module,Magento_Reports
+"Order Updated","הזמנה עודכנה",module,Magento_Reports
 "By Customers","לפי משתמשים",module,Magento_Review
 "By Products","לפי מוצרים",module,Magento_Review
 Active,פעיל,module,Magento_Review
