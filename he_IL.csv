@@ -4679,6 +4679,7 @@ Cancel,ביטול,module,Magento_Checkout
 Login,כניסה,module,Magento_Checkout
 item,פריט,module,Magento_Checkout
 items,פריטים,module,Magento_Checkout
+"Go to Checkout","מעבר לתשלום",module,Magento_Checkout
 "See Details","ראה פרטים",module,Magento_Checkout
 "Options Details","פרטי אפשרויות",module,Magento_Checkout
 Remove,הסר,module,Magento_Checkout
