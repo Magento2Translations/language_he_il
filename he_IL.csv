@@ -4706,6 +4706,7 @@ edit,עריכה,module,Magento_Checkout
 Next,הבא,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","מצטערים, אין הצעות מחיר זמינות עבור הזמנה זו בזמן הזה",module,Magento_Checkout
 "Order Summary","סיכום הזמנה",module,Magento_Checkout
+"Item in Cart","פריט בסל",module,Magento_Checkout
 "View Details","הצגת פרטים",module,Magento_Checkout
 "Contact Form","טופס יצירת קשר",module,Magento_Contact
 "Name: %name","שם: %name",module,Magento_Contact
