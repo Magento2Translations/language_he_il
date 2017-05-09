@@ -3663,6 +3663,7 @@ State/Province,מדינה/מחוז,module,Magento_Sales
 "Zip/Postal Code",מיקוד,module,Magento_Sales
 "We don't have enough information to save the parent transaction ID.",". אין לנו מספיק מידע כדי לשמור את מזהה ההורה של הטרנזקציה.",module,Magento_Sales
 Complete,הושלמה,module,Magento_Sales
+Closed,נסגרה,module,Magento_Sales
 Customer,לקוח,module,Magento_Sales
 "Apply Coupon Code","אשר את קוד הקופון",module,Magento_Sales
 Apply,החל,module,Magento_Sales
@@ -3691,6 +3692,7 @@ From:,מ:,module,Magento_Sales
 To:,ל:,module,Magento_Sales
 Message:,הודעה:,module,Magento_Sales
 Status,סטטוס,module,Magento_Sales
+"Is Closed",סגורה,module,Magento_Sales
 Items,פריטים,module,Magento_Sales
 "Shipped By","נשלח על ידי",module,Magento_Sales
 "Tracking Number","מספר מעקב",module,Magento_Sales
@@ -4460,9 +4462,12 @@ Yes,כן,module,Magento_Variable
 "No token found.","טוקן לא נמצא.",module,Magento_Vault
 "Wrong request.","בקשה שגוייה.",module,Magento_Vault
 "Deletion failure. Please try again.","מחיקה נכשלה. אנא נסה שוב.",module,Magento_Vault
+"Stored Payment Method was successfully removed","שיטת תשלום שמורה הוסרה בהצלחה",module,Magento_Vault
+"Stored Payment Methods","שיטות תשלום שמורות",module,Magento_Vault
 "Card Number","מספר כרטיס",module,Magento_Vault
 "Expiration Date","תאריך תפוגה",module,Magento_Vault
 Type,סוג,module,Magento_Vault
+"You have no stored payment methods.","אין לך שיטות תשלום שמורות.",module,Magento_Vault
 ending,סיום,module,Magento_Vault
 Actions,פעולות,module,Magento_Vault
 Delete,מחיקה,module,Magento_Vault
