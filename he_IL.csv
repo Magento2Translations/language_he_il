@@ -3644,6 +3644,7 @@ State/Province,מדינה/מחוז,module,Magento_Sales
 %1","אין אפשרות לשמור את המסלול:
 %1",module,Magento_Sales
 Complete,הושלמה,module,Magento_Sales
+Closed,נסגרה,module,Magento_Sales
 Customer,לקוח,module,Magento_Sales
 "Apply Coupon Code","אשר את קוד הקופון",module,Magento_Sales
 Apply,החל,module,Magento_Sales
@@ -3672,6 +3673,7 @@ From:,מ:,module,Magento_Sales
 To:,ל:,module,Magento_Sales
 Message:,הודעה:,module,Magento_Sales
 Status,סטטוס,module,Magento_Sales
+"Is Closed",סגורה,module,Magento_Sales
 Items,פריטים,module,Magento_Sales
 "Shipped By","נשלח על ידי",module,Magento_Sales
 "Tracking Number","מספר מעקב",module,Magento_Sales
