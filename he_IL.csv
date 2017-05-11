@@ -2075,7 +2075,7 @@ Save,שמור,module,Magento_Customer
 "Please enter your email address below to receive a password reset link.","נא להזין את כתובת המייל שלך כדי לקבל קישור לאיפוס סיסמה.",module,Magento_Customer
 Submit,שלח,module,Magento_Customer
 "Registered Customers","לקוחות רשומים",module,Magento_Customer
-"If you have an account, sign in with your email address.","לקוחות רשומים, ניתן להכנס באמצעות כתובת הדוא""ל שלך.",module,Magento_Customer
+"If you have an account, sign in with your email address.","לקוחות רשומים, ניתן להכנס באמצעות כתובת דואר אלקטרוני.",module,Magento_Customer
 Password,סיסמה,module,Magento_Customer
 Login,כניסה,module,Magento_Customer
 "Forgot Your Password?","שכחת סיסמה?",module,Magento_Customer
