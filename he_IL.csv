@@ -2762,43 +2762,68 @@ Total,"סה""כ",module,Magento_Multishipping
 "Create Shipping Address","ליצור כתובת למשלוח",module,Magento_Multishipping
 "Data saving problem","שגיאה בשמירת המידע",module,Magento_Multishipping
 "We cannot open the overview page.","לא ניתן לפתוח עמוד סקירה.",module,Magento_Multishipping
+"Please agree to all Terms and Conditions before placing the order.","בבקשה הסכם לכלל תנאי השימוש לפני ביצוע ההזמנה.",module,Magento_Multishipping
+"Order place error","שגיאה בביצוע ההזמנה",module,Magento_Multishipping
+"Maximum qty allowed for Shipping to multiple addresses is %1","הכמות המרבית המותרת עבור משלוח לכתובות מרובות הוא %1",module,Magento_Multishipping
 "Please check shipping address information.","יש לבדוק את פרטי כתובת המשלוח.",module,Magento_Multishipping
 "Please check billing address information.","יש לבדוק את פרטי כתובת החיוב.",module,Magento_Multishipping
 "Please select shipping methods for all addresses.","נא לבחור שיטת משלוח עבור כל הכתובות.",module,Magento_Multishipping
 "A payment method is not defined.","שיטת תשלום אינה מוגדרת.",module,Magento_Multishipping
+"The requested payment method is not available for multishipping.","שיטת התשלום המבוקשת אינה זמינה עבור שילוח מרובה.",module,Magento_Multishipping
+"Item not found or already ordered","הפריט לא נמצא או כבר הוזמן",module,Magento_Multishipping
 "Please specify a payment method.","נא לציין שיטת תשלום.",module,Magento_Multishipping
 "Please check shipping addresses information.","יש לבדוק את פרטי כתובות המשלוח.",module,Magento_Multishipping
+"Please specify shipping methods for all addresses.","נא לבחור שיטת משלוח עבור כל הכתובות.",module,Magento_Multishipping
 "Select Addresses","בחר כתובות",module,Magento_Multishipping
 "Shipping Information","פרטי משלוח",module,Magento_Multishipping
 "Billing Information","מידע אודות החיוב",module,Magento_Multishipping
 "Place Order","ביצוע הזמנה",module,Magento_Multishipping
+"Order Success","ההזמנה בוצעה בהצלחה",module,Magento_Multishipping
+"Default Billing","ברירת מחדל לחיוב",module,Magento_Multishipping
+"Default Shipping","ברירת מחדל למשלוח",module,Magento_Multishipping
 "Select Address","בחר כתובת",module,Magento_Multishipping
 "Add New Address","הוספת כתובת חדשה",module,Magento_Multishipping
+"Back to Billing Information","חזרה לפרטי חיוב",module,Magento_Multishipping
+"Please select a shipping address for applicable items.","אנא בחר כתובת משלוח עבור הפריטים הרלוונטיים.",module,Magento_Multishipping
 Product,מוצר,module,Magento_Multishipping
 Qty,כמות,module,Magento_Multishipping
 "Send To","שלח אל",module,Magento_Multishipping
+"A shipping selection is not applicable.","בחירת משלוח אינה ישימה.",module,Magento_Multishipping
 Actions,פעולות,module,Magento_Multishipping
 "Remove Item","הסר פריט",module,Magento_Multishipping
 "Remove item","הסר פריט",module,Magento_Multishipping
+"Go to Shipping Information","עבור אל פרטי משלוח",module,Magento_Multishipping
+"Update Qty &amp; Addresses","עדכון כמות &amp; כתובות",module,Magento_Multishipping
+"Enter a New Address","הזן כתובת חדשה",module,Magento_Multishipping
+"Back to Shopping Cart","חזרה אל עגלת קניות",module,Magento_Multishipping
 "Billing Address","כתובת חיוב",module,Magento_Multishipping
 Change,שינוי,module,Magento_Multishipping
 "Payment Method","שיטת התשלום",module,Magento_Multishipping
+"Go to Review Your Order","עבור לסקירת ההזמנה שלך",module,Magento_Multishipping
 "Back to Shipping Information","חזרה למידע עבור השילוח",module,Magento_Multishipping
 "Other items in your order","פריטים אחרים בהזמנה שלך",module,Magento_Multishipping
 "Edit Items","עריכת פריטים",module,Magento_Multishipping
 "Shipping is not applicable.","משלוח אינו ישים.",module,Magento_Multishipping
 "Product Name","שם מוצר",module,Magento_Multishipping
+"Check Out with Multiple Addresses","המשך לתשלום עם מספר כתובות",module,Magento_Multishipping
+"Address %1 <span>of %2</span>","כתובת %1 <span>מ- %2</span>",module,Magento_Multishipping
 "Shipping To","משלוח עבור",module,Magento_Multishipping
+"Shipping Method","שיטת משלוח",module,Magento_Multishipping
 "Incl. Tax","כולל מס",module,Magento_Multishipping
 "Excl. Tax","למעט מס",module,Magento_Multishipping
+"Order Review","סקירת הזמנה",module,Magento_Multishipping
 Item,פריט,module,Magento_Multishipping
 Edit,ערוך,module,Magento_Multishipping
 Price,מחיר,module,Magento_Multishipping
 Subtotal,"סכום ביניים",module,Magento_Multishipping
 Items,פריטים,module,Magento_Multishipping
+"Grand Total:","סך הכל:",module,Magento_Multishipping
+"Submitting order information...","מעבד פרטי הזמנה...",module,Magento_Multishipping
+"Continue to Billing Information","המשך לפרטי חיוב",module,Magento_Multishipping
 "Back to Select Addresses","חזרה לבחירת כתובות",module,Magento_Multishipping
 "Thank you for your purchase!","תודה על הרכישה!",module,Magento_Multishipping
 "Thanks for your order. We'll email you order details and tracking information.","תודה על הזמנתך. אנחנו בדוק באיימל את פרטי ההזמנה, מידע, ומעקב משלוח.",module,Magento_Multishipping
+"Continue Shopping","המשך בקניות",module,Magento_Multishipping
 "No New Relic Application ID configured, cannot continue with Cron Event reporting","אין יישום אשר הוגדר באמצעות מזהה חדש, אין אפשרות להמשיך עם דיווח אירוע ה-Cron",module,Magento_NewRelicReporting
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","האינגרציה של השריד החדש מחייב את newrelic-php5 agent, אשר אינו מותקן. מידע נוסף על התקנת הagent זמין <a target=""_blank"" href=""%1""> כאן</a>.",module,Magento_NewRelicReporting
@@ -5763,8 +5788,14 @@ Status,סטטוס,module,Magento_Integration
 "Display Actual Price","הצג מחיר עכשווי",module,Magento_Msrp
 "Default Popup Text Message","הודעת הטקסט כברירת המחדל בפופ-אפ",module,Magento_Msrp
 "Default ""What's This"" Text Message","ברירת מחדל ""מה זה"" הודעת טקסט",module,Magento_Msrp
+"Multishipping Settings Section","סעיף הגדרות שילוח מרובה",module,Magento_Multishipping
+"Multishipping Settings","הגדרות שילוח מרובה",module,Magento_Multishipping
 Options,אפשרויות,module,Magento_Multishipping
 "Allow Shipping to Multiple Addresses","אפשר משלוח למספר כתובות",module,Magento_Multishipping
+"Maximum Qty Allowed for Shipping to Multiple Addresses","כמות המרבית המותרת עבור משלוח לכתובות מרובות",module,Magento_Multishipping
+"Review Order","סקירת הזמנה",module,Magento_Multishipping
+"Select Shipping Method","בחר שיטת משלוח",module,Magento_Multishipping
+"We received your order!","קיבלנו את ההזמנה שלך!",module,Magento_Multishipping
 "New Relic Reporting Section","סעיף השריד עבור דיווח חדש",module,Magento_NewRelicReporting
 "New Relic Reporting","דיווח שריד חדש",module,Magento_NewRelicReporting
 General,כללי,module,Magento_NewRelicReporting
