@@ -4748,10 +4748,12 @@ Password:,סיסמה:,module,Magento_Customer
 "When you sign in to your account, you will be able to:","באמצעות התחברות לחשבונך, יתאפשר לך:",module,Magento_Customer
 "You must confirm your %customer_email email before you can sign in (link is only valid once):","עליך לאשר את המייל שלך %customer_email לפני שתוכל להתחבר למערכת (קישור זה תקף לאיפוס חד-פעמי):",module,Magento_Customer
 "Hello,","שלום,",module,Magento_Customer
+"Checkout out as a new customer","לקוחות חדשים",module,Magento_Customer
 "Creating an account has many benefits:","ביצירת חשבון יש יתרונות רבים:",module,Magento_Customer
 "See order and shipping status","ראה מצב הזמנה ומשלוח",module,Magento_Customer
 "Track order history","מעקב אחר ההזמנה",module,Magento_Customer
 "Check out faster","רכישה מהירה יותר",module,Magento_Customer
+"Checkout out using your account","לקוחות רשומים",module,Magento_Customer
 "Email Address","כתובת דוא""ל",module,Magento_Customer
 "Currency Update Warnings","אזהרות עדכון מטבע",module,Magento_Directory
 Footer,"תחתית הדף",module,Magento_Email
