@@ -47,6 +47,7 @@ Close,סגור,module,Magento_AdminNotification
 "Order saving error: %1","שגיאת שמירת הזמנה: %1",module,Magento_Authorizenet
 "Please choose a payment method.","אנא בחר שיטת תשלום.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","לנו אין לעבד את ההזמנה שלך עכשיו. נא נסה שוב מאוחר יותר.",module,Magento_Authorizenet
+"An error occurred on the server. Please try to place the order again.","אירעה שגיאה בשרת. נא לנסות להזמין בשנית.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","כרטיס אשראי: xxxx-%1",module,Magento_Authorizenet
 "amount %1","כמות %1",module,Magento_Authorizenet
 failed.,נכשל.,module,Magento_Authorizenet
@@ -76,6 +77,7 @@ void,ריק,module,Magento_Authorizenet
 "Authorize and Capture","אושר ונקלט",module,Magento_Authorizenet
 "Unable to get transaction details. Try again later.","אין אפשרות לקבל את פרטי העסקה. נסה שוב מאוחר יותר.",module,Magento_Authorizenet
 "Credit Card Type","סוג כרטיס אשראי",module,Magento_Authorizenet
+"Please Select","נא לבחור",module,Magento_Authorizenet
 "Credit Card Number","מספר כרטיס אשראי",module,Magento_Authorizenet
 "Expiration Date","תאריך תפוגה",module,Magento_Authorizenet
 "Card Verification Number","קוד אימות לכרטיס",module,Magento_Authorizenet
@@ -4872,6 +4874,8 @@ Footer,"תחתית הדף",theme,frontend/Magento/luma
 "Update to your %store_name shipment","עדכן את %store_name לשילוח",theme,frontend/Magento/luma
 "We could not detect a size.","לא הצלחנו לזהות גודל.",module,Magento_Backend
 "We don't recognize or support this file extension type.","איננו מזהים או תומכים בסוג זה של סיומת קובץ.",module,Magento_Backend
+"Warning message","הודעת אזהרה",module,Magento_Backend
+"This operation can take a long time","פעולה זו יכולה להימשך זמן רב",module,Magento_Backend
 "This payment is not available","תשלום זה אינו זמין",module,Magento_Braintree
 "Please try again with another form of payment.","אנא נסה שוב עם אפשרות אחרת של התשלום.",module,Magento_Braintree
 "Sorry, but something went wrong.","מצטערים, משהו השתבש.",module,Magento_Braintree
@@ -5046,6 +5050,7 @@ Content,תוכן,module,Magento_Backend
 Elements,אלמנטים,module,Magento_Backend
 Design,עיצוב,module,Magento_Backend
 Schedule,"לוח זמנים",module,Magento_Backend
+"Content translation","תרגום תוכן",module,Magento_Backend
 Settings,הגדרות,module,Magento_Backend
 Attributes,תכונות,module,Magento_Backend
 "Other Settings","הגדרות אחרות",module,Magento_Backend
@@ -5262,6 +5267,7 @@ Select...,בחר...,module,Magento_Bundle
 Status,סטטוס,module,Magento_Bundle
 Thumbnail,צלמית,module,Magento_Bundle
 Type,סוג,module,Magento_Bundle
+"Special Price","מחיר מיוחד",module,Magento_Bundle
 "Enable CAPTCHA in Admin","לאפשר CAPTCHA בממשק הניהול",module,Magento_Captcha
 Font,גופן,module,Magento_Captcha
 Forms,טפסים,module,Magento_Captcha
