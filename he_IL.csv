@@ -47,6 +47,7 @@ Close,סגור,module,Magento_AdminNotification
 "Order saving error: %1","שגיאת שמירת הזמנה: %1",module,Magento_Authorizenet
 "Please choose a payment method.","אנא בחר שיטת תשלום.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","לנו אין לעבד את ההזמנה שלך עכשיו. נא נסה שוב מאוחר יותר.",module,Magento_Authorizenet
+"An error occurred on the server. Please try to place the order again.","אירעה שגיאה בשרת. נא לנסות להזמין בשנית.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","כרטיס אשראי: xxxx-%1",module,Magento_Authorizenet
 "amount %1","כמות %1",module,Magento_Authorizenet
 failed.,נכשל.,module,Magento_Authorizenet
