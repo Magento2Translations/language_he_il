@@ -47,6 +47,7 @@ Close,סגור,module,Magento_AdminNotification
 "Order saving error: %1","שגיאת שמירת הזמנה: %1",module,Magento_Authorizenet
 "Please choose a payment method.","אנא בחר שיטת תשלום.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","לנו אין לעבד את ההזמנה שלך עכשיו. נא נסה שוב מאוחר יותר.",module,Magento_Authorizenet
+"An error occurred on the server. Please try to place the order again.","אירעה שגיאה בשרת. נא לנסות להזמין בשנית.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","כרטיס אשראי: xxxx-%1",module,Magento_Authorizenet
 "amount %1","כמות %1",module,Magento_Authorizenet
 failed.,נכשל.,module,Magento_Authorizenet
@@ -76,6 +77,7 @@ void,ריק,module,Magento_Authorizenet
 "Authorize and Capture","אושר ונקלט",module,Magento_Authorizenet
 "Unable to get transaction details. Try again later.","אין אפשרות לקבל את פרטי העסקה. נסה שוב מאוחר יותר.",module,Magento_Authorizenet
 "Credit Card Type","סוג כרטיס אשראי",module,Magento_Authorizenet
+"Please Select","נא לבחור",module,Magento_Authorizenet
 "Credit Card Number","מספר כרטיס אשראי",module,Magento_Authorizenet
 "Expiration Date","תאריך תפוגה",module,Magento_Authorizenet
 "Card Verification Number","קוד אימות לכרטיס",module,Magento_Authorizenet
@@ -1589,8 +1591,10 @@ Store,חנות,module,Magento_Config
 "Yes (301 Moved Permanently)","כן (301 הועבר לצמיתות)",module,Magento_Config
 Yes,כן,module,Magento_Config
 Specified,צוין,module,Magento_Config
+"Visible section not found.","החלק הגלוי לא נמצא.",module,Magento_Config
 "Config form fieldset clone model required to be able to clone fields","הגדרות לטופס שדות דגם משוכפלים הנדרשים כדי שניתן יהיה לשכפל שדות",module,Magento_Config
 "Invalid XML in file %1:\n%2","קובץ xml לא חוקי %1:\n%2",module,Magento_Config
+"You cannot run this command because the Magento application is not installed.","לא ניתן להריץ פקודה זו מכיוון שלא מותקן היישום מג'נטו.",module,Magento_Config
 "some prefix","איזו קידומת",module,Magento_Config
 "element label","רכיב תווית",module,Magento_Config
 "element hint","רכיב רמז",module,Magento_Config
@@ -2112,7 +2116,9 @@ Name,שם,module,Magento_Customer
 "%1 does not implement %2","%1 אינו מיישם %2",module,Magento_Deploy
 "Value can't be empty","הערך אינו יכול להיות ריק",module,Magento_Deploy
 "Cannot switch into given mode ""%1""","אין אפשרות מעבר לתוך מצב נתון ""%1""",module,Magento_Deploy
+"Parameter ""importer_class"" must be present.","הפרמטר ""importer_class"" חייב להיות נוכח.",module,Magento_Deploy
 "some message",הודעה,module,Magento_Deploy
+Exception,חריגה,module,Magento_Deploy
 "Format for IDE '%1' is not supported","תבנית עבור עורך '%1' אינה נתמכת",module,Magento_Developer
 "Client side less compilation","קומפילצית less בצד לקוח",module,Magento_Developer
 "Server side less compilation","קומפילצית less בצד שרת",module,Magento_Developer
@@ -2155,6 +2161,8 @@ Documents,מסמכים,module,Magento_Dhl
 "Unable to retrieve shipping label","אין אפשרות לשחזר מספר מעקב משלוח",module,Magento_Dhl
 "Non documents","אינם מסמכים",module,Magento_Dhl
 None,ללא,module,Magento_Dhl
+"Security validation of XML document has been failed.","אימות אבטחה עבור קובץ XML נכשל.",module,Magento_Dhl
+"The response is in the wrong format","התגובה היא בפורמט שגוי",module,Magento_Dhl
 State/Province,מדינה/מחוז,module,Magento_Directory
 "--Please Select--","-- נא לבחור --",module,Magento_Directory
 lbs,פאונדים,module,Magento_Directory
@@ -2415,6 +2423,7 @@ label,תווית,module,Magento_Eav
 "Wrong entity ID","מזהה ישות שגוי",module,Magento_Eav
 "Wrong attribute set ID","מזהה סט תכונה שגוי",module,Magento_Eav
 "Wrong attribute group ID","מזהה קבוצת תכונה שגוי",module,Magento_Eav
+"An attribute code must not be less than %1 and more than %2 characters.","קוד התכונה לא יכול להיות פחות %1 ויותר מ %2 תווים.",module,Magento_Eav
 "AttributeSet does not exist.","AttributeSet אינו קיים.",module,Magento_Eav
 hello,שלום,module,Magento_Eav
 "Some internal exception message.","הודעת חריגה פנימית.",module,Magento_Eav
@@ -4743,6 +4752,8 @@ edit,עריכה,module,Magento_Checkout
 "View and Edit Cart","לצפייה ועריכה של סל קניות",module,Magento_Checkout
 "View Details","הצגת פרטים",module,Magento_Checkout
 "Contact Form","טופס יצירת קשר",module,Magento_Contact
+Phone,טלפון,module,Magento_Contact
+Message,הודעה,module,Magento_Contact
 Email:,"דואר אלקטרוני:",module,Magento_Customer
 Password:,סיסמה:,module,Magento_Customer
 "When you sign in to your account, you will be able to:","באמצעות התחברות לחשבונך, יתאפשר לך:",module,Magento_Customer
@@ -4874,6 +4885,8 @@ Footer,"תחתית הדף",theme,frontend/Magento/luma
 "Update to your %store_name shipment","עדכן את %store_name לשילוח",theme,frontend/Magento/luma
 "We could not detect a size.","לא הצלחנו לזהות גודל.",module,Magento_Backend
 "We don't recognize or support this file extension type.","איננו מזהים או תומכים בסוג זה של סיומת קובץ.",module,Magento_Backend
+"Warning message","הודעת אזהרה",module,Magento_Backend
+"This operation can take a long time","פעולה זו יכולה להימשך זמן רב",module,Magento_Backend
 "This payment is not available","תשלום זה אינו זמין",module,Magento_Braintree
 "Please try again with another form of payment.","אנא נסה שוב עם אפשרות אחרת של התשלום.",module,Magento_Braintree
 "Sorry, but something went wrong.","מצטערים, משהו השתבש.",module,Magento_Braintree
@@ -5048,6 +5061,7 @@ Content,תוכן,module,Magento_Backend
 Elements,אלמנטים,module,Magento_Backend
 Design,עיצוב,module,Magento_Backend
 Schedule,"לוח זמנים",module,Magento_Backend
+"Content translation","תרגום תוכן",module,Magento_Backend
 Settings,הגדרות,module,Magento_Backend
 Attributes,תכונות,module,Magento_Backend
 "Other Settings","הגדרות אחרות",module,Magento_Backend
@@ -5264,6 +5278,7 @@ Select...,בחר...,module,Magento_Bundle
 Status,סטטוס,module,Magento_Bundle
 Thumbnail,צלמית,module,Magento_Bundle
 Type,סוג,module,Magento_Bundle
+"Special Price","מחיר מיוחד",module,Magento_Bundle
 "Enable CAPTCHA in Admin","לאפשר CAPTCHA בממשק הניהול",module,Magento_Captcha
 Font,גופן,module,Magento_Captcha
 Forms,טפסים,module,Magento_Captcha
@@ -5327,6 +5342,7 @@ Apply,החל,module,Magento_CatalogRule
 "Discard subsequent rules","בטל כללים עתידיים",module,Magento_CatalogRule
 Yes,כן,module,Magento_CatalogRule
 No,לא,module,Magento_CatalogRule
+"Catalog Section","אזור הקטלוג",module,Magento_CatalogSearch
 "Catalog Search","חיפוש בקטלוג",module,Magento_CatalogSearch
 "Popular Search Terms","מונחי חיפוש פופולריים",module,Magento_CatalogSearch
 "Minimal Query Length","אורך שאילתה מינימלי",module,Magento_CatalogSearch
@@ -5663,6 +5679,8 @@ Currency,מטבע,module,Magento_CurrencySymbol
 "Show Prefix","הצג קידומת",module,Magento_Customer
 "The title that goes before name (Mr., Mrs., etc.)","התואר שמגיע לפני השם (מר., גברת., וכו')",module,Magento_Customer
 "Login Options","אפשרויות כניסה",module,Magento_Customer
+"Customer Data Lifetime","תקופת החיים של נתוני הלקוח",module,Magento_Customer
+"Please specify value in minutes.","נא ציין ערך ב דקות.",module,Magento_Customer
 Phone,טלפון,module,Magento_Customer
 ZIP,"קובץ זיפ",module,Magento_Customer
 "Customer Since","לקוח מאז",module,Magento_Customer
