@@ -455,6 +455,7 @@ Authorize,אישור,module,Magento_Braintree
 "Please, enter valid Card Verification Number","נא הזן מספר חוקי לאימות כרטיס",module,Magento_Braintree
 ending,סיום,module,Magento_Braintree
 expires,פג,module,Magento_Braintree
+"PayPal Account","חשבון PayPal",module,Magento_Braintree
 Actions,פעולות,module,Magento_Braintree
 Delete,מחק,module,Magento_Braintree
 "Percent Discount","אחוז הנחה",module,Magento_Bundle
@@ -2117,7 +2118,9 @@ Password,סיסמה,module,Magento_Customer
 "You have signed out and will go to our homepage in 5 seconds.","תהליך התנתקות. אתה תועבר לדף הבית בעוד 5 שניות.",module,Magento_Customer
 "New Customers","לקוחות חדשים",module,Magento_Customer
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","ביצירת חשבון יש יתרונות רבים: לבצע תשלום בצורה מהירה יותר, להזין מספר כתובות למשלוח, לעקוב אחר הזמנותיך וכו'.",module,Magento_Customer
+Gender,מין,module,Magento_Customer
 Name,שם,module,Magento_Customer
+"Tax/VAT number","מספר מס/מע""מ",module,Magento_Customer
 "Cannot switch into given mode ""%1""","אין אפשרות מעבר לתוך מצב נתון ""%1""",module,Magento_Deploy
 "Format for IDE '%1' is not supported","תבנית עבור עורך '%1' אינה נתמכת",module,Magento_Developer
 "Client side less compilation","קומפילצית less בצד לקוח",module,Magento_Developer
@@ -3575,7 +3578,7 @@ Refund,"החזר כספי",module,Magento_Sales
 "Refund Offline","החזר במצב לא מקוון",module,Magento_Sales
 "Paid Amount","סכום ששולם",module,Magento_Sales
 "Refund Amount","סכום ההחזר",module,Magento_Sales
-"Shipping Amount","כמות המשלוח",module,Magento_Sales
+"Shipping Amount","תעריף המשלוח",module,Magento_Sales
 "Shipping Refund","החזר כספי עבור משלוח",module,Magento_Sales
 "Order Grand Total","סכום הזמנה",module,Magento_Sales
 "Send Email","שליחת הודעת דוא""ל",module,Magento_Sales
@@ -3583,6 +3586,7 @@ Void,ריק,module,Magento_Sales
 Print,הדפסה,module,Magento_Sales
 "The credit memo email was sent.","הדואר האלקטרוני נשלח בנוגע לתזכיר אשראי.",module,Magento_Sales
 "The credit memo email wasn't sent.","הדואר האלקטרוני בנוגע לזיכוי לא נשלח.",module,Magento_Sales
+"Total Refund","סה""כ הוחזר",module,Magento_Sales
 "Credit Memo","חשבונית זיכוי",module,Magento_Sales
 Capture,לכידה,module,Magento_Sales
 "The invoice email wasn't sent.","הדואר האלקטרוני בנוגע לחשבונית לא נשלח.",module,Magento_Sales
@@ -4775,11 +4779,22 @@ Next,הבא,module,Magento_Checkout
 "Email: %email","דואר אלקטרוני: %email",module,Magento_Contact
 "Phone Number: %telephone","מספר טלפון: %telephone",module,Magento_Contact
 "Comment: %comment","הערה: %comment",module,Magento_Contact
+"Welcome to %store_name","ברוכים הבאים ל-%store_name",module,Magento_Customer
+"Welcome to %store_name.","ברוכים הבאים ל-%store_name.",module,Magento_Customer
+"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","כדי להיכנס לאתר שלנו, השתמש בפרטי חיבור אלה במהלך הרכישה או בדף <a href=""%customer_url""> החשבון שלי</a>:",module,Magento_Customer
 Email:,"דואר אלקטרוני:",module,Magento_Customer
 Password:,סיסמה:,module,Magento_Customer
+"Password you set when creating account","הסיסמה שהגדרת בעת יצירת החשבון",module,Magento_Customer
+"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","שכחת את הסיסמה לחשבון? לחצ/י <a href=""%reset_url"">כאן</a> כדי לאפס אותה.",module,Magento_Customer
 "When you sign in to your account, you will be able to:","באמצעות התחברות לחשבונך, יתאפשר לך:",module,Magento_Customer
+"Proceed through checkout faster","המשך לקופה מהר יותר",module,Magento_Customer
+"Check the status of orders","בדוק את מצב הזמנות",module,Magento_Customer
+"View past orders","הצג הזמנות קודמות",module,Magento_Customer
+"Please confirm your %store_name account","אנא אשרו את החשבון %store_name שלך",module,Magento_Customer
 "You must confirm your %customer_email email before you can sign in (link is only valid once):","עליך לאשר את המייל שלך %customer_email לפני שתוכל להתחבר למערכת (קישור זה תקף לאיפוס חד-פעמי):",module,Magento_Customer
+"Confirm Your Account","לאשר את החשבון שלך",module,Magento_Customer
 "Hello,","שלום,",module,Magento_Customer
+"Thanks,<br>%store_name","תודה לך, %store_name<br>",module,Magento_Customer
 "Checkout out as a new customer","לקוחות חדשים",module,Magento_Customer
 "Creating an account has many benefits:","ביצירת חשבון יש יתרונות רבים:",module,Magento_Customer
 "See order and shipping status","ראה מצב הזמנה ומשלוח",module,Magento_Customer
@@ -5242,6 +5257,7 @@ Download,הורדה,module,Magento_Backup
 Action,פעולה,module,Magento_Backup
 "Enable this Solution","לאפשר פתרון זה",module,Magento_Braintree
 "Enable PayPal through Braintree","לאפשר PayPal דרך Braintree",module,Magento_Braintree
+"Vault Enabled","הכספת מופעלת",module,Magento_Braintree
 "Basic Braintree Settings","הגדרות בסיסיות Braintree",module,Magento_Braintree
 Title,כותרת,module,Magento_Braintree
 Environment,סביבה,module,Magento_Braintree
@@ -5272,6 +5288,9 @@ Debug,דיבאג,module,Magento_Braintree
 "Threshold Amount","כמות מינימלית",module,Magento_Braintree
 "Verify for Applicable Countries","ודא למדינות יישומות",module,Magento_Braintree
 "Verify for Specific Countries","ודא למדינות ספציפיות",module,Magento_Braintree
+Name,שם,module,Magento_Braintree
+Phone,טלפון,module,Magento_Braintree
+URL,"כתובות URL",module,Magento_Braintree
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","החל מסננים על מנת לקבל תוצאות. רק 100 רשומות הראשונות יוצגו בגריד, ניתן יהיה להוריד את הגירסה המלאה של הדוח בתבנית. csv.",module,Magento_Braintree
 Select...,בחירה...,module,Magento_Braintree
 Status,סטטוס,module,Magento_Braintree
