@@ -299,9 +299,6 @@ YTD,"שנה אחת",module,Magento_Backend
 "Admin session lifetime must be greater than or equal to 60 seconds","הסשן של המנהל חייב להיות גדול או שווה ל- 60 שניות",module,Magento_Backend
 Order,הזמנה,module,Magento_Backend
 "Order #%1","הזמנה #%1",module,Magento_Backend
-"Access denied","גישה נדחתה",module,Magento_Backend
-"Please try to sign out and sign in again.","נסה לצאת ולהיכנס שוב.",module,Magento_Backend
-"If you continue to receive this message, please contact the store owner.","אם הנך ממשיך לקבל הודעה זו, אנא צור קשר עם בעל החנות.",module,Magento_Backend
 "You need more permissions to access this.","הנך צריך יותר הרשאות ע""מ לגשת לזה.",module,Magento_Backend
 "Welcome, please sign in","ברוכים הבאים, נא להתחבר",module,Magento_Backend
 Username,"שם משתמש",module,Magento_Backend
@@ -338,6 +335,7 @@ Minute,דקה,module,Magento_Backend
 "JavaScript may be disabled in your browser.","ייתכן וה-JavaScript ינוטרל בדפדפן שלך.",module,Magento_Backend
 "To use this website you must first enable JavaScript in your browser.","כדי להשתמש באתר זה עליך לאפשר JavaScript בדפדפן שלך.",module,Magento_Backend
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","זוהי חנות הדגמה בלבד. ניתן לעיין ולבצע הזמנות, אבל לא תחוייב.",module,Magento_Backend
+"Report an Issue","דווח על בעיה",module,Magento_Backend
 "Store View:","תצוגת חנות:",module,Magento_Backend
 "Stores Configuration","הגדרות חנויות",module,Magento_Backend
 "Please confirm scope switching. All data that hasn't been saved will be lost.","אנא אשרו את החלפת המקבץ. כל הנתונים אשר לא נשמר יאבדו.",module,Magento_Backend
@@ -456,6 +454,7 @@ Authorize,אישור,module,Magento_Braintree
 "Please, enter valid Card Verification Number","נא הזן מספר חוקי לאימות כרטיס",module,Magento_Braintree
 ending,סיום,module,Magento_Braintree
 expires,פג,module,Magento_Braintree
+"PayPal Account","חשבון PayPal",module,Magento_Braintree
 Actions,פעולות,module,Magento_Braintree
 Delete,מחק,module,Magento_Braintree
 "Percent Discount","אחוז הנחה",module,Magento_Bundle
@@ -1124,6 +1123,7 @@ Search,חפש,module,Magento_Catalog
 "Requested product does not support images.","המוצר המבוקש לא תומך בתמונות.",module,Magento_Catalog
 "Product with SKU ""%1"" does not exist","מוצר עם המק""ט ""%1"" אינו קיים",module,Magento_Catalog
 "Invalid product data: %1","נתון מוצר לא חוקי: %1",module,Magento_Catalog
+"Database connection error","שגיאת חיבור לבסיס הנתונים",module,Magento_Catalog
 "Unable to remove product %1","אין אפשרות להסיר מוצר %1",module,Magento_Catalog
 "There are not websites for assign to product","לא קיימים אתרים להקצאה עבור המוצר",module,Magento_Catalog
 "Could not assign product ""%1"" to websites ""%2""","לא הייתה אפשרות להקצות את המוצר ""%1"" לאתרים ""%2""",module,Magento_Catalog
@@ -1145,6 +1145,7 @@ fl,פל,module,Magento_Catalog
 Images,תמונות,module,Magento_Catalog
 Select...,בחירה...,module,Magento_Catalog
 "Advanced Pricing","תמחור מתקדם",module,Magento_Catalog
+"Customer Group Price","מחיר קבוצת לקוחות",module,Magento_Catalog
 "Customer Group","קבוצת לקוחות",module,Magento_Catalog
 "Special Price From","מחיר מיוחד מ-",module,Magento_Catalog
 To,ל-,module,Magento_Catalog
@@ -1402,7 +1403,6 @@ Checkout,קופה,module,Magento_Checkout
 Error!,שגיאה!,module,Magento_Checkout
 "DB exception","חריגת מסד נתונים",module,Magento_Checkout
 Message,הודעה,module,Magento_Checkout
-"<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">הדפס קבלה</a>",module,Magento_Checkout
 "Apply Discount Code","שימוש בקוד הנחה",module,Magento_Checkout
 "Enter discount code","הזינו קוד הנחה",module,Magento_Checkout
 "Apply Discount",מימוש,module,Magento_Checkout
@@ -1521,6 +1521,8 @@ Exception,"יוצא מן הכלל",module,Magento_Cms
 "Could not create a directory.","לא ניתן ליצור תיקייה.",module,Magento_Cms
 Edit,ערוך,module,Magento_Cms
 Delete,מחק,module,Magento_Cms
+"Delete %1","מחק %1",module,Magento_Cms
+"Are you sure you want to delete a %1 record?","האם אתה בטוח שאתה רוצה למחוק רשומה %1?",module,Magento_Cms
 "All Store Views","כל תצוגות החנויות",module,Magento_Cms
 View,הצג,module,Magento_Cms
 px.,פיקסלים.,module,Magento_Cms
@@ -1593,6 +1595,8 @@ Yes,כן,module,Magento_Config
 Specified,צוין,module,Magento_Config
 "Config form fieldset clone model required to be able to clone fields","הגדרות לטופס שדות דגם משוכפלים הנדרשים כדי שניתן יהיה לשכפל שדות",module,Magento_Config
 "Invalid XML in file %1:\n%2","קובץ xml לא חוקי %1:\n%2",module,Magento_Config
+"This command is unavailable right now.","פקודה זו אינה זמינה כעת.",module,Magento_Config
+"error message","הודעת שגיאה",module,Magento_Config
 "some prefix","איזו קידומת",module,Magento_Config
 "element label","רכיב תווית",module,Magento_Config
 "element hint","רכיב רמז",module,Magento_Config
@@ -1716,6 +1720,9 @@ Cancel,ביטול,module,Magento_ConfigurableProduct
 "Regular Price","מחיר רגיל",module,Magento_ConfigurableProduct
 "Page not found.","העמוד שביקשת לא נמצא.",module,Magento_Contact
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","תודה על פנייתך עם ההערות והשאלות שלך. נגיב לך על פנייתך בזמן הקרוב.",module,Magento_Contact
+"Name is missing","השם חסר",module,Magento_Contact
+"Comment is missing","תגובה חסר",module,Magento_Contact
+"Invalid email address","כתובת דואל לא חוקית",module,Magento_Contact
 "* Required Fields","* שדות חובה",module,Magento_Contact
 "Write Us","כתבו לנו",module,Magento_Contact
 "Jot us a note and we’ll get back to you as quickly as possible.","שלחו לנו הודעה באמצעות טופס זה ואנו נחזור אליכם בהקדם האפשרי.",module,Magento_Contact
@@ -1776,6 +1783,8 @@ System,מערכת,module,Magento_CurrencySymbol
 "Please enter a password with a valid length.","אנא הזן סיסמה באורך חוקי.",module,Magento_CustomerImportExport
 "Sign Out",התנתק,module,Magento_Customer
 "Sign In",כניסה,module,Magento_Customer
+"You are subscribed to our newsletter.","אתה רשום כמנוי לידיעון שלנו.",module,Magento_Customer
+"You aren't subscribed to our newsletter.","אתה לא מנוי על הידיעון שלנו.",module,Magento_Customer
 "You have not set a default shipping address.","לא הוגדרה כתובת ברירת מחדל לשילוח.",module,Magento_Customer
 "You have not set a default billing address.","אין לך כתובת ברירת מחדל לתשלום.",module,Magento_Customer
 "Address Book","ספר כתובות",module,Magento_Customer
@@ -2108,7 +2117,9 @@ Password,סיסמה,module,Magento_Customer
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","ביצירת חשבון יש יתרונות רבים: לבצע תשלום בצורה מהירה יותר, להזין מספר כתובות למשלוח, לעקוב אחר הזמנותיך וכו'.",module,Magento_Customer
 Company,חברה,module,Magento_Customer
 Fax,פקס,module,Magento_Customer
+Gender,מין,module,Magento_Customer
 Name,שם,module,Magento_Customer
+"Tax/VAT number","מספר מס/מע""מ",module,Magento_Customer
 "Phone Number","מספר טלפון",module,Magento_Customer
 "Class for type ""%1"" was not declared","מחלקה עבור סוג ""%1"" לא הוכרזה",module,Magento_Deploy
 "%1 does not implement %2","%1 אינו מיישם %2",module,Magento_Deploy
@@ -3567,7 +3578,7 @@ Refund,"החזר כספי",module,Magento_Sales
 "Refund Offline","החזר במצב לא מקוון",module,Magento_Sales
 "Paid Amount","סכום ששולם",module,Magento_Sales
 "Refund Amount","סכום ההחזר",module,Magento_Sales
-"Shipping Amount","כמות המשלוח",module,Magento_Sales
+"Shipping Amount","תעריף המשלוח",module,Magento_Sales
 "Shipping Refund","החזר כספי עבור משלוח",module,Magento_Sales
 "Order Grand Total","סכום הזמנה",module,Magento_Sales
 "Send Email","שליחת הודעת דוא""ל",module,Magento_Sales
@@ -3575,6 +3586,7 @@ Void,ריק,module,Magento_Sales
 Print,הדפסה,module,Magento_Sales
 "The credit memo email was sent.","הדואר האלקטרוני נשלח בנוגע לתזכיר אשראי.",module,Magento_Sales
 "The credit memo email wasn't sent.","הדואר האלקטרוני בנוגע לזיכוי לא נשלח.",module,Magento_Sales
+"Total Refund","סה""כ הוחזר",module,Magento_Sales
 "Credit Memo","חשבונית זיכוי",module,Magento_Sales
 Capture,לכידה,module,Magento_Sales
 "The invoice email wasn't sent.","הדואר האלקטרוני בנוגע לחשבונית לא נשלח.",module,Magento_Sales
@@ -4745,11 +4757,22 @@ edit,עריכה,module,Magento_Checkout
 "View and Edit Cart","לצפייה ועריכה של סל קניות",module,Magento_Checkout
 "View Details","הצגת פרטים",module,Magento_Checkout
 "Contact Form","טופס יצירת קשר",module,Magento_Contact
+"Welcome to %store_name","ברוכים הבאים ל-%store_name",module,Magento_Customer
+"Welcome to %store_name.","ברוכים הבאים ל-%store_name.",module,Magento_Customer
+"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","כדי להיכנס לאתר שלנו, השתמש בפרטי חיבור אלה במהלך הרכישה או בדף <a href=""%customer_url""> החשבון שלי</a>:",module,Magento_Customer
 Email:,"דואר אלקטרוני:",module,Magento_Customer
 Password:,סיסמה:,module,Magento_Customer
+"Password you set when creating account","הסיסמה שהגדרת בעת יצירת החשבון",module,Magento_Customer
+"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","שכחת את הסיסמה לחשבון? לחצ/י <a href=""%reset_url"">כאן</a> כדי לאפס אותה.",module,Magento_Customer
 "When you sign in to your account, you will be able to:","באמצעות התחברות לחשבונך, יתאפשר לך:",module,Magento_Customer
+"Proceed through checkout faster","המשך לקופה מהר יותר",module,Magento_Customer
+"Check the status of orders","בדוק את מצב הזמנות",module,Magento_Customer
+"View past orders","הצג הזמנות קודמות",module,Magento_Customer
+"Please confirm your %store_name account","אנא אשרו את החשבון %store_name שלך",module,Magento_Customer
 "You must confirm your %customer_email email before you can sign in (link is only valid once):","עליך לאשר את המייל שלך %customer_email לפני שתוכל להתחבר למערכת (קישור זה תקף לאיפוס חד-פעמי):",module,Magento_Customer
+"Confirm Your Account","לאשר את החשבון שלך",module,Magento_Customer
 "Hello,","שלום,",module,Magento_Customer
+"Thanks,<br>%store_name","תודה לך, %store_name<br>",module,Magento_Customer
 "Creating an account has many benefits:","ביצירת חשבון יש יתרונות רבים:",module,Magento_Customer
 "See order and shipping status","ראה מצב הזמנה ומשלוח",module,Magento_Customer
 "Track order history","מעקב אחר ההזמנה",module,Magento_Customer
@@ -4872,10 +4895,9 @@ Footer,"תחתית הדף",theme,frontend/Magento/luma
 "Your shipping confirmation is below. Thank you again for your business.","להלן אישור המשלוח שלך. תודה על רכישתך.",theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","משלוח שלך %shipment_id # עבור הזמנה #%order_id",theme,frontend/Magento/luma
 "Update to your %store_name shipment","עדכן את %store_name לשילוח",theme,frontend/Magento/luma
+"Sorry, but something went wrong. Please contact the seller.","מצטערת, אבל משהו השתבש. אנא צרו קשר עם המוכר.",module,Magento_Authorizenet
 "We could not detect a size.","לא הצלחנו לזהות גודל.",module,Magento_Backend
 "We don't recognize or support this file extension type.","איננו מזהים או תומכים בסוג זה של סיומת קובץ.",module,Magento_Backend
-"Warning message","הודעת אזהרה",module,Magento_Backend
-"This operation can take a long time","פעולה זו יכולה להימשך זמן רב",module,Magento_Backend
 "This payment is not available","תשלום זה אינו זמין",module,Magento_Braintree
 "Please try again with another form of payment.","אנא נסה שוב עם אפשרות אחרת של התשלום.",module,Magento_Braintree
 "Sorry, but something went wrong.","מצטערים, משהו השתבש.",module,Magento_Braintree
@@ -5050,7 +5072,6 @@ Content,תוכן,module,Magento_Backend
 Elements,אלמנטים,module,Magento_Backend
 Design,עיצוב,module,Magento_Backend
 Schedule,"לוח זמנים",module,Magento_Backend
-"Content translation","תרגום תוכן",module,Magento_Backend
 Settings,הגדרות,module,Magento_Backend
 Attributes,תכונות,module,Magento_Backend
 "Other Settings","הגדרות אחרות",module,Magento_Backend
@@ -5217,6 +5238,7 @@ Download,הורדה,module,Magento_Backup
 Action,פעולה,module,Magento_Backup
 "Enable this Solution","לאפשר פתרון זה",module,Magento_Braintree
 "Enable PayPal through Braintree","לאפשר PayPal דרך Braintree",module,Magento_Braintree
+"Vault Enabled","הכספת מופעלת",module,Magento_Braintree
 "Basic Braintree Settings","הגדרות בסיסיות Braintree",module,Magento_Braintree
 Title,כותרת,module,Magento_Braintree
 Environment,סביבה,module,Magento_Braintree
@@ -5247,6 +5269,9 @@ Debug,דיבאג,module,Magento_Braintree
 "Threshold Amount","כמות מינימלית",module,Magento_Braintree
 "Verify for Applicable Countries","ודא למדינות יישומות",module,Magento_Braintree
 "Verify for Specific Countries","ודא למדינות ספציפיות",module,Magento_Braintree
+Name,שם,module,Magento_Braintree
+Phone,טלפון,module,Magento_Braintree
+URL,"כתובות URL",module,Magento_Braintree
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","החל מסננים על מנת לקבל תוצאות. רק 100 רשומות הראשונות יוצגו בגריד, ניתן יהיה להוריד את הגירסה המלאה של הדוח בתבנית. csv.",module,Magento_Braintree
 Select...,בחירה...,module,Magento_Braintree
 Status,סטטוס,module,Magento_Braintree
@@ -5267,7 +5292,6 @@ Select...,בחר...,module,Magento_Bundle
 Status,סטטוס,module,Magento_Bundle
 Thumbnail,צלמית,module,Magento_Bundle
 Type,סוג,module,Magento_Bundle
-"Special Price","מחיר מיוחד",module,Magento_Bundle
 "Enable CAPTCHA in Admin","לאפשר CAPTCHA בממשק הניהול",module,Magento_Captcha
 Font,גופן,module,Magento_Captcha
 Forms,טפסים,module,Magento_Captcha
@@ -5493,6 +5517,9 @@ Overview,"סקירה כללית",module,Magento_Catalog
 "Skip to the end of the images gallery","לדלג לסוף של גלריית תמונות",module,Magento_Catalog
 "Skip to the beginning of the images gallery","לדלג להתחלה של גלריית תמונות",module,Magento_Catalog
 Details,פרטים,module,Magento_Catalog
+"Add To Compare","הוסף להשוואה",module,Magento_Catalog
+"Learn more","למידע נוסף",module,Magento_Catalog
+"Recently Viewed","נצפו לאחרונה",module,Magento_Catalog
 "Terms & Conditions","תנאים והתניות",module,Magento_CheckoutAgreements
 "Enable Terms and Conditions","לאפשר תנאים והתניות",module,Magento_CheckoutAgreements
 "Checkout Options","אפשרויות קופה",module,Magento_Checkout
@@ -5517,7 +5544,7 @@ Details,פרטים,module,Magento_Catalog
 "Send Payment Failed Email Copy To","שליחת תשלום נכשל העתק ל",module,Magento_Checkout
 "Separate by "","".","נפרדים על-ידי "","".",module,Magento_Checkout
 "Send Payment Failed Email Copy Method","שליחת תשלום נכשל שיטת העתקה",module,Magento_Checkout
-Summary,נושא,module,Magento_Checkout
+Summary,"סיכום הזמנה",module,Magento_Checkout
 "Order Total","סיכום הזמנה",module,Magento_Checkout
 "Shipping Address","כתובת למשלוח",module,Magento_Checkout
 "We'll send your order confirmation here.","אנו נשלח את אישור ההזמנה שלך כאן.",module,Magento_Checkout
