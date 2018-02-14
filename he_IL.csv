@@ -5543,7 +5543,7 @@ Details,פרטים,module,Magento_Catalog
 "Send Payment Failed Email Copy To","שליחת תשלום נכשל העתק ל",module,Magento_Checkout
 "Separate by "","".","נפרדים על-ידי "","".",module,Magento_Checkout
 "Send Payment Failed Email Copy Method","שליחת תשלום נכשל שיטת העתקה",module,Magento_Checkout
-Summary,נושא,module,Magento_Checkout
+Summary,"סיכום הזמנה",module,Magento_Checkout
 "Order Total","סיכום הזמנה",module,Magento_Checkout
 "We'll send your order confirmation here.","אנו נשלח את אישור ההזמנה שלך כאן.",module,Magento_Checkout
 Payment,תשלום,module,Magento_Checkout
