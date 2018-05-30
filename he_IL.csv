@@ -3709,6 +3709,7 @@ Items,פריטים,module,Magento_Sales
 "Ship To","נשלח אל",module,Magento_Sales
 Actions,פעולות,module,Magento_Sales
 "View Order","הצג הזמנה",module,Magento_Sales
+"You have placed no orders.","אין לך הזמנות.",module,Magento_Sales
 "Print Order","הדפס הזמנה",module,Magento_Sales
 "Qty Invoiced","כמות שחויבה",module,Magento_Sales
 Close,סגור,module,Magento_Sales
@@ -4618,6 +4619,7 @@ Password:,סיסמה:,module,Magento_Customer
 "View past orders","הצג הזמנות קודמות",module,Magento_Customer
 "You must confirm your %customer_email email before you can sign in (link is only valid once):","עליך לאשר את המייל שלך %customer_email לפני שתוכל להתחבר למערכת (קישור זה תקף לאיפוס חד-פעמי):",module,Magento_Customer
 "Confirm Your Account","לאשר את החשבון שלך",module,Magento_Customer
+"If you requested this change, set a new password here:","אם ביקשת שינוי זה, אפס את הסיסמה שלך כאן:",module,Magento_Customer
 "The password for your account has been successfully changed.","הסיסמה עבור החשבון שלך שונתה בהצלחה.",module,Magento_Customer
 "If you did not request this change, please contact us.","אם שלא ביקשת את השינוי זה, אנא צור קשר.",module,Magento_Customer
 "Currency Update Warnings","אזהרות עדכון מטבע",module,Magento_Directory
@@ -5172,7 +5174,7 @@ Shipping,משלוח,module,Magento_Checkout
 "Shipping Address","כתובת למשלוח",module,Magento_Checkout
 "Save Address","שמור כתובת",module,Magento_Checkout
 Cancel,ביטול,module,Magento_Checkout
-"We'll send your order confirmation here.","אנו נשלח את אישור ההזמנה שלך כאן.",module,Magento_Checkout
+"We'll send your order confirmation here.","אנו נשלח את אישור ההזמנה שלך לכאן.",module,Magento_Checkout
 "For delivery questions.","לשאלות משלוח.",module,Magento_Checkout
 Payment,תשלום,module,Magento_Checkout
 "Cart Subtotal","סה""כ",module,Magento_Checkout
