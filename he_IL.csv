@@ -3753,6 +3753,7 @@ Items,פריטים,module,Magento_Sales
 "Ship To","נשלח אל",module,Magento_Sales
 Actions,פעולות,module,Magento_Sales
 "View Order","הצג הזמנה",module,Magento_Sales
+"You have placed no orders.","אין לך הזמנות.",module,Magento_Sales
 "Print Order","הדפס הזמנה",module,Magento_Sales
 "Qty Invoiced","כמות שחויבה",module,Magento_Sales
 Close,סגור,module,Magento_Sales
@@ -4794,7 +4795,11 @@ Password:,סיסמה:,module,Magento_Customer
 "You must confirm your %customer_email email before you can sign in (link is only valid once):","עליך לאשר את המייל שלך %customer_email לפני שתוכל להתחבר למערכת (קישור זה תקף לאיפוס חד-פעמי):",module,Magento_Customer
 "Confirm Your Account","לאשר את החשבון שלך",module,Magento_Customer
 "Hello,","שלום,",module,Magento_Customer
+"If you have not authorized this action, please contact us immediately at <a href=""mailto:%store_email"">%store_email</a>","אם הבקשה לא נעשתה על ידייך, צרו איתנו קשר בכתובת <a href="""" mailto:%store_email""""="""">%store_email</a>",module,Magento_Customer
 "Thanks,<br>%store_name","תודה לך, %store_name<br>",module,Magento_Customer
+"We have received a request to change the following information associated with your account at %store_name: email, password.","קיבלנו בקשה לשנות את הסיסמה של חשבונך ב- %store_name.",module,Magento_Customer
+"Reset your %store_name password","איפוס סיסמה עבור %store_name",module,Magento_Customer
+"If you requested this change, set a new password here:","אם ביקשת שינוי זה, אפס את הסיסמה שלך כאן:",module,Magento_Customer
 "Checkout out as a new customer","לקוחות חדשים",module,Magento_Customer
 "Creating an account has many benefits:","ביצירת חשבון יש יתרונות רבים:",module,Magento_Customer
 "See order and shipping status","ראה מצב הזמנה ומשלוח",module,Magento_Customer
@@ -5548,7 +5553,7 @@ Details,פרטים,module,Magento_Catalog
 "Send Payment Failed Email Copy Method","שליחת תשלום נכשל שיטת העתקה",module,Magento_Checkout
 Summary,"סיכום הזמנה",module,Magento_Checkout
 "Order Total","סיכום הזמנה",module,Magento_Checkout
-"We'll send your order confirmation here.","אנו נשלח את אישור ההזמנה שלך כאן.",module,Magento_Checkout
+"We'll send your order confirmation here.","אנו נשלח את אישור ההזמנה שלך לכאן.",module,Magento_Checkout
 Payment,תשלום,module,Magento_Checkout
 "Not yet calculated","עדיין לא חושב",module,Magento_Checkout
 "We received your order!","קיבלנו את ההזמנה שלך!",module,Magento_Checkout
