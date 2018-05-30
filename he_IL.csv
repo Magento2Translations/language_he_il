@@ -2563,6 +2563,7 @@ Status,סטטוס,module,Magento_Sales
 "Product Name","שם מוצר",module,Magento_Sales
 "Ship To","נשלח אל",module,Magento_Sales
 "View Order","הצג הזמנה",module,Magento_Sales
+"You have placed no orders.","אין לך הזמנות.",module,Magento_Sales
 "Print Order","הדפס הזמנה",module,Magento_Sales
 "Qty Invoiced","כמות שחויבה",module,Magento_Sales
 Close,סגור,module,Magento_Sales
