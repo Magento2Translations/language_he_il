@@ -584,7 +584,7 @@ Always,תמיד,module,Magento_Captcha
 "The account is locked. Please wait and try again or contact %1.","החשבון ננעל. בבקשה חכה, נסה שוב או פנה %1.",module,Magento_Captcha
 "Please enter the letters from the image","נא הזן את האותיות שבתמונה",module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>לתשומת לבך</strong>: Captcha תלוי רישיות.",module,Magento_Captcha
-"Reload captcha","טען מחדש captcha",module,Magento_Captcha
+"Reload captcha","טען CAPTCHA מחדש",module,Magento_Captcha
 "Please type the letters below","אנא הקלידו את התווים שלהלן",module,Magento_Captcha
 "Entity type model '%1' is not found","סוג דגם '%1' לא נמצא",module,Magento_CatalogImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","סוג מודל חייב להיות מופע של \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
