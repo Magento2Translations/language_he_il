@@ -461,7 +461,7 @@ Always,תמיד,module,Magento_Captcha
 "Incorrect CAPTCHA","CAPTCHA שגוי",module,Magento_Captcha
 "Incorrect CAPTCHA.","CAPTCHA שגוי.",module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>לתשומת לבך</strong>: Captcha תלוי רישיות.",module,Magento_Captcha
-"Reload captcha","טען מחדש captcha",module,Magento_Captcha
+"Reload captcha","טען CAPTCHA מחדש",module,Magento_Captcha
 "Please type the letters below","אנא הקלידו את התווים שלהלן",module,Magento_Captcha
 "Custom options have different types.","לאפשרויות מותאמות אישית יש סוגים שונים.",module,Magento_CatalogImportExport
 "Please correct the parameters.","נא תקן את הפרמטרים.",module,Magento_CatalogImportExport
