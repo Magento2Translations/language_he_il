@@ -25,6 +25,7 @@ notice,"שים לב",module,Magento_AdminNotification
 "Wrong message type","סוג ההודעה אינו נכון",module,Magento_AdminNotification
 "Wrong notification ID specified.","התראה לא נכונה של הID המצוין.",module,Magento_AdminNotification
 "{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","{{base_url}} אינו מומלץ לשימוש בסביבת פרודקשן להכרזה על כתובת בסיס לא-מאובטחת /כתובת בסיס מאבטחת. מומלץ מאוד לשנות ערך זה ב<a href=""%1""> הגדרות</a> מג'נטו.",module,Magento_AdminNotification
+"One or more of the Cache Types are invalidated: %1. ","אחד או יותר מסוגי Cache תוקפם: %1. ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","בבקשה ללכת <a href=""%1""> ניהול cacge</a> ולרענן את סוגי הcache.",module,Magento_AdminNotification
 "We were unable to synchronize one or more media files. Please refer to the log file for details.","לא הצלחנו לסינכרון קובץ מדיה אחד או יותר. נא עיין בקובץ הlog לקבלת פרטים.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","סינכרון של תיקיית מדיה הושלמה.",module,Magento_AdminNotification
@@ -36,6 +37,7 @@ Close,סגור,module,Magento_AdminNotification
 "Major System Messages","הודעות מערכת משעותיות",module,Magento_AdminNotification
 "System messages","הודעות מערכת",module,Magento_AdminNotification
 "See All (","ראה הכל (",module,Magento_AdminNotification
+" unread)"," לא נקרא)",module,Magento_AdminNotification
 "Please correct the data sent.","אנא תקן את הנתונים שנשלחו.",module,Magento_AdvancedPricingImportExport
 "Entity type model '%1' is not found","סוג דגם '%1' לא נמצא",module,Magento_AdvancedPricingImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","סוג דגם חייב להיות מופע של \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
@@ -79,6 +81,7 @@ void,ריק,module,Magento_Authorizenet
 "Credit Card Number","מספר כרטיס אשראי",module,Magento_Authorizenet
 "Expiration Date","תאריך תפוגה",module,Magento_Authorizenet
 "Card Verification Number","קוד אימות לכרטיס",module,Magento_Authorizenet
+"Fraud Detection ","זוהתה הונאה ",module,Magento_Authorizenet
 "FDS Filter Action","פעולת סינון FDS",module,Magento_Authorizenet
 "AVS Response","תגובת AVS",module,Magento_Authorizenet
 "Card Code Response","תגובת כרטיס קוד",module,Magento_Authorizenet
@@ -213,6 +216,7 @@ To,ל-,module,Magento_Backend
 "Date selector","בחירת תאריך",module,Magento_Backend
 "[ deleted ]",[נמחק],module,Magento_Backend
 "Select All","בחר הכל",module,Magento_Backend
+" [deleted]"," [נמחק]",module,Magento_Backend
 "We couldn't find any records.","לא הצלחנו למצוא רשומות.",module,Magento_Backend
 "Add New","הוסף חדש",module,Magento_Backend
 "Invalid export type supplied for grid export block","סוג ייצוא לא חוקי סופק עבור גריד בלוק ייצוא",module,Magento_Backend
@@ -277,6 +281,7 @@ System,מערכת,module,Magento_Backend
 "Before modifying the website code please make sure it is not used in index.php.","לפני שאתה משנה את הקוד באתר אנא ודא שהוא לא בשימוש ב- index. php.",module,Magento_Backend
 "The store does not exist","החנות אינה קיימת",module,Magento_Backend
 "Before modifying the store view code please make sure it is not used in index.php.","לפני שאתה משנה את הקוד באתר האיטרנט , אנא ודא שהוא לא בשימוש ב- index. php.",module,Magento_Backend
+"New ","חדש ",module,Magento_Backend
 "You saved the website.","שמרת את אתר האינטרנט.",module,Magento_Backend
 "You saved the store.","שמרת את החנות.",module,Magento_Backend
 "You saved the store view.","שמרת את תצוגת החנות.",module,Magento_Backend
@@ -452,6 +457,7 @@ Year,שנה,module,Magento_Braintree
 "We can't update shipping method.","אנחנו יכולים לעדכן את שיטת המשלוח.",module,Magento_Braintree
 "The processor declined your transaction, please re-enter your payment information","המערכת דחתה את העסקה שלך, אנא הזן בשנית את פרטי התשלום שלך",module,Magento_Braintree
 "Transaction declined by gateway: Check card details or try another card","העסקה נדחתה על ידי שירות הסליקה: נא בדוק את פרטי כרטיס או נסה כרטיס אחר",module,Magento_Braintree
+"Transaction declined: ","העסקה נדחתה: ",module,Magento_Braintree
 "The processor responded with an unknown error","המערכת החזירה שגיאה לא ידועה",module,Magento_Braintree
 "Credit card type is not allowed for your country.","סוג כרטיס האשראי אינו מורשה עבור המדינה שלך.",module,Magento_Braintree
 "Credit card type is not allowed for this payment method.","סוג כרטיס האשראי אינו מותר עבור שיטת התשלום הנוכחית.",module,Magento_Braintree
@@ -546,7 +552,7 @@ Delete,מחק,module,Magento_Bundle
 "The options you selected are not available.","האפשרויות שבחרת אינן זמינות.",module,Magento_Bundle
 "The required options you selected are not available.","האפשרויות הדרושות שבחרת אינן זמינות.",module,Magento_Bundle
 "Please select all required options.","אנא בחר את כל האפשרויות הנדרשות.",module,Magento_Bundle
-"We can't add this item to your shopping cart right now.","לא ניתן להוסיף פריט זה לסל הקניות שלך כרגע.",module,Magento_Bundle
+"We can't add this item to your shopping cart right now."," לא ניתן להוסיף פריט זה לסל הקניות שלך כרגע.",module,Magento_Bundle
 N/A,"לא זמין",module,Magento_Bundle
 Percent,אחוז,module,Magento_Bundle
 None,ללא,module,Magento_Bundle
@@ -1259,6 +1265,7 @@ Actions,פעולות,module,Magento_Catalog
 "Unselect Visible","ביטול בחירה של גלוי",module,Magento_Catalog
 "Special Price","מחיר מיוחד",module,Magento_Catalog
 "Regular Price","מחיר רגיל",module,Magento_Catalog
+"Buy %1 for: ","לקנות %1 עבור: ",module,Magento_Catalog
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","קנה %1 עבור %2 כל אחד <strong class=""benefit"">וחסוך<span class=""percent tier-%3"">&nbsp;%4%</span></strong>",module,Magento_Catalog
 "Buy %1 for %2 each","קנה %1 עבור %2 כל אחד",module,Magento_Catalog
 "Shop By","סנן לפי",module,Magento_Catalog
@@ -1345,7 +1352,7 @@ State/Province,מדינה/מחוז,module,Magento_Checkout
 "Customer is already registered","לקוח כבר רשום",module,Magento_Checkout
 "Your session has expired","ההפעלה שלך פגה",module,Magento_Checkout
 "You added %1 to your shopping cart.","הוספת %1 לעגלת הקניות.",module,Magento_Checkout
-"We can't add this item to your shopping cart right now.","לא ניתן להוסיף פריט זה לסל הקניות שלך כרגע.",module,Magento_Checkout
+"We can't add this item to your shopping cart right now."," לא ניתן להוסיף פריט זה לסל הקניות שלך כרגע.",module,Magento_Checkout
 "Out of stock","אזל מהמלאי",module,Magento_Checkout
 "We cannot configure the product.","אנחנו לא יכולים להגדיר את המוצר.",module,Magento_Checkout
 "You used coupon code ""%1"".","השתמשת בקוד הקופון ""%1"".",module,Magento_Checkout
@@ -1354,7 +1361,7 @@ State/Province,מדינה/מחוז,module,Magento_Checkout
 "We cannot apply the coupon code.","לא ניתן להחיל את קוד הקופון.",module,Magento_Checkout
 "We can't remove the item.","לא ניתן להסיר את הפריט.",module,Magento_Checkout
 "%1 was updated in your shopping cart.","%1 עודכן בעגלת הקניות שלך.",module,Magento_Checkout
-"We can't update the item right now.","לא ניתן לעדכן את הפריט כרגע.",module,Magento_Checkout
+"We can't update the item right now."," לא ניתן לעדכן את הפריט כרגע.",module,Magento_Checkout
 "We can't update the shopping cart.","לא ניתן לעדכן את סל הקניות.",module,Magento_Checkout
 "One-page checkout is turned off.","קופה בעמוד אחד כבויה.",module,Magento_Checkout
 "Guest checkout is disabled.","תשלום כאורח אינו זמין.",module,Magento_Checkout
@@ -1376,6 +1383,8 @@ Checkout,קופה,module,Magento_Checkout
 "Unable to save shipping information. Please, check input data.","לא ניתן לשמור את פרטי המשלוח. אנא בדקו את הפרטים שמולאו.",module,Magento_Checkout
 "Cart contains virtual product(s) only. Shipping address is not applicable.","עגלת הקניות מכילה מוצר(ים) לא מוחשי(ים) בלבד. לא ניתן ליישם כתובת למשלוח.",module,Magento_Checkout
 "Shipping method is not applicable for empty cart","שיטת משלוח אינה ישימה עבור עגלה ריקה",module,Magento_Checkout
+" item"," פריט",module,Magento_Checkout
+" items"," פריטים",module,Magento_Checkout
 "Totals calculation is not applicable to empty cart","חישוב סכום אינו ישים עבור עגלה ריקה",module,Magento_Checkout
 "Invalid data","נתונים לא חוקיים",module,Magento_Checkout
 "The customer address is not valid.","כתובת הלקוח אינה חוקית.",module,Magento_Checkout
@@ -2234,7 +2243,7 @@ Availability,זמינות,module,Magento_Downloadable
 Date,תאריך,module,Magento_Downloadable
 Status,סטטוס,module,Magento_Downloadable
 "Remaining Downloads","הורדת הנותרים",module,Magento_Downloadable
-"View Order","הצג הזמנה",module,Magento_Downloadable
+"View Order","	הצג הזמנה",module,Magento_Downloadable
 "Start Download","התחל הורדה",module,Magento_Downloadable
 "You have not purchased any downloadable products yet.","עדיין לא רכשת כל המוצרים להורדה.",module,Magento_Downloadable
 Back,חזור,module,Magento_Downloadable
@@ -2594,6 +2603,7 @@ Status,סטטוס,module,Magento_ImportExport
 "Data validation is failed. Please fix errors and re-upload the file..","אימות הנתונים נכשל. בבקשה לתקן את השגיאות והעלה מחדש את הקובץ..",module,Magento_ImportExport
 "The file is valid, but we can't import it for some reason.","הקובץ תקין, אך אסור לנו לייבא אותו מסיבה כלשהי.",module,Magento_ImportExport
 "Following Error(s) has been occurred during importing process:","כבר אירעו שגיאות במהלך תהליך הייבוא:",module,Magento_ImportExport
+"Only first 100 errors are displayed here. ","רק 100 השגיאות מוצגות כאן. ",module,Magento_ImportExport
 "in rows:",בשורות:,module,Magento_ImportExport
 "Make sure your file isn't more than %1M.","ודא כי הקובץ שלך לא שוקל יותר מאשר %1M.",module,Magento_ImportExport
 "We can't provide the upload settings right now.","אין באפשרותנו לספק את הגדרות ההעלאה עכשיו.",module,Magento_ImportExport
@@ -2790,6 +2800,8 @@ Items,פריטים,module,Magento_Multishipping
 "Back to Select Addresses","חזרה לבחירת כתובות",module,Magento_Multishipping
 "Thank you for your purchase!","תודה על הרכישה!",module,Magento_Multishipping
 "Thanks for your order. We'll email you order details and tracking information.","תודה על הזמנתך. אנחנו בדוק באיימל את פרטי ההזמנה, מידע, ומעקב משלוח.",module,Magento_Multishipping
+"Your order numbers are: ","מספרי ההזמנה שלך הם: ",module,Magento_Multishipping
+"Your order number is: ","מספר ההזמנה שלך הוא: ",module,Magento_Multishipping
 "Continue Shopping","המשך בקניות",module,Magento_Multishipping
 "No New Relic Application ID configured, cannot continue with Cron Event reporting","אין יישום אשר הוגדר באמצעות מזהה חדש, אין אפשרות להמשיך עם דיווח אירוע ה-Cron",module,Magento_NewRelicReporting
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
@@ -2866,6 +2878,7 @@ Paused,נעצר,module,Magento_Newsletter
 "Choose Store View:","בחירת תצוגת חנות:",module,Magento_Newsletter
 "Add to Queue","הוספה לתור",module,Magento_Newsletter
 "Please enter a new template name.","נא הזינו שם תבנית חדשה.",module,Magento_Newsletter
+" Copy"," העתקה",module,Magento_Newsletter
 "Enter your email address","הזן את כתובת הדואר האלקטרוני שלך",module,Magento_Newsletter
 Subscribe,הרשמה,module,Magento_Newsletter
 "Make Check payable to:","כתוב את השיק לפקודת:",module,Magento_OfflinePayments
@@ -2896,6 +2909,7 @@ None,ללא,module,Magento_OfflineShipping
 "Duplicate Row #%1 (Country ""%2"", Region/State ""%3"", Zip ""%4"" and Value ""%5"")","ערך כפול #%1 (מדינה ""%2"", אזור/מדינה ""%3"", מיקוד ""%4"", ערך ""%5"")",module,Magento_OfflineShipping
 "Free Shipping","משלוח חינם",module,Magento_OfflineShipping
 No,לא,module,Magento_OfflineShipping
+"Export VCL for Varnish ","ייצא VCL של Varnish ",module,Magento_PageCache
 "Ttl value ""%1"" is not valid. Please use only numbers equal or greater than zero.","ערך של Ttl ״%1״ אינו חוקי. אנא השתמש רק במספרים שווים או גדולים מ- 0.",module,Magento_PageCache
 "Built-in Application (Not Recommended for Production Use)","אפליקציות מובנות(לא מומלץ לשימוש בפרודקשן)",module,Magento_PageCache
 "Varnish Caching","מטמון של Varnish",module,Magento_PageCache
@@ -2940,6 +2954,7 @@ No,לא,module,Magento_Payment
 "Switch/Solo/Maestro Only","החלפה/סולו/מאסטרו בלבד",module,Magento_Payment
 "Issue Number","מספר מקרה",module,Magento_Payment
 "Start Date","תאריך התחלה",module,Magento_Payment
+" is not available. You still can process offline actions."," אינה זמינה. אתה עדיין יכול לעבד פעולות במצב לא מקוון.",module,Magento_Payment
 "Please Select","אנא בחר",module,Magento_Payment
 "We'll ask for your payment details before you place an order.","אנו נבקש את פרטי התשלום שלך לפני שאתה מבצע הזמנה.",module,Magento_Payment
 "--Please Select--","--אנא בחר",module,Magento_Payment
@@ -3044,7 +3059,7 @@ Custom,מותאם,module,Magento_Paypal
 Error,שגיאה,module,Magento_Paypal
 Customer,לקוח,module,Magento_Paypal
 "Ship To",נמען,module,Magento_Paypal
-"View Order","הצג הזמנה",module,Magento_Paypal
+"View Order","	הצג הזמנה",module,Magento_Paypal
 "Back to Billing Agreements","חזרה להוראות קבע",module,Magento_Paypal
 "There are no billing agreements yet.","לא קיימים אמצעי תשלום שמורים.",module,Magento_Paypal
 "New Billing Agreement","הסכם חיוב חדש",module,Magento_Paypal
@@ -3565,6 +3580,7 @@ Reorder,"הזמן מחדש",module,Magento_Sales
 "This order contains (%1) items and therefore cannot be edited through the admin interface. If you wish to continue editing, the (%2) items will be removed,  the order will be canceled and a new order will be placed.","הזמנה זו מכילה (%1) פריטים, ולכן לא ניתנת  לעריכה באמצעות ממשק הניהול. 'אם אתה רוצה להמשיך בעריכה, (%2) הפריטים יוסרו, ההזמנה תבוטל ותוגש הזמנה חדשה.",module,Magento_Sales
 "Are you sure? This order will be canceled and a new one will be created instead.","האם אתה בטוח? הזמנה זו תבוטל והזמנה חדשה תיווצר במקומה.",module,Magento_Sales
 "Save Gift Message","שמור הודעת מתנה",module,Magento_Sales
+" [deleted]"," [נמחק]",module,Magento_Sales
 "Order Credit Memos","זיכויי הזמנה",module,Magento_Sales
 "Credit memo #%1 created","זיכוי #%1 נוצר",module,Magento_Sales
 "Credit memo #%1 comment added","הערת זיכוי #%1 התווספה",module,Magento_Sales
@@ -3611,7 +3627,7 @@ Value,ערך,module,Magento_Sales
 "Print Order # %1","הדפס הזמנה # %1",module,Magento_Sales
 "Grand Total to be Charged","הסכום הכולל לחיוב",module,Magento_Sales
 Unassign,"בטל הקצאה",module,Magento_Sales
-"We can't add this item to your shopping cart right now.","לא ניתן להוסיף פריט זה לסל הקניות שלך כרגע.",module,Magento_Sales
+"We can't add this item to your shopping cart right now."," לא ניתן להוסיף פריט זה לסל הקניות שלך כרגע.",module,Magento_Sales
 "You sent the message.","שלחת את ההודעה.",module,Magento_Sales
 Sales,מכירות,module,Magento_Sales
 "This order no longer exists.","הזמנה זו כבר לא קיימת.",module,Magento_Sales
@@ -3708,7 +3724,7 @@ Items,פריטים,module,Magento_Sales
 "Product Name","שם מוצר",module,Magento_Sales
 "Ship To","נשלח אל",module,Magento_Sales
 Actions,פעולות,module,Magento_Sales
-"View Order","הצג הזמנה",module,Magento_Sales
+"View Order","	הצג הזמנה",module,Magento_Sales
 "You have placed no orders.","אין לך הזמנות.",module,Magento_Sales
 "Print Order","הדפס הזמנה",module,Magento_Sales
 "Qty Invoiced","כמות שחויבה",module,Magento_Sales
@@ -3922,7 +3938,10 @@ SKU,מק''ט,module,Magento_Shipping
 "Tracking Number:","מספר מעקב:",module,Magento_Shipping
 Carrier:,מוביל:,module,Magento_Shipping
 Error:,שגיאה:,module,Magento_Shipping
+"Tracking information is currently not available. Please ","מידע עבור המעקב לא זמין כעת. בבקשה ",module,Magento_Shipping
 "contact us","צור עימנו קשר",module,Magento_Shipping
+" for more information or "," לקבלת מידע נוסף או ",module,Magento_Shipping
+"email us at ","שלח לנו דוא""ל לכתובת ",module,Magento_Shipping
 Info:,מידע:,module,Magento_Shipping
 Track:,מעקב:,module,Magento_Shipping
 Status:,מצב:,module,Magento_Shipping
@@ -4538,7 +4557,7 @@ Comment,הערה,module,Magento_Wishlist
 "Product is not salable.","המוצר אינו למכירה.",module,Magento_Wishlist
 "Invalid item option format.","הפורמט של הפריט אינו חוקי.",module,Magento_Wishlist
 "%1 for ""%2"".","%1 עבור ""%2"".",module,Magento_Wishlist
-"We can't add this item to your shopping cart right now.","לא ניתן להוסיף פריט זה לסל הקניות שלך כרגע.",module,Magento_Wishlist
+"We can't add this item to your shopping cart right now."," לא ניתן להוסיף פריט זה לסל הקניות שלך כרגע.",module,Magento_Wishlist
 "We couldn't add the following product(s) to the shopping cart: %1.","הוספת המוצר(ים) לעגלת הקניות נכשלה: %1.",module,Magento_Wishlist
 "We can't update the Wish List right now.","לא ניתן לעדכן את רשימת המועדפים כעת.",module,Magento_Wishlist
 "%1 product(s) have been added to shopping cart: %2.","%1 מוצרים נוספו לסל הקניות: %2.",module,Magento_Wishlist
@@ -4585,13 +4604,6 @@ Back,חזור,module,Magento_Wishlist
 "Go to Wish List","מעבר למועדפים",module,Magento_Wishlist
 "You have no items in your wish list.","אין לך פריטים ב Wish List.",module,Magento_Wishlist
 "Are you sure you want to remove this product from your Wish List?","האם את/ה בטוח/ה שברצונך להסיר מוצר זה מהמועדפים?",module,Magento_Wishlist
-"Now Shopping by","מסנן לפי",theme,frontend/Magento/luma
-Previous,הקודם,theme,frontend/Magento/luma
-Remove,הסר,theme,frontend/Magento/luma
-"Remove This Item","הסרת פריט",theme,frontend/Magento/luma
-"Shop By","מיין לפי",theme,frontend/Magento/luma
-"Clear All","נקה הכל",theme,frontend/Magento/luma
-"Shopping Options","אפשרויות קניה",theme,frontend/Magento/luma
 "Payment Transaction Failed","עסקה תשלום שנכשלה",module,Magento_Checkout
 Reason,סיבה,module,Magento_Checkout
 "Checkout Type","סוג קופה",module,Magento_Checkout
@@ -4624,6 +4636,8 @@ Password:,סיסמה:,module,Magento_Customer
 "If you did not request this change, please contact us.","אם שלא ביקשת את השינוי זה, אנא צור קשר.",module,Magento_Customer
 "Currency Update Warnings","אזהרות עדכון מטבע",module,Magento_Directory
 "Thank you, %store_name",". תודה לך, %store_name",module,Magento_Email
+"Thank you for subscribing to our newsletter.","תודה על הרשמה לניוזלטר שלנו.",module,Magento_Newsletter
+"To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:","על מנת להתחיל לקבל מאתנו עדכונים, עלייך לאשר את המייל שלך על ידי לחיצה על הקישור הבא:",module,Magento_Newsletter
 "You have been successfully subscribed to our newsletter.","נרשמת בהצלחה לניוזלטר.",module,Magento_Newsletter
 "Product alerts cron warnings","אזהרות cron של התראות מוצר",module,Magento_ProductAlert
 "Thank you for your order from %store_name.","תודה על הזמנתך מ- %store_name.",module,Magento_Sales
@@ -4650,41 +4664,6 @@ Password:,סיסמה:,module,Magento_Customer
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name רוצה לשתף אתכם במועדפים של %store_name:",module,Magento_Wishlist
 "Message from %customer_name:","הודעה מ-%customer_name:",module,Magento_Wishlist
 "View all Wish List items","הצגת את כל פרטי המועדפים",module,Magento_Wishlist
-"Welcome to %store_name.","ברוכים הבאים ל%store_name.",theme,frontend/Magento/luma
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","כדי להיכנס לאתר שלנו, השתמש בפרטי חיבור אלה במהלך הצ'ק אאוט או בדף <a href=""%customer_url""> החשבון שלי</a>:",theme,frontend/Magento/luma
-Email:,"דואר אלקטרוני:",theme,frontend/Magento/luma
-Password:,סיסמה:,theme,frontend/Magento/luma
-"Password you set when creating account","הסיסמה שהגדרת בעת יצירת חשבון",theme,frontend/Magento/luma
-"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","שכחת את הסיסמה לחשבון? לחצ/י <a href=""%reset_url""> כאן</a> כדי לאפס אותה.",theme,frontend/Magento/luma
-"When you sign in to your account, you will be able to:","באמצעות התחברות לחשבונך, יתאפשר לך:",theme,frontend/Magento/luma
-"Quick Checkout","צ'ק אאוט מהיר",theme,frontend/Magento/luma
-"Proceed through checkout faster","המשך לקופה מהר יותר",theme,frontend/Magento/luma
-"Order Status","סטטוס הזמנה",theme,frontend/Magento/luma
-"Check the status of orders","בדוק את מצב הזמנות",theme,frontend/Magento/luma
-"Manage Addresses","נהל כתובות",theme,frontend/Magento/luma
-"Store alternative addresses","שמור כתובות חלופיות",theme,frontend/Magento/luma
-"For shipping to multiple family members and friends","עבור שילוח למספר חברים או בני משפחה",theme,frontend/Magento/luma
-"Order History","היסטורית הזמנות",theme,frontend/Magento/luma
-"View past orders","הצג את ההזמנות הקודמות",theme,frontend/Magento/luma
-"About Us",אודותינו,theme,frontend/Magento/luma
-"Customer Service","שירות לקוחות",theme,frontend/Magento/luma
-"<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone""> %store_phone</a>",theme,frontend/Magento/luma
-"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","שעות פעילות: < br / > <span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
-"Thank you for your order from %store_name.","תודה על הזמנתך מ- %store_name.",theme,frontend/Magento/luma
-"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","באפשרותך לבדוק את מצב ההזמנה שלך באמצעות <a href=""%account_url""> התחברות לחשבון שלך</a>.",theme,frontend/Magento/luma
-"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","אם יש לך שאלות לגבי ההזמנות שלך, אתה יכול שלח לנו דוא ל- <a href=""mailto:%store_email""> %store_email</a>.",theme,frontend/Magento/luma
-"Your Credit Memo #%creditmemo_id for Order #%order_id","תזכיר האשראי שלך #%creditmemo_id עבור הזמנה #%order_id",theme,frontend/Magento/luma
-"Billing Info","פרטי חיוב",theme,frontend/Magento/luma
-"Shipping Info","פרטי משלוח",theme,frontend/Magento/luma
-"Payment Method","שיטת תשלום",theme,frontend/Magento/luma
-"Shipping Method","שיטת משלוח",theme,frontend/Magento/luma
-"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","הזמנתך %increment_id # עודכנה לסטטוס <strong>%order_status</strong>.",theme,frontend/Magento/luma
-"Your Invoice #%invoice_id for Order #%order_id","חשבוניתך %invoice_id # עבור ההזמנה #%order_id",theme,frontend/Magento/luma
-"Once your package ships we will send you a tracking number.","ברגע שהחבילה שלך תשלח תקבל מספר מעקב.",theme,frontend/Magento/luma
-"Your Order <span class=""no-link"">#%increment_id</span>","הזמנתך <span class=""no-link""> #%increment_id</span>",theme,frontend/Magento/luma
-"Placed on <span class=""no-link"">%created_at</span>","נוצר ב <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
-"Your shipping confirmation is below. Thank you again for your business.","להלן אישור המשלוח שלך. תודה על רכישתך.",theme,frontend/Magento/luma
-"Your Shipment #%shipment_id for Order #%order_id","משלוח שלך %shipment_id # עבור הזמנה #%order_id",theme,frontend/Magento/luma
 "We could not detect a size.","לא הצלחנו לזהות גודל.",module,Magento_Backend
 "We don't recognize or support this file extension type.","איננו מזהים או תומכים בסוג זה של סיומת קובץ.",module,Magento_Backend
 "Add Products to New Option","הוסף מוצרים לאפשרות חדשה",module,Magento_Bundle
@@ -4713,6 +4692,8 @@ Done,בוצע,module,Magento_ConfigurableProduct
 "For better results, add attributes and attribute values to your products.","לקבלת תוצאות טובות יותר, הוסף תכונות וערכי תכונה למוצרים שלך.",module,Magento_ConfigurableProduct
 "An attribute has been removed. This attribute will no longer appear in your configurations.","התכונה הוסרה. תכונה זו לא תופיע יותר בקונפיגורציה.",module,Magento_ConfigurableProduct
 "Select options for all attributes or remove unused attributes.","בחר באפשרויות עבור כל התכונות או הסרה של תכונות שאינן בשימוש.",module,Magento_ConfigurableProduct
+"Please, select attribute for the section ","נא בחר תכונה עבור מקטע ",module,Magento_ConfigurableProduct
+"Please fill in the values for the section ","אנא מלאו את הערכים עבור מקטע ",module,Magento_ConfigurableProduct
 "Please, fill correct values","אנא מלא את הערכים הנכונים",module,Magento_ConfigurableProduct
 "Please, select image(s) for your attribute","אנא בחר תמונה או מספר תמונות עבור התכונה שלך",module,Magento_ConfigurableProduct
 "Please choose image(s)","אנה בחר תמונה או תמונות",module,Magento_ConfigurableProduct
@@ -4813,6 +4794,10 @@ Advanced,מתקדם,module,Magento_Backend
 Design,עיצוב,module,Magento_Backend
 "Design Theme","נושא העיצוב",module,Magento_Backend
 "User-Agent Exceptions","חריגות של User-Agent",module,Magento_Backend
+"
+                        Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>
+                    ","
+כל מילות החיפוש הן מילות רגילות או ביטויים רגוליים(PCRE).המילים נכנסו לפי הסדר שתכניס לשדה.דוגמאות:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>                    ",module,Magento_Backend
 "Find a string in client user-agent header and switch to specific design theme for that browser.","מצא מילה בראש הuser-agent של הלקוח והחליף לעיצוב המבוקש בשביל הדפדפן שהוגדר.",module,Magento_Backend
 Pagination,"חלוקה לעמודים",module,Magento_Backend
 "Pagination Frame","מסגרת לעמודים",module,Magento_Backend
@@ -4898,6 +4883,10 @@ Security,אבטחה,module,Magento_Backend
 "Enable Charts","לאפשר תרשימים",module,Magento_Backend
 "Url Options","כתובת url של אפשרויות",module,Magento_Backend
 "Add Store Code to Urls","להוסיף קוד מאגר כתובות Url",module,Magento_Backend
+"
+                        <strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).
+                    ","
+<strong style=""color:red""> אזהרה!</strong> כאשר משתמשים בקוד חנות ב- Url, במקרים מסוימים מערכת עשויות שלא לפעול כראוי אם כתובות Url ללא קודים חנות צוינו שירותי צד שלישי (כגון PayPal וכו ').                    ",module,Magento_Backend
 "Auto-redirect to Base URL","הפנייה אוטומטים לכתובת URL בסיסית",module,Magento_Backend
 "Search Engine Optimization","אופטימיזציה של מנוע חיפוש",module,Magento_Backend
 "Use Web Server Rewrites","השתמש בשכתובי שרת האינטרנט",module,Magento_Backend
@@ -4993,6 +4982,10 @@ Forms,טפסים,module,Magento_Captcha
 "Number of Symbols","מספר סמלים",module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","נא ציין 8 סמלים לכל היותר. מותר טווחים (למשל 3-5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA","סמלים המשמשים ב-CAPTCHA",module,Magento_Captcha
+"
+                        Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.
+                    ","
+נא להשתמש רק באותיות (a-z או A-Z) או מספרים (0-9) בשדה זה. ללא רווחים או תווים אחרים.<br />שימוש בתווים דומים (למשל ""i"", ""l"", ""1"") מקטין את הסיכוי של זיהוי הנכון על-ידי הלקוח.                    ",module,Magento_Captcha
 "Case Sensitive","תלוי רישיות",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","לאפשר CAPTCHA בתצוגת החנות",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA עבור טפסי ""צור חשבון"" ו-""שכחתי סיסמה"" תמיד פעילה אם נבחרה.",module,Magento_Captcha
@@ -5005,6 +4998,10 @@ Inventory,מלאי,module,Magento_CatalogInventory
 "Only X left Threshold","רק X נשאר במינימום",module,Magento_CatalogInventory
 "Display products availability in stock on Storefront.","הצגת מלאי המוצרים הזמינים החנות.",module,Magento_CatalogInventory
 "Product Stock Options","אופציות מלאי עבור מוצר",module,Magento_CatalogInventory
+"
+                    Please note that these settings apply to individual items in the cart, not to the entire cart.
+                ","
+אנא שימו לב כי הגדרות אלה חלות על פריטים בודדים לעגלה ולא לעגלה כולה.                ",module,Magento_CatalogInventory
 "Manage Stock","ניהול מלאי",module,Magento_CatalogInventory
 Backorders,ממתינים,module,Magento_CatalogInventory
 "Maximum Qty Allowed in Shopping Cart","כמות מרבית המותרת בעגלת הקניות",module,Magento_CatalogInventory
@@ -5249,6 +5246,7 @@ Contacts,"אנשי קשר",module,Magento_Contact
 "Cookie Restriction Mode","Cookie במצב הגבלה",module,Magento_Cookie
 "Cron (Scheduled Tasks) - all the times are in minutes","Cron (משימות מתוזמנות) - כל הזמנים משוערכים בתור דקות",module,Magento_Cron
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.","עבור כתובות הURL הנכונים שנוצרו במהלך הcron פועל אנא ודא זאת באמצעות אינטרנט > אבטחה, הURL הבסיס המאובטח והלא מאובטח מוגדרות במפורש.",module,Magento_Cron
+"Cron configuration options for group: ","אפשרויות Cron קונפיגורציה עבור הקבוצה: ",module,Magento_Cron
 "Generate Schedules Every","ליצור לוחות זמנים בכל",module,Magento_Cron
 "Schedule Ahead for","לוח זמנים מראש עבור",module,Magento_Cron
 "Missed if Not Run Within","חסר או לא יירוץ עם",module,Magento_Cron
@@ -5264,10 +5262,25 @@ Contacts,"אנשי קשר",module,Magento_Contact
 "Default Welcome Email","ברירת מחדל של הודעת ברוכים הבאים",module,Magento_Customer
 "Email template chosen based on theme fallback when ""Default"" option is selected.","תבנית הדואר האלקטרוני שנבחרה בהתבסס על ירושת התבנית כשבוחרים באפשרות ""ברירת מחדל"".",module,Magento_Customer
 "Default Welcome Email Without Password","ברירת המחדל של הודעת ברוכים הבאים ללא סיסמה",module,Magento_Customer
+"
+                        This email will be sent instead of the Default Welcome Email, if a customer was created without password. <br /><br />
+                        Email template chosen based on theme fallback when ""Default"" option is selected.
+                    ","
+דוא""ל זה יישלח במקום הודעת ברירת המחדל של ברוכים הבאים, במידה והלקוח נוצר ללא סיסמה. <br /><br />
+                        תבנית דוא""ל נבחרה בהסתמך על נסיגת ערכת הנושא כאשר אפשרות ""ברירת מחדל"" נבחרה.
+                    ",module,Magento_Customer
 "Email Sender","שולח דואר אלקטרוני",module,Magento_Customer
 "Require Emails Confirmation","דרוש אישור הודעות דואר אלקטרוני",module,Magento_Customer
 "Confirmation Link Email","הודעת קישור לאישור",module,Magento_Customer
 "Welcome Email","דוא""ל ברוכים הבאים",module,Magento_Customer
+"
+                        This email will be sent instead of the Default Welcome Email, after account confirmation. <br /><br />
+                        Email template chosen based on theme fallback when ""Default"" option is selected.
+                    ","
+דוא""ל זה יישלח במקום הודעת ברוך הבא המוגדרת כברירת מחדל, לאחר אישור החשבון. <br />
+<br />
+                        תבנית דוא""ל נבחרה בהסתמך על נסיגת ערכת הנושא כאשר אפשרות ""ברירת מחדל"" נבחרה.
+                    ",module,Magento_Customer
 "Generate Human-Friendly Customer ID","צור מזהה לקוח ידידותי למשתמש",module,Magento_Customer
 "Password Options","אפשרויות סיסמה",module,Magento_Customer
 "Forgot Email Template","תבנית ""שכחתי דוא""ל""",module,Magento_Customer
@@ -5328,6 +5341,10 @@ Size,גודל,module,Magento_Dhl
 "Currency Setup","הגדרת מטבע",module,Magento_Directory
 "Currency Options","אפשרויות מטבע",module,Magento_Directory
 "Base Currency","מטבע הבסיס",module,Magento_Directory
+"
+                        Base currency is used for all online payment transactions. If you have more than one store view, the base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").
+                    ","
+מטבע הבסיס משמש עבור כל תנועות תשלום אונליין. אם יש לך אחד או יותר בתצוגת החנות, היקף מטבע הבסיס מוגדרת על-ידי הטווח מחיר קטלוג (""קטלוג"" > ""מחיר"" > ""טווח מחיר קטלוג"").                    ",module,Magento_Directory
 "Default Display Currency","תצוגת מטבע ברירת מחדל",module,Magento_Directory
 "Allowed Currencies","מטבעות מותרים",module,Magento_Directory
 "Connection Timeout in Seconds","זמן קצוב לחיבור בשניות",module,Magento_Directory
@@ -5482,12 +5499,51 @@ Export,ייצוא,module,Magento_OfflineShipping
 "Full page caching.","מטמון של Full page.",module,Magento_PageCache
 "Payment Methods","שיטות תשלום",module,Magento_Payment
 "Sandbox Credentials","אישור סביבת הדמה",module,Magento_Paypal
+"
+                    <a href=\"https:/financing.paypal.com/ppfinportal/content/whyUseFinancing\" target=\"_blank\">Why Advertise Financing?</a><br/>
+                        <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                        from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                        Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                        The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                        or more. <a href=\"https:/financing.paypal.com/ppfinportal/content/forrester\" target=\"_blank\">See Details</a>.
+                ","
+<a href=\"https:/financing.paypal.com/ppfinportal/content/whyUseFinancing\" target=\"_blank\"> למה פרסום ממומן?</a> <br/>                         <strong>תן למכירות שלך לעלות כאשר אתם מפרסמים מימון.</strong> <br/> PayPal מסייעת להפוך לקוחות מתעניינים לקונים עם מימון של PayPal Credit®. הלקוחות שלך יש יותר זמן לשלם, בעוד אתה מקבל תשלום מראש – ללא עלות נוספת.                         נסה את מודעות באנר חינם של PayPal מאפשר לך לפרסם PayPal Credit® מימון כאפשרות התשלום עבור הלקוחות שלך. תבדוק עם PayPal.                         תוכנית הפרסום דל PayPal הוכחה כאמצעי לייצר רכישות נוספות, כמו גם להגדיל את גודל הרכישה הממוצע של הלקוח על ידי 15% או יותר. <a href=\"https:/financing.paypal.com/ppfinportal/content/forrester\" target=\"_blank\"> ראה פרטים</a>.                ",module,Magento_Paypal
 "Home Page","דף הבית",module,Magento_Paypal
 Position,מיקום,module,Magento_Paypal
 "It is recommended to set this value to ""Magento_Paypal"" per store views.","מומלץ לקבוע ערך זה ל- ""Magento_Paypal"" לכל תצוגות החנויות.",module,Magento_Paypal
 "Sort Order","סדר מיון",module,Magento_Paypal
 Enabled,פעיל,module,Magento_Paypal
 Login,כניסה,module,Magento_Paypal
+"
+                    <a href=\"https://financing.paypal.com/ppfinportal/content/whyUseFinancing\" target=\"_blank\">Why Advertise Financing?</a><br/>
+                                            <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                                            from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                                            Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                                            The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                                            or more. <a href=\"https://financing.paypal.com/ppfinportal/content/forrester\" target=\"_blank\">See Details</a>.
+                ","
+                    <a href=\"https:/financing.paypal.com/ppfinportal/content/whyUseFinancing\" target=\"_blank\"> למה פרסום ממומן?</a> <br/>                         <strong>תן למכירות שלך לעלות כאשר אתם מפרסמים מימון.</strong> <br/> PayPal מסייעת להפוך לקוחות מתעניינים לקונים עם מימון של PayPal Credit®. הלקוחות שלך יש יותר זמן לשלם, בעוד אתה מקבל תשלום מראש – ללא עלות נוספת.                         נסה את מודעות באנר חינם של PayPal מאפשר לך לפרסם PayPal Credit® מימון כאפשרות התשלום עבור הלקוחות שלך. תבדוק עם PayPal.                         תוכנית הפרסום דל PayPal הוכחה כאמצעי לייצר רכישות נוספות, כמו גם להגדיל את גודל הרכישה הממוצע של הלקוח על ידי 15% או יותר. <a href=\"https:/financing.paypal.com/ppfinportal/content/forrester\" target=\"_blank\"> ראה פרטים</a>.
+                ",module,Magento_Paypal
+"
+                    <a href=\"https:/financing.paypal.com/ppfinportal/content/whyUseFinancing\" target=\"_blank\">Why Advertise Financing?</a><br/>
+                            <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                            from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                            Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                            The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                            or more. <a href=\"https:/financing.paypal.com/ppfinportal/content/forrester\" target=\"_blank\">See Details</a>.
+                ","
+                    <a href=\"https:/financing.paypal.com/ppfinportal/content/whyUseFinancing\" target=\"_blank\"> למה פרסום ממומן?</a> <br/>                         <strong>תן למכירות שלך לעלות כאשר אתם מפרסמים מימון.</strong> <br/> PayPal מסייעת להפוך לקוחות מתעניינים לקונים עם מימון של PayPal Credit®. הלקוחות שלך יש יותר זמן לשלם, בעוד אתה מקבל תשלום מראש – ללא עלות נוספת.                         נסה את מודעות באנר חינם של PayPal מאפשר לך לפרסם PayPal Credit® מימון כאפשרות התשלום עבור הלקוחות שלך. תבדוק עם PayPal.                         תוכנית הפרסום דל PayPal הוכחה כאמצעי לייצר רכישות נוספות, כמו גם להגדיל את גודל הרכישה הממוצע של הלקוח על ידי 15% או יותר. <a href=\"https:/financing.paypal.com/ppfinportal/content/forrester\" target=\"_blank\"> ראה פרטים</a>.
+                ",module,Magento_Paypal
+"
+                    <a href=\"https:/financing.paypal.com/ppfinportal/content/whyUseFinancing\" target=\"_blank\">Why Advertise Financing?</a><br/>
+                                <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                                from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                                Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                                The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                                or more. <a href=\"https:/financing.paypal.com/ppfinportal/content/forrester\" target=\"_blank\">See Details</a>.
+                ","
+                    <a href=\"https:/financing.paypal.com/ppfinportal/content/whyUseFinancing\" target=\"_blank\"> למה פרסום ממומן?</a> <br/>                         <strong>תן למכירות שלך לעלות כאשר אתם מפרסמים מימון.</strong> <br/> PayPal מסייעת להפוך לקוחות מתעניינים לקונים עם מימון של PayPal Credit®. הלקוחות שלך יש יותר זמן לשלם, בעוד אתה מקבל תשלום מראש – ללא עלות נוספת.                         נסה את מודעות באנר חינם של PayPal מאפשר לך לפרסם PayPal Credit® מימון כאפשרות התשלום עבור הלקוחות שלך. תבדוק עם PayPal.                         תוכנית הפרסום דל PayPal הוכחה כאמצעי לייצר רכישות נוספות, כמו גם להגדיל את גודל הרכישה הממוצע של הלקוח על ידי 15% או יותר. <a href=\"https:/financing.paypal.com/ppfinportal/content/forrester\" target=\"_blank\"> ראה פרטים</a>.
+                ",module,Magento_Paypal
 "Persistent Shopping Cart","עגלת הקניות תמידית",module,Magento_Persistent
 "General Options","אפשרויות כלליות",module,Magento_Persistent
 "Enable Persistence","לאפשר שימור נתונים",module,Magento_Persistent
@@ -5651,6 +5707,7 @@ Edit,ערוך,module,Magento_UrlRewrite
 "We will disable this feature if the value is empty.","אנו נשבית אפשרות זו אם הערך ריק.",module,Magento_User
 "Lockout Time (minutes)","זמן נעילה (בדקות)",module,Magento_User
 "Password Lifetime (days)","פג תוקף סיסמה (בימים)",module,Magento_User
+"We will disable this feature if the value is empty. ","אנו נשבית אפשרות זו אם הערך ריק. ",module,Magento_User
 "Password Change","שינוי סיסמה",module,Magento_User
 Unlock,"שחרור מנעילה",module,Magento_User
 Username,"שם משתמש",module,Magento_User
@@ -5716,10 +5773,3 @@ Action,פעולה,module,Magento_Wishlist
 Configure,הגדר,module,Magento_Wishlist
 Delete,מחק,module,Magento_Wishlist
 "Product Details and Comment","פרטי המוצר והערה",module,Magento_Wishlist
-Summary,סיכום,theme,frontend/Magento/blank
-"Account Dashboard","לוח בקרה",theme,frontend/Magento/blank
-"Account Information","פרטי חשבון",theme,frontend/Magento/blank
-"Address Book","פנקס הכתובות",theme,frontend/Magento/blank
-Menu,תפריט,theme,frontend/Magento/blank
-Account,חשבון,theme,frontend/Magento/blank
-Settings,הגדרות,theme,frontend/Magento/blank
