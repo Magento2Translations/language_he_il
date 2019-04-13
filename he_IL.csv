@@ -25,6 +25,7 @@ major,משמעותי,module,Magento_AdminNotification
 minor,מינורי,module,Magento_AdminNotification
 notice,"שים לב",module,Magento_AdminNotification
 "Wrong message type","סוג ההודעה אינו נכון",module,Magento_AdminNotification
+"One or more of the Cache Types are invalidated: %1. ","אחד או יותר מסוגי Cache תוקפם: %1. ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","בבקשה ללכת <a href=""%1""> ניהול cacge</a> ולרענן את סוגי הcache.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","סינכרון של תיקיית מדיה הושלמה.",module,Magento_AdminNotification
 "Close popup","סגור חלון",module,Magento_AdminNotification
@@ -185,6 +186,7 @@ To,ל-,module,Magento_Backend
 "Date selector","בחירת תאריך",module,Magento_Backend
 "[ deleted ]",[נמחק],module,Magento_Backend
 "Select All","בחר הכל",module,Magento_Backend
+" [deleted]"," [נמחק]",module,Magento_Backend
 "Add New","הוסף חדש",module,Magento_Backend
 Export,ייצוא,module,Magento_Backend
 "Please correct the column format and try again.","נא תקן את פורמט העמודה ונסה שוב.",module,Magento_Backend
@@ -233,6 +235,7 @@ System,מערכת,module,Magento_Backend
 "The website does not exist.","אתר אינטרנט זה אינו קיים.",module,Magento_Backend
 "The store does not exist","החנות אינה קיימת",module,Magento_Backend
 "Store view doesn't exist","תצוגת חנות אינה קיימת",module,Magento_Backend
+"New ","חדש ",module,Magento_Backend
 "Last 24 Hours","יממה אחרונה",module,Magento_Backend
 "Last 7 Days","7 ימים אחרונים",module,Magento_Backend
 "Current Month","החודש הנוכחי",module,Magento_Backend
@@ -357,11 +360,11 @@ Country,ארץ,module,Magento_Braintree
 "My Credit Cards","כרטיסי האשראי שלי",module,Magento_Braintree
 "There was error during saving card data","אירעה שגיאה במהלך שמירת נתוני הכרטיס",module,Magento_Braintree
 "Transaction declined by gateway: Check card details or try another card","העסקה נדחתה על ידי שירות הסליקה: נא בדוק את פרטי כרטיס או נסה כרטיס אחר",module,Magento_Braintree
+"Transaction declined: ","העסקה נדחתה: ",module,Magento_Braintree
 "Credit card type is not allowed for your country.","סוג כרטיס האשראי אינו מורשה עבור המדינה שלך.",module,Magento_Braintree
 "Credit card type is not allowed for this payment method.","סוג כרטיס האשראי אינו מותר עבור שיטת התשלום הנוכחית.",module,Magento_Braintree
 "Selected payment type is not allowed for billing country.","סוג התשלום שנבחר אינו מאושר עבור המדינה בפרטי התשלום.",module,Magento_Braintree
 "Please try again later","אנא נסה שוב מאוחר יותר",module,Magento_Braintree
-"This refund is for a partial amount but the Transaction has not settled.","החזר זה הוא עבור סכום חלקי אך הסליקה איננה אושרה.",module,Magento_Braintree
 "Please wait 24 hours before trying to issue a partial refund.","אנא המתן 24 שעות לפני בקשת החזר כספי.",module,Magento_Braintree
 "Some transactions are already settled or voided and cannot be voided.","חלק מהסליקות כבר אושרו או ריקות, ולכן אין אפשרות לבטלם.",module,Magento_Braintree
 "Invalid Customer ID provided","מזהה לקוח לא חוקי הוכנס",module,Magento_Braintree
@@ -909,6 +912,7 @@ Role,תפקיד,module,Magento_Catalog
 "Unselect All","הסר הכל",module,Magento_Catalog
 "Select Visible","בחר גלוי",module,Magento_Catalog
 "Unselect Visible","ביטול בחירה של גלוי",module,Magento_Catalog
+"Buy %1 for: ","לקנות %1 עבור: ",module,Magento_Catalog
 "Shop By","סנן לפי",module,Magento_Catalog
 "Shopping Options","אפשרויות סינון",module,Magento_Catalog
 "Compare Products","השוואת מוצרים",module,Magento_Catalog
@@ -1462,7 +1466,7 @@ Availability,זמינות,module,Magento_Downloadable
 Date,תאריך,module,Magento_Downloadable
 Status,סטטוס,module,Magento_Downloadable
 "Remaining Downloads","הורדת הנותרים",module,Magento_Downloadable
-"View Order","הצג הזמנה",module,Magento_Downloadable
+"View Order","	הצג הזמנה",module,Magento_Downloadable
 "Start Download","התחל הורדה",module,Magento_Downloadable
 "You have not purchased any downloadable products yet.","עדיין לא רכשת כל המוצרים להורדה.",module,Magento_Downloadable
 Back,חזור,module,Magento_Downloadable
@@ -1912,6 +1916,7 @@ Paused,נעצר,module,Magento_Newsletter
 "Duplicate template code","שכפול קוד תבנית",module,Magento_Newsletter
 "Choose Store View:","בחירת תצוגת חנות:",module,Magento_Newsletter
 "Add to Queue","הוספה לתור",module,Magento_Newsletter
+" Copy"," העתקה",module,Magento_Newsletter
 "Enter your email address","הזן את כתובת הדואר האלקטרוני שלך",module,Magento_Newsletter
 Subscribe,הרשמה,module,Magento_Newsletter
 "Make Check payable to:","כתוב את השיק לפקודת:",module,Magento_OfflinePayments
@@ -1975,6 +1980,7 @@ No,לא,module,Magento_Payment
 "Switch/Solo/Maestro Only","החלפה/סולו/מאסטרו בלבד",module,Magento_Payment
 "Issue Number","מספר מקרה",module,Magento_Payment
 "Start Date","תאריך התחלה",module,Magento_Payment
+" is not available. You still can process offline actions."," אינה זמינה. אתה עדיין יכול לעבד פעולות במצב לא מקוון.",module,Magento_Payment
 "--Please Select--","--אנא בחר",module,Magento_Payment
 "Card Verification Number Visual Reference","מדריך כיצד לאמת את מספר הכרטיס",module,Magento_Payment
 "What is this?","מה זה?",module,Magento_Payment
@@ -2044,7 +2050,7 @@ Custom,מותאם,module,Magento_Paypal
 "--Please Select--","--אנא בחר",module,Magento_Paypal
 Customer,לקוח,module,Magento_Paypal
 "Ship To",נמען,module,Magento_Paypal
-"View Order","הצג הזמנה",module,Magento_Paypal
+"View Order","	הצג הזמנה",module,Magento_Paypal
 "Back to Billing Agreements","חזרה להוראות קבע",module,Magento_Paypal
 "There are no billing agreements yet.","לא קיימים אמצעי תשלום שמורים.",module,Magento_Paypal
 "New Billing Agreement","הסכם חיוב חדש",module,Magento_Paypal
@@ -2467,6 +2473,7 @@ Reorder,"הזמן מחדש",module,Magento_Sales
 "Order # %1 %2 | %3","הזמנה # %1 %2 | %3",module,Magento_Sales
 "Are you sure? This order will be canceled and a new one will be created instead.","האם אתה בטוח? הזמנה זו תבוטל והזמנה חדשה תיווצר במקומה.",module,Magento_Sales
 "Save Gift Message","שמור הודעת מתנה",module,Magento_Sales
+" [deleted]"," [נמחק]",module,Magento_Sales
 "Order Credit Memos","זיכויי הזמנה",module,Magento_Sales
 "Credit memo #%1 created","זיכוי #%1 נוצר",module,Magento_Sales
 "Credit memo #%1 comment added","הערת זיכוי #%1 התווספה",module,Magento_Sales
@@ -2562,7 +2569,7 @@ Status,סטטוס,module,Magento_Sales
 "Tracking Number","מספר מעקב",module,Magento_Sales
 "Product Name","שם מוצר",module,Magento_Sales
 "Ship To","נשלח אל",module,Magento_Sales
-"View Order","הצג הזמנה",module,Magento_Sales
+"View Order","	הצג הזמנה",module,Magento_Sales
 "You have placed no orders.","אין לך הזמנות.",module,Magento_Sales
 "Print Order","הדפס הזמנה",module,Magento_Sales
 "Qty Invoiced","כמות שחויבה",module,Magento_Sales
@@ -2698,7 +2705,10 @@ SKU,מק''ט,module,Magento_Shipping
 "Tracking Number:","מספר מעקב:",module,Magento_Shipping
 Carrier:,מוביל:,module,Magento_Shipping
 Error:,שגיאה:,module,Magento_Shipping
+"Tracking information is currently not available. Please ","מידע עבור המעקב לא זמין כעת. בבקשה ",module,Magento_Shipping
 "contact us","צור עימנו קשר",module,Magento_Shipping
+" for more information or "," לקבלת מידע נוסף או ",module,Magento_Shipping
+"email us at ","שלח לנו דוא""ל לכתובת ",module,Magento_Shipping
 Info:,מידע:,module,Magento_Shipping
 Track:,מעקב:,module,Magento_Shipping
 Status:,מצב:,module,Magento_Shipping
@@ -3164,7 +3174,6 @@ Back,חזור,module,Magento_Wishlist
 "Remove This Item","הסרת פריט זה",module,Magento_Wishlist
 "Go to Wish List","מעבר למועדפים",module,Magento_Wishlist
 "You have no items in your wish list.","אין לך פריטים ב Wish List.",module,Magento_Wishlist
-"Shop By","מיין לפי",theme,frontend/Magento/luma
 Total:,"סך הכל:",module,Magento_Checkout
 "Add Products to New Option","הוסף מוצרים לאפשרות חדשה",module,Magento_Bundle
 "Add Products to Option ""%1""","הוסף מוצרים לאפשרות ""%1""",module,Magento_Bundle
@@ -3227,6 +3236,10 @@ Advanced,מתקדם,module,Magento_Backend
 Design,עיצוב,module,Magento_Backend
 "Design Theme","נושא העיצוב",module,Magento_Backend
 "User-Agent Exceptions","חריגות של User-Agent",module,Magento_Backend
+"
+                        Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>
+                    ","
+כל מילות החיפוש הן מילות רגילות או ביטויים רגוליים(PCRE).המילים נכנסו לפי הסדר שתכניס לשדה.דוגמאות:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>                    ",module,Magento_Backend
 "Find a string in client user-agent header and switch to specific design theme for that browser.","מצא מילה בראש הuser-agent של הלקוח והחליף לעיצוב המבוקש בשביל הדפדפן שהוגדר.",module,Magento_Backend
 Pagination,"חלוקה לעמודים",module,Magento_Backend
 "Pagination Frame","מסגרת לעמודים",module,Magento_Backend
@@ -3311,6 +3324,10 @@ Security,אבטחה,module,Magento_Backend
 "Enable Charts","לאפשר תרשימים",module,Magento_Backend
 "Url Options","כתובת url של אפשרויות",module,Magento_Backend
 "Add Store Code to Urls","להוסיף קוד מאגר כתובות Url",module,Magento_Backend
+"
+                        <strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).
+                    ","
+<strong style=""color:red""> אזהרה!</strong> כאשר משתמשים בקוד חנות ב- Url, במקרים מסוימים מערכת עשויות שלא לפעול כראוי אם כתובות Url ללא קודים חנות צוינו שירותי צד שלישי (כגון PayPal וכו ').                    ",module,Magento_Backend
 "Auto-redirect to Base URL","הפנייה אוטומטים לכתובת URL בסיסית",module,Magento_Backend
 "Search Engine Optimization","אופטימיזציה של מנוע חיפוש",module,Magento_Backend
 "Use Web Server Rewrites","השתמש בשכתובי שרת האינטרנט",module,Magento_Backend
@@ -3393,6 +3410,10 @@ Forms,טפסים,module,Magento_Captcha
 "Number of Symbols","מספר סמלים",module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","נא ציין 8 סמלים לכל היותר. מותר טווחים (למשל 3-5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA","סמלים המשמשים ב-CAPTCHA",module,Magento_Captcha
+"
+                        Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.
+                    ","
+נא להשתמש רק באותיות (a-z או A-Z) או מספרים (0-9) בשדה זה. ללא רווחים או תווים אחרים.<br />שימוש בתווים דומים (למשל ""i"", ""l"", ""1"") מקטין את הסיכוי של זיהוי הנכון על-ידי הלקוח.                    ",module,Magento_Captcha
 "Case Sensitive","תלוי רישיות",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","לאפשר CAPTCHA בתצוגת החנות",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA עבור טפסי ""צור חשבון"" ו-""שכחתי סיסמה"" תמיד פעילה אם נבחרה.",module,Magento_Captcha
@@ -3405,6 +3426,10 @@ Inventory,מלאי,module,Magento_CatalogInventory
 "Only X left Threshold","רק X נשאר במינימום",module,Magento_CatalogInventory
 "Display products availability in stock on Storefront.","הצגת מלאי המוצרים הזמינים החנות.",module,Magento_CatalogInventory
 "Product Stock Options","אופציות מלאי עבור מוצר",module,Magento_CatalogInventory
+"
+                    Please note that these settings apply to individual items in the cart, not to the entire cart.
+                ","
+אנא שימו לב כי הגדרות אלה חלות על פריטים בודדים לעגלה ולא לעגלה כולה.                ",module,Magento_CatalogInventory
 "Manage Stock","ניהול מלאי",module,Magento_CatalogInventory
 Backorders,ממתינים,module,Magento_CatalogInventory
 "Maximum Qty Allowed in Shopping Cart","כמות מרבית המותרת בעגלת הקניות",module,Magento_CatalogInventory
@@ -3564,6 +3589,7 @@ Contacts,"אנשי קשר",module,Magento_Contact
 "Email Template","תבניות דואר אלקטרוני",module,Magento_Contact
 "Cron (Scheduled Tasks) - all the times are in minutes","Cron (משימות מתוזמנות) - כל הזמנים משוערכים בתור דקות",module,Magento_Cron
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.","עבור כתובות הURL הנכונים שנוצרו במהלך הcron פועל אנא ודא זאת באמצעות אינטרנט > אבטחה, הURL הבסיס המאובטח והלא מאובטח מוגדרות במפורש.",module,Magento_Cron
+"Cron configuration options for group: ","אפשרויות Cron קונפיגורציה עבור הקבוצה: ",module,Magento_Cron
 "Generate Schedules Every","ליצור לוחות זמנים בכל",module,Magento_Cron
 "Schedule Ahead for","לוח זמנים מראש עבור",module,Magento_Cron
 "Missed if Not Run Within","חסר או לא יירוץ עם",module,Magento_Cron
@@ -3634,6 +3660,10 @@ Size,גודל,module,Magento_Dhl
 "Currency Setup","הגדרת מטבע",module,Magento_Directory
 "Currency Options","אפשרויות מטבע",module,Magento_Directory
 "Base Currency","מטבע הבסיס",module,Magento_Directory
+"
+                        Base currency is used for all online payment transactions. If you have more than one store view, the base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").
+                    ","
+מטבע הבסיס משמש עבור כל תנועות תשלום אונליין. אם יש לך אחד או יותר בתצוגת החנות, היקף מטבע הבסיס מוגדרת על-ידי הטווח מחיר קטלוג (""קטלוג"" > ""מחיר"" > ""טווח מחיר קטלוג"").                    ",module,Magento_Directory
 "Default Display Currency","תצוגת מטבע ברירת מחדל",module,Magento_Directory
 "Allowed Currencies","מטבעות מותרים",module,Magento_Directory
 "Connection Timeout in Seconds","זמן קצוב לחיבור בשניות",module,Magento_Directory
@@ -3884,6 +3914,7 @@ Edit,ערוך,module,Magento_UrlRewrite
 "We will disable this feature if the value is empty.","אנו נשבית אפשרות זו אם הערך ריק.",module,Magento_User
 "Lockout Time (minutes)","זמן נעילה (בדקות)",module,Magento_User
 "Password Lifetime (days)","פג תוקף סיסמה (בימים)",module,Magento_User
+"We will disable this feature if the value is empty. ","אנו נשבית אפשרות זו אם הערך ריק. ",module,Magento_User
 "Password Change","שינוי סיסמה",module,Magento_User
 Unlock,"שחרור מנעילה",module,Magento_User
 Username,"שם משתמש",module,Magento_User
@@ -3932,4 +3963,3 @@ Action,פעולה,module,Magento_Wishlist
 Configure,הגדר,module,Magento_Wishlist
 Delete,מחק,module,Magento_Wishlist
 "Product Details and Comment","פרטי המוצר והערה",module,Magento_Wishlist
-Summary,סיכום,theme,frontend/Magento/blank
