@@ -15,6 +15,7 @@ Notifications,התראות,module,Magento_AdminNotification
 "Total of %1 record(s) have been removed.","סה""כ %1 רשומות הוסרו.",module,Magento_AdminNotification
 "We couldn't remove the messages because of an error.","אנחנו לא יכולים להסיר את ההודעות עקב שגיאה.",module,Magento_AdminNotification
 "The message has been removed.","ההודעה הוסרה.",module,Magento_AdminNotification
+"You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.","סיימת לטפל בכל התראות המערכת האחרונות. רענן את העמוד כדי לנקות את ההתראות.",module,Magento_AdminNotification
 "1 Hour","שעה אחת",module,Magento_AdminNotification
 "2 Hours",שעתיים,module,Magento_AdminNotification
 "6 Hours","6 שעות",module,Magento_AdminNotification
@@ -27,6 +28,7 @@ notice,"שים לב",module,Magento_AdminNotification
 "Wrong message type","סוג ההודעה אינו נכון",module,Magento_AdminNotification
 "Wrong notification ID specified.","התראה לא נכונה של הID המצוין.",module,Magento_AdminNotification
 "{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","{{base_url}} אינו מומלץ לשימוש בסביבת פרודקשן להכרזה על כתובת בסיס לא-מאובטחת /כתובת בסיס מאבטחת. מומלץ מאוד לשנות ערך זה ב<a href=""%1""> הגדרות</a> מג'נטו.",module,Magento_AdminNotification
+"One or more of the Cache Types are invalidated: %1. ","אחד או יותר מסוגי Cache תוקפם: %1. ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","בבקשה ללכת <a href=""%1""> ניהול cacge</a> ולרענן את סוגי הcache.",module,Magento_AdminNotification
 "We were unable to synchronize one or more media files. Please refer to the log file for details.","לא הצלחנו לסינכרון קובץ מדיה אחד או יותר. נא עיין בקובץ הlog לקבלת פרטים.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","סינכרון של תיקיית מדיה הושלמה.",module,Magento_AdminNotification
@@ -37,10 +39,53 @@ notice,"שים לב",module,Magento_AdminNotification
 "System messages","הודעות מערכת",module,Magento_AdminNotification
 Close,סגור,module,Magento_AdminNotification
 "See All (","ראה הכל (",module,Magento_AdminNotification
+" unread)"," לא נקרא)",module,Magento_AdminNotification
 "Please correct the data sent.","אנא תקן את הנתונים שנשלחו.",module,Magento_AdvancedPricingImportExport
 "Entity type model '%1' is not found","סוג דגם '%1' לא נמצא",module,Magento_AdvancedPricingImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","סוג דגם חייב להיות מופע של \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
 "There are no product types available for export","סוגי המוצרים לא זמינים עבור ייצוא",module,Magento_AdvancedPricingImportExport
+"Related Search Terms","חיפושים קשורים",module,Magento_AdvancedSearch
+"Add New Search Term","הוסף מונח חיפוש חדש",module,Magento_AdvancedSearch
+button_label,"תווית הכפתור",module,Magento_AdvancedSearch
+"Missing search engine parameter.","חסר פרמטר מנוע חיפוש.",module,Magento_AdvancedSearch
+"Successful! Test again?","הצלחת ! לבדוק שוב?",module,Magento_AdvancedSearch
+"Connection failed! Test again?","חיבור נכשל! לבדוק שוב?",module,Magento_AdvancedSearch
+"Subscription status","סטטוס מינוי",module,Magento_Analytics
+"Sorry, there has been an error processing your request. Please try again later.","מצטערים, אירעה שגיאה בעת עיבוד בקשתך.
+נא לנסות שנית.",module,Magento_Analytics
+"Cron settings can't be saved","לא ניתן לשמור את הגדרות ה-cron",module,Magento_Analytics
+"There was an error save new configuration value.","אירעה שגיאה בעת שמירת ערך תצורה חדשה.",module,Magento_Analytics
+"--Please Select--","-- נא לבחור --",module,Magento_Analytics
+"Command was not found.","הפקודה לא נמצאה.",module,Magento_Analytics
+"These arguments can't be empty ""%1""","הארגומנטים האלה לא יכולים להיות ריקים ""%1""",module,Magento_Analytics
+"Cannot find predefined integration user!","לא ניתן למצוא משתמש אינטגרציה מוגדר מראש!",module,Magento_Analytics
+"File is not ready yet.","הקובץ עדיין לא מוכן.",module,Magento_Analytics
+"Your Base URL has been changed and your reports are being updated. Advanced Reporting will be available once this change has been processed. Please try again later.","כתובת האתר הבסיסית שלך השתנתה והדו""חות שלך מתעדכנים ברגע זה. הדו""חות המתקדמים יהיו זמינים ברגע ששינוי זה יסתיים. אנא נסה שוב בעוד מספר רגעים.",module,Magento_Analytics
+"Failed to synchronize data to the Magento Business Intelligence service. ","סינכרון המידע לשירות Magento Business Intelligence נכשל. ",module,Magento_Analytics
+TestMessage,"הודעת בדיקה",module,Magento_Analytics
+"Apps and Games","אפליקציות ומשחקים",module,Magento_Analytics
+"Athletic/Sporting Goods","מוצרי אתלטיקה\ספורט",module,Magento_Analytics
+"Art and Design","אמנות ועיצוב",module,Magento_Analytics
+"Advanced Reporting","דו""חות מתקדמים",module,Magento_Analytics
+"Go to Advanced Reporting","עבור לדו""חות המתקדמים",module,Magento_Analytics
+Back,חזור,module,Magento_AsynchronousOperations
+Done,בוצע,module,Magento_AsynchronousOperations
+Retry,"נסה שנית",module,Magento_AsynchronousOperations
+"'Action Details - #' .","'פרטי פעולה - #'.",module,Magento_AsynchronousOperations
+"%1 item(s) have been scheduled for update.""","%1 פריטים תוזמנו עבור עדכון.""",module,Magento_AsynchronousOperations
+"Bulk Actions Log","לוג פעולות מרובות",module,Magento_AsynchronousOperations
+"%1 item(s) are currently being updated.","%1 פריט(ים) מתעדכנ(ים) כעת.",module,Magento_AsynchronousOperations
+"Task ""%1"": ","משימה ""%1"": ",module,Magento_AsynchronousOperations
+"%1 item(s) have been scheduled for update.","%1 פריטים תוזמנו עבור עדכון.",module,Magento_AsynchronousOperations
+"%1 item(s) have been successfully updated.","%1 פריטים עודכנו בהצלחה.",module,Magento_AsynchronousOperations
+"%1 item(s) failed to update","%1 פריטים לא עודכנו",module,Magento_AsynchronousOperations
+Details,פרטים,module,Magento_AsynchronousOperations
+"View Details","הצגת פרטים",module,Magento_AsynchronousOperations
+Dismiss,לדחות,module,Magento_AsynchronousOperations
+"Pending, in queue...","ממתין, בתור...",module,Magento_AsynchronousOperations
+"%1 items selected for mass update","%1 פריטים נבחרו לעדכון המוני",module,Magento_AsynchronousOperations
+", %1 successfully updated",", %1 עודכן בהצלחה",module,Magento_AsynchronousOperations
+", %1 failed to update",", %1 עדכונים נכשלו",module,Magento_AsynchronousOperations
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","אירע שיבוש במהלך הקומפילציה של רשימת המשאבים המותרים. פרטים נוספים ניתן למצוא ב-exceptions log.",module,Magento_Authorization
 "You created the order.","יצרת את ההזמנה.",module,Magento_Authorizenet
 "Order saving error: %1","שגיאת שמירת הזמנה: %1",module,Magento_Authorizenet
@@ -78,6 +123,7 @@ void,ריק,module,Magento_Authorizenet
 "Credit Card Number","מספר כרטיס אשראי",module,Magento_Authorizenet
 "Expiration Date","תאריך תפוגה",module,Magento_Authorizenet
 "Card Verification Number","קוד אימות לכרטיס",module,Magento_Authorizenet
+"Fraud Detection ","זוהתה הונאה ",module,Magento_Authorizenet
 "FDS Filter Action","פעולת סינון FDS",module,Magento_Authorizenet
 "AVS Response","תגובת AVS",module,Magento_Authorizenet
 "Card Code Response","תגובת כרטיס קוד",module,Magento_Authorizenet
@@ -165,9 +211,9 @@ Cancel,ביטול,module,Magento_Backend
 "Delete %1","מחק %1",module,Magento_Backend
 "Block Information","בלוק מידע",module,Magento_Backend
 "Backup Options","אפשרויות גיבוי",module,Magento_Backend
-"Create DB Backup","ליצור גיבוי ל-DB",module,Magento_Backend
-Yes,כן,module,Magento_Backend
 No,לא,module,Magento_Backend
+Yes,כן,module,Magento_Backend
+"Create DB Backup","ליצור גיבוי ל-DB",module,Magento_Backend
 "Delete Store","מחק חנות",module,Magento_Backend
 "Delete Web Site","מחק אתר אינטרנט",module,Magento_Backend
 "Save Web Site","שמור אתר האינטרנט",module,Magento_Backend
@@ -212,6 +258,7 @@ To,ל-,module,Magento_Backend
 "Date selector","בחירת תאריך",module,Magento_Backend
 "[ deleted ]",[נמחק],module,Magento_Backend
 "Select All","בחר הכל",module,Magento_Backend
+" [deleted]"," [נמחק]",module,Magento_Backend
 "We couldn't find any records.","לא הצלחנו למצוא רשומות.",module,Magento_Backend
 "Add New","הוסף חדש",module,Magento_Backend
 "Invalid export type supplied for grid export block","סוג ייצוא לא חוקי סופק עבור גריד בלוק ייצוא",module,Magento_Backend
@@ -275,6 +322,7 @@ System,מערכת,module,Magento_Backend
 "The store does not exist","החנות אינה קיימת",module,Magento_Backend
 "Store view doesn't exist","תצוגת חנות אינה קיימת",module,Magento_Backend
 "Before modifying the store view code please make sure it is not used in index.php.","לפני שאתה משנה את הקוד באתר האיטרנט , אנא ודא שהוא לא בשימוש ב- index. php.",module,Magento_Backend
+"New ","חדש ",module,Magento_Backend
 "All Stores","כל החנויות",module,Magento_Backend
 "You saved the website.","שמרת את אתר האינטרנט.",module,Magento_Backend
 "The default store cannot be disabled","לא ניתן לבטל את החנות ברירת המחדל",module,Magento_Backend
@@ -290,6 +338,13 @@ YTD,"שנה אחת",module,Magento_Backend
 "Authentication storage is incorrect.","אחסון האימות אינו נכון.",module,Magento_Backend
 Order,הזמנה,module,Magento_Backend
 "Order #%1","הזמנה #%1",module,Magento_Backend
+Edit,ערוך,module,Magento_Backend
+"Sorry, you need permissions to view this content.",". מצטער, אתה צריך הרשאות להצגת תוכן זה.",module,Magento_Backend
+"Next steps","השלבים הבאים",module,Magento_Backend
+"If you think this is an error, try signing out and signing in again.","אם אתה חושב שזו שגיאה, נסה לצאת ולהיכנס שוב.",module,Magento_Backend
+"Contact a system administrator or store owner to gain permissions.","פנה אל מנהל מערכת או בעל החנות כדי לקבל הרשאות.",module,Magento_Backend
+"Return to ","לחזור ל ",module,Magento_Backend
+"previous page","דף קודם",module,Magento_Backend
 "Welcome, please sign in","ברוכים הבאים, נא להתחבר",module,Magento_Backend
 Username,"שם משתמש",module,Magento_Backend
 "user name","שם משתמש",module,Magento_Backend
@@ -433,6 +488,9 @@ Country,ארץ,module,Magento_Braintree
 Authorize,אישור,module,Magento_Braintree
 "Authorize and Capture","אושר ונקלט",module,Magento_Braintree
 "--Please Select--","--אנא בחר",module,Magento_Braintree
+"Credit Card","כרטיס אשראי",module,Magento_Braintree
+ending,סיום,module,Magento_Braintree
+expires,פג,module,Magento_Braintree
 "Credit Card Type","סוג כרטיס אשראי",module,Magento_Braintree
 "Credit Card Number","מספר כרטיס אשראי",module,Magento_Braintree
 "Please, enter valid Credit Card Number","נא הזן מספר כרטיס אשראי בתוקף",module,Magento_Braintree
@@ -440,8 +498,7 @@ Authorize,אישור,module,Magento_Braintree
 "Please, enter valid Expiration Date","נא להקליד תאריך תפוגה",module,Magento_Braintree
 "Card Verification Number","קוד אימות לכרטיס",module,Magento_Braintree
 "Please, enter valid Card Verification Number","נא הזן מספר חוקי לאימות כרטיס",module,Magento_Braintree
-ending,סיום,module,Magento_Braintree
-expires,פג,module,Magento_Braintree
+"Save for later use.","שמור לשימוש מאוחר יותר.",module,Magento_Braintree
 "PayPal Account","חשבון PayPal",module,Magento_Braintree
 Actions,פעולות,module,Magento_Braintree
 Delete,מחק,module,Magento_Braintree
@@ -472,7 +529,7 @@ Separately,בנפרד,module,Magento_Bundle
 "The options you selected are not available.","האפשרויות שבחרת אינן זמינות.",module,Magento_Bundle
 "The required options you selected are not available.","האפשרויות הדרושות שבחרת אינן זמינות.",module,Magento_Bundle
 "Please select all required options.","אנא בחר את כל האפשרויות הנדרשות.",module,Magento_Bundle
-"We can't add this item to your shopping cart right now.","לא ניתן להוסיף פריט זה לסל הקניות שלך כרגע.",module,Magento_Bundle
+"We can't add this item to your shopping cart right now."," לא ניתן להוסיף פריט זה לסל הקניות שלך כרגע.",module,Magento_Bundle
 N/A,"לא זמין",module,Magento_Bundle
 Percent,אחוז,module,Magento_Bundle
 "We can't save custom-defined options for bundles with dynamic pricing.","לא ניתן לשמור אפשרויות מותאמות אישית עבור צרורות עם מחיר דינאמי.",module,Magento_Bundle
@@ -539,8 +596,10 @@ Always,תמיד,module,Magento_Captcha
 "Incorrect CAPTCHA","CAPTCHA שגוי",module,Magento_Captcha
 "Incorrect CAPTCHA.","CAPTCHA שגוי.",module,Magento_Captcha
 "The account is locked. Please wait and try again or contact %1.","החשבון ננעל. בבקשה חכה, נסה שוב או פנה %1.",module,Magento_Captcha
+"Please enter the letters and numbers from the image","אנא הזן את האותיות והמספרים מהתמונה",module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>לתשומת לבך</strong>: Captcha תלוי רישיות.",module,Magento_Captcha
 "Reload captcha","טען CAPTCHA מחדש",module,Magento_Captcha
+"Please type the letters and numbers below","אנא הקלידו את האותיות והמספרים להלן",module,Magento_Captcha
 "Entity type model '%1' is not found","סוג דגם '%1' לא נמצא",module,Magento_CatalogImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","סוג מודל חייב להיות מופע של \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "There are no product types available for export.","אין סוגי המוצרים זמינים עבור ייצוא.",module,Magento_CatalogImportExport
@@ -548,7 +607,6 @@ Always,תמיד,module,Magento_Captcha
 "File directory '%1' is not readable.","קבצי התיקייה '%1' אינם ניתנים לעריכה.",module,Magento_CatalogImportExport
 "File directory '%1' is not writable.","קבצי התיקייה '%1' אינם ניתנים לצפייה.",module,Magento_CatalogImportExport
 "Value for 'price' sub attribute in 'store' attribute contains incorrect value","הערך עבור 'מחיר' תת-תכונה בתכונה 'חנות' מכיל ערך שגוי",module,Magento_CatalogImportExport
-"Value for 'type' sub attribute in 'custom_options' attribute contains incorrect value, acceptable values are: 'dropdown', 'checkbox'","הערך עבור תת תכונה 'טיפוס' התכונה בתכונה 'אפשרויות מותאמות אישית' מכיל ערך שגוי, הערכים הקבילים הם: 'דרופ-דאון, 'צ'קבוקס'",module,Magento_CatalogImportExport
 "Please enter a value for title.","נא הזן ערך עבור הכותרת.",module,Magento_CatalogImportExport
 "Value for 'price' sub attribute in 'custom_options' attribute contains incorrect value","הערך עבור 'מחיר' תת תכונה בתכונה 'אפשרויות מותאמות אישית' מכיל ערך שגוי",module,Magento_CatalogImportExport
 "Value for 'maximum characters' sub attribute in 'custom_options' attribute contains incorrect value","הערך עבור 'מקסימום תווים' תת תכונה בתכונה 'אפשרויות מותאמות אישית' מכיל ערך שגוי",module,Magento_CatalogImportExport
@@ -581,7 +639,6 @@ Always,תמיד,module,Magento_Captcha
 "The fewest you may purchase is %1.","המספר הנמוך ביותר שניתן לרכוש הוא %1.",module,Magento_CatalogInventory
 "Please correct the quantity for some products.","נא תקן את הכמות עבור מוצרים מסוימים.",module,Magento_CatalogInventory
 "The most you may purchase is %1.","הכמות המרבית שניתן לרכוש הוא %1.",module,Magento_CatalogInventory
-"We don't have as many ""%1"" as you requested.","הכמות המבוקשת של ""%1"" לא זמינה במלאי כעת.",module,Magento_CatalogInventory
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.",". אין לנו כמה ""%1"" כפי שביקשת, אבל להמוצר יחזור להיות זמין %2.",module,Magento_CatalogInventory
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","אין לנו ""%1"" ב- הכמות המבוקשת, אז המלאי יתחדש ב %2.",module,Magento_CatalogInventory
 "You can buy %1 only in quantities of %2 at a time.","אתה יכול לקנות %1 רק בכמויות של %2 בכל פעם.",module,Magento_CatalogInventory
@@ -685,11 +742,14 @@ SKU,מק''ט,module,Magento_CatalogWidget
 "Add to Compare","הוסף להשוואה",module,Magento_CatalogWidget
 Root,שורש,module,Magento_Catalog
 Delete,מחק,module,Magento_Catalog
+"Are you sure you want to delete this category?","האם אתה בטוח שברצונך למחוק את הקטגוריה?",module,Magento_Catalog
 Save,שמור,module,Magento_Catalog
 "Use Config Settings","השתמש בהגדרות הראשיות",module,Magento_Catalog
 "Use All Available Attributes","השתמש בכל התכונות הקיימות",module,Magento_Catalog
 Name,שם,module,Magento_Catalog
 SKU,מק''ט,module,Magento_Catalog
+Visibility,נראות,module,Magento_Catalog
+Status,סטטוס,module,Magento_Catalog
 Price,מחיר,module,Magento_Catalog
 Position,מיקום,module,Magento_Catalog
 "Add Subcategory","הוסף קטגוריה משנית",module,Magento_Catalog
@@ -697,8 +757,6 @@ Position,מיקום,module,Magento_Catalog
 Day,יום,module,Magento_Catalog
 Month,חודש,module,Magento_Catalog
 Year,שנה,module,Magento_Catalog
-"<label class=""label""><span>from</span></label>","<label class=""label""><span>מ-</span></label>",module,Magento_Catalog
-"<label class=""label""><span>to</span></label>","<label class=""label""><span>עד</span></label>",module,Magento_Catalog
 "WYSIWYG Editor","עורך WYSIWYG",module,Magento_Catalog
 "Add Product","הוסף מוצר",module,Magento_Catalog
 label,תווית,module,Magento_Catalog
@@ -803,8 +861,6 @@ Email,"דואר אלקטרוני",module,Magento_Catalog
 "New Attribute","תכונה חדשה",module,Magento_Catalog
 Type,סוג,module,Magento_Catalog
 "Attribute Set","קבוצת תכונות",module,Magento_Catalog
-Status,סטטוס,module,Magento_Catalog
-Visibility,נראות,module,Magento_Catalog
 "Add New Option","הוסף אפשרות חדשה",module,Magento_Catalog
 "Import Options","ייבוא אפשרויות",module,Magento_Catalog
 "Use Default","השתמש בברירת מחדל",module,Magento_Catalog
@@ -845,7 +901,6 @@ Home,"דף הבית",module,Magento_Catalog
 "Products Comparison List","רשימת מוצרים להשוואה",module,Magento_Catalog
 N/A,"לא זמין",module,Magento_Catalog
 "-- Please Select --","-- אנא בחר --",module,Magento_Catalog
-None,ללא,module,Magento_Catalog
 "New Products from %1","מוצרים חדשים מ-%1",module,Magento_Catalog
 "New Products","מוצרים חדשים",module,Magento_Catalog
 "%1 - Special Products","%1 - מוצרים מיוחדים",module,Magento_Catalog
@@ -879,12 +934,10 @@ Catalog,קטלוג,module,Magento_Catalog
 "Edit Product Attribute","ערוך תכונת מוצר",module,Magento_Catalog
 "An attribute set named '%1' already exists.","ערך התכונה בשם '%1' כבר קיימת.",module,Magento_Catalog
 "Something went wrong while saving the attribute.","משהו השתבש בעת שמירת התכונה.",module,Magento_Catalog
-"Attribute code ""%1"" is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","קוד התכונה ""%1"" הוא לא חוקי. נא להשתמש רק באותיות (a-z), ' ' ספרות (0-9) או קו תחתון(_) בשדה זה, התו הראשון צריך להיות אות.",module,Magento_Catalog
 "We can't update the attribute.","איננו יכולים לעדכן את התכונה.",module,Magento_Catalog
 "You saved the product attribute.","שמרת את תכונת המוצר.",module,Magento_Catalog
 "An attribute with this code already exists.","תכונה עם הקוד הזה כבר קיימת.",module,Magento_Catalog
 "An attribute with the same code (%1) already exists.","תכונה עם אותו קוד (%1) כבר קיימת.",module,Magento_Catalog
-"The value of Admin must be unique.","הערך של אדמין חייב להיות ייחודי.",module,Magento_Catalog
 "You duplicated the product.","שכפלת את המוצר.",module,Magento_Catalog
 "This product doesn't exist.","מוצר זה אינו קיים.",module,Magento_Catalog
 "Invalid product id. Should be numeric value greater than 0","מזהה מוצר לא חוקי. צריך להיות ערך מספרי גדול מ-0",module,Magento_Catalog
@@ -906,7 +959,6 @@ Products,מוצרים,module,Magento_Catalog
 "This attribute set no longer exists.","קבוצת התכונות כבר לא קיימת.",module,Magento_Catalog
 "You saved the attribute set.","שמרת את קבוצת התכונות.",module,Magento_Catalog
 "Something went wrong while saving the attribute set.","משהו השתבש בעת שמירת קבוצת התכונות.",module,Magento_Catalog
-"You added product %1 to the comparison list.","%1 נוסף לרשימת ההשוואה.",module,Magento_Catalog
 "You cleared the comparison list.","ניקית את רשימת ההשוואה.",module,Magento_Catalog
 "Something went wrong  clearing the comparison list.","משהו השתבש  בעת ניקוי רשימת ההשוואה.",module,Magento_Catalog
 "You removed product %1 from the comparison list.","הסרת מוצר %1 מרשימת ההשוואה.",module,Magento_Catalog
@@ -1038,7 +1090,6 @@ Search,חפש,module,Magento_Catalog
 "Attribute '%1' is locked. %2","התכונה '%1' נעולה. %2",module,Magento_Catalog
 "Do not change the scope. %1","אל תשנה את הטווח. %1",module,Magento_Catalog
 "A product type is not defined for the indexer.","סוג המוצר אינו מוגדר עבור בונה האינדקסים.",module,Magento_Catalog
-"%1 doesn't extend \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice","%1. אינו יורש מ-\Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice",module,Magento_Catalog
 "Product with SKU %1 is not linked to product with SKU %2","מוצר עם המק""ט %1 לא מקושר למוצר עם המק""ט %2",module,Magento_Catalog
 "Multiple Select","בחירה מרובה",module,Magento_Catalog
 Dropdown,"רשימה נפתחת",module,Magento_Catalog
@@ -1056,6 +1107,11 @@ Select...,בחירה...,module,Magento_Catalog
 "Special Price From","מחיר מיוחד מ-",module,Magento_Catalog
 To,ל-,module,Magento_Catalog
 Done,בוצע,module,Magento_Catalog
+"Product Alerts","התראות מוצר",module,Magento_Catalog
+"Alert stock","התראת מלאי",module,Magento_Catalog
+"Alert Stock","התראת מלאי",module,Magento_Catalog
+"Alert price","התראת מחיר",module,Magento_Catalog
+"Alert Price","התראת מחיר",module,Magento_Catalog
 "Add Selected","להוסיף שנבחרו",module,Magento_Catalog
 "Select Attribute","בחר תכונה",module,Magento_Catalog
 "Create New Attribute","יצירת תכונה חדשה",module,Magento_Catalog
@@ -1099,11 +1155,13 @@ name,שם,module,Magento_Catalog
 "Collapse All","כווץ הכל",module,Magento_Catalog
 "Expand All","הרחב הכל",module,Magento_Catalog
 "Please confirm site switching. All data that hasn't been saved will be lost.","אנא אשרו את החלפת האתרים. כל הנתונים אשר לא נשמרו יאבדו.",module,Magento_Catalog
+None,ללא,module,Magento_Catalog
 "Use Default Value","השתמש בערך ברירת המחדל",module,Magento_Catalog
 "Manage Titles (Size, Color, etc.)","ניהול כותרות (גודל, צבע, וכו '.)",module,Magento_Catalog
 "Manage Options (Values of Your Attribute)","נהל אפשרויות (ערכים של התכונה המבוקשת)",module,Magento_Catalog
 "Is Default","ברירת מחדל",module,Magento_Catalog
 "Sort Option","אפשרות מיון",module,Magento_Catalog
+"The value of Admin must be unique.","הערך של אדמין חייב להיות ייחודי.",module,Magento_Catalog
 Groups,קבוצות,module,Magento_Catalog
 "Double click on a group to rename it.","לחץ פעמיים על הקבוצה כדי לשנות את השם.",module,Magento_Catalog
 "Unassigned Attributes","תכונות שלא הושמו",module,Magento_Catalog
@@ -1160,7 +1218,6 @@ Role,תפקיד,module,Magento_Catalog
 "Image Resolution","רזולוציית תמונה",module,Magento_Catalog
 "{width}^{height} px","{width} ^{height} פיקסלים",module,Magento_Catalog
 "Hide from Product Page","הסתר מעמוד מוצר",module,Magento_Catalog
-"Product Alerts","התראות מוצר",module,Magento_Catalog
 "Allow Multiple Boxes for Shipping","אפשר משלוח במספר חבילות",module,Magento_Catalog
 "start typing to search attribute","התחל להקליד כדי לחפש תכונה",module,Magento_Catalog
 "Basic Settings","הגדרות בסיסיות",module,Magento_Catalog
@@ -1174,6 +1231,7 @@ Role,תפקיד,module,Magento_Catalog
 "Unselect Visible","ביטול בחירה של גלוי",module,Magento_Catalog
 "Special Price","מחיר מיוחד",module,Magento_Catalog
 "Regular Price","מחיר רגיל",module,Magento_Catalog
+"Buy %1 for: ","לקנות %1 עבור: ",module,Magento_Catalog
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","קנה %1 עבור %2 כל אחד <strong class=""benefit"">וחסוך<span class=""percent tier-%3"">&nbsp;%4%</span></strong>",module,Magento_Catalog
 "Buy %1 for %2 each","קנה %1 עבור %2 כל אחד",module,Magento_Catalog
 "Shop By","סנן לפי",module,Magento_Catalog
@@ -1257,7 +1315,7 @@ State/Province,מדינה/מחוז,module,Magento_Checkout
 "Your session has expired","ההפעלה שלך פגה",module,Magento_Checkout
 "A letter with further instructions will be sent to your email.","מכתב עם הוראות נוספות ישלח לכתובת הדואר האלקטרונית שלך.",module,Magento_Checkout
 "You added %1 to your shopping cart.","הוספת %1 לעגלת הקניות.",module,Magento_Checkout
-"We can't add this item to your shopping cart right now.","לא ניתן להוסיף פריט זה לסל הקניות שלך כרגע.",module,Magento_Checkout
+"We can't add this item to your shopping cart right now."," לא ניתן להוסיף פריט זה לסל הקניות שלך כרגע.",module,Magento_Checkout
 "Out of stock","אזל מהמלאי",module,Magento_Checkout
 "We cannot configure the product.","אנחנו לא יכולים להגדיר את המוצר.",module,Magento_Checkout
 "You used coupon code ""%1"".","השתמשת בקוד הקופון ""%1"".",module,Magento_Checkout
@@ -1266,7 +1324,7 @@ State/Province,מדינה/מחוז,module,Magento_Checkout
 "We cannot apply the coupon code.","לא ניתן להחיל את קוד הקופון.",module,Magento_Checkout
 "We can't remove the item.","לא ניתן להסיר את הפריט.",module,Magento_Checkout
 "%1 was updated in your shopping cart.","%1 עודכן בעגלת הקניות שלך.",module,Magento_Checkout
-"We can't update the item right now.","לא ניתן לעדכן את הפריט כרגע.",module,Magento_Checkout
+"We can't update the item right now."," לא ניתן לעדכן את הפריט כרגע.",module,Magento_Checkout
 "We can't update the shopping cart.","לא ניתן לעדכן את סל הקניות.",module,Magento_Checkout
 "One-page checkout is turned off.","קופה בעמוד אחד כבויה.",module,Magento_Checkout
 "Guest checkout is disabled.","תשלום כאורח אינו זמין.",module,Magento_Checkout
@@ -1287,6 +1345,8 @@ Checkout,קופה,module,Magento_Checkout
 "Display item quantities","הצג כמויות של פריט",module,Magento_Checkout
 "An error occurred on the server. Please try to place the order again.","אירעה שגיאה בעת שמירה. נא סקור את דוח השגיאות.",module,Magento_Checkout
 "Carrier with such method not found: %1, %2","מוביל עם שיטה כזו לא נמצא: %1, %2",module,Magento_Checkout
+" item"," פריט",module,Magento_Checkout
+" items"," פריטים",module,Magento_Checkout
 "Totals calculation is not applicable to empty cart","חישוב סכום אינו ישים עבור עגלה ריקה",module,Magento_Checkout
 "Invalid data","נתונים לא חוקיים",module,Magento_Checkout
 "The customer address is not valid.","כתובת הלקוח אינה חוקית.",module,Magento_Checkout
@@ -1299,6 +1359,7 @@ Checkout,קופה,module,Magento_Checkout
 Error!,שגיאה!,module,Magento_Checkout
 "DB exception","חריגת מסד נתונים",module,Magento_Checkout
 Message,הודעה,module,Magento_Checkout
+"Print receipt","הדפס קבלה",module,Magento_Checkout
 "Apply Discount Code","שימוש בקוד הנחה",module,Magento_Checkout
 "Enter discount code","הזינו קוד הנחה",module,Magento_Checkout
 "Apply Discount",מימוש,module,Magento_Checkout
@@ -1343,7 +1404,6 @@ Enabled,פעיל,module,Magento_Cms
 "Manage Pages","ניהול עמודים",module,Magento_Cms
 "Add New Page","הוספת דף חדש",module,Magento_Cms
 "Delete Page","מחיקת דף",module,Magento_Cms
-"Save Page","שמירת דף",module,Magento_Cms
 "URL Key","מזהה כתובת",module,Magento_Cms
 Layout,פריסה,module,Magento_Cms
 "Store View","תצוגת חנות",module,Magento_Cms
@@ -1382,6 +1442,7 @@ Pages,דפים,module,Magento_Cms
 "Page Title","כותרת עמוד",module,Magento_Cms
 "To apply changes you should fill in hidden required ""%1"" field","כדי להחיל שינויים אתה נדרש למלא בשדה המוסתר ""%1""",module,Magento_Cms
 "You saved the page.","שמרת את העמוד.",module,Magento_Cms
+"Directory %1 is not under storage root path.","מדריך %1 אינה תחת נתיב בסיס האחסון.",module,Magento_Cms
 "The directory %1 is not writable by server.","התיקייה %1 אינה ניתנת לעריכה על-ידי שרת.",module,Magento_Cms
 "Make sure that static block content does not reference the block itself.","ודא כי תוכן בלוק המידע הסטטי אינו מפנה את הבלוק עצמו.",module,Magento_Cms
 "Enabled by Default","מאופשר כברירת מחדל",module,Magento_Cms
@@ -1399,7 +1460,6 @@ Pages,דפים,module,Magento_Cms
 "We cannot delete directory %1.","לא ניתן למחוק את הספריה %1.",module,Magento_Cms
 "We can't upload the file right now.","איננו יכולים להעלות את הקובץ נכון לעכשיו.",module,Magento_Cms
 "We can't delete root directory %1 right now.","איננו לא ניתן למחוק את תיקיית האב %1 עכשיו.",module,Magento_Cms
-"Directory %1 is not under storage root path.","מדריך %1 אינה תחת נתיב בסיס האחסון.",module,Magento_Cms
 "Privacy and Cookie Policy","מדיניות שמירה על הפרטיות",module,Magento_Cms
 LocalizedException,"שגיאת שפה",module,Magento_Cms
 RuntimeException,"שגיאת זמן ריצה",module,Magento_Cms
@@ -1612,6 +1672,7 @@ Submit,שלח,module,Magento_Contact
 Daily,יומי,module,Magento_Cron
 Weekly,שבועי,module,Magento_Cron
 Monthly,חודשי,module,Magento_Cron
+"Invalid cron expression: %1","ביטוי לא חוקי cron: %1",module,Magento_Cron
 "Invalid cron expression, expecting 'match/modulus': %1","ביטוי cron לא חוקי, מצפים ל' התאמה/מודולוס': %1",module,Magento_Cron
 "Invalid cron expression, expecting numeric modulus: %1","הביטוי cron לא חוקי, צפי מודולים מספריים: %1",module,Magento_Cron
 "Invalid cron expression, expecting 'from-to' structure: %1","ביטוי cron לא חוקי, מצפים ' מ' מבנה: %1",module,Magento_Cron
@@ -1665,6 +1726,9 @@ region,אזור,module,Magento_Customer
 "Force Sign-In","אלץ כניסה לחשבון",module,Magento_Customer
 "New Customer","לקוח חדש",module,Magento_Customer
 "Save and Continue Edit","שמור והמשך בעריכה",module,Magento_Customer
+Cancel,ביטול,module,Magento_Customer
+Delete,מחק,module,Magento_Customer
+Save,שמור,module,Magento_Customer
 Back,חזור,module,Magento_Customer
 "Please select","אנא בחר",module,Magento_Customer
 Reset,אתחל,module,Magento_Customer
@@ -1675,7 +1739,6 @@ Price,מחיר,module,Magento_Customer
 Total,"סה""כ",module,Magento_Customer
 Action,פעולה,module,Magento_Customer
 Configure,הגדר,module,Magento_Customer
-Delete,מחק,module,Magento_Customer
 "Shopping Cart from %1","עגלת הקניות של %1",module,Magento_Customer
 Newsletter,ניוזלטר,module,Magento_Customer
 "Newsletter Information","מידע ניוזלטר",module,Magento_Customer
@@ -1689,7 +1752,6 @@ Newsletter,ניוזלטר,module,Magento_Customer
 Subject,נושא,module,Magento_Customer
 Status,סטטוס,module,Magento_Customer
 Sent,נשלח,module,Magento_Customer
-Cancel,ביטול,module,Magento_Customer
 "Not Sent","לא נשלח",module,Magento_Customer
 Sending,שולח,module,Magento_Customer
 Paused,נעצר,module,Magento_Customer
@@ -1772,7 +1834,6 @@ Download,הורדה,module,Magento_Customer
 "We're unable to send the password reset email.","איננו יכולים לשלוח איפוס הסיסמה לדואר האלקטרוני.",module,Magento_Customer
 "Please enter your email.","נא הזן את כתובת הדואר האלקטרוני שלך.",module,Magento_Customer
 "If there is an account associated with %1 you will receive an email with a link to reset your password.","אם יש חשבון המשויך %1 תקבל הודעת דוא״ל עם קישור לאיפוס הסיסמה שלך.",module,Magento_Customer
-"My Account","החשבון שלי",module,Magento_Customer
 "This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","חשבון זה אינו מאושר. "" ""<a href=""%1""> לחץ כאן</a> כדי לשלוח דוא״ל אישור מחדש.",module,Magento_Customer
 "An unspecified error occurred. Please contact us for assistance.","אירעה שגיאה לא מוגדרת. אנא צרו קשר לקבלת סיוע.",module,Magento_Customer
 "A login and a password are required.","הזן שם משתמש וסיסמה.",module,Magento_Customer
@@ -1816,10 +1877,11 @@ Customers,לקוחות,module,Magento_Customer
 "Invalid login or password.","משתמש או סיסמה שגויים.",module,Magento_Customer
 "%1 doesn't extend \Magento\Customer\CustomerData\SectionSourceInterface","%1. לא מורחב \Magento\Customer\CustomerData\SectionSourceInterface",module,Magento_Customer
 "The account is locked.","חשבון זה נעול.",module,Magento_Customer
-"Invalid value of ""%value"" provided for the %fieldName field.","ערך לא חוקי של ""%value"" שסופק עבור השדה %fieldName.",module,Magento_Customer
+"Invalid value of ""%value"" provided for the %fieldName field. Possible values: %template1 or %template2.","ערך לא חוקי ""%value"" סופק עבור השדה %fieldName. הערכים האפשריים: %template1 או %template2.",module,Magento_Customer
 "Please enter a password with at most %1 characters.","אנא הזן סיסמה המוגבלת לכל היותר ב- %1 תווים.",module,Magento_Customer
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","מספר סוגי תווים מינימילי המותרים בסיסמה הינו %1. סוגי תווים: אותיות קטנות, אותיות גדולות, ספרות, תווים מיוחדים.",module,Magento_Customer
 "This customer already exists in this store.","לקוח זה כבר קיים בחנות זו.",module,Magento_Customer
+"Invalid value of ""%value"" provided for the %fieldName field.","ערך לא חוקי של ""%value"" שסופק עבור השדה %fieldName.",module,Magento_Customer
 """%1"" is a required value.","""%1"" הוא ערך הנדרש.",module,Magento_Customer
 Global,גלובלי,module,Magento_Customer
 "Per Website","לפי אתר",module,Magento_Customer
@@ -1872,9 +1934,8 @@ Female,נקבה,module,Magento_Customer
 "Not Specified","לא מוגדר",module,Magento_Customer
 "Thank you for registering with","תודה על הרשמתך עם",module,Magento_Customer
 "enter your billing address for proper VAT calculation","הזן את כתובת החיוב שלך עבור חישוב מע״מ נכון",module,Magento_Customer
-"Please enter new password.","אנא הזן סיסמה חדשה.",module,Magento_Customer
-message,הודעה,module,Magento_Customer
 Exception,חריגה,module,Magento_Customer
+message,הודעה,module,Magento_Customer
 "This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","חשבון זה אינו מאושר. "" ""<a href=""%1""> לחץ כאן</a> כדי לשלוח דוא״ל אישור מחדש.",module,Magento_Customer
 "Exception message","הודעת חריגה",module,Magento_Customer
 "Localized Exception","חריגת שפה",module,Magento_Customer
@@ -1912,30 +1973,31 @@ Change,שינוי,module,Magento_Customer
 "Change Password","שינוי סיסמה",module,Magento_Customer
 Newsletters,ניוזלטר,module,Magento_Customer
 or,או,module,Magento_Customer
+"My Account","החשבון שלי",module,Magento_Customer
 "Default Addresses","כתובות ברירת מחדל",module,Magento_Customer
 "Change Billing Address","שנה כתובת לחיוב",module,Magento_Customer
 "You have no default billing address in your address book.","אין לך כתובת ברירת המחדל לחיוב.",module,Magento_Customer
 "Change Shipping Address","שנה כתובת למשלוח",module,Magento_Customer
 "You have no default shipping address in your address book.","אין לך כתובת ברירת מחדל למשלוח בספר הכתובות.",module,Magento_Customer
-"Additional Address Entries","ערכי כתובות נוספים",module,Magento_Customer
-"Delete Address","מחק כתובת",module,Magento_Customer
-"You have no other address entries in your address book.","אין לך כתובות אחרות בספר הכתובות שלך.",module,Magento_Customer
 "* Required Fields","* שדות חובה",module,Magento_Customer
 Address,כתובת,module,Magento_Customer
-"Street Address","כתובת רחוב",module,Magento_Customer
 "Street Address %1","כתובת רחוב %1",module,Magento_Customer
-"VAT Number","מספר המע""מ",module,Magento_Customer
 City,עיר,module,Magento_Customer
-State/Province,מדינה/מחוז,module,Magento_Customer
 "Please select a region, state or province.","נא בחר מדינה, אזור או מחוז.",module,Magento_Customer
-"Zip/Postal Code",מיקוד,module,Magento_Customer
-Country,ארץ,module,Magento_Customer
 "It's a default billing address.","זוהי כתובת ברירת המחדל לחיוב.",module,Magento_Customer
 "Use as my default billing address","קבע ככתובת ברירת המחדל לחיוב",module,Magento_Customer
 "It's a default shipping address.","זוהי כתובת ברירת המחדל למשלוח.",module,Magento_Customer
 "Use as my default shipping address","קבע ככתובת ברירת המחדל למשלוח",module,Magento_Customer
 "Save Address","שמור כתובת",module,Magento_Customer
 "Go back",חזור,module,Magento_Customer
+"Additional Address Entries","ערכי כתובות נוספים",module,Magento_Customer
+"First Name","שם פרטי",module,Magento_Customer
+"Last Name","שם משפחה",module,Magento_Customer
+"Street Address","כתובת רחוב",module,Magento_Customer
+Country,ארץ,module,Magento_Customer
+"Zip/Postal Code",מיקוד,module,Magento_Customer
+Phone,טלפון,module,Magento_Customer
+"You have no other address entries in your address book.","אין לך כתובות אחרות בספר הכתובות שלך.",module,Magento_Customer
 "Please enter your email below and we will send you the confirmation link.","אנא הזן את הדואר האלקטרוני שלך, ואנו נשלח לך קישור לאימות.",module,Magento_Customer
 Email,"דואר אלקטרוני",module,Magento_Customer
 "Send confirmation link","שלח קישור לאימות",module,Magento_Customer
@@ -1947,7 +2009,6 @@ Email,"דואר אלקטרוני",module,Magento_Customer
 "Password Strength","חוזק סיסמה",module,Magento_Customer
 "No Password","אין סיסמה",module,Magento_Customer
 "Confirm New Password","אימות סיסמה חדשה",module,Magento_Customer
-Save,שמור,module,Magento_Customer
 "Please enter your email address below to receive a password reset link.","נא להזין את כתובת המייל שלך כדי לקבל קישור לאיפוס סיסמה.",module,Magento_Customer
 "Reset My Password","אפס את הסיסמה שלי",module,Magento_Customer
 "Registered Customers","לקוחות רשומים",module,Magento_Customer
@@ -1967,9 +2028,7 @@ Password,סיסמה,module,Magento_Customer
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","ביצירת חשבון יש יתרונות רבים: לבצע תשלום בצורה מהירה יותר, להזין מספר כתובות למשלוח, לעקוב אחר הזמנותיך וכו'.",module,Magento_Customer
 Company,חברה,module,Magento_Customer
 Fax,פקס,module,Magento_Customer
-Gender,מין,module,Magento_Customer
 Name,שם,module,Magento_Customer
-"Tax/VAT number","מספר מס/מע""מ",module,Magento_Customer
 "Phone Number","מספר טלפון",module,Magento_Customer
 "%1 does not implement %2","%1 אינו מיישם %2",module,Magento_Deploy
 "some message",הודעה,module,Magento_Deploy
@@ -2007,7 +2066,6 @@ Others,אחרים,module,Magento_Dhl
 Documents,מסמכים,module,Magento_Dhl
 "Non Documents","אינם מסמכים",module,Magento_Dhl
 "Height, width and length should be equal or greater than %1","גובה, רוחב, אורך צריך להיות שווה או גדול מ- %1",module,Magento_Dhl
-"Wrong Region","אזור שגוי",module,Magento_Dhl
 "Unable to retrieve tracking","אין אפשרות לשחזר מספר מעקב",module,Magento_Dhl
 "Response is in the wrong format","התגובה היא בפורמט שגוי",module,Magento_Dhl
 "Error #%1 : %2","שגיאה #%1: %2",module,Magento_Dhl
@@ -2024,7 +2082,6 @@ kgs,קילוגרמים,module,Magento_Directory
 "Please correct the target currency.","נא תקן את המטבע המיועד.",module,Magento_Directory
 label,תווית,module,Magento_Directory
 "We can't retrieve a rate from %1 for %2.","אין לנו אין אפשרות לאחזר את שיעור מ- %1 ל%2.",module,Magento_Directory
-"We can't retrieve a rate from %1.","אין לנו אין אפשרות לאחזר את שיעור מ- %1.",module,Magento_Directory
 "FATAL ERROR:","שגיאה פאטלית:",module,Magento_Directory
 "Please specify the correct Import Service.","נא ציין את שירות הייבוא הנכון.",module,Magento_Directory
 WARNING:,אזהרה:,module,Magento_Directory
@@ -2108,7 +2165,7 @@ Availability,זמינות,module,Magento_Downloadable
 Date,תאריך,module,Magento_Downloadable
 Status,סטטוס,module,Magento_Downloadable
 "Remaining Downloads","הורדת הנותרים",module,Magento_Downloadable
-"View Order","הצג הזמנה",module,Magento_Downloadable
+"View Order","	הצג הזמנה",module,Magento_Downloadable
 "Start Download","התחל הורדה",module,Magento_Downloadable
 "You have not purchased any downloadable products yet.","עדיין לא רכשת כל המוצרים להורדה.",module,Magento_Downloadable
 Back,חזור,module,Magento_Downloadable
@@ -2149,12 +2206,6 @@ None,ללא,module,Magento_Eav
 Email,"דואר אלקטרוני",module,Magento_Eav
 Letters,אותיות,module,Magento_Eav
 "Letters (a-z, A-Z) or Numbers (0-9)","אותיות (a-z, A-Z) או מספרים (0-9)",module,Magento_Eav
-"Text Field","שדה טקסט",module,Magento_Eav
-"Text Area","בלוק טקסט",module,Magento_Eav
-Date,תאריך,module,Magento_Eav
-Yes/No,כן/לא,module,Magento_Eav
-"Multiple Select","בחירה מרובה",module,Magento_Eav
-Dropdown,"רשימה נפתחת",module,Magento_Eav
 "Input type ""%value%"" not found in the input types list.","סוג הקלט ""%value%"" לא נמצא ברשימה סוגי קלט.",module,Magento_Eav
 "Attribute object is undefined","אובייקט התכונה אינו מוגדר",module,Magento_Eav
 "Entity object is undefined","יישות האובייקט אינה מוגדרת",module,Magento_Eav
@@ -2217,6 +2268,9 @@ label,תווית,module,Magento_Eav
 hello,שלום,module,Magento_Eav
 "Some internal exception message.","הודעת חריגה פנימית.",module,Magento_Eav
 "The value of attribute not valid","הערך של תכונה לא חוקי",module,Magento_Eav
+"There is no such data mapper ""%1"" for interface %2","לא קיים ממפה בשם ""%1"" עבור הממשק %2",module,Magento_Elasticsearch
+"Data mapper ""%1"" must implement interface %2","ממפה הנתונים ""%1"" חייב ליישם את הממשק %2",module,Magento_Elasticsearch
+"Could not ping search engine: %1","לא יכול לתת פינג במנוע החיפוש: %1",module,Magento_Elasticsearch
 "Add New Template","להוסיף תבנית חדשה",module,Magento_Email
 "Transactional Emails","מיילים של עסקאות",module,Magento_Email
 Back,חזור,module,Magento_Email
@@ -2429,6 +2483,15 @@ Never,"לעולם לא",module,Magento_Indexer
 "%1 indexer(s) are in ""Update on Save"" mode.","%1 מאנדקס/ים נמצאים במצב ""עדכון בעת שמירה"".",module,Magento_Indexer
 "Field '%1' not found","שדה '%1' לא נמצא",module,Magento_Indexer
 "Test Phrase","בחן ביטוי",module,Magento_Indexer
+"Your order number is: %1.","מספר ההזמנה שלך: %1.",module,Magento_InstantPurchase
+"Something went wrong while processing your order. Please try again later.","משהו השתבש בעת עיבוד הזמנתך. אנא נסה שוב מאוחר יותר.",module,Magento_InstantPurchase
+"Shipping address is not defined for instance purchase.","שיטת התשלום אינה מוגדרת עבור רכישה.",module,Magento_InstantPurchase
+"Billing address is not defined for instance purchase.","כתובת לחיוב אינה מוגדרת עבור רכישה.",module,Magento_InstantPurchase
+"Shipping method is not defined for instance purchase.","שיטת משלוח אינה מוגדרת עבור רכישה.",module,Magento_InstantPurchase
+"Specified payment method is not available now.","שיטת התשלום שצוינה אינה זמינה כעת.",module,Magento_InstantPurchase
+"Specified shipping method is not available.","שיטת התשלום שצוינה אינה זמינה כעת.",module,Magento_InstantPurchase
+"Appropriate shipping method is not available.","שיטת המשלוח שצוינה אינה זמינה כעת.",module,Magento_InstantPurchase
+"Cheapest price","המחיר הזול ביותר",module,Magento_InstantPurchase
 Integrations,אינטגרציות,module,Magento_Integration
 "Add New Integration","להוסיף אינטגרציה חדשה",module,Magento_Integration
 Save,שמור,module,Magento_Integration
@@ -2462,8 +2525,6 @@ No,לא,module,Magento_LayeredNavigation
 "Filterable (with results)","ניתן לסינון (עם תוצאות)",module,Magento_LayeredNavigation
 "Filterable (no results)","ניתן לסינון (ללא תוצאות)",module,Magento_LayeredNavigation
 "Use in Layered Navigation","שימוש בפילטור הניווט",module,Magento_LayeredNavigation
-"Can be used only with catalog input type Dropdown, Multiple Select and Price","ניתן להשתמש רק בסוג קלט של רשימה נפתחת, בחירה מרובה ומחיר",module,Magento_LayeredNavigation
-"Can be used only with catalog input type Dropdown, Multiple Select and Price.","ניתן להשתמש רק בסוג קלט של רשימה נפתחת, בחירה מרובה ומחיר.",module,Magento_LayeredNavigation
 "Use in Search Results Layered Navigation","השתמש בתוצאות החיפוש בפילטור הניווט",module,Magento_LayeredNavigation
 Position,מיקום,module,Magento_LayeredNavigation
 "Position in Layered Navigation","מיקום בתפריט הפלטור",module,Magento_LayeredNavigation
@@ -2506,6 +2567,7 @@ Database,"בסיס נתונים",module,Magento_MediaStorage
 "Path ""%value%"" is not available and cannot be used.","נתיב ""%value%"" לא זמין ולא ניתן לשימוש.",module,Magento_MediaStorage
 "File with an extension ""%value%"" is protected and cannot be uploaded","קובץ עם הסיומת ""%value%"" מוגן ולא ניתן להעלאה",module,Magento_MediaStorage
 "Unable to create directory: %1","לא ניתן ליצור תיקיה: %1",module,Magento_MediaStorage
+"Some exception","כמה חריג",module,Magento_MessageQueue
 "To see product price, add this item to your cart. You can always remove it later.","כדי לראות את מחיר המוצר, הוסף פריט זה לסל שלך. תוכל להסיר את הפריט מאוחר יותר.",module,Magento_Msrp
 "See price before order confirmation.","ראה מחיר לפני אישור ההזמנה.",module,Magento_Msrp
 "On Gesture","על המחווה",module,Magento_Msrp
@@ -2532,6 +2594,7 @@ Total,"סה""כ",module,Magento_Multishipping
 "Create Billing Address","ליצור כתובת חיוב",module,Magento_Multishipping
 "Create Shipping Address","ליצור כתובת למשלוח",module,Magento_Multishipping
 "Data saving problem","שגיאה בשמירת המידע",module,Magento_Multishipping
+"Maximum qty allowed for Shipping to multiple addresses is %1","הכמות המרבית המותרת עבור משלוח לכתובות מרובות הוא %1",module,Magento_Multishipping
 "We cannot open the overview page.","לא ניתן לפתוח עמוד סקירה.",module,Magento_Multishipping
 "Please agree to all Terms and Conditions before placing the order.","בבקשה הסכם לכלל תנאי השימוש לפני ביצוע ההזמנה.",module,Magento_Multishipping
 "Order place error","שגיאה בביצוע ההזמנה",module,Magento_Multishipping
@@ -2567,7 +2630,6 @@ Change,שינוי,module,Magento_Multishipping
 "Shipping is not applicable.","משלוח אינו ישים.",module,Magento_Multishipping
 "Product Name","שם מוצר",module,Magento_Multishipping
 "Check Out with Multiple Addresses","המשך לתשלום עם מספר כתובות",module,Magento_Multishipping
-"Address %1 <span>of %2</span>","כתובת %1 <span>מ- %2</span>",module,Magento_Multishipping
 "Shipping To","משלוח עבור",module,Magento_Multishipping
 "Shipping Method","שיטת משלוח",module,Magento_Multishipping
 "Incl. Tax","כולל מס",module,Magento_Multishipping
@@ -2580,10 +2642,11 @@ Subtotal,"סכום ביניים",module,Magento_Multishipping
 Items,פריטים,module,Magento_Multishipping
 "Grand Total:","סך הכל:",module,Magento_Multishipping
 "Submitting order information...","מעבד פרטי הזמנה...",module,Magento_Multishipping
+"Address %1 <span>of %2</span>","כתובת %1 <span>מ- %2</span>",module,Magento_Multishipping
 "Continue to Billing Information","המשך לפרטי חיוב",module,Magento_Multishipping
 "Back to Select Addresses","חזרה לבחירת כתובות",module,Magento_Multishipping
-"Thank you for your purchase!","תודה על הרכישה!",module,Magento_Multishipping
 "Continue Shopping","המשך בקניות",module,Magento_Multishipping
+"Message has been rejected: %1","ההודעה נדחתה: %1",module,Magento_MysqlMq
 "No New Relic Application ID configured, cannot continue with Cron Event reporting","אין יישום אשר הוגדר באמצעות מזהה חדש, אין אפשרות להמשיך עם דיווח אירוע ה-Cron",module,Magento_NewRelicReporting
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","האינגרציה של השריד החדש מחייב את newrelic-php5 agent, אשר אינו מותקן. מידע נוסף על התקנת הagent זמין <a target=""_blank"" href=""%1""> כאן</a>.",module,Magento_NewRelicReporting
@@ -2638,13 +2701,11 @@ Newsletter,ניוזלטר,module,Magento_Newsletter
 "New Template","תבנית חדשה",module,Magento_Newsletter
 "Create Newsletter Template","יצירת תבנית לניוזלטר",module,Magento_Newsletter
 "Newsletter Subscription","ניוזלטר - רישום",module,Magento_Newsletter
-"We removed the subscription.","הרשמתך לקבלת עדכונים הוסרה בהצלחה.",module,Magento_Newsletter
 "This email address is already assigned to another user.","כתובת המייל כבר תפוסה.",module,Magento_Newsletter
 "Please enter a valid email address.","אנא, הכניסו כתובת דוא""ל חוקית.",module,Magento_Newsletter
+"Something went wrong with the subscription.","היתה בעיה בהרשמה.",module,Magento_Newsletter
 "The confirmation request has been sent.","אישור הבקשה נשלח.",module,Magento_Newsletter
 "Thank you for your subscription.","תודה על ההרשמה.",module,Magento_Newsletter
-"There was a problem with the subscription: %1","היתה בעיה בהרשמה: %1",module,Magento_Newsletter
-"Something went wrong with the subscription.","היתה בעיה בהרשמה.",module,Magento_Newsletter
 "You unsubscribed.","הרישום בוטל.",module,Magento_Newsletter
 Sent,נשלח,module,Magento_Newsletter
 Cancelled,בוטל,module,Magento_Newsletter
@@ -2659,6 +2720,7 @@ Paused,נעצר,module,Magento_Newsletter
 "Choose Store View:","בחירת תצוגת חנות:",module,Magento_Newsletter
 "Add to Queue","הוספה לתור",module,Magento_Newsletter
 "Please enter a new template name.","נא הזינו שם תבנית חדשה.",module,Magento_Newsletter
+" Copy"," העתקה",module,Magento_Newsletter
 "Enter your email address","הזן את כתובת הדואר האלקטרוני שלך",module,Magento_Newsletter
 Subscribe,הרשמה,module,Magento_Newsletter
 "Make Check payable to:","כתוב את השיק לפקודת:",module,Magento_OfflinePayments
@@ -2729,6 +2791,7 @@ No,לא,module,Magento_Payment
 "Failure #2","כשל #2",module,Magento_Payment
 "Expiration Date","תאריך תפוגה",module,Magento_Payment
 "Card Verification Number","קוד אימות לכרטיס",module,Magento_Payment
+" is not available. You still can process offline actions."," אינה זמינה. אתה עדיין יכול לעבד פעולות במצב לא מקוון.",module,Magento_Payment
 "Please Select","אנא בחר",module,Magento_Payment
 "We'll ask for your payment details before you place an order.","אנו נבקש את פרטי התשלום שלך לפני שאתה מבצע הזמנה.",module,Magento_Payment
 "--Please Select--","--אנא בחר",module,Magento_Payment
@@ -2776,8 +2839,8 @@ Sales,מכירות,module,Magento_Paypal
 "We couldn't finish the billing agreement wizard.","איננו יכולים לסיים את אשף החיוב.",module,Magento_Paypal
 "We can't start the billing agreement wizard.","אין לנו אפשרות להפעיל את אשף החיוב.",module,Magento_Paypal
 "We can't initialize Express Checkout.","אין לנו אפשרות לאתחל את חיוב אקספרס.",module,Magento_Paypal
+"PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.","PayPal יכול לעבד הזמנות עם יתרת חוב של אפס. כדי לסיים את הרכישה, נא לעבור תהליך סליקה רגיל.",module,Magento_Paypal
 "Express Checkout has been canceled.","תשלום באמצעות PayPal בוטל.",module,Magento_Paypal
-"We can't place the order.","איננו יכולים לאשר את ההזמנה.",module,Magento_Paypal
 "We can't process Express Checkout approval.","איננו יכולים לעבד אישור לחיוב אקספרס.",module,Magento_Paypal
 "We can't initialize Express Checkout review.","אין לנו אפשרות לאתחל ביקורת לחיוב אקספרס.",module,Magento_Paypal
 "We can't update shipping method.","איננו יכולים לעדכן את שיטת המשלוח.",module,Magento_Paypal
@@ -2788,6 +2851,7 @@ Sales,מכירות,module,Magento_Paypal
 "The PayPal gateway rejected the request. %1","שער PayPal דחה את הבקשה. %1",module,Magento_Paypal
 "I'm sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.","אני מצטער - אך לא הייתה אפשרות לעבד את התשלום שלך. נסה אמצעי תשלום אחר או צור איתנו קשר כדי שנוכל לסייע לך.",module,Magento_Paypal
 "I'm sorry - but we are not able to complete your transaction. Please contact us so we can assist you.","אני מצטער - אבל אנחנו לא יכולים להשלים את העסקה. אנא פנה אלינו כדי שנוכל לסייע לך.",module,Magento_Paypal
+"We can't place the order.","איננו יכולים לאשר את ההזמנה.",module,Magento_Paypal
 Active,פעיל,module,Magento_Paypal
 "We prefer PayPal (150 X 60)","אנחנו מעדיפים PayPal (150 X 60)",module,Magento_Paypal
 "We prefer PayPal (150 X 40)","אנחנו מעדיפים PayPal (150 X 40)",module,Magento_Paypal
@@ -2802,7 +2866,6 @@ Auto,אוטומטי,module,Magento_Paypal
 Never,"לעולם לא",module,Magento_Paypal
 "IPN (Instant Payment Notification) Only","IPN (הודעת תשלום מיידי) בלבד",module,Magento_Paypal
 "We'll authorize the amount of %1 as soon as the payment gateway approves it.","אנו נאשר את כמות %1 ברגע שספק התשלום יאשר זאת.",module,Magento_Paypal
-"PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.","PayPal יכול לעבד הזמנות עם יתרת חוב של אפס. כדי לסיים את הרכישה, נא לעבור תהליך סליקה רגיל.",module,Magento_Paypal
 "This customer didn't include a confirmed address.","לקוח זה לא אימת את הכתובת.",module,Magento_Paypal
 "The merchant holds a non-U.S. account and doesn't have a withdrawal mechanism.","הסוחר מחזיק חשבון מחוץ לארה ב, אין מנגנון נסיגה.",module,Magento_Paypal
 "The payment currency doesn't match any of the merchant's balances currency.","המטבע אשר מוגדר לתשלום אינו תואם למאזן המטבע של הסוחר.",module,Magento_Paypal
@@ -2822,6 +2885,7 @@ Dispute,מחלוקת,module,Magento_Paypal
 "None of the address information matched","אף אחת מפרטי הכתובת מתאימים",module,Magento_Paypal
 "Part of the address information matched","חלק מפרטי הכתובת מתאימים",module,Magento_Paypal
 "Matched (CVV2)","מתאימים (CVV2)",module,Magento_Paypal
+"Credit Card","כרטיס אשראי",module,Magento_Paypal
 "Note: %1","הערה: %1",module,Magento_Paypal
 "We cannot cancel this order.","לא ניתן לבטל הזמנה זו.",module,Magento_Paypal
 "Invalid method %1::%2","שיטה לא חוקית %1::%2",module,Magento_Paypal
@@ -2835,7 +2899,7 @@ Custom,מותאם,module,Magento_Paypal
 Error,שגיאה,module,Magento_Paypal
 Customer,לקוח,module,Magento_Paypal
 "Ship To",נמען,module,Magento_Paypal
-"View Order","הצג הזמנה",module,Magento_Paypal
+"View Order","	הצג הזמנה",module,Magento_Paypal
 "Back to Billing Agreements","חזרה להוראות קבע",module,Magento_Paypal
 "There are no billing agreements yet.","לא קיימים אמצעי תשלום שמורים.",module,Magento_Paypal
 "New Billing Agreement","הסכם חיוב חדש",module,Magento_Paypal
@@ -2852,12 +2916,11 @@ Qty,כמות,module,Magento_Paypal
 Subtotal,"סכום ביניים",module,Magento_Paypal
 or,או,module,Magento_Paypal
 "What is PayPal?","מה זה פייפאל?",module,Magento_Paypal
-"Not you?","לא אתה?",module,Magento_Persistent
 "Your shopping cart has been updated with new prices.","עגלת הקניות שלך התעדכנה במחירים החדשים.",module,Magento_Persistent
-"Welcome, %1!","ברוכים הבאים, %1!",module,Magento_Persistent
 "We cannot load the configuration from file %1.","אין לנו אפשרות לטעון את הקונפיגורציה של קובץ %1.",module,Magento_Persistent
 "Method ""%1"" is not defined in ""%2""","שיטת ""%1"" אינה מוגדרת ב- ""%2""",module,Magento_Persistent
 "To check out, please sign in using your email address.","כדי להמשיך לקופה, אנא היכנס באמצעות כתובת הדואר האלקטרוני שלך.",module,Magento_Persistent
+"Not you?","לא אתה?",module,Magento_Persistent
 "Remember Me","זכור אותי",module,Magento_Persistent
 "What's this?","מה זה?",module,Magento_Persistent
 "Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.","סמן את &quot;זכור אותי&quot; כדי לגשת עגלת הקניות שלך במחשב זה, גם אם אינך מחובר.",module,Magento_Persistent
@@ -2909,7 +2972,6 @@ Subtotal,"סכום ביניים",module,Magento_Quote
 "Some of the selected options are not currently available.","חלק מהאפשרויות שבחרת לא זמינים כעת.",module,Magento_Quote
 Discount,הנחה,module,Magento_Quote
 Tax,מס,module,Magento_Quote
-error345,שגיאה345,module,Magento_Quote
 "New Accounts","חשבונות חדשים",module,Magento_Reports
 "Customers by number of orders","לקוחות לפי מספר ההזמנות",module,Magento_Reports
 "Customers by Orders Total","לקוחות לפי סך ההזמנות",module,Magento_Reports
@@ -3324,6 +3386,7 @@ Reorder,"הזמן מחדש",module,Magento_Sales
 "This order contains (%1) items and therefore cannot be edited through the admin interface. If you wish to continue editing, the (%2) items will be removed,  the order will be canceled and a new order will be placed.","הזמנה זו מכילה (%1) פריטים, ולכן לא ניתנת  לעריכה באמצעות ממשק הניהול. 'אם אתה רוצה להמשיך בעריכה, (%2) הפריטים יוסרו, ההזמנה תבוטל ותוגש הזמנה חדשה.",module,Magento_Sales
 "Are you sure? This order will be canceled and a new one will be created instead.","האם אתה בטוח? הזמנה זו תבוטל והזמנה חדשה תיווצר במקומה.",module,Magento_Sales
 "Save Gift Message","שמור הודעת מתנה",module,Magento_Sales
+" [deleted]"," [נמחק]",module,Magento_Sales
 "Order Credit Memos","זיכויי הזמנה",module,Magento_Sales
 "Credit memo #%1 created","זיכוי #%1 נוצר",module,Magento_Sales
 "Credit memo #%1 comment added","הערת זיכוי #%1 התווספה",module,Magento_Sales
@@ -3370,7 +3433,7 @@ Value,ערך,module,Magento_Sales
 "Print Order # %1","הדפס הזמנה # %1",module,Magento_Sales
 "Grand Total to be Charged","הסכום הכולל לחיוב",module,Magento_Sales
 Unassign,"בטל הקצאה",module,Magento_Sales
-"We can't add this item to your shopping cart right now.","לא ניתן להוסיף פריט זה לסל הקניות שלך כרגע.",module,Magento_Sales
+"We can't add this item to your shopping cart right now."," לא ניתן להוסיף פריט זה לסל הקניות שלך כרגע.",module,Magento_Sales
 "You sent the message.","שלחת את ההודעה.",module,Magento_Sales
 Sales,מכירות,module,Magento_Sales
 "This order no longer exists.","הזמנה זו כבר לא קיימת.",module,Magento_Sales
@@ -3454,7 +3517,7 @@ Items,פריטים,module,Magento_Sales
 "Product Name","שם מוצר",module,Magento_Sales
 "Ship To","נשלח אל",module,Magento_Sales
 Actions,פעולות,module,Magento_Sales
-"View Order","הצג הזמנה",module,Magento_Sales
+"View Order","	הצג הזמנה",module,Magento_Sales
 "You have placed no orders.","אין לך הזמנות.",module,Magento_Sales
 "Print Order","הדפס הזמנה",module,Magento_Sales
 "Qty Invoiced","כמות שחויבה",module,Magento_Sales
@@ -3523,7 +3586,8 @@ Reports,"דוחו""ת",module,Magento_Search
 "Your search query can't be longer than %1, so we shortened your query.","שאילתת החיפוש שלך לא יכולה להיות ארוכה יותר מ- %1, לכן נאלצנו לקצרה.",module,Magento_Search
 "Merge conflict with existing synonym group(s): %1","מיזוג כפילויות עם קבוצת הביטויים הנרדפים: %1",module,Magento_Search
 "All Websites","כל האתרים",module,Magento_Search
-"All Store Views","כל תצוגות החנות",module,Magento_Search
+"    All Store Views","    כל תצוגות החנות",module,Magento_Search
+"All Store Views","כל תצוגות החנויות",module,Magento_Search
 Delete,מחק,module,Magento_Search
 "Are you sure you want to delete synonym group with id: %1?","האם ברצונך למחוק את קבוצת הביטויים הנרדפים בעלת המזהה %1?",module,Magento_Search
 View/Edit,הצגה/עריכה,module,Magento_Search
@@ -3560,10 +3624,6 @@ None,ללא,module,Magento_Security
 "Invalid Sender Information","פרטי שולח לא חוקיים",module,Magento_SendFriend
 "IP Address","‏כתובת IP",module,Magento_SendFriend
 "Cookie (unsafe)","Cookie(לא מאובטח)",module,Magento_SendFriend
-"No Product Exception.","אין חריגת מוצר.",module,Magento_SendFriend
-"Some error",תקלה,module,Magento_SendFriend
-"Localized Exception.","חריגת שפה.",module,Magento_SendFriend
-Exception.,חריגה.,module,Magento_SendFriend
 "Remove Recipent","הסרת נמען",module,Magento_SendFriend
 Remove,הסר,module,Magento_SendFriend
 Name,שם,module,Magento_SendFriend
@@ -3613,6 +3673,7 @@ Shipments,משלוחים,module,Magento_Shipping
 "The order no longer exists.","ההזמנה כבר לא קיימת.",module,Magento_Shipping
 "Cannot do shipment for the order separately from invoice.","לא ניתן לשלח הזמנה בנפרד מהחשבונית.",module,Magento_Shipping
 "Cannot do shipment for the order.","לא ניתן לשלח הזמנה.",module,Magento_Shipping
+"Tracking information must contain title, carrier code, and tracking number","מידע למעקב חייב להכיל: כותרת, קוד חברת שילוח ומספר מעקב",module,Magento_Shipping
 "There are no shipping labels related to selected shipments.","אין תוויות משלוח הקשורות למשלוחים שנבחרו.",module,Magento_Shipping
 "Page not found.","הדף לא נמצא.",module,Magento_Shipping
 "Tracking Information","מידע אודות המעקב",module,Magento_Shipping
@@ -3707,7 +3768,10 @@ SKU,מק''ט,module,Magento_Shipping
 "Tracking Number:","מספר מעקב:",module,Magento_Shipping
 Carrier:,מוביל:,module,Magento_Shipping
 Error:,שגיאה:,module,Magento_Shipping
+"Tracking information is currently not available. Please ","מידע עבור המעקב לא זמין כעת. בבקשה ",module,Magento_Shipping
 "contact us","צור עימנו קשר",module,Magento_Shipping
+" for more information or "," לקבלת מידע נוסף או ",module,Magento_Shipping
+"email us at ","שלח לנו דוא""ל לכתובת ",module,Magento_Shipping
 Info:,מידע:,module,Magento_Shipping
 Track:,מעקב:,module,Magento_Shipping
 "Delivered on:","נמסר ב:",module,Magento_Shipping
@@ -3754,8 +3818,8 @@ Never,"לעולם לא",module,Magento_Sitemap
 "Please define a correct path.","אנא הגדר נתיב תקין.",module,Magento_Sitemap
 None,ללא,module,Magento_Sitemap
 All,הכל,module,Magento_Sitemap
-"Invalid store parameter.","פרמטר חנות לא חוקי.",module,Magento_Store
 "Current store is not active.","חנות נוכחית לא פעילה.",module,Magento_Store
+"Requested store is not found","החנות המבוקשת לא נמצאה",module,Magento_Store
 "Requested store is inactive","החנות המבוקשת לא פעילה",module,Magento_Store
 "Environment emulation nesting is not allowed.","סביבת אמולציה מקוננת לא מאופשרת.",module,Magento_Store
 "Store with the same code","חנות עם אותו קוד",module,Magento_Store
@@ -3764,6 +3828,7 @@ All,הכל,module,Magento_Sitemap
 "Name is required","דרוש שם",module,Magento_Store
 "The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","קוד חנות יכול להכיל רק אותיות (a-z), ספרות (0-9) או קו תחתון(_), והתו הראשון חייב להיות אות.",module,Magento_Store
 "Store is inactive","החנות לא פעילה",module,Magento_Store
+"Invalid store parameter.","פרמטר חנות לא חוקי.",module,Magento_Store
 "Default store is inactive","חנות ברירת מחדל לא פעילה",module,Magento_Store
 "All Store Views","כל תצוגות החנויות",module,Magento_Store
 "-- Please Select --","-- אנא בחר --",module,Magento_Store
@@ -3773,7 +3838,6 @@ Admin,"ממשק ניהול",module,Magento_Store
 "Your Language","השפה שלך",module,Magento_Store
 Language,שפה,module,Magento_Store
 "Select Store","בחר חנות",module,Magento_Store
-"Admin is a required field in the each row","ממשק מנהל הוא שדה חובה עבור כל שורה",module,Magento_Swatches
 "Update Product Preview Image","עדכן תמונה תצוגה מקדימה של מוצר",module,Magento_Swatches
 "Filtering by this attribute will update the product image on catalog page","סינון לפי תכונה זו תעדכן את תמונת המוצר בדף הקטלוג",module,Magento_Swatches
 "Use Product Image for Swatch if Possible","השתמש בתמונת מוצר עבור הדוגמית במידת האפשר",module,Magento_Swatches
@@ -4085,6 +4149,7 @@ Role,תפקיד,module,Magento_User
 "User Information","פרטי משתמש",module,Magento_User
 "User Info","פרטי משתמש",module,Magento_User
 "User Role","תפקיד משתמש",module,Magento_User
+"Please correct the password reset token.","בבקשה תקן את טוקן איפוס הסיסמה.",module,Magento_User
 "Please specify the correct account and try again.","נא ציין את החשבון הנכון ונסה שוב.",module,Magento_User
 "Your password reset link has expired.","קישור איפוס הסיסמה שלך פג.",module,Magento_User
 "We're unable to send the password reset email.","איננו יכולים לשלוח דואר אלקטרוני עבור איפוס סיסמה.",module,Magento_User
@@ -4233,7 +4298,6 @@ label,תוית,module,Magento_Widget
 Choose...,בחר...,module,Magento_Widget
 Close,סגור,module,Magento_Widget
 "Not Selected","לא נבחר",module,Magento_Widget
-Widget,ווידגט,module,Magento_Widget
 "Widget Type","סוג ווידגט",module,Magento_Widget
 "-- Please Select --","-- אנא בחר --",module,Magento_Widget
 "Manage Widget Instances","ניהול מופעי ווידגט",module,Magento_Widget
@@ -4266,6 +4330,7 @@ Products,מוצרים,module,Magento_Widget
 Settings,הגדרות,module,Magento_Widget
 "Design Theme","עיצוב תבנית",module,Magento_Widget
 Continue,המשך,module,Magento_Widget
+Widget,ווידגט,module,Magento_Widget
 "Please specify a Widget Type.","אנא ציין סוג ווידגט.",module,Magento_Widget
 "Please specify a correct widget.","אנא ציין את הווידגט הנכון.",module,Magento_Widget
 "The widget instance has been deleted.","המופע של הווידגט נמחק.",module,Magento_Widget
@@ -4305,9 +4370,9 @@ Page,דף,module,Magento_Widget
 "Please enter a valid email address.","נא להזין כתובת אימייל תקינה.",module,Magento_Wishlist
 "Your wish list has been shared.","ה-wishlist שלך שותף.",module,Magento_Wishlist
 "We can't delete item from Wish List right now.","לא ניתן למחוק את הפריט מה-wishlist כעת.",module,Magento_Wishlist
+"%1 has been updated in your Wish List.","%1 עודכן ב-wishlist.",module,Magento_Wishlist
 "Can't save description %1","התיאור בלתי ניתן לשמירה %1",module,Magento_Wishlist
 "Can't update wish list","לא ניתן לעדכן את ה-wishlist",module,Magento_Wishlist
-"%1 has been updated in your Wish List.","%1 עודכן ב-wishlist.",module,Magento_Wishlist
 "We can't update your Wish List right now.","לא ניתן לעדכן את ה-wishlist כעת.",module,Magento_Wishlist
 "The requested Wish List doesn't exist.","רשימת המועדפים המבוקשת איננה קיימת.",module,Magento_Wishlist
 "We can't create the Wish List right now.","לא ניתן ליצור את רשימת המועדפים כעת.",module,Magento_Wishlist
@@ -4322,7 +4387,7 @@ Comment,הערה,module,Magento_Wishlist
 "Product is not salable.","המוצר אינו למכירה.",module,Magento_Wishlist
 "Invalid item option format.","הפורמט של הפריט אינו חוקי.",module,Magento_Wishlist
 "%1 for ""%2"".","%1 עבור ""%2"".",module,Magento_Wishlist
-"We can't add this item to your shopping cart right now.","לא ניתן להוסיף פריט זה לסל הקניות שלך כרגע.",module,Magento_Wishlist
+"We can't add this item to your shopping cart right now."," לא ניתן להוסיף פריט זה לסל הקניות שלך כרגע.",module,Magento_Wishlist
 "We couldn't add the following product(s) to the shopping cart: %1.","הוספת המוצר(ים) לעגלת הקניות נכשלה: %1.",module,Magento_Wishlist
 "We can't update the Wish List right now.","לא ניתן לעדכן את רשימת המועדפים כעת.",module,Magento_Wishlist
 "%1 product(s) have been added to shopping cart: %2.","%1 מוצרים נוספו לסל הקניות: %2.",module,Magento_Wishlist
@@ -4371,17 +4436,9 @@ Back,חזור,module,Magento_Wishlist
 "Remove This Item","הסרת פריט זה",module,Magento_Wishlist
 "Go to Wish List","מעבר למועדפים",module,Magento_Wishlist
 "You have no items in your wish list.","אין לך פריטים ב Wish List.",module,Magento_Wishlist
-"Now Shopping by","מסנן לפי",theme,frontend/Magento/luma
-Previous,הקודם,theme,frontend/Magento/luma
-Remove,הסר,theme,frontend/Magento/luma
-"Remove This Item","הסרת פריט",theme,frontend/Magento/luma
-"Shop By","מיין לפי",theme,frontend/Magento/luma
-"Clear All","נקה הכל",theme,frontend/Magento/luma
-"Shopping Options","אפשרויות קניה",theme,frontend/Magento/luma
 "Place Order","ביצוע הזמנה",module,Magento_Authorizenet
 "Credit Card Information","פרטי כרטיס האשראי",module,Magento_Braintree
 "What is this?","מה זה?",module,Magento_Braintree
-"Save for later use.","שמור לשימוש מאוחר יותר.",module,Magento_Braintree
 "Place Order","ביצוע הזמנה",module,Magento_Braintree
 "Attention: Captcha is case sensitive.","לתשומת לבך: Captcha תלוי רישיות.",module,Magento_Captcha
 "Payment Transaction Failed Reminder","תזכורת עבור עסקת תשלום שנכשלה",module,Magento_Checkout
@@ -4404,6 +4461,7 @@ Password,סיסמא,module,Magento_Checkout
 Update,עדכן,module,Magento_Checkout
 Cancel,ביטול,module,Magento_Checkout
 "Save in address book","שמור בספר הכתובות",module,Magento_Checkout
+"Billing Address","כתובת חיוב",module,Magento_Checkout
 "Estimated Total","סכום משוער",module,Magento_Checkout
 "You can create an account after checkout.","ניתן ליצור חשבון לקוח בסיום הרכישה.",module,Magento_Checkout
 "You already have an account with us. Sign in or continue as guest.","יש לך כבר חשבון אצלנו. היכנס או המשך כאורח.",module,Magento_Checkout
@@ -4418,7 +4476,6 @@ Remove,הסר,module,Magento_Checkout
 "Place Order","ביצוע הזמנה",module,Magento_Checkout
 "Forgot an Item?","שכחת פריט?",module,Magento_Checkout
 "Edit Your Cart","ערוך את עגלת הקניות שלך",module,Magento_Checkout
-"Ship Here","משלוח לכתובת זו",module,Magento_Checkout
 "Ship To:","משלוח ל:",module,Magento_Checkout
 edit,עריכה,module,Magento_Checkout
 "Order Summary","סיכום הזמנה",module,Magento_Checkout
@@ -4462,7 +4519,12 @@ Message:,הודעה:,module,Magento_GiftMessage
 Update,עדכן,module,Magento_GiftMessage
 Edit,ערוך,module,Magento_GiftMessage
 Delete,מחק,module,Magento_GiftMessage
+"Newsletter subscription confirmation","אישור הרשימה לניוזלטר",module,Magento_Newsletter
+"Thank you for subscribing to our newsletter.","תודה על הרשמה לניוזלטר שלנו.",module,Magento_Newsletter
+"To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:","על מנת להתחיל לקבל מאתנו עדכונים, עלייך לאשר את המייל שלך על ידי לחיצה על הקישור הבא:",module,Magento_Newsletter
+"Newsletter subscription success","נרשמת בהצלחה לניוזלטר",module,Magento_Newsletter
 "You have been successfully subscribed to our newsletter.","נרשמת בהצלחה לניוזלטר.",module,Magento_Newsletter
+"Newsletter unsubscription success","הוסרת בהצלחה מרשימת הניוזלטר",module,Magento_Newsletter
 "Place Order","ביצוע הזמנה",module,Magento_OfflinePayments
 "Place Order","ביצוע הזמנה",module,Magento_Payment
 "Forgot an Item?","שכחת פריט?",module,Magento_Payment
@@ -4509,64 +4571,22 @@ Options,אפשרויות,module,Magento_Ui
 selected,נבחר,module,Magento_Ui
 of,מתוך,module,Magento_Ui
 Filters,מסננים,module,Magento_Ui
+"Hello,","שלום,",module,Magento_User
+"If you have not authorized this action, please contact us immediately at %store_email","אם לא אישרת פעולה זו, נא לפנות אלינו מיד ב-%store_email",module,Magento_User
+"or call us at %store_phone","או התקשרו אלינו ב-%store_phone",module,Magento_User
+"Thanks,","תודה,",module,Magento_User
 "Password Reset Confirmation for %name","אימות איפוס סיסמה עבור %name",module,Magento_User
 "There was recently a request to change the password for your account.","לאחרונה הייתה בקשה לשנות את סיסמת החשבון שלך.",module,Magento_User
 "If you requested this change, reset your password here:","אם ביקשת שינוי זה, אפס את הסיסמה שלך כאן:",module,Magento_User
 "If you did not make this request, you can ignore this email and your password will remain the same.","אם לא הגשה את הבקשה הזו, באפשרותך להתעלם מדוא""ל זה, והסיסמה שלך תישאר זהה.",module,Magento_User
 "Thank you,","תודה לך,",module,Magento_User
 "New %changes for %user_name","%changes חדשים עבור %user_name",module,Magento_User
-"Hello,","שלום,",module,Magento_User
 "We have received a request to change the following information associated with your account at %store_name: %changes.","קיבלנו בקשה לשנות את המידע הבא המשויך לחשבון שלך ב- %store_name: %changes.",module,Magento_User
-"If you have not authorized this action, please contact us immediately at %store_email","אם לא אישרת פעולה זו, נא לפנות אלינו מיד ב-%store_email",module,Magento_User
-"or call us at %store_phone","או התקשרו אלינו ב-%store_phone",module,Magento_User
-"Thanks,","תודה,",module,Magento_User
 "Take a look at %customer_name's Wish List","תעיף מבט על המועדפים של %customer_name",module,Magento_Wishlist
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name רוצה לשתף אתכם במועדפים של %store_name:",module,Magento_Wishlist
 "Message from %customer_name:","הודעה מ-%customer_name:",module,Magento_Wishlist
 "View all Wish List items","הצגת את כל פרטי המועדפים",module,Magento_Wishlist
-"Welcome to %store_name","ברוכים הבאים ל-%store_name",theme,frontend/Magento/luma
-"Welcome to %store_name.","ברוכים הבאים ל%store_name.",theme,frontend/Magento/luma
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","כדי להיכנס לאתר שלנו, השתמש בפרטי חיבור אלה במהלך הצ'ק אאוט או בדף <a href=""%customer_url""> החשבון שלי</a>:",theme,frontend/Magento/luma
-Email:,"דואר אלקטרוני:",theme,frontend/Magento/luma
-Password:,סיסמה:,theme,frontend/Magento/luma
-"Password you set when creating account","הסיסמה שהגדרת בעת יצירת חשבון",theme,frontend/Magento/luma
-"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","שכחת את הסיסמה לחשבון? לחצ/י <a href=""%reset_url""> כאן</a> כדי לאפס אותה.",theme,frontend/Magento/luma
-"When you sign in to your account, you will be able to:","באמצעות התחברות לחשבונך, יתאפשר לך:",theme,frontend/Magento/luma
-"Quick Checkout","צ'ק אאוט מהיר",theme,frontend/Magento/luma
-"Proceed through checkout faster","המשך לקופה מהר יותר",theme,frontend/Magento/luma
-"Order Status","סטטוס הזמנה",theme,frontend/Magento/luma
-"Check the status of orders","בדוק את מצב הזמנות",theme,frontend/Magento/luma
-"Manage Addresses","נהל כתובות",theme,frontend/Magento/luma
-"Store alternative addresses","שמור כתובות חלופיות",theme,frontend/Magento/luma
-"For shipping to multiple family members and friends","עבור שילוח למספר חברים או בני משפחה",theme,frontend/Magento/luma
-"Order History","היסטורית הזמנות",theme,frontend/Magento/luma
-"View past orders","הצג את ההזמנות הקודמות",theme,frontend/Magento/luma
-Footer,"תחתית הדף",theme,frontend/Magento/luma
-"<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone""> %store_phone</a>",theme,frontend/Magento/luma
-"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","שעות פעילות: < br / > <span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
-"Credit memo for your %store_name order","הזיכוי עבור ההזמנה %store_name",theme,frontend/Magento/luma
-"Thank you for your order from %store_name.","תודה על הזמנתך מ- %store_name.",theme,frontend/Magento/luma
-"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","באפשרותך לבדוק את מצב ההזמנה שלך באמצעות <a href=""%account_url""> התחברות לחשבון שלך</a>.",theme,frontend/Magento/luma
-"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","אם יש לך שאלות לגבי ההזמנות שלך, אתה יכול שלח לנו דוא ל- <a href=""mailto:%store_email""> %store_email</a>.",theme,frontend/Magento/luma
-"Your Credit Memo #%creditmemo_id for Order #%order_id","תזכיר האשראי שלך #%creditmemo_id עבור הזמנה #%order_id",theme,frontend/Magento/luma
-"Billing Info","פרטי חיוב",theme,frontend/Magento/luma
-"Shipping Info","פרטי משלוח",theme,frontend/Magento/luma
-"Payment Method","שיטת תשלום",theme,frontend/Magento/luma
-"Shipping Method","שיטת משלוח",theme,frontend/Magento/luma
-"Update to your %store_name credit memo","לעדכן את הזיכוי עבור %store_name",theme,frontend/Magento/luma
-"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","הזמנתך %increment_id # עודכנה לסטטוס <strong>%order_status</strong>.",theme,frontend/Magento/luma
-"Invoice for your %store_name order","החשבונית עבור ההזמנה %store_name",theme,frontend/Magento/luma
-"Your Invoice #%invoice_id for Order #%order_id","חשבוניתך %invoice_id # עבור ההזמנה #%order_id",theme,frontend/Magento/luma
-"Update to your %store_name invoice","לעדכן את החשבונית %store_name",theme,frontend/Magento/luma
-"Your %store_name order confirmation","אישור ההזמנה שלך %store_name",theme,frontend/Magento/luma
-"Once your package ships we will send you a tracking number.","ברגע שהחבילה שלך תשלח תקבל מספר מעקב.",theme,frontend/Magento/luma
-"Your Order <span class=""no-link"">#%increment_id</span>","הזמנתך <span class=""no-link""> #%increment_id</span>",theme,frontend/Magento/luma
-"Placed on <span class=""no-link"">%created_at</span>","נוצר ב <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
-"Update to your %store_name order","לעדכן את ההזמנה %store_name שלך",theme,frontend/Magento/luma
-"Your %store_name order has shipped","%store_name ההזמנה שלך נשלחה",theme,frontend/Magento/luma
-"Your shipping confirmation is below. Thank you again for your business.","להלן אישור המשלוח שלך. תודה על רכישתך.",theme,frontend/Magento/luma
-"Your Shipment #%shipment_id for Order #%order_id","משלוח שלך %shipment_id # עבור הזמנה #%order_id",theme,frontend/Magento/luma
-"Update to your %store_name shipment","עדכן את %store_name לשילוח",theme,frontend/Magento/luma
+"Something went wrong.","משהו השתבש.",module,Magento_AsynchronousOperations
 "Sorry, but something went wrong. Please contact the seller.","מצטערת, אבל משהו השתבש. אנא צרו קשר עם המוכר.",module,Magento_Authorizenet
 "We could not detect a size.","לא הצלחנו לזהות גודל.",module,Magento_Backend
 "Warning message","הודעת אזהרה",module,Magento_Backend
@@ -4574,6 +4594,7 @@ Footer,"תחתית הדף",theme,frontend/Magento/luma
 "This payment is not available","תשלום זה אינו זמין",module,Magento_Braintree
 "Please try again with another form of payment.","אנא נסה שוב עם אפשרות אחרת של התשלום.",module,Magento_Braintree
 "Sorry, but something went wrong.","מצטערים, משהו השתבש.",module,Magento_Braintree
+"Payment ","תשלום ",module,Magento_Braintree
 "Add Products to New Option","הוסף מוצרים לאפשרות חדשה",module,Magento_Bundle
 "Add Products to Option ""%1""","הוסף מוצרים לאפשרות ""%1""",module,Magento_Bundle
 "Warning message","הודעת אזהרה",module,Magento_Catalog
@@ -4588,7 +4609,10 @@ Adding...,מוסיף...,module,Magento_Catalog
 Added,"נוסף לסל",module,Magento_Catalog
 "unselect all","בטל בחירה של הכל",module,Magento_Catalog
 Close,סגור,module,Magento_CheckoutAgreements
+"Field ","שדה ",module,Magento_Checkout
+" is required."," נדרש.",module,Magento_Checkout
 "Provided Zip/Postal Code seems to be invalid.","המיקוד שסופק נראה לא תקין.",module,Magento_Checkout
+" Example: "," דוגמה: ",module,Magento_Checkout
 "If you believe it is the right one you can ignore this notice.","אם אתה מאמין שזה נכון תוכל להתעלם מהודעה זו.",module,Magento_Checkout
 "New Address","כתובת חדשה",module,Magento_Checkout
 "Are you sure you would like to remove this item from the shopping cart?","האם להסיר פריט זה מעגלת הקניות?",module,Magento_Checkout
@@ -4623,9 +4647,22 @@ Weak,חלש,module,Magento_Customer
 Medium,בינוני,module,Magento_Customer
 Strong,חזק,module,Magento_Customer
 "Very Strong","חזק מאוד",module,Magento_Customer
+"Field ","שדה ",module,Magento_Dhl
+" is required."," נדרש.",module,Magento_Dhl
 "We could not detect a size.","לא הצלחנו לזהות את הגודל.",module,Magento_Downloadable
+"Field ","שדה ",module,Magento_Fedex
+"Instant Purchase","רכישה מיידית",module,Magento_InstantPurchase
+"Instant Purchase Confirmation","אישור קנייה מיידית",module,Magento_InstantPurchase
+"Are you sure you want to place order and pay?","האם אתה בטוח שברצונך להזמין ולשלם?",module,Magento_InstantPurchase
+"Shipping Address","כתובת למשלוח",module,Magento_InstantPurchase
+"Billing Address","כתובת לחשבונית",module,Magento_InstantPurchase
+"Payment Method","שיטת התשלום",module,Magento_InstantPurchase
+"Shipping Method","שיטת משלוח",module,Magento_InstantPurchase
 "We can't complete your order because you don't have a payment method set up.","אין אפשרות להשלים את ההזמנה שלך כי אין לך שיטת תשלום מוגדרת.",module,Magento_Multishipping
 "Please choose a payment method.","אנא בחר שיטת תשלום.",module,Magento_Multishipping
+"Field ","שדה ",module,Magento_OfflineShipping
+" is required."," נדרש.",module,Magento_OfflineShipping
+"Welcome, %1!","ברוכים הבאים, %1!",module,Magento_Persistent
 "Video Error","שגיאת וידאו",module,Magento_ProductVideo
 "Unknown video type","סוג וידאו לא ידוע",module,Magento_ProductVideo
 "Invalid video url","קישור וידאו לא תקין",module,Magento_ProductVideo
@@ -4636,6 +4673,7 @@ Cancel,ביטול,module,Magento_ProductVideo
 Delete,מחק,module,Magento_ProductVideo
 "Edit Video","עריכת וידאו",module,Magento_ProductVideo
 "Images and Videos","וידיאו ותמונות",module,Magento_ProductVideo
+"Please select one of each of the ratings above.","נא לבחור אחד מהדירוגים הנ""ל.",module,Magento_Review
 "This won't take long . . .","זה לא ייקח הרבה זמן.",module,Magento_Rule
 "Add Products","הוסף מוצרים",module,Magento_Sales
 "We could not detect a size.","לא הצלחנו לזהות גודל.",module,Magento_Theme
@@ -4660,7 +4698,6 @@ Off,כיבוי,module,Magento_Ui
 "${ $.visible } out of ${ $.total } visible","${ $.visible } מתוך{ $.total } $ גלוי",module,Magento_Ui
 "You have successfully saved your edits.","שמרת בהצלחה את שינויי העריכה שביצעת.",module,Magento_Ui
 "You haven't selected any items!","לא בחרת פריטים!",module,Magento_Ui
-"Search by keyword","חיפוש לפי מילת מפתח",module,Magento_Ui
 Keyword,"מילת מפתח",module,Magento_Ui
 "Select Date","בחר תאריך",module,Magento_Ui
 "Please enter more or equal than {0} symbols.","אנא הזן יותר או שווה מ- {0} '.",module,Magento_Ui
@@ -4699,6 +4736,8 @@ Attention,"תשומת לב",module,Magento_Ui
 OK,אישור,module,Magento_Ui
 Close,סגור,module,Magento_Ui
 Ok,אישור,module,Magento_Ui
+" is required."," נדרש.",module,Magento_Ups
+" is required."," נדרש.",module,Magento_Usps
 Cancel,ביטול,module,Magento_Vault
 "Show Toolbar","הצג את סרגל הכלים",module,Magento_AdminNotification
 "Show List","הצג רשימה",module,Magento_AdminNotification
@@ -4709,7 +4748,63 @@ Severity,חומרה,module,Magento_AdminNotification
 "Date Added","תאריך הוספה",module,Magento_AdminNotification
 Message,הודעה,module,Magento_AdminNotification
 Actions,פעולות,module,Magento_AdminNotification
-"Authorize.net Direct Post","פוסט ישיר של Authorize.net",module,Magento_Authorizenet
+"Enable Search Recommendations","לאפשר חיפוש המלצות",module,Magento_AdvancedSearch
+"When you enable this option your site may slow down.","כאשר תהפוך אפשרות זו לזמינה האתר שלך עשוי להאט.",module,Magento_AdvancedSearch
+"Search Recommendations Count","סכום תוצאות חיפוש",module,Magento_AdvancedSearch
+"Show Results Count for Each Recommendation","הצג מספר תוצאות עבור כל המלצה",module,Magento_AdvancedSearch
+"Enable Search Suggestions","להפעיל הצעות חיפוש",module,Magento_AdvancedSearch
+"Search Suggestions Count","סכום תוצאות חיפוש המלצות",module,Magento_AdvancedSearch
+"Show Results Count for Each Suggestion","הצג מספר תוצאות לכל הצעה",module,Magento_AdvancedSearch
+"Related search terms","חיפושים קשורים",module,Magento_AdvancedSearch
+"Did you mean","האם התכוונת",module,Magento_AdvancedSearch
+"Search Query","שאילתת החיפוש",module,Magento_AdvancedSearch
+Store,חנות,module,Magento_AdvancedSearch
+Results,תוצאות,module,Magento_AdvancedSearch
+Uses,שימושים,module,Magento_AdvancedSearch
+"Redirect URL","ניתוב מחדש של כתובת URL",module,Magento_AdvancedSearch
+"Suggested Term","המונח המוצע",module,Magento_AdvancedSearch
+Yes,כן,module,Magento_AdvancedSearch
+No,לא,module,Magento_AdvancedSearch
+Action,פעולה,module,Magento_AdvancedSearch
+Edit,ערוך,module,Magento_AdvancedSearch
+Analytics,אנליטיקס,module,Magento_Analytics
+Configuration,הגדרות,module,Magento_Analytics
+"Business Intelligence","אינטליגנציה עסקית",module,Magento_Analytics
+"BI Essentials","יסודות BI",module,Magento_Analytics
+"Advanced Reporting Service","שירות הדו""חות המתקדמים",module,Magento_Analytics
+"Time of day to send data","זמן ביום לשליחת הנתונים",module,Magento_Analytics
+Industry,תעשייה,module,Magento_Analytics
+"Auto Parts","חלקי חילוף לרכב",module,Magento_Analytics
+"Beauty and Cosmetics","יופי וקוסמטיקה",module,Magento_Analytics
+"Books, Music and Magazines","ספרים, מוזיקה ומגזינים",module,Magento_Analytics
+"Consumer Electronics","מוצרי אלקטרוניקה",module,Magento_Analytics
+"Fashion Apparel and Accessories","אופנה ואביזרים",module,Magento_Analytics
+"Food, Beverage and Grocery","אוכל, משקאות ומצרכים",module,Magento_Analytics
+"Home Goods and Furniture","מוצרי בית וריהוט",module,Magento_Analytics
+"Home Improvement","שיפוץ הבית",module,Magento_Analytics
+"Jewelry and Watches","תכשיטים ושעונים",module,Magento_Analytics
+"Office Supplies","ציוד משרדי",module,Magento_Analytics
+"Outdoor and Camping Gear","ציוד מחנאות וטבע",module,Magento_Analytics
+"Pet Goods","מוצרים לחיות מחמד",module,Magento_Analytics
+"Pharma and Medical Devices","מרקחת וציוד רפואי",module,Magento_Analytics
+"Technology B2B","טכנולוגיית B2B",module,Magento_Analytics
+Other,אחר,module,Magento_Analytics
+"Action Log","יומן פעילות",module,Magento_AsynchronousOperations
+"Bulk Actions","פעולות גורפות",module,Magento_AsynchronousOperations
+"Days Saved in Log","ימים שנשמרו ביומן",module,Magento_AsynchronousOperations
+"Description of Operation","תיאור הפעולה",module,Magento_AsynchronousOperations
+Summary,סיכום,module,Magento_AsynchronousOperations
+"Start Time","שעת התחלה",module,Magento_AsynchronousOperations
+"Items to Retry","פריטים לנסיון החוזר",module,Magento_AsynchronousOperations
+"To retry, select the items and click “Retry”.","כדי לנסות שנית, בחר פריטים ולחץ על ""נסה שנית"".",module,Magento_AsynchronousOperations
+"Items That Can’t Be Updated.","פריטים שלא ניתן לעדכן.",module,Magento_AsynchronousOperations
+ID,מזהה,module,Magento_AsynchronousOperations
+Status,סטטוס,module,Magento_AsynchronousOperations
+"Meta Information",מידע,module,Magento_AsynchronousOperations
+Error,שגיאה,module,Magento_AsynchronousOperations
+"Dismiss All Completed Tasks","העלם את כל המשימות שהושלמו",module,Magento_AsynchronousOperations
+"Action Details - #","פרטי פעולה - #",module,Magento_AsynchronousOperations
+"Number of Records Affected","מספר רשומות שהושפעו",module,Magento_AsynchronousOperations
 Enabled,פעיל,module,Magento_Authorizenet
 "Payment Action","פעולת תשלום",module,Magento_Authorizenet
 Title,כותרת,module,Magento_Authorizenet
@@ -4813,6 +4908,7 @@ City,עיר,module,Magento_Backend
 "Mail Sending Settings","הגדרות שליחת דואר",module,Magento_Backend
 "Disable Email Communications","אל תאפשר הודעות דואר אלקטרוני",module,Magento_Backend
 Host,אחסון,module,Magento_Backend
+"For Windows server only.","עבור שרתי Windows בלבד.",module,Magento_Backend
 "Set Return-Path","להגדיר נתיב החזרה",module,Magento_Backend
 "Return-Path Email","נתיב חזרה של דואר אלקטרוני",module,Magento_Backend
 Admin,מנהל,module,Magento_Backend
@@ -4842,6 +4938,7 @@ Security,אבטחה,module,Magento_Backend
 "Search Engine Optimization","אופטימיזציה של מנוע חיפוש",module,Magento_Backend
 "Use Web Server Rewrites","השתמש בשכתובי שרת האינטרנט",module,Magento_Backend
 "Base URLs","כתובות Url הבסיס",module,Magento_Backend
+"Any of the fields allow fully qualified URLs that end with '/' (slash) e.g. http://example.com/magento/","כל אחד משדות מאפשר Url המלא בנגמר בתו ' /' (קו נטוי) לדוגמא http://example.com/magento/",module,Magento_Backend
 "Base URL","כתובת URL בסיסית",module,Magento_Backend
 "Specify URL or {{base_url}} placeholder.","ציין כתובת URL או {{base_url}} ברירת המחדל.",module,Magento_Backend
 "Base Link URL","כתובת url של קישור הבסיס",module,Magento_Backend
@@ -4849,6 +4946,7 @@ Security,אבטחה,module,Magento_Backend
 "May be empty or start with {{unsecure_base_url}} placeholder.","יכול להיות ריק או להתחיל עם {{unsecure_base_url}} ברירת המחדל.",module,Magento_Backend
 "Base URL for User Media Files","כתובת URL בסיסית עבור קבצי מדיה של המשתמש",module,Magento_Backend
 "Base URLs (Secure)","בסיס כתובות Url (מאובטח)",module,Magento_Backend
+"Any of the fields allow fully qualified URLs that end with '/' (slash) e.g. https://example.com/magento/","כל אחד משדות מאפשר Url המלא בנגמר בתו ' /' (קו נטוי) לדוגמא https://example.com/magento/",module,Magento_Backend
 "Secure Base URL","כתובת URL בסיסית מאובטח",module,Magento_Backend
 "Specify URL or {{base_url}}, or {{unsecure_base_url}} placeholder.","ציין כתובת URL או {{base_url}}, או {{unsecure_base_url}} ברירת המחדל.",module,Magento_Backend
 "Secure Base Link URL","כתובת url של קישור הבסיס מאובטח",module,Magento_Backend
@@ -4890,9 +4988,7 @@ Pagination,"חלוקה לעמודים",module,Magento_Backend
 "Anchor Text for Next","טקסט עוגן עבור הבא",module,Magento_Backend
 "Theme Name","שם התבנית",module,Magento_Backend
 Rollback,"חזרה למצב קודם",module,Magento_Backup
-"Scheduled Backup Settings","תזמון הגדרות הגיבוי",module,Magento_Backup
 "Enable Scheduled Backup","הפעלת גיבוי מתוזמן",module,Magento_Backup
-"Backup Type","סוג הגיבוי",module,Magento_Backup
 "Start Time","שעת התחלה",module,Magento_Backup
 Frequency,תדירות,module,Magento_Backup
 "Maintenance Mode","מצב תחזוקה",module,Magento_Backup
@@ -4904,6 +5000,12 @@ Size(bytes),גודל(בייטים),module,Magento_Backup
 Type,סוג,module,Magento_Backup
 Download,הורדה,module,Magento_Backup
 Action,פעולה,module,Magento_Backup
+"Credit card type is not accepted by this merchant account.","כרטיס אשראי מסוג זה אינו מאושר על חשבון סוחר זה.",module,Magento_Braintree
+"Cannot refund a transaction unless it is settled.","אין החזר כספי על העסקה אלא אם כן אושר מראש.",module,Magento_Braintree
+"Cannot submit for settlement unless status is authorized.","לא יכול לחתום על ההסכם אלא אם כן הסטטוס מורשה.",module,Magento_Braintree
+"Customer does not have any credit cards.","ללקוח אין שום כרטיסי אשראי.",module,Magento_Braintree
+"Processor authorization code cannot be set unless for a voice authorization.","אין אפשרות להגדיר עיבוד לאישור אלא אם כן יש אישור קולי.",module,Magento_Braintree
+"Cannot provide a billing address unless also providing a credit card.","אין אפשרות לספק כתובת לחיוב אלא אם יינתן פרטי כרטיס אשראי.",module,Magento_Braintree
 "Enable this Solution","לאפשר פתרון זה",module,Magento_Braintree
 "Enable PayPal through Braintree","לאפשר PayPal דרך Braintree",module,Magento_Braintree
 "Vault Enabled","הכספת מופעלת",module,Magento_Braintree
@@ -4918,7 +5020,9 @@ Environment,סביבה,module,Magento_Braintree
 "Vault Title","כותרת לכספת",module,Magento_Braintree
 "Merchant Account ID","קוד חשבון הסוחר",module,Magento_Braintree
 "Advanced Fraud Protection","הגנה מתקדמת מפני הונאות",module,Magento_Braintree
+"Be sure to Enable Advanced Fraud Protection in Your Braintree Account in Settings/Processing Section","בדוק כי אפשרת הגנה נגד הונאה בחשבון שלך במקטע הגדרות/עיבוד",module,Magento_Braintree
 "Kount Merchant ID","מזהה הסוחר של Kount",module,Magento_Braintree
+"Used for direct fraud tool integration. Make sure you also contact <a href=""mailto:accounts@braintreepayments.com"">accounts@braintreepayments.com</a> to setup your Kount account.","משמש עבור התקשרות עם תוכנת הונאה. אתה מוזמן גם ליצור קשר עם <a href=""mailto:accounts@braintreepayments.com""> accounts@braintreepayments.com</a> כדי להגדיר את החשבון Kount שלך.",module,Magento_Braintree
 Debug,דיבאג,module,Magento_Braintree
 "CVV Verification","אימות CVV",module,Magento_Braintree
 "Credit Card Types","סוג כרטיסי אשראי",module,Magento_Braintree
@@ -4940,6 +5044,27 @@ Debug,דיבאג,module,Magento_Braintree
 Name,שם,module,Magento_Braintree
 Phone,טלפון,module,Magento_Braintree
 URL,"כתובות URL",module,Magento_Braintree
+"CVV is required.","CVV נדרש.",module,Magento_Braintree
+"Expiration date is required.","תאריך התפוגה נדרש.",module,Magento_Braintree
+"Expiration date is invalid.","תאריך התפוגה אינו חוקי.",module,Magento_Braintree
+"Expiration month is invalid.","חודש התפוגה אינו חוקי.",module,Magento_Braintree
+"Expiration year is invalid.","שנת התפוגה אינה חוקית.",module,Magento_Braintree
+"Credit card number is required.","מספר כרטיס האשראי חובה.",module,Magento_Braintree
+"Credit card number is invalid.","מספר כרטיס האשראי אינו חוקי.",module,Magento_Braintree
+"Credit card number must be 12-19 digits.","מספר כרטיס האשראי חייב להיות מורכב מ12-19 ספרות.",module,Magento_Braintree
+"Cardholder name is too long.","שם בעל הכרטיס הוא ארוך מדי.",module,Magento_Braintree
+"Company is too long.","שם החברה הוא ארוך מדי.",module,Magento_Braintree
+"Extended address is too long.","הכתובת המלאה היא ארוכה מדי.",module,Magento_Braintree
+"First name is too long.","שם פרטי זה ארוך מדי.",module,Magento_Braintree
+"Last name is too long.","שם משפחה זה ארוך מדי.",module,Magento_Braintree
+"Locality is too long.","יישוב זה יותר מדי.",module,Magento_Braintree
+"Postal code is required.","מיקוד חובה.",module,Magento_Braintree
+"Postal code may contain no more than 9 letter or number characters.","המיקוד אינו יכול להכיל יותר מ-9 אותיות או מספר תווים.",module,Magento_Braintree
+"Region is too long.","אזור זה יותר מדי.",module,Magento_Braintree
+"Street address is required.","כתובת הרחוב נדרשת.",module,Magento_Braintree
+"Street address is too long.","כתובת הרחוב ארוכה מדי.",module,Magento_Braintree
+"Postal code can only contain letters, numbers, spaces, and hyphens.","מיקוד יכול להכיל רק אותיות, מספרים, רווחים, מקפים.",module,Magento_Braintree
+"Country name is not an accepted country.","שם המדינה אינה נמצאת ברשימת המדינות המאושרות.",module,Magento_Braintree
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","החל מסננים על מנת לקבל תוצאות. רק 100 רשומות הראשונות יוצגו בגריד, ניתן יהיה להוריד את הגירסה המלאה של הדוח בתבנית. csv.",module,Magento_Braintree
 Select...,בחירה...,module,Magento_Braintree
 Status,סטטוס,module,Magento_Braintree
@@ -4971,6 +5096,7 @@ Forms,טפסים,module,Magento_Captcha
 "Number of Symbols","מספר סמלים",module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","נא ציין 8 סמלים לכל היותר. מותר טווחים (למשל 3-5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA","סמלים המשמשים ב-CAPTCHA",module,Magento_Captcha
+"Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.","נא להשתמש רק באותיות (a-z או A-Z) או מספרים (0-9) בשדה זה. ללא רווחים או תווים אחרים.<br />שימוש בתווים דומים (למשל ""i"", ""l"", ""1"") מקטין את הסיכוי של זיהוי הנכון על-ידי הלקוח.",module,Magento_Captcha
 "Case Sensitive","תלוי רישיות",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","לאפשר CAPTCHA בתצוגת החנות",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA עבור טפסי ""צור חשבון"" ו-""שכחתי סיסמה"" תמיד פעילה אם נבחרה.",module,Magento_Captcha
@@ -4984,7 +5110,9 @@ Inventory,מלאי,module,Magento_CatalogInventory
 "Only X left Threshold","רק X נשאר במינימום",module,Magento_CatalogInventory
 "Display Products Availability in Stock on Storefront","הצגת מלאי המוצרים הזמינים החנות",module,Magento_CatalogInventory
 "Product Stock Options","אופציות מלאי עבור מוצר",module,Magento_CatalogInventory
+"Please note that these settings apply to individual items in the cart, not to the entire cart.","אנא שימו לב כי הגדרות אלה חלות על פריטים בודדים לעגלה ולא לעגלה כולה.",module,Magento_CatalogInventory
 "Manage Stock","ניהול מלאי",module,Magento_CatalogInventory
+"Changing can take some time due to processing whole catalog.","השינוי יכול לקחת קצת זמן בשל עיבוד קטלוג שלם.",module,Magento_CatalogInventory
 Backorders,ממתינים,module,Magento_CatalogInventory
 "Maximum Qty Allowed in Shopping Cart","כמות מרבית המותרת בעגלת הקניות",module,Magento_CatalogInventory
 "Out-of-Stock Threshold","מספר מינימילי של אזל מהמלאי",module,Magento_CatalogInventory
@@ -5071,7 +5199,6 @@ Comma-separated.,"מופרד באמצעות פסיקים.",module,Magento_Catalo
 "Product Listing Sort by","מיון מוצרים לפי",module,Magento_Catalog
 "Allow All Products per Page","לאפשר את כל המוצרים עבור כל עמוד",module,Magento_Catalog
 "Whether to show ""All"" option in the ""Show X Per Page"" dropdown","להציג אפשרות ""הכל״ ב-""הצג X לכל עמוד"" בשדה מרובה אפשרויות",module,Magento_Catalog
-"E.g. {{media url=""path/to/image.jpg""}} {{skin url=""path/to/picture.gif""}}. Dynamic directives parsing impacts catalog performance.","למשל {{media url=""path/to/image.jpg ""}} {{skin url=""path/to/picture.gif""}}. הנחיות דינמיות של ניתוח ביצועי הקטלוג.",module,Magento_Catalog
 "Product Image Placeholders","ברירת המחדל של התמונה של המוצר",module,Magento_Catalog
 "Search Engine Optimization","אופטימיזציה של מנוע חיפוש",module,Magento_Catalog
 "Page Title Separator","תו מפריד לכותרת",module,Magento_Catalog
@@ -5088,6 +5215,7 @@ Comma-separated.,"מופרד באמצעות פסיקים.",module,Magento_Catalo
 "Year Range","טווח בשנה",module,Magento_Catalog
 "Please use a four-digit year format.","אנא השתמש בתבנית שנה בעלת ארבע ספרות.",module,Magento_Catalog
 "Top Level Category","קטגוריה ברמה העליונה",module,Magento_Catalog
+System,מערכת,module,Magento_Catalog
 "Product Flat Data","מידע Flat עבור מוצרים",module,Magento_Catalog
 "Reorganize EAV product structure to flat structure","לארגן מחדש את מבנה המוצר EAV למבנה Flat",module,Magento_Catalog
 "Category Flat Data","נתוני קטגוריה Flat",module,Magento_Catalog
@@ -5170,7 +5298,6 @@ Base,בסיס,module,Magento_Catalog
 Values,ערכים,module,Magento_Catalog
 "Add this attribute to the list of column options in the product grid.","להוסיף תכונה זו הרשימה של אפשרויות עמודה ברשת של המוצר.",module,Magento_Catalog
 "Add this attribute to the list of filter options in the product grid.","להוסיף תכונה זו הרשימה של אפשרויות עמודה ברשת של המוצר.",module,Magento_Catalog
-System,מערכת,module,Magento_Catalog
 "All Store Views","כל תצוגות החנויות",module,Magento_Catalog
 "Delete selected items?","האם למחוק את הפריטים שנבחרו?",module,Magento_Catalog
 "Delete items","מחיקת פריטים",module,Magento_Catalog
@@ -5217,6 +5344,7 @@ Payment,תשלום,module,Magento_Checkout
 "Not yet calculated","עדיין לא חושב",module,Magento_Checkout
 "We received your order!","קיבלנו את ההזמנה שלך!",module,Magento_Checkout
 "Thank you for your purchase!","תודה על הרכישה!",module,Magento_Checkout
+"Save Page","שמירת דף",module,Magento_Cms
 "Media Gallery","גלריית מדיה",module,Magento_Cms
 "Content Management","ניהול תוכן",module,Magento_Cms
 "CMS Home Page","דף הבית CMS",module,Magento_Cms
@@ -5301,6 +5429,7 @@ Visible,מוצג,module,Magento_ConfigurableProduct
 Scope,טווח,module,Magento_ConfigurableProduct
 Searchable,"ניתן לחיפוש",module,Magento_ConfigurableProduct
 Comparable,"ניתן להשוואה",module,Magento_ConfigurableProduct
+"As low as: ","המחיר הנמוך ביותר: ",module,Magento_ConfigurableProduct
 "Contacts Section","אזור אנשי קשר",module,Magento_Contact
 Contacts,"אנשי קשר",module,Magento_Contact
 "Contact Us","צור קשר",module,Magento_Contact
@@ -5318,6 +5447,7 @@ Contacts,"אנשי קשר",module,Magento_Contact
 "Cookie Restriction Mode","Cookie במצב הגבלה",module,Magento_Cookie
 "Cron (Scheduled Tasks)","Cron (משימות מתוזמנות)",module,Magento_Cron
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set. All the times are in minutes.","עבור URL נכונים שנוצרו במהלך cron פועל נא ודא זה אינטרנט > מאובטח, לא מאובטחים URLs בסיסיים מוגדרות במפורש. כל הזמנים הם בתוך דקות.",module,Magento_Cron
+"Cron configuration options for group:","אפשרויות קונפיגורציה ""Cron"" עבור הקבוצה:",module,Magento_Cron
 "Generate Schedules Every","ליצור לוחות זמנים בכל",module,Magento_Cron
 "Schedule Ahead for","לוח זמנים מראש עבור",module,Magento_Cron
 "Missed if Not Run Within","חסר או לא יירוץ עם",module,Magento_Cron
@@ -5336,10 +5466,17 @@ Currency,מטבע,module,Magento_CurrencySymbol
 "Default Welcome Email","ברירת מחדל של הודעת ברוכים הבאים",module,Magento_Customer
 "Email template chosen based on theme fallback when ""Default"" option is selected.","תבנית הדואר האלקטרוני שנבחרה בהתבסס על ירושת התבנית כשבוחרים באפשרות ""ברירת מחדל"".",module,Magento_Customer
 "Default Welcome Email Without Password","ברירת המחדל של הודעת ברוכים הבאים ללא סיסמה",module,Magento_Customer
+"This email will be sent instead of the Default Welcome Email, if a customer was created without password. <br /><br />
+                        Email template chosen based on theme fallback when ""Default"" option is selected.","דוא""ל זה יישלח במקום הודעת ברירת המחדל של ברוכים הבאים, במידה והלקוח נוצר ללא סיסמה. <br /><br />
+                        תבנית דוא""ל נבחרה בהסתמך על נסיגת ערכת הנושא כאשר אפשרות ""ברירת מחדל"" נבחרה.",module,Magento_Customer
 "Email Sender","שולח דואר אלקטרוני",module,Magento_Customer
 "Require Emails Confirmation","דרוש אישור הודעות דואר אלקטרוני",module,Magento_Customer
 "Confirmation Link Email","הודעת קישור לאישור",module,Magento_Customer
 "Welcome Email","דוא""ל ברוכים הבאים",module,Magento_Customer
+"This email will be sent instead of the Default Welcome Email, after account confirmation. <br /><br />
+                        Email template chosen based on theme fallback when ""Default"" option is selected.","דוא""ל זה יישלח במקום הודעת ברוך הבא המוגדרת כברירת מחדל, לאחר אישור החשבון. <br />
+<br />
+                        תבנית דוא""ל נבחרה בהסתמך על נסיגת ערכת הנושא כאשר אפשרות ""ברירת מחדל"" נבחרה.",module,Magento_Customer
 "Generate Human-Friendly Customer ID","צור מזהה לקוח ידידותי למשתמש",module,Magento_Customer
 "Password Options","אפשרויות סיסמה",module,Magento_Customer
 "Forgot Email Template","תבנית ""שכחתי דוא""ל""",module,Magento_Customer
@@ -5359,16 +5496,17 @@ Currency,מטבע,module,Magento_CurrencySymbol
 "Login Options","אפשרויות כניסה",module,Magento_Customer
 "Customer Data Lifetime","תקופת החיים של נתוני הלקוח",module,Magento_Customer
 "Please specify value in minutes.","נא ציין ערך ב דקות.",module,Magento_Customer
-Phone,טלפון,module,Magento_Customer
+"Middle Name/Initial","השם האמצעי",module,Magento_Customer
+State/Province,מדינה/מחוז,module,Magento_Customer
+"VAT Number","מספר המע""מ",module,Magento_Customer
 ZIP,"קובץ זיפ",module,Magento_Customer
 "Customer Since","לקוח מאז",module,Magento_Customer
 "Confirmed email","אימייל מאושר",module,Magento_Customer
 "Account Created in","החשבון נוצר ב",module,Magento_Customer
+Gender,מין,module,Magento_Customer
 "Billing Firstname","שם פרטי לחיוב",module,Magento_Customer
 "Billing Lastname","שם משפחה לחיוב",module,Magento_Customer
 "Account Lock","נעילת חשבון",module,Magento_Customer
-"First Name","שם פרטי",module,Magento_Customer
-"Last Name","שם משפחה",module,Magento_Customer
 "Last Activity","פעיל לאחרונה",module,Magento_Customer
 Type,סוג,module,Magento_Customer
 "Customer Information","פרטים על הלקוח",module,Magento_Customer
@@ -5381,7 +5519,6 @@ Type,סוג,module,Magento_Customer
 "Developer Client Restrictions","הגבלותת מפתח צד-לקוח",module,Magento_Developer
 "Allowed IPs (comma separated)","כתובות IP מותרות (מופרדות בפסיק)",module,Magento_Developer
 "Leave empty for access from any location.","השאר ריק לגישה מכל מקום.",module,Magento_Developer
-"Not available in production mode.","לא זמין במצב ייצור.",module,Magento_Developer
 "Enabled for Checkout","מופעל במשך לקופה",module,Magento_Dhl
 "Gateway URL","כתובת gateway",module,Magento_Dhl
 Title,כותרת,module,Magento_Dhl
@@ -5403,6 +5540,7 @@ Size,גודל,module,Magento_Dhl
 "Currency Setup","הגדרת מטבע",module,Magento_Directory
 "Currency Options","אפשרויות מטבע",module,Magento_Directory
 "Base Currency","מטבע הבסיס",module,Magento_Directory
+"Base currency is used for all online payment transactions. The base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").","מטבע הבסיס משמש עבור כל תנועות תשלום אונליין. היקף מטבע הבסיס מוגדרת על-ידי הטווח מחיר קטלוג (""קטלוג"" > ""מחיר"" > ""טווח מחיר קטלוג"").",module,Magento_Directory
 "Default Display Currency","תצוגת מטבע ברירת מחדל",module,Magento_Directory
 "Allowed Currencies","מטבעות מותרים",module,Magento_Directory
 "Connection Timeout in Seconds","זמן קצוב לחיבור בשניות",module,Magento_Directory
@@ -5429,8 +5567,22 @@ Downloads,הורדות,module,Magento_Downloadable
 "Use Content-Disposition","השתמש בתוכן ממוזג",module,Magento_Downloadable
 "Disable Guest Checkout if Cart Contains Downloadable Items","לבטל רכישת אורח אם העגלה מכילה פריטיפ להורדה",module,Magento_Downloadable
 "Guest checkout will only work with shareable.","רכישת אורח תופעל רק עם מוצרים משותפים.",module,Magento_Downloadable
+"Text Field","שדה טקסט",module,Magento_Eav
+"Text Area","בלוק טקסט",module,Magento_Eav
+Date,תאריך,module,Magento_Eav
+Yes/No,כן/לא,module,Magento_Eav
+"Multiple Select","בחירה מרובה",module,Magento_Eav
+Dropdown,"רשימה נפתחת",module,Magento_Eav
 "EAV types and attributes","סוגי EAV ותכונות",module,Magento_Eav
 "Entity types declaration cache","הגדרת סוגי יישות עבור מטמון",module,Magento_Eav
+"Elasticsearch Server Hostname","שם המארח של השרת Elasticsearch",module,Magento_Elasticsearch
+"Elasticsearch Server Port","פורט השרת Elasticsearch",module,Magento_Elasticsearch
+"Elasticsearch Index Prefix","קידומת אינדקס Elasticsearch",module,Magento_Elasticsearch
+"Enable Elasticsearch HTTP Auth","אפשר אימות HTTP ל-Elasticsearch",module,Magento_Elasticsearch
+"Elasticsearch HTTP Username","שם משתמש Elasticsearch לHTTP",module,Magento_Elasticsearch
+"Elasticsearch HTTP Password","הסיסמה HTTP Elasticsearch",module,Magento_Elasticsearch
+"Elasticsearch Server Timeout","הזמן הקצוב של השרת Elasticsearch",module,Magento_Elasticsearch
+"Test Connection","בדיקת חיבור",module,Magento_Elasticsearch
 Communications,תקשורת,module,Magento_Email
 "No Templates Found","אין תבניות שנמצאו",module,Magento_Email
 Added,הוסף,module,Magento_Email
@@ -5463,6 +5615,7 @@ Enable,אפשר,module,Magento_GoogleAdwords
 "Conversion Label","תווית המרה",module,Magento_GoogleAdwords
 "Conversion Value Type","סוג ערך ההמרה",module,Magento_GoogleAdwords
 "Conversion Value","ערך המרה",module,Magento_GoogleAdwords
+"Send Order Currency","שלח מטבע של הזמנה",module,Magento_GoogleAdwords
 "Google API","ממשק לגוגל",module,Magento_GoogleAnalytics
 Enable,אפשר,module,Magento_GoogleAnalytics
 "Account Number","מספר חשבון",module,Magento_GoogleAnalytics
@@ -5483,7 +5636,14 @@ Description,תיאור,module,Magento_Indexer
 Mode,מצב,module,Magento_Indexer
 Status,סטטוס,module,Magento_Indexer
 Updated,עודכן,module,Magento_Indexer
+Enabled,פעיל,module,Magento_InstantPurchase
+"Button Text","טקסט הלחצן",module,Magento_InstantPurchase
+"Integer. Launch cleanup in X OAuth requests. 0 (not recommended) - to disable cleanup","מספר שלם. הפעל ניקוי בבקשות X OAuth. (לא מומלץ) - 0 כדי לבטל את ' ניקוי '",module,Magento_Integration
+"Cleanup entries older than X minutes.","ניקוי ערכים שעולה על X דקות.",module,Magento_Integration
 "Consumer Settings","הגדרות הצרכן",module,Magento_Integration
+"Consumer key/secret will expire if not used within X seconds after Oauth token exchange starts.","הלקוח מפתח/סוד יפקע אם לא נעשה שימוש בתוך X שניות לאחר טוקן Oauth מתחיל exchange.",module,Magento_Integration
+"Number of maximum redirects for OAuth consumer credentials Post request.","מספר הפניות המרבי עבור אישורי צרכן OAuth בבקשת Post.",module,Magento_Integration
+"Timeout for OAuth consumer credentials Post request within X seconds.","הזמן הקצוב עבור צרכן אישורי OAuth בקשת Post בתוך X שניות.",module,Magento_Integration
 "Integrations Configuration","הגדרות שילובים",module,Magento_Integration
 "Integration configuration file","קובץ הקונפיגורציה של אינטגרציה",module,Magento_Integration
 "We couldn't find any records.","לא הצלחנו למצוא רשומות.",module,Magento_Integration
@@ -5498,6 +5658,7 @@ Status,סטטוס,module,Magento_Integration
 "This setting will be applied when all prices in the specific price interval are equal.","הגדרה זו תחול כאשר כל המחירים במרווח המחירים הספציפי שווים.",module,Magento_LayeredNavigation
 "Interval Division Limit","הגבלת חלוקת המרווחים",module,Magento_LayeredNavigation
 "Please specify the number of products, that will not be divided into subintervals.","נא ציין את מספר מוצרים, אשר אינם ניתנים לחילוק בטווחים.",module,Magento_LayeredNavigation
+"Find Partners & Extensions","מצא שותפים ותוספים",module,Magento_Marketplace
 "Storage Configuration for Media","הגדרת אחסון עבור מדיה",module,Magento_MediaStorage
 "After selecting a new media storage location, press the Synchronize button to transfer all media to that location. Media will not be available in the new location until the synchronization process is complete.","לאחר בחירת מיקום אחסון מדיה חדשה, לחץ על לחצן סנכרן כדי להעביר את כל המדיה למיקום זה. המדיה לא תהיה זמינה במיקום החדש עד להשלמת תהליך הסינכרון.",module,Magento_MediaStorage
 "Environment Update Time","זמן עדכון סביבה",module,Magento_MediaStorage
@@ -5513,6 +5674,13 @@ Options,אפשרויות,module,Magento_Multishipping
 "Maximum Qty Allowed for Shipping to Multiple Addresses","כמות המרבית המותרת עבור משלוח לכתובות מרובות",module,Magento_Multishipping
 "Review Order","סקירת הזמנה",module,Magento_Multishipping
 "Select Shipping Method","בחר שיטת משלוח",module,Magento_Multishipping
+"Thank you for your purchase!","תודה על הרכישה!",module,Magento_Multishipping
+"MySQL Message Queue Cleanup","ההודעה לתור ניקוי ב-MySQL",module,Magento_MysqlMq
+"All the times are in minutes. Use ""0"" if you want to skip automatic clearance.","כל הזמנים מוצגים בתור דקות. השתמש ב-""0"", אם ברצונך לדלג על הסיווג האוטומטי.",module,Magento_MysqlMq
+"Retry Messages In Progress After","ניסיון חוזר של הודעות בתהליך לאחר",module,Magento_MysqlMq
+"Successful Messages Lifetime","הודעות הצלחה לאורך כל הזמן",module,Magento_MysqlMq
+"Failed Messages Lifetime","הודעות כשלון לכל תקופת הזמן",module,Magento_MysqlMq
+"New Messages Lifetime","הודעות חדשות לאורך כל הזמן",module,Magento_MysqlMq
 "New Relic Reporting Section","סעיף השריד עבור דיווח חדש",module,Magento_NewRelicReporting
 "New Relic Reporting","דיווח שריד חדש",module,Magento_NewRelicReporting
 General,כללי,module,Magento_NewRelicReporting
@@ -5568,10 +5736,16 @@ Export,ייצוא,module,Magento_OfflineShipping
 "Specify backend host for config file generation. If field is empty default value localhost will be saved.","ציין backend מארח ליצירת קובץ config. אם השדה ריק localhost יהיה ערך ברירת המחדל שישמר.",module,Magento_PageCache
 "Backend port","פורט Backend",module,Magento_PageCache
 "TTL for public content","TTL עבור תוכן ציבורי",module,Magento_PageCache
+"Public content cache lifetime in seconds. If field is empty default value 86400 will be saved.","תקופת חיים של ""cache"" לתוכן ציבורי בשניות. אם השדה ריק ערך ברירת המחדל 86400 יישמר.",module,Magento_PageCache
 "Full page caching","מטמון של Full page",module,Magento_PageCache
 "Payment Methods Section","סעיף שיטות התשלום",module,Magento_Payment
 "Payment Services","שירותי תשלום",module,Magento_Payment
 "Payment Methods","שיטות תשלום",module,Magento_Payment
+"Payments Standard","תקן תשלומים",module,Magento_Paypal
+"Accept credit card and PayPal payments securely.","מקבלים כרטיס אשראי ותשלומי PayPal בצורה מאובטחת.",module,Magento_Paypal
+"Basic Settings - PayPal Website Payments Standard","הגדרות בסיסיות - תקן התשלומים באתר PayPal",module,Magento_Paypal
+"Website Payments Standard","תקן אתר התשלומים",module,Magento_Paypal
+"<a href=""http://www.magentocommerce.com/paypal"">Start accepting payments via PayPal!</a>","<a href=""http://www.magentocommerce.com/paypal""> התחל קבלת תשלומים באמצעות PayPal!</a>",module,Magento_Paypal
 "Sort Order PayPal Credit","סדר מיון אשראי PayPal",module,Magento_Paypal
 "Home Page","דף הבית",module,Magento_Paypal
 Position,מיקום,module,Magento_Paypal
@@ -5640,6 +5814,7 @@ Enable,אפשר,module,Magento_Sales
 Dashboard,"לוח בקרה",module,Magento_Sales
 Enabled,פעיל,module,Magento_Sales
 Shipment,משלוח,module,Magento_Sales
+"Grid Settings","הגדרות גריד",module,Magento_Sales
 Name,שם,module,Magento_Sales
 Phone,טלפון,module,Magento_Sales
 Website,אתר,module,Magento_Sales
@@ -5758,10 +5933,13 @@ Menu,תפריט,module,Magento_Theme
 Account,חשבון,module,Magento_Theme
 "3 columns","3 עמודות",module,Magento_Theme
 "Translation Strategy","תרגום אסטרטגיה",module,Magento_Translation
+"Please put your store into maintenance mode and redeploy static files after changing strategy","אנא הכנס את החנות שלך לתוך מצב תחזוקה, צור מחדש את הקבצים הסטטיים לאחר שינוי אסטרטגיה",module,Magento_Translation
 Translations,תרגומים,module,Magento_Translation
 "Translation files","קבצי תרגום",module,Magento_Translation
 "Log JS Errors to Session Storage","קובץ לוג שגיאות JS לאחסון הפעלה",module,Magento_Ui
+"If enabled, can be used by functional tests for extended reporting","אם מופעל, ניתן להשתמש על-ידי בדיקות פונקציונליות לדיווח מורחב",module,Magento_Ui
 "Log JS Errors to Session Storage Key","קובץ לוג שגיאות JS כדי מפתח הפעלה אחסון",module,Magento_Ui
+"Use this key to retrieve collected js errors","שימוש במקש זה כדי לקבל שגיאות js שנאספו",module,Magento_Ui
 Action,פעולה,module,Magento_Ui
 "Allowed Methods","שיטות מותרות",module,Magento_Ups
 Container,מיכל,module,Magento_Ups
@@ -5837,7 +6015,9 @@ Conditions,תנאים,module,Magento_Widget
 "Email Template","תבנית דואר אלקטרוני",module,Magento_Wishlist
 "Email template chosen based on theme fallback when ""Default"" option is selected.","תבנית המייל הנבחר בהתבסס על ירושת התבנית כשבוחרים באפשרות ""ברירת מחדל"".",module,Magento_Wishlist
 "Max Emails Allowed to be Sent","מקסימום מיילים מותרים לשילוח",module,Magento_Wishlist
+"10 by default. Max - 10000","10 כברירת מחדל. מקסימלי - 10000",module,Magento_Wishlist
 "Email Text Length Limit","מגבלת אורך הטקסט לדוא""ל",module,Magento_Wishlist
+"255 by default","255 כברירת מחדל",module,Magento_Wishlist
 "General Options","אפשרויות כלליות",module,Magento_Wishlist
 Enabled,פעיל,module,Magento_Wishlist
 "My Wish List Link","קישור ל Wish List שלי",module,Magento_Wishlist
@@ -5854,5 +6034,3 @@ Action,פעולה,module,Magento_Wishlist
 Configure,הגדר,module,Magento_Wishlist
 Delete,מחק,module,Magento_Wishlist
 "Product Details and Comment","פרטי המוצר והערה",module,Magento_Wishlist
-"Address Book","ספר הכתובות",theme,frontend/Magento/luma
-"Account Information","פרטי חשבון",theme,frontend/Magento/luma
